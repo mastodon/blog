@@ -3,6 +3,7 @@ title: "Twitter is not a public utility"
 date: 2018-03-03
 draft: false
 author: gargron
+hero: https://cdn-images-1.medium.com/max/2000/1*thnUPTnBOJX30rBroH3Jzw.jpeg
 categories:
 - Op-Ed
 tags:

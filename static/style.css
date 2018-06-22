@@ -147,6 +147,8 @@ body {
   padding-top: 20px; }
   .intro img {
     display: block;
+    max-width: 140px;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 30px; }
   .intro h1 {
@@ -185,7 +187,8 @@ body {
     .thumbnail-grid li .overlay {
       height: 100%; }
     .thumbnail-grid li h2 {
-      color: #d9e1e8;
+      color: #fff;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
       position: relative;
       vertical-align: middle;
       top: 50%;

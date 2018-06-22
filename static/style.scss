@@ -208,6 +208,8 @@ body {
 
   img {
     display: block;
+    max-width: 140px;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 30px;
   }
@@ -260,7 +262,8 @@ body {
     }
 
     h2 {
-      color: $lightest;
+      color: #fff;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
       position: relative;
       vertical-align: middle;
       top: 50%;

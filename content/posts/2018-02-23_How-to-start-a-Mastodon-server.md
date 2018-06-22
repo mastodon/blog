@@ -4,6 +4,7 @@ subtitle: "The non-technical parts"
 date: 2018-02-23
 draft: false
 author: gargron
+hero: https://cdn-images-1.medium.com/max/2000/1*oDIZtC5fQUG-COVspBloIw.jpeg
 categories:
 - Guides
 tags:
