@@ -179,8 +179,6 @@ body {
 }
 .intro img {
   display: block;
-  max-width: 140px;
-  height: auto;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -230,8 +228,7 @@ body {
   height: 100%;
 }
 .thumbnail-grid li h2 {
-  color: #fff;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+  color: #d9e1e8;
   position: relative;
   vertical-align: middle;
   top: 50%;
@@ -323,20 +320,6 @@ body {
   font-weight: 600;
   color: #d9e1e8;
 }
-.article blockquote {
-  color: #d9e1e8;
-  font-size: 16px;
-  line-height: 28px;
-  font-style: italic;
-  border-left: 3px solid #2b90d9;
-  padding-left: 20px;
-  margin-left: -23px;
-  padding-bottom: 2px;
-  margin-bottom: 26px;
-}
-.article blockquote p:last-child {
-  margin-bottom: 0;
-}
 .article p {
   color: #d9e1e8;
   font-size: 16px;
@@ -388,14 +371,6 @@ body {
   padding-right: 15px;
   content: "•";
 }
-.article figure figcaption {
-  margin-top: 8px;
-  text-align: center;
-}
-.article figure figcaption,
-.article figure figcaption p {
-  color: #687590;
-}
 .article-header {
   padding: 50px 0;
 }
@@ -435,20 +410,27 @@ body {
   float: right;
 }
 
-.pagination {
+.pagination-container {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.pagination-container ::before, .pagination-container ::after {
+  box-sizing: border-box;
+}
+
+.pagination {
+  display: flex;
   justify-content: center;
-  margin: 0 0 30px;
+  margin-bottom: 30px;
+  flex: 0 0 100%;
 }
 .pagination li {
   flex: 0 0 auto;
-  padding: 0 30px;
-}
-@media screen and (max-width: 600px) {
-  .pagination li {
-    padding: 0 5px;
-  }
+  padding: 0 15px;
 }
 .pagination a {
   color: #79b9e7;

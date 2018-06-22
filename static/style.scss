@@ -505,13 +505,18 @@ body {
 }
 
 .pagination {
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
 
   li {
     flex: 0 0 auto;
-    padding: 0 15px;
+    padding: 0 30px;
+
+    @media screen and (max-width: 600px) {
+      padding: 0 5px;
+    }
   }
 
   a {
