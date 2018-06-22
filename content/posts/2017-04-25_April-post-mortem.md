@@ -23,7 +23,7 @@ So, April, huh. A lot happened. I was putting off writing an update on here beca
 
 Did I mention that Pixiv, the Japanese artist gallery company (sort of like deviantArt, but better) has opened its own Mastodon instance, Pawoo.net? They even made their own version of the Mastodon mascot. They have already contributed back some cool performance improvements, as well.
 
-![Pawoo’s elephant friend](https://cdn-images-1.medium.com/max/2000/1*ovH0iFCU303mZgRCd6S5gg.jpeg)*Pawoo’s elephant friend*
+{{< figure src="https://cdn-images-1.medium.com/max/2000/1*ovH0iFCU303mZgRCd6S5gg.jpeg" caption="Pawoo’s elephant friend" >}}
 
 At the time of writing, the Mastodon network includes more than 486,767 users spread out among more than a 1,212 instances. That’s how far we’ve come. But it’s not just that. A lot more people have learned and become interested in Free and Open Software and decentralization. The GitHub repository has seen an absolute explosion of activity, from bug reports and feature requests (550 at the time of writing) to code and translation contributions from the community. Many people started learning Ruby/Rails and JavaScript/React.js to be able to participate. I feel like there is a lot more documentation on how to deploy a Rails application on the Internet than there was before Mastodon.
 
@@ -35,7 +35,7 @@ With that out of the way, the new budget allows me more wiggling room in hosting
 
 On a somewhat related topic, people love fluffy elephant friend, and there were a lot of calls for merchandise. That’s another way the project can be supported financially, with the added benefit of spreading awareness of it. I am still waiting on my artist friend to free up to work on new high-res artwork for t-shirts, but I have published an official sticker with the iconic cutie:
 
-![[Available on Sticker Mule](https://www.stickermule.com/marketplace/18010-mastodon-fluffy-elephant-friend)](https://cdn-images-1.medium.com/max/9216/1*6iV1inXI_ADZjAwrPfLs-A.jpeg)*[Available on Sticker Mule](https://www.stickermule.com/marketplace/18010-mastodon-fluffy-elephant-friend)*
+![](https://cdn-images-1.medium.com/max/9216/1*6iV1inXI_ADZjAwrPfLs-A.jpeg)
 
 To conclude, here is the list of releases published since my last Patreon update mid-March:
 

@@ -370,13 +370,27 @@ body {
     color: $lightest;
   }
 
+  blockquote {
+    color: $lightest;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: italic;
+    border-left: 3px solid $vibrant;
+    padding-left: 20px;
+    margin-left: -23px;
+    padding-bottom: 2px;
+    margin-bottom: 26px;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   p {
     color: $lightest;
     font-size: 16px;
     line-height: 28px;
     font-weight: normal;
-    //max-width: 600px;
-    //margin: 0 auto;
     margin-bottom: 26px;
     hyphens: auto;
   }
@@ -429,6 +443,18 @@ body {
       padding-top: 4px;
       padding-right: 15px;
       content: '\2022';
+    }
+  }
+
+  figure {
+    figcaption {
+      margin-top: 8px;
+      text-align: center;
+
+      &,
+      p {
+        color: $darker;
+      }
     }
   }
 

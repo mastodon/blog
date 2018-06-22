@@ -17,7 +17,7 @@ Deep down you always knew it. On the edge of your perception, you always heard t
 
 It doesn’t matter if you call it a “data breach” or not. **The problem is how much data Facebook collects, stores and analyzes about us**. You now know how Facebook’s platform was used by 3rd parties to meddle in elections. Now imagine how much more effective it would be, if it wasn’t 3rd parties, but Facebook itself putting its tools to use. Imagine, for example, [if Mark Zuckerberg decided to run for president](https://www.cnbc.com/2017/08/15/mark-zuckerberg-could-be-running-for-president-in-2020.html)…
 
-**#DeleteFacebook** is trending on Twitter. Rightfully so. Some say, “even without an account, Facebook tracks you across the web and builds a shadow profile.” And that is true. So what? Use browser extensions that block Facebook’s domains. **Make them work for it**. Don’t just *hand *them the data.
+**#DeleteFacebook** is trending on Twitter. Rightfully so. Some say, “even without an account, Facebook tracks you across the web and builds a shadow profile.” And that is true. So what? Use browser extensions that block Facebook’s domains. **Make them work for it**. Don’t just *hand* them the data.
 
 Some say, “I don’t want to stop using Facebook, I want them to change.” And that is wrong. Keeping up with your friends is good. **But Facebook’s business and data model is fundamentally flawed**. For you, your data is who you *are*. For Facebook, your data is their money. Taking it from you *is* their entire business, everything else is fancy decoration.
 

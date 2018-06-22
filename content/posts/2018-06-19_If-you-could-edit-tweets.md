@@ -28,7 +28,7 @@ You can find out a lot about a person by looking at who that person associates w
 
 In a social network, associations are important for other purposes, too. Finding good content by looking at who your friends follow, or confirming that an account is not a bot or sockpuppet by looking at who follows them. Still, **Mastodon now has an option to hide who you follow and who follows you from your profile.**
 
-Of course, that isn’t perfect — the people you follow, and the people who follow *also *have profiles… But it’s at least a small obstacle to unsolicited data collection.
+Of course, that isn’t perfect — the people you follow, and the people who follow *also* have profiles… But it’s at least a small obstacle to unsolicited data collection.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*MHHC2NRdzytfTL6NL7mWjA.jpeg)
 

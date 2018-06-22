@@ -30,43 +30,28 @@ All of the above comes bundled [in our 1.5 release](https://github.com/tootsuite
 **Quality of Life improvements:**
 
 * Previous behaviour of “content warning” and “media sensitivity” being completely separate was confusing to most. This has been simplified. Media can be sensitive without hiding the text, but hiding the text with a content warning will now always hide the media, too.
-
 * A new preference setting to always pre-mark media as sensitive on your account.
-
 * A new preference setting to opt your public profile out of search engine indexing.
-
 * A new preference setting to have the web UI displayed using your operating system’s native font instead of Roboto.
-
 * When editing your profile, you now get a preview of your avatar and header. The operating system’s “no file selected” label on file inputs confused people.
-
 * The muting feature has been adjusted. Previously it was meant only to hide someone’s toots from timelines, not to hide them from your notifications (e.g. you’d mute a friend who is annoying in general but you want to hear from when they’re talking to you). By popular demand this has been changed to block notifications, too, essentially becoming a stealth-block.
-
 * The overview of active sessions is now a lot more accurate, and you can now revoke a session.
-
 * The disparity between toots/following/follower numbers on the local instance vs user’s origin instance was also confusing. There was an asterisk next to the numbers with a disclaimer that they may not be accurate, but it was way too invisible. Now, profiles of users who originate from a different instance display a prominent disclaimer with a link to view the full profile.
-
 * The character counter now ignores the domain part of user handles, and treats all links as 23 characters long, regardless of how long they are. This removes the unfair penalty of users whose domain is longer, and allows you to not worry about the length of the URLs you are sharing, since they get shortened visually anyway.
 
 **Mobile experience and accessibility:**
 
 * We now have Web Push notifications. It is a method of sending notifications directly to the browser, without having to use a native app (opt-in, of course). It is a relatively new web standard, which more and more browsers are implementing and it blurs the line between mobile website and native app.
-
 * The swiping gestures have not only been adjusted to be less sensitive, but are now accompanied by visual feedback — no more accidental swiping between columns.
-
 * Another feature making use of an upcoming web standard, which is a bit newer and may not be available in any browsers yet, is the “share” button, which acts like the “share” feature of native apps.
-
 * All dropdown menus now open as modal windows on mobile, making it much easier to hit the right item.
-
 * Multiple accessibility improvements — too many to list here, but including improved contrasts, screen reader support, and keyboard access.
 
 **Admin features:**
 
 * Admins will now receive immediate e-mail notifications about new reports.
-
 * For troubleshooting, admins now have a button to re-subscribe to accounts from a particular domain.
-
 * Added a domain block option that does nothing but reject local cache of media files.
-
 * The contents of the /terms page can now be customized entirely if you want a different privacy policy than the default one.
 
 **Other:**
