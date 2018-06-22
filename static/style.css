@@ -67,12 +67,20 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto; }
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 0 20px; } }
 
 .navbar {
   padding-top: 15px;
   margin-bottom: 90px;
   display: flex;
   justify-content: space-between; }
+  @media screen and (max-width: 600px) {
+    .navbar {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 30px; } }
   .navbar ul {
     list-style: none; }
     .navbar ul li {
@@ -127,6 +135,9 @@ body {
     top: -21px;
     left: -28px;
     pointer-events: none; }
+    @media screen and (max-width: 600px) {
+      .brand::before {
+        display: none; } }
   .brand:hover::before {
     top: -20px; }
 
@@ -143,6 +154,11 @@ body {
     font-weight: 500;
     color: #d9e1e8;
     line-height: 1; }
+  @media screen and (max-width: 600px) {
+    .intro {
+      padding-top: 20px; }
+      .intro h1 {
+        font-size: 28px; } }
 
 .thumbnail-grid {
   display: flex;
@@ -154,6 +170,9 @@ body {
     flex: 0 0 auto;
     padding: 0 15px;
     margin-bottom: 30px; }
+    @media screen and (max-width: 600px) {
+      .thumbnail-grid li {
+        width: 100%; } }
     .thumbnail-grid li .cover {
       display: block;
       background: #282d37;
@@ -343,12 +362,14 @@ body {
   padding: 40px; }
   .cta-banner h4 {
     font-size: 24px;
+    line-height: 1.08;
     font-weight: 600;
     margin-bottom: 20px;
     color: #fff; }
   .cta-banner p {
     color: #fff;
     font-size: 18px;
+    line-height: 1.22;
     margin-bottom: 20px; }
   .cta-banner > a {
     font-weight: 500;

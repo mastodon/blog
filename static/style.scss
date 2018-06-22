@@ -94,6 +94,10 @@ body {
 .container {
   max-width: $content-width;
   margin: 0 auto;
+
+  @media screen and (max-width: 600px) {
+    padding: 0 20px;
+  }
 }
 
 .navbar {
@@ -101,6 +105,12 @@ body {
   margin-bottom: 90px;
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 600px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 
   ul {
     list-style: none;
@@ -178,6 +188,10 @@ body {
     top: -21px;
     left: -28px;
     pointer-events: none;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
   }
 
   &:hover {
@@ -204,6 +218,14 @@ body {
     color: $lightest;
     line-height: 1;
   }
+
+  @media screen and (max-width: 600px) {
+    padding-top: 20px;
+
+    h1 {
+      font-size: 28px;
+    }
+  }
 }
 
 .thumbnail-grid {
@@ -217,6 +239,10 @@ body {
     flex: 0 0 auto;
     padding: 0 15px;
     margin-bottom: 30px;
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
 
     .cover {
       display: block;
@@ -486,6 +512,7 @@ body {
 
   h4 {
     font-size: 24px;
+    line-height: 1.08;
     font-weight: 600;
     margin-bottom: 20px;
     color: #fff;
@@ -494,6 +521,7 @@ body {
   p {
     color: #fff;
     font-size: 18px;
+    line-height: 1.22;
     margin-bottom: 20px;
   }
 
