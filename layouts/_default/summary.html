@@ -1,11 +1,11 @@
-<a class="cover" href="{{ .RelPermalink }}" rel="bookmark">
+<a class="cover u-url" href="{{ .RelPermalink }}" rel="bookmark">
   <div class="overlay">
-    <h2>{{ .Title }}</h2>
+    <h2 class="p-name">{{ .Title }}</h2>
   </div>
 </a>
 
 <div class="article-information">
-  <div class="author">
+  <div class="author p-author h-card">
     {{ if isset .Params "author" }}
       {{ $author := index .Site.Data.authors .Params.author }}
 
@@ -21,9 +21,9 @@
     {{ end }}
   </div>
 
-  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+  <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
     {{ .Date.Format "Jan 2, 2006" }}
   </time>
 
-  <div class="summary">{{ .Summary }}</div>
+  <div class="summary p-summary">{{ .Summary }}</div>
 </div>

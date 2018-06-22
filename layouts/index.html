@@ -19,7 +19,7 @@
 
       <ul class="thumbnail-grid h-feed">
         {{ range .Paginator.Pages }}
-          <li>{{ .Render "summary" }}</li>
+          <li class="h-entry">{{ .Render "summary" }}</li>
         {{ end }}
       </ul>
 

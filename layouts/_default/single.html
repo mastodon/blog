@@ -10,7 +10,7 @@
     <div class="article h-entry">
       <div class="container">
         <header class="article-header">
-          <h1>{{ .Page.Title }}</h1>
+          <h1 class="p-name">{{ .Page.Title }}</h1>
 
           {{ if isset .Params "subtitle" }}
             <h2>{{ .Params.subtitle }}</h2>
@@ -23,7 +23,7 @@
           {{ end }}
         </header>
 
-        <main>
+        <main class="e-content">
           {{ .Content }}
         </main>
 
