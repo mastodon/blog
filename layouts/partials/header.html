@@ -1,0 +1,18 @@
+{{/* Included at the top of the body on all but the index page. */}}
+<header class='navbar container'>
+  <ul class='left'>
+    <li>
+      <a class='brand' href='/'>
+        <img class='link-logo' src='/brand.svg' alt='Mastodon' />
+      </a>
+    </li>
+  </ul>
+
+  <ul class='right'>
+    <li><a href='/'>All</a></li>
+
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+      <li><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+    {{ end }}
+  </ul>
+</header>

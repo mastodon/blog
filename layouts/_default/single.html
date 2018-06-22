@@ -1,0 +1,46 @@
+{{/* Used to render all content pages other than the index. */}}
+<html>
+  <head>
+    {{ partial "head.html" . }}
+    <title>{{ .Page.Title }} </title>
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+
+    <div class="article h-entry">
+      <div class="container">
+        <header class="article-header">
+          <h1>{{ .Page.Title }}</h1>
+
+          {{ if isset .Params "subtitle" }}
+            <h2>{{ .Params.subtitle }}</h2>
+          {{ end }}
+
+          {{ if isset .Params "hero" }}
+            <div class="image-large">
+              <img src="{{ .Params.hero }}" alt="" />
+            </div>
+          {{ end }}
+        </header>
+
+        <main>
+          {{ .Content }}
+        </main>
+
+        <footer class="article-footer">
+          {{ partial "entry_nav.html" . }}
+        </footer>
+      </div>
+    </div>
+
+    <div class="container">
+      {{ partial "cta.html" . }}
+    </div>
+
+    <div class="related-articles container">
+      {{ partial "related.html" . }}
+    </div>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{{/* Used to render all list pages other than the index. */}}
+<html>
+  <head>
+    {{ partial "head.html" . }}
+    <title>{{ .Page.Title }} </title>
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+
+    <div class="intro">
+      <div class="container">
+        <img src="/logo.png" alt="Mastodon" />
+        <h1>{{ .Page.Title }}</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="thumbnail-grid h-feed">
+        {{ range .Paginator.Pages }}
+          <li class="h-entry">{{ .Render "summary" }}</li>
+        {{ end }}
+      </ul>
+
+      {{ template "_internal/pagination.html" . }}
+    </div>
+
+    <div class="container" style="margin-bottom: 30px">
+      {{ partial "cta.html" . }}
+    </div>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>

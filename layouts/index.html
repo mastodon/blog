@@ -1,0 +1,35 @@
+{{/* Used to render the list of posts on the index page. */}}
+<html>
+  <head>
+    {{ partial "head.html" . }}
+    <title>Official Mastodon Blog</title>
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+
+    <div class="intro">
+      <div class="container">
+        <img src="/logo.png" alt="Mastodon" />
+        <h1>Official Mastodon Blog</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      {{ .Content }}
+
+      <ul class="thumbnail-grid h-feed">
+        {{ range .Paginator.Pages }}
+          <li>{{ .Render "summary" }}</li>
+        {{ end }}
+      </ul>
+
+      {{ template "_internal/pagination.html" . }}
+    </div>
+
+    <div class="container" style="margin-bottom: 30px">
+      {{ partial "cta.html" . }}
+    </div>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>

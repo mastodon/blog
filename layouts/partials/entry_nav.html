@@ -1,0 +1,19 @@
+{{ if gt ( len ( where .Site.RegularPages "Section" .Section ) ) 1 }}
+<nav class='entry-nav'>
+  {{- if .PrevInSection -}}
+    <div class='prev-entry sep-before'>
+      <a href='{{ .PrevInSection.Permalink | relURL }}'>
+        <i class="fas fa-chevron-left"></i> Previous
+      </a>
+    </div>
+  {{- end -}}
+
+  {{- if .NextInSection -}}
+    <div class='next-entry sep-before'>
+      <a href='{{ .NextInSection.Permalink | relURL }}'>
+        Next <i class="fas fa-chevron-right"></i>
+      </a>
+    </div>
+  {{- end -}}
+</nav>
+{{ end }}
