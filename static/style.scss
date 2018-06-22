@@ -594,7 +594,11 @@ body {
   border-radius: 4px;
   text-decoration: none;
   background-size: 60%;
-  background: #000 no-repeat top right;
+  background-color: #000;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: top right;
+
   text-align: left;
 
   .overlay {
