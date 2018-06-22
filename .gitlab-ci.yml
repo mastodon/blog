@@ -1,0 +1,8 @@
+pages:
+  script:
+    - hugo
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
