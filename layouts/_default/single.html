@@ -3,6 +3,19 @@
   <head>
     {{ partial "head.html" . }}
     <title>{{ .Page.Title }} </title>
+
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ .Summary }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    {{ if isset .Params "hero" }}
+      <meta name="twitter:image" content="{{ .Params.hero }}" />
+    {{ end }}
+
+    <meta name="twitter:site" content="@MastodonProject" />
   </head>
   <body>
     {{ partial "header.html" . }}
