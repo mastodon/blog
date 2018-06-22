@@ -38,7 +38,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -109,7 +108,7 @@ body {
   @media screen and (max-width: 600px) {
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   ul {
@@ -203,15 +202,13 @@ body {
 
 .intro {
   text-align: center;
-  padding: 90px 0;
-  padding-top: 20px;
+  padding: 20px 0 90px;
 
   img {
     display: block;
     max-width: 140px;
     height: auto;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
   }
 
   h1 {
@@ -222,7 +219,7 @@ body {
   }
 
   @media screen and (max-width: 600px) {
-    padding-top: 20px;
+    padding: 0 0 40px;
 
     h1 {
       font-size: 28px;
@@ -595,11 +592,9 @@ body {
 .panel {
   display: block;
   border-radius: 4px;
-  background: #000;
   text-decoration: none;
   background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: top right;
+  background: #000 no-repeat top right;
   text-align: left;
 
   .overlay {
