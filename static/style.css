@@ -217,25 +217,28 @@ body {
   }
 }
 .thumbnail-grid li .cover {
-  display: block;
+  display: flex;
   background: #282d37;
   border-radius: 4px 4px 0 0;
   width: 100%;
-  height: 220px;
+  height: auto;
+  min-height: 220px;
   text-decoration: none;
   font-weight: 600;
   background-size: cover;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .thumbnail-grid li .cover {
+    min-height: 125px;
+  }
 }
 .thumbnail-grid li .overlay {
-  height: 100%;
+  align-self: center;
 }
 .thumbnail-grid li h2 {
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
-  position: relative;
-  vertical-align: middle;
-  top: 50%;
-  transform: translateY(-50%);
   text-align: center;
   font-size: 26px;
   line-height: 1.58;
