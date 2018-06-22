@@ -38,7 +38,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -109,7 +108,7 @@ body {
   @media screen and (max-width: 600px) {
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   ul {
@@ -203,15 +202,13 @@ body {
 
 .intro {
   text-align: center;
-  padding: 90px 0;
-  padding-top: 20px;
+  padding: 20px 0 90px;
 
   img {
     display: block;
     max-width: 140px;
     height: auto;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
   }
 
   h1 {
@@ -222,7 +219,7 @@ body {
   }
 
   @media screen and (max-width: 600px) {
-    padding-top: 20px;
+    padding: 0 0 40px;
 
     h1 {
       font-size: 28px;
@@ -247,27 +244,29 @@ body {
     }
 
     .cover {
-      display: block;
+      display: flex;
       background: lighten($darkest, 4%);
       border-radius: 4px 4px 0 0;
       width: 100%;
-      height: 220px;
+      height: auto;
+      min-height: 220px;
       text-decoration: none;
       font-weight: 600;
       background-size: cover;
+      justify-content: center;
+
+      @media screen and (max-width: 600px) {
+        min-height: 125px;
+      }
     }
 
     .overlay {
-      height: 100%;
+      align-self: center;
     }
 
     h2 {
       color: #fff;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
-      position: relative;
-      vertical-align: middle;
-      top: 50%;
-      transform: translateY(-50%);
       text-align: center;
       font-size: 26px;
       line-height: 1.58;
@@ -505,13 +504,18 @@ body {
 }
 
 .pagination {
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
 
   li {
     flex: 0 0 auto;
     padding: 0 15px;
+
+    @media screen and (max-width: 600px) {
+      padding: 0 5px;
+    }
   }
 
   a {
@@ -588,11 +592,13 @@ body {
 .panel {
   display: block;
   border-radius: 4px;
-  background: #000;
   text-decoration: none;
+  background-size: 60%;
+  background-color: #000;
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: top right;
+
   text-align: left;
 
   .overlay {
