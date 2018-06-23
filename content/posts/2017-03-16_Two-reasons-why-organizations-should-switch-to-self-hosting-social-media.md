@@ -14,7 +14,7 @@ My name is Eugen Rochko and I’m the creator of Mastodon, a free, open-source f
 
 If your organization is hosting a Mastodon instance, it is essentially a **self-perpetuating brand awareness campaign**. When people from other instances talk to or follow your users, they see your domain name all the time, since it is part of their globally unique usernames. It’s like those sticker ads on cars, except you don’t have to pay for them and it doesn’t disturb anyone because you’re providing a service.
 
-![Addressing a user from another instance](https://cdn-images-1.medium.com/max/2000/1*LM_XJwv6YpeZxBFMJVty_A.jpeg)*Addressing a user from another instance*
+{{< figure src="https://cdn-images-1.medium.com/max/2000/1*LM_XJwv6YpeZxBFMJVty_A.jpeg" caption="Addressing a user from another instance" >}}
 
 Twitter has put their API behind a paywall, strangled the app ecosystem. Twitter censors tweets on behalf of countries like Turkey, messes with its content delivery algorithms in unknown ways. Remember when Facebook changed its news feed algorithms, and overnight every Facebook page’s posts became virtually invisible and “fans” worthless? Unless you paid up to Facebook, of course. **Being in control of your own megaphone** rather than relying on a third party letting you use theirs is increasingly important.
 

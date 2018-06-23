@@ -1,7 +1,7 @@
 ---
 title: "How to implement a basic ActivityPub server"
 date: 2018-06-23
-draft: true
+draft: false
 author: gargron
 categories:
 - Guides
@@ -86,7 +86,7 @@ Here is how the document could look:
 ```json
 {
 	"@context": "https://www.w3.org/ns/activitystreams",
-	
+
 	"id": "https://my-example.com/create-hello-world",
 	"type": "Create",
 	"actor": "https://my-example.com/actor",
@@ -146,4 +146,10 @@ Let’s save it as `deliver.rb`. I am using the HTTP.rb gem here, so you’ll ne
 
 ### Conclusion
 
-We have covered how to create a discoverable ActivityPub actor and how to send replies to other people. But there is a lot we haven’t covered: How to follow and be followed (it requires a working inbox), how to have a prettier profile, how to support document forwarding with LD-Signatures, and more.
+We have covered how to create a discoverable ActivityPub actor and how to send replies to other people. But there is a lot we haven’t covered: How to follow and be followed (it requires a working inbox), how to have a prettier profile, how to support document forwarding with LD-Signatures, and more. If there is demand, I will write more in-depth tutorials!
+
+Read more on:
+
+* [ActivityPub](https://www.w3.org/TR/activitypub/)
+* [Webfinger](https://tools.ietf.org/html/rfc7033)
+* [HTTP Signatures](https://tools.ietf.org/html/draft-cavage-http-signatures-10)

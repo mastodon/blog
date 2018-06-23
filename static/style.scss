@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quando|Judson|Montserrat:400,600|Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Roboto:400,500,700|Roboto+Mono:400');
 @import url('https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css');
 
 $white:    #fff   ; // color5
@@ -457,6 +457,30 @@ body {
     }
   }
 
+  pre {
+    margin-bottom: 26px;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: lighten($darkest, 8%);
+    border-radius: 4px;
+    padding: 16px;
+    overflow: auto;
+  }
+
+  code {
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: lighten($darkest, 8%);
+    border-radius: 3px;
+  }
+
+  pre code {
+    background: transparent;
+    padding: 0;
+  }
+
   &-header {
     padding: 50px 0;
 
@@ -464,6 +488,15 @@ body {
       margin-top: 50px;
       margin-bottom: 0;
     }
+  }
+
+  .mastodon-embed {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 26px;
+    border-radius: 4px;
+    box-shadow: 4px 6px 18px rgba(0, 0, 0, 0.35);
   }
 }
 

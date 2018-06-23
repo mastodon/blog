@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Official Mastodon Blog"
 paginate = 6
 preserveTaxonomyNames = true
+pygmentsCodeFences = true
+pygmentsStyle = "dracula"
 
 [permalinks]
   posts = "/:year/:month/:slug/"
