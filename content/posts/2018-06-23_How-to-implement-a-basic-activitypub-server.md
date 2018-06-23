@@ -46,7 +46,7 @@ The most complicated part of this document is the `publicKey` as it involves cry
 
 You can do this using OpenSSL:
 
-    openssl genrsa -des3 -out private.pem 2048
+    openssl genrsa -out private.pem 2048
     openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 
 The contents of the `public.pem` file is what you would put into the `publicKeyPem` property. However, JSON does not support verbatim line-breaks in strings, so you would first need to replace line-breaks with `\n` instead.
