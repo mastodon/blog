@@ -126,7 +126,7 @@ body {
   .brand::before {
     content: "";
     display: block;
-    background: url("elephant-friend-top.png");
+    background: url("elephant.svg");
     position: absolute;
     width: 393px;
     height: 176px;
