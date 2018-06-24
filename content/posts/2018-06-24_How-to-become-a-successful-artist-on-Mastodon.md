@@ -50,6 +50,6 @@ Do not feel bad about mixing art posts and personal updates. I've never seen any
 
 ### How to deal with sensitive media
 
-Mastodon allows you to mark pictures or videos as sensitive, so they're hidden behind a warning. This is great for people who cannot or do not want to see explicit imagery, but for artists who create primarily that, it can be inhibiting. Art hidden behind a warning is less likely to be noticed on timelines, and you need to be aware of that trade-off. What you can do is post your non-explicit art to attract followers first, and only then publish the rest.
+Mastodon allows you to mark pictures or videos as sensitive, so they're hidden behind a warning. This is great for people who cannot or do not want to see explicit imagery, but for artists who create primarily that, it can be inhibiting. Art hidden behind a warning is less likely to be noticed on timelines, and you need to be aware of that trade-off. What you can do is mix your explicit and non-explicit art to gain more followers.
 
 There is also an off-by-default preference to always view sensitive media without a warning. You and your followers may wish to enable that.
