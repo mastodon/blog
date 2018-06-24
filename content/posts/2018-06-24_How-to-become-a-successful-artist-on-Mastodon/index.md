@@ -13,7 +13,7 @@ tags:
 - art
 ---
 
-I follow many talented artists on Mastodon, and over my 2 years of being on the platform I have noticed some common patterns that may help a newcomer find their audience on here, too.
+I follow many talented artists on Mastodon, and over my 2 years of being on the platform I have noticed some common patterns that may help a newcomer find their audience on here, too.<!--more-->
 
 ### Introduce yourself
 
