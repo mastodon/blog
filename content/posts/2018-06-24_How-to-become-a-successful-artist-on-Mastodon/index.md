@@ -17,7 +17,7 @@ I follow many talented artists, and over my 2 years on the platform, I have noti
 
 ### Introduce yourself
 
-A lot of the toots that get shared around widely are artists' introductions. It may sound odd coming from larger, more faceless platforms like Twitter, but Mastodon communities are more tight-knit, and a new community member saying hellow is genuinely appreciated. You may describe who you are, where you come from, link your past work or profiles, and include a few examples of your work. Just like everywhere else, pretty pictures attract eyeballs.
+A lot of the toots that get shared around widely are artists' introductions. It may sound odd coming from larger, more faceless platforms like Twitter, but Mastodon communities are more tight-knit, and a new community member saying hello is genuinely appreciated. You may describe who you are, where you come from, link your past work or profiles, and include a few examples of your work. Just like everywhere else, pretty pictures attract eyeballs.
 
 {{< mastodon "https://mastodon.art/@DearMsDear/98993992919148846" >}}
 
