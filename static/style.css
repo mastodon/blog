@@ -364,20 +364,30 @@ body {
       text-decoration: none; }
 
 .entry-nav {
-  overflow: hidden;
+  display: flex;
+  margin: 0 -15px;
   margin-bottom: 30px; }
   .entry-nav a {
     color: #79b9e7;
-    display: inline-block;
+    display: block;
     border: 1px solid #303643;
     padding: 10px 14px;
     border-radius: 4px;
     font-weight: 500;
-    text-decoration: none; }
-  .entry-nav .prev-entry {
-    float: left; }
+    text-decoration: none;
+    font-size: 12px; }
+    .entry-nav a strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 6px; }
+  .entry-nav .prev-entry,
   .entry-nav .next-entry {
-    float: right; }
+    box-sizing: border-box;
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 0 15px; }
+  .entry-nav .next-entry {
+    text-align: right; }
 
 .pagination {
   display: -ms-flexbox;

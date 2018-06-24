@@ -514,25 +514,37 @@ body {
 }
 
 .entry-nav {
-  overflow: hidden;
+  display: flex;
+  margin: 0 -15px;
   margin-bottom: 30px;
 
   a {
     color: lighten($vibrant, 18%);
-    display: inline-block;
+    display: block;
     border: 1px solid lighten($darkest, 8%);
     padding: 10px 14px;
     border-radius: 4px;
     font-weight: 500;
     text-decoration: none;
+    font-size: 12px;
+
+    strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
   }
 
-  .prev-entry {
-    float: left;
+  .prev-entry,
+  .next-entry {
+    box-sizing: border-box;
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 0 15px;
   }
 
   .next-entry {
-    float: right;
+    text-align: right;
   }
 }
 
