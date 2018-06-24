@@ -12,7 +12,15 @@
     <meta name="twitter:card" content="summary_large_image" />
 
     {{ if isset .Params "hero" }}
+      <meta name="og:image" content="{{ .Params.hero }}" />
       <meta name="twitter:image" content="{{ .Params.hero }}" />
+    {{ else }}
+      {{ $hero := .Page.Resources.GetMatch "hero" }}
+
+      {{ if $hero }}
+        <meta name="og:image" content="{{ $hero.Permalink }}" />
+        <meta name="twitter:image" content="{{ $hero.Permalink }}" />
+      {{ end }}
     {{ end }}
 
     <meta name="twitter:site" content="@MastodonProject" />
