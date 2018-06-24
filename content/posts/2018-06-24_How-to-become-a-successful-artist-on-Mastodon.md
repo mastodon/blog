@@ -1,7 +1,7 @@
 ---
 title: "How to become a successful artist on Mastodon"
 date: 2018-06-24
-draft: true
+draft: false
 author: gargron
 categories:
 - Guides
@@ -48,8 +48,16 @@ It may be tempting to dump your entire portfolio straight away, but do not do th
 
 Do not feel bad about mixing art posts and personal updates. I've never seen anyone mind that, on the contrary, people appreciate personality behind the work.
 
+### Engage!
+
+Thank people who comment on, fave or boost your work. Look at who boosts and faves other people's work and follow them to silently introduce them to your work, too. Support other artists on the platform.
+
 ### How to deal with sensitive media
 
 Mastodon allows you to mark pictures or videos as sensitive, so they're hidden behind a warning. This is great for people who cannot or do not want to see explicit imagery, but for artists who create primarily that, it can be inhibiting. Art hidden behind a warning is less likely to be noticed on timelines, and you need to be aware of that trade-off. What you can do is mix your explicit and non-explicit art to gain more followers.
 
 There is also an off-by-default preference to always view sensitive media without a warning. You and your followers may wish to enable that.
+
+In conclusion,
+
+{{< mastodon "https://mastodon.social/@Prawnlegs/100260595084343127" >}}
