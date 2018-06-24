@@ -3,6 +3,9 @@ title: "How to become a successful artist on Mastodon"
 date: 2018-06-24
 draft: false
 author: gargron
+resources:
+- name: hero
+  src: hero.jpg
 categories:
 - Guides
 tags:

@@ -33,6 +33,14 @@
             <div class="image-large">
               <img src="{{ .Params.hero }}" alt="" />
             </div>
+          {{ else }}
+            {{ $hero := .Page.Resources.GetMatch "hero" }}
+
+            {{ if $hero }}
+              <div class="image-large">
+                <img src="{{ $hero.RelPermalink }}" alt="" />
+              </div>
+            {{ end }}
           {{ end }}
         </header>
 
