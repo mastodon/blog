@@ -221,6 +221,8 @@ body {
         height: 80px;
         overflow: hidden;
         text-overflow: ellipsis; }
+        .thumbnail-grid li .article-information .summary a {
+          color: #79b9e7; }
 
 .related-articles {
   margin-top: 30px; }
@@ -298,6 +300,9 @@ body {
   float: left; }
 .article em {
   font-style: italic; }
+.article strong {
+  font-weight: 600;
+  color: #fff; }
 .article ul {
   counter-reset: post;
   margin-bottom: 26px; }

@@ -310,6 +310,10 @@ body {
         height: 80px;
         overflow: hidden;
         text-overflow: ellipsis;
+
+        a {
+          color: lighten($vibrant, 18%);
+        }
       }
     }
   }
@@ -417,6 +421,11 @@ body {
 
   em {
     font-style: italic;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #fff;
   }
 
   ul {

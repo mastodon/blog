@@ -6,7 +6,7 @@ draft: false
 author: gargron
 resources:
 - name: hero
-  src: bryson-hammer-586120-unsplash.jpg
+  src: hero.jpg
 categories:
 - Op-Ed
 tags:
@@ -16,7 +16,7 @@ tags:
 - copyright
 ---
 
-A committee of members of the European Parliament [have voted to approve Article 11 and Article 13](https://www.bbc.com/news/technology-44546620), which pose a risk to the decentralization of the web and freedom of creative expression.
+A committee of members of the European Parliament [have voted to approve Article 11 and Article 13](https://www.bbc.com/news/technology-44546620), which pose a risk to the decentralization of the web and freedom of creative expression.<!--more-->
 
 Article 11 is commonly known as the Link Tax, wherein linking to public pages may become illegal if the link displays a content preview using OpenGraph tags included by the page authors; Article 13 mandates that all user submissions must go through a content filter to detect copyright violations.
 
