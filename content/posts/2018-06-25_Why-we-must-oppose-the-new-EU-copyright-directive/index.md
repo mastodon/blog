@@ -4,6 +4,9 @@ subtitle: "It's pretty bad"
 date: 2018-06-25
 draft: false
 author: gargron
+resources:
+- name: hero
+  src: bryson-hammer-586120-unsplash.jpg
 categories:
 - Op-Ed
 tags:
