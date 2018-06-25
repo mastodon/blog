@@ -16,19 +16,23 @@ tags:
 - copyright
 ---
 
-A committee of members of the European Parliament [have voted to approve Article 11 and Article 13](https://www.bbc.com/news/technology-44546620), which pose a risk to the decentralization of the web and freedom of creative expression. Article 11 is commonly known as the Link Tax, wherein linking to public pages may become illegal if the link displays a content preview using OpenGraph tags included by the page authors; Article 13 mandates that all user submissions must go through a content filter to detect copyright violations. There will be a wider vote on this in the European Parliament in July. Both would affect how Mastodon operates. Here is why we must oppose its passing:
+A committee of members of the European Parliament [have voted to approve Article 11 and Article 13](https://www.bbc.com/news/technology-44546620), which pose a risk to the decentralization of the web and freedom of creative expression.
+
+Article 11 is commonly known as the Link Tax, wherein linking to public pages may become illegal if the link displays a content preview using OpenGraph tags included by the page authors; Article 13 mandates that all user submissions must go through a content filter to detect copyright violations.
+
+There will be a wider vote on this in the European Parliament in July. Both would affect how Mastodon operates. Here is why we must oppose its passing:
 
 ### Content detection is not reliable
 
-Known content identification systems such as those on YouTube routinely lead to wrongful takedowns. Sometimes it will detect faint music, inaudible to humans, in a video of the outside. It will mistakenly block public domain or transformative work. But at the same time, it will fail to notice songs with slightly shifted pitch, or video that's been horizontally flipped. People will file claims for content they don't actually own, and the onus will be on the creators to prove they have a right to upload. This will stiftle freedom of expression and will rob us of creative diversity.
+Known content identification systems such as those on YouTube routinely lead to wrongful takedowns. Sometimes it will detect faint music, inaudible to humans, in a video of the outside. It will mistakenly block public domain or transformative work. But at the same time, it will fail to notice songs with slightly shifted pitch, or video that's been horizontally flipped. People will file claims for content they don't actually own, and the onus will be on the creators to prove they have a right to upload. **This will stiftle freedom of expression and will rob us of creative diversity.**
 
-The YouTube of today is already suffering from this, even without Article 13. You think DMCA and demonetizations are bad? People will be denied at time of upload, everywhere.
+The YouTube of today is already suffering from this, even without Article 13. You think DMCA and demonetizations are bad? **People will be denied at time of upload, everywhere.**
 
 ### Small players vs. content filtering
 
-While large social media platforms like Twitter, Tumblr, Facebook and GitHub will be able to invest in developing the technologies required for copyright infringement scanning, others will not. And there are a lot of places on the internet outside of those platforms: blog comments sections, forums, image boards, and of course, Mastodon servers. Non-profit websites, run by individuals or small organizations, will not be able to comply with such requirements. It presupposes not only a technological investment, but also access to copyrighted content libraries to-be-scanned-for.
+While large social media platforms like Twitter, Tumblr, Facebook and GitHub will be able to invest in developing the technologies required for copyright infringement scanning, others will not. And there are a lot of places on the internet outside of those platforms: blog comments sections, forums, image boards, and of course, Mastodon servers. **Non-profit websites, run by individuals or small organizations, will not be able to comply with such requirements.** It presupposes not only a technological investment, but also access to copyrighted content libraries to-be-scanned-for.
 
-This might lead to an emergence of content ID service providers, centralized scanning facilities, which adds not only another financial factor into the picture, but introduces a huge privacy risk by aggregating all posts from many different platforms into one place. You don't even have to believe in government snooping, just think of all those data breaches like Equifax.
+This might lead to an emergence of content ID service providers, centralized scanning facilities, which adds not only another financial factor into the picture, but **introduces a huge privacy risk by aggregating all posts from many different platforms into one place**. You don't even have to believe in government snooping, just think of all those data breaches like Equifax.
 
 ### The internet is not just big platforms
 
