@@ -1,5 +1,5 @@
 ---
-title: "Why we must oppose the new EU copyright directive"
+title: "Why we must oppose the new copyright directive"
 subtitle: "It's pretty bad"
 date: 2018-06-25
 draft: false
