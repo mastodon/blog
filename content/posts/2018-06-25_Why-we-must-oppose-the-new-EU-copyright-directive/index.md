@@ -48,7 +48,7 @@ The successful companies of today have only been able to become such because the
 
 More resources:
 
-- [Save Your Internet](https://saveyourinternet.eu/)
-- [Save The Link](https://act1.openmedia.org/savethelink)
-- [Let's Fight Automated Filtering… and Web Centralisation!](https://www.laquadrature.net/en/node/10560)
-- [Who voted to restrict your web](https://juliareda.eu/2018/06/not-giving-up/)
+- [Call your MEPs](https://saveyourinternet.eu/)
+- [E-mail your MEPs](https://act1.openmedia.org/savethelink)
+- [See who voted to restrict your web](https://juliareda.eu/2018/06/not-giving-up/)
+- More in: [Let's Fight Automated Filtering… and Web Centralisation!](https://www.laquadrature.net/en/node/10560)
