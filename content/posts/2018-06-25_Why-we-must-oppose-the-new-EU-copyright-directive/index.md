@@ -2,7 +2,7 @@
 title: "Why we must oppose the new EU copyright directive"
 subtitle: "It's pretty bad"
 date: 2018-06-25
-draft: true
+draft: false
 author: gargron
 categories:
 - Op-Ed
