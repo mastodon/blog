@@ -13,7 +13,7 @@ tags:
 - copyright
 ---
 
-A committee of members of the European Parliament have voted to approve Article 11 and Article 13, which pose a risk to the decentralization of the web and freedom of creative expression. Article 11 is commonly known as the Link Tax, wherein linking to public pages may become illegal if the link displays a content preview using OpenGraph tags included by the page authors; Article 13 mandates that all user submissions must go through a content filter to detect copyright violations. There will be a wider vote on this in the European Parliament in July. Both would affect how Mastodon operates. Here is why we must oppose its passing:
+A committee of members of the European Parliament [have voted to approve Article 11 and Article 13](https://www.bbc.com/news/technology-44546620), which pose a risk to the decentralization of the web and freedom of creative expression. Article 11 is commonly known as the Link Tax, wherein linking to public pages may become illegal if the link displays a content preview using OpenGraph tags included by the page authors; Article 13 mandates that all user submissions must go through a content filter to detect copyright violations. There will be a wider vote on this in the European Parliament in July. Both would affect how Mastodon operates. Here is why we must oppose its passing:
 
 ### Content detection is not reliable
 
@@ -38,3 +38,10 @@ It is the nature of regulations to shut out small players, and that's not always
 The successful companies of today have only been able to become such because the internet was decentralized and anyone could enter the game board freely. I do not think that they are the pinnacle of what is possible, however.
 
 **We need to keep the decentralized web alive, and oppose Article 11 and Article 13.**
+
+More resources:
+
+- [Save Your Internet](https://saveyourinternet.eu/)
+- [Save The Link](https://act1.openmedia.org/savethelink)
+- [Let's Fight Automated Filtering… and Web Centralisation!](https://www.laquadrature.net/en/node/10560)
+- [Who voted to restrict your web](https://juliareda.eu/2018/06/not-giving-up/)
