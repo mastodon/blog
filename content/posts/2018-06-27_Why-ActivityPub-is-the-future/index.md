@@ -19,7 +19,7 @@ tags:
 - plume
 ---
 
-We often tout things like "Mastodon is based on open web protocols" as one of its advantages. I want to elaborate why exactly that's a good thing.
+We often tout things like "Mastodon is based on open web protocols" as one of its advantages. I want to elaborate why exactly that's a good thing.<!--more-->
 
 As a refresher, Mastodon implements the so-called ActivityPub protocol to enable Mastodon servers to talk to each other; that's the basis of the "federation" we also like to bring up. Federation is what you already know from e-mail, even if you may not know it by name: It's the concept of servers hosting users that can talk to users from other servers. That protocol pins down on paper how exactly such inter-server communication would look like, using a vocabulary that can be applied for a variety of purposes. And here's the kicker:
 
