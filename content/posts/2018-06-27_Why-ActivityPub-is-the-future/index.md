@@ -1,8 +1,11 @@
 ---
 title: "Why ActivityPub is the future"
 date: 2018-06-27
-draft: true
+draft: false
 author: gargron
+resources:
+- name: hero
+  src: ezgif-2-60f1b00403.gif
 categories:
 - Op-Ed
 tags:
