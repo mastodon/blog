@@ -6,6 +6,8 @@ author: gargron
 resources:
 - name: hero
   src: ezgif-2-60f1b00403.gif
+  params:
+    resize: false
 categories:
 - Op-Ed
 tags:
