@@ -121,7 +121,7 @@ The `keyId` refers to public key of our actor, the `header` lists the headers th
 
 The to-be-signed string would look something like this:
 
-    (request-target): POST /inbox
+    (request-target): post /inbox
     host: mastodon.social
     date: Sun, 06 Nov 1994 08:49:37 GMT
 
@@ -134,7 +134,7 @@ require 'openssl'
 document      = File.read('create-hello-world.json')
 date          = Time.now.utc.httpdate
 keypair       = OpenSSL::PKey::RSA.new(File.read('private.pem'))
-signed_string = "(request-target): POST /inbox\nhost: mastodon.social\ndate: #{date}"
+signed_string = "(request-target): post /inbox\nhost: mastodon.social\ndate: #{date}"
 signature     = Base64.strict_encode64(keypair.sign(OpenSSL::Digest::SHA256.new, signed_string))
 header        = 'keyId="https://my-example.com/actor",headers="(request-target) host date",signature="' + signature + '"'
 
