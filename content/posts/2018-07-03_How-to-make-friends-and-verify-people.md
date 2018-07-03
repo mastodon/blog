@@ -2,7 +2,7 @@
 title: "How to make friends and verify requests"
 subtitle: "Implementing an ActivityPub inbox"
 date: 2018-07-03
-draft: true
+draft: false
 author: gargron
 categories:
 - Guides
