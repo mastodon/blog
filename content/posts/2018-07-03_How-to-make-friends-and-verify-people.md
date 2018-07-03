@@ -35,7 +35,7 @@ post '/inbox' do
 end
 ```
 
-That's an absolutely basic implementation. Save it in `server.rb`. You can run the server with `ruby server.rb` (you need the Sinatra gem installed before that: `gem install sinatra`). Now on this server you can navigate to /inspect to see the contents of your inbox, and you (and anyone, really) can POST to the /inbox to add something there.
+That's an absolutely basic implementation. Save it in `server.rb`. You can run the server with `ruby server.rb` (you need the Sinatra gem installed before that: `gem install sinatra`). Now on this server you can navigate to `/inspect` to see the contents of your inbox, and you (and anyone, really) can POST to the `/inbox` to add something there.
 
 Of course, anyone being able to put anything in there is not ideal. We need to check the incoming POST requests for a HTTP signature and validate it. Here is what a HTTP signature header looks like:
 
@@ -44,6 +44,9 @@ Of course, anyone being able to put anything in there is not ideal. We need to c
 We need to read the `Signature` header, split it into its parts (`keyId`, `headers` and `signature`), fetch the public key linked from `keyId`, create a comparison string from the plaintext headers we got in the same order as was given in the signature header, and then verify that string using the public key and the original signature.
 
 ```ruby
+require 'json'
+require 'http'
+
 post '/inbox' do
   signature_header = request.headers['Signature'].split(',').map do |pair|
     pair.split('=').map do |value|
@@ -67,12 +70,10 @@ post '/inbox' do
   end
 
   if key.verify(OpenSSL::Digest::SHA256.new, signature, comparison_string)
-    # The request really comes from the actor!
     request.body.rewind
     INBOX << request.body.read
     [200, 'OK']
   else
-    # It's fake!
     [401, 'Request signature could not be verified']
   end
 end
