@@ -89,7 +89,7 @@ Still, now you have a reasonably secure toy inbox. Moving on.
 
 ### Following people
 
-To register as a follower of someone, you need to send them a `Follow` activity. The receiver may manually decide whether to allow that or not, or their server may do it automatically, but in the case of success you will receive an `Approve` activity back referring to your `Follow`. Here is how a `Follow` may look like, if you would like to follow the official Mastodon project account, the URI of which is `https://mastodon.social/users/Mastodon`:
+To register as a follower of someone, you need to send them a `Follow` activity. The receiver may manually decide whether to allow that or not, or their server may do it automatically, but in the case of success you will receive an `Accept` activity back referring to your `Follow`. Here is how a `Follow` may look like, if you would like to follow the official Mastodon project account, the URI of which is `https://mastodon.social/users/Mastodon`:
 
 ```json
 {
@@ -103,13 +103,13 @@ To register as a follower of someone, you need to send them a `Follow` activity.
 
 Make sure your actor JSON points to your inbox, and your inbox server is running and publicly accessible under that URL, then deliver that activity to the target user's inbox, in our example it would be `https://mastodon.social/inbox`.
 
-If everything works correctly, inspecting your inbox you should find an `Approve` activity. Afterwards, you will find other activities in there from the person you followed, like `Create`, `Announce` and `Delete`.
+If everything works correctly, inspecting your inbox you should find an `Accept` activity. Afterwards, you will find other activities in there from the person you followed, like `Create`, `Announce` and `Delete`.
 
 Ideally, you'd follow your own Mastodon account, just so you can control when to post, otherwise you may end up waiting for your inbox to fill for a long time.
 
 ### Conclusion
 
-This brings you almost all the way to a fully functioning ActivityPub server. **You can send and receive verified messages and subscribe to other people**. As mentioned at the start, everything else is semantics. To support other people subscribing to you, you would listen for incoming `Follow` activities, send back an appropriately formatted `Approve` activity, write down the follower somewhere and send them every new post you create.
+This brings you almost all the way to a fully functioning ActivityPub server. **You can send and receive verified messages and subscribe to other people**. As mentioned at the start, everything else is semantics. To support other people subscribing to you, you would listen for incoming `Follow` activities, send back an appropriately formatted `Accept` activity, write down the follower somewhere and send them every new post you create.
 
 Read more on:
 
