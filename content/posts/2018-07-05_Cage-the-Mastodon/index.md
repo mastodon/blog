@@ -4,6 +4,9 @@ subtitle: "An overview of features for dealing with abuse and harassment"
 date: 2018-07-05
 draft: true
 author: gargron
+resources:
+- name: hero
+  src: vlcsnap-2018-07-05-01h09m25s103.png
 categories:
 - Guides
 tags:
