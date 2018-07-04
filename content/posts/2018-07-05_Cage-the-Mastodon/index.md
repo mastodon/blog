@@ -50,6 +50,8 @@ When you want to tune out of a specific topic for a time or forever, **you can a
 
 On the other end, **you can hide your messages behind content warnings**, for example if you want to discuss the events of the last episode of some show or a book. And rather than dooming your entire account to be "sensitive" like on Twitter, where it's hidden from everyone who hasn't opted to look at sensitive content, on Mastodon **you can hide media uploads only in specific posts** (or, of course, set it as the default).
 
+You can also hide the list of people you are following and who follow you from your profile.
+
 ### Moderation tools
 
 When someone's breaking a servers rules, it's no longer a matter of just hiding them from your personal sight--that's where moderation steps in. Mastodon has a report function, in which you can report an account to the server's administration, optionally specifying a message and choosing which of their posts to include in the report as examples. If the reported person resides on a different Mastodon server, you also have the option of anonymously forwarding a copy of the report to the admins of that server, since they might also be interested in knowing about an offender.
