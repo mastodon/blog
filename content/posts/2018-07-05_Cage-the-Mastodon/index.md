@@ -14,7 +14,7 @@ tags:
 - abuse
 ---
 
-A year ago I wrote about Mastodon's [features for dealing with abuse and harassment that were improvements over Twitter's status quo]({{<< ref "posts/2017-03-03_Learning-from-Twitter-s-mistakes.md" >>}}). Development in that area has not been standing still, and it's about time we do another comparison.
+A year ago I wrote about Mastodon's [improvements over Twitter's lacking protections against abuse and harassment]({{<< ref "posts/2017-03-03_Learning-from-Twitter-s-mistakes.md" >>}}). Development in that area has not been standing still, and it's about time we do another comparison.
 
 First, a refresher on the fundamentals, which haven't changed: Mastodon is decentralized between independently-operated servers. These servers each have a separate admin, and possibly a moderation team, as well as their own code of conduct. From that follows that:
 
@@ -70,7 +70,7 @@ Mastodon's moderation system is very similar to that of a forum. It supports two
 
 It doesn't matter if the offending account is on your server or a different one, these measures are contained within your server, which is how servers with different policies can co-exist on the network: You moderate according to yours, I moderate according to mine.
 
-If there is a server fundamentally opposed to yours, like one dedicated to white supremacy, or one that refuses to keep its offenders in check so moderating them on your end individually ends up being too much work, there is an option to either sandbox or block an entire domain.
+If there is a server fundamentally opposed to yours, or one that refuses to keep its offenders in check so moderating them on your end individually ends up being too much work, there is an option to either sandbox or block an entire domain.
 
 ### Conclusion
 
