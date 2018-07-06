@@ -61,22 +61,21 @@
 
         <main class="e-content">
           {{ .Content }}
-        </main>
-
-        <footer class="article-footer">
+          
           <p style="color: #687590;">
-            <span class="p-author h-card">
+            —<span class="p-author h-card">
               {{ if isset .Params "author" }}
                 {{ $author := index .Site.Data.authors .Params.author }}
                 {{ $author.name }}
               {{ end }}
-            </span>
-            <br />
+            </span>,
             <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
               {{ .Date.Format "Jan 2, 2006" }}
             </time>
           </p>
+        </main>
 
+        <footer class="article-footer">
           {{ partial "entry_nav.html" . }}
         </footer>
       </div>
