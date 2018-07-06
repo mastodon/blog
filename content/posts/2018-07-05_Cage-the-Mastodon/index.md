@@ -34,8 +34,8 @@ Another feature that has been requested almost since the start, and which I keep
 
 Twitter forces you to choose between two extremes, a protected account and a fully public account. If you have a public account, all your tweets are visible to everyone and infinitely shareable. Mastodon realizes that it's not something you might always want, though. **Each individual message can either be**:
 
-- Fully public, appearing to your followers, the firehose, anyone looking at your profile
-- Unlisted, appearing to your followers and anyone looking at your profile, but skipping the firehose
+- Fully public, appearing to your followers, the public timelines, anyone looking at your profile
+- Unlisted, appearing to your followers and anyone looking at your profile, but skipping the public timelines
 - Private, appearing only to your followers and people mentioned in it
 - And direct, appearing only to people mentioned in it
 
