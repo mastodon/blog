@@ -49,7 +49,7 @@ Mastodon offers a massive amount of ways to hide unwanted content from your eyes
 
 Are you tired of receiving responses to one of your posts? You can **mute the conversation** and forget about it. And if you notice that you're muting a lot of people from the same Mastodon server, and there's no end to it, you can **hide everything from a specific domain**. That will hide all of their posts and remove any followers you might have had from that server so they no longer receive your posts, either.
 
-When you want to tune out of a specific topic for a time or forever, **you can add text filters**. They will match keywords or phrases in the posts and hide those posts from you, either everywhere or in specific contexts only.
+In the coming weeks, once 2.4.3 is released, you'll be able to tune out of a specific topic for a time or forever by **adding text filters**. They will match keywords or phrases in the posts and hide those posts from you, either everywhere or in specific contexts only.
 
 On the other end, **you can hide your messages behind content warnings**, for example if you want to discuss the events of the last episode of some show or a book. And rather than dooming your entire account to be "sensitive" like on Twitter, where it's hidden from everyone who hasn't opted to look at sensitive content, on Mastodon **you can hide media uploads only in specific posts** (or, of course, set it as the default).
 
