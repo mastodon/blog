@@ -14,7 +14,7 @@ tags:
 - abuse
 ---
 
-A year ago I wrote about Mastodon's [improvements over Twitter's lacking protections against abuse and harassment]({{< ref "posts/2017-03-03_Learning-from-Twitter-s-mistakes.md" >}}). Development in that area has not been standing still, and it's about time we do another comparison.
+A year ago I wrote about Mastodon's [improvements over Twitter's lacking protections against abuse and harassment]({{< ref "posts/2017-03-03_Learning-from-Twitter-s-mistakes.md" >}}). Development in that area has not been standing still, and it's about time we do another comparison.<!--more-->
 
 First, a refresher on the fundamentals, which haven't changed: Mastodon is decentralized between independently-operated servers. These servers each have a separate admin, and possibly a moderation team, as well as their own code of conduct. From that follows that:
 
