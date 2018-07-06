@@ -39,12 +39,6 @@
             <h2>{{ .Params.subtitle }}</h2>
           {{ end }}
 
-          <p style="text-align: center; margin-top: 25px; color: #687590;">
-            <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
-              {{ .Date.Format "Jan 2, 2006" }}
-            </time>
-          </p>
-
           {{ if isset .Params "hero" }}
             <div class="image-large">
               <img src="{{ .Params.hero }}" alt="" />
@@ -70,6 +64,19 @@
         </main>
 
         <footer class="article-footer">
+          <p style="color: #687590;">
+            <span class="p-author h-card">
+              {{ if isset .Params "author" }}
+                {{ $author := index .Site.Data.authors .Params.author }}
+                {{ $author.name }}
+              {{ end }}
+            </span>
+            <br />
+            <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+              {{ .Date.Format "Jan 2, 2006" }}
+            </time>
+          </p>
+
           {{ partial "entry_nav.html" . }}
         </footer>
       </div>
