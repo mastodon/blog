@@ -44,7 +44,7 @@
               {{ $author := index .Site.Data.authors .Params.author }}
               <span class="p-author">{{ $author.name }}</span>
             {{ end }}
-
+            •
             <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
               {{ .Date.Format "Jan 2, 2006" }}
             </time>
