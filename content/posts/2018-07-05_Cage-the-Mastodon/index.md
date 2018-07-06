@@ -1,8 +1,8 @@
 ---
 title: "Cage the Mastodon"
 subtitle: "An overview of features for dealing with abuse and harassment"
-date: 2018-07-05
-draft: true
+date: 2018-07-06
+draft: false
 author: gargron
 resources:
 - name: hero
