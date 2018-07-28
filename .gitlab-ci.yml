@@ -1,3 +1,8 @@
+image: registry.gitlab.com/pages/hugo:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
 pages:
   script:
     - hugo
