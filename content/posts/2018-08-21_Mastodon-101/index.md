@@ -70,9 +70,11 @@ Hashtags are a really important thing on Mastodon. In fact, they are the [only p
 
 So for your first toot, a great idea is to post a short #introduction giving some information about yourself and what your interests are and what you'll be talking about on Mastodon. That's also a great hashtag to search, you'll find lots of other people new to the network and many will care about the things you do.
 
-{{< mastodon "https://mastodon.social/@dorigo/100578566888115867" >}}
+{{< mastodon "https://mastodon.social/@Altruest/99738664857313748" >}}
 
 {{< mastodon "https://mastodon.social/@laches1sm/100530830792499728" >}}
+
+{{< mastodon "https://mastodon.social/@dorigo/100578566888115867" >}}
 
 ### A quick tour of the web interface
 
