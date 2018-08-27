@@ -107,6 +107,7 @@ Official material:
 * [What is Mastodon?](https://www.youtube.com/watch?v=IPSbNdBmWKE)
 * [Frequently Asked Questions](https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/FAQ.md)
 * [Mobile apps for iOS and Android](https://joinmastodon.org/apps)
+* [How to become a successful artist on Mastodon]({{< ref "posts/2018-06-24_How-to-become-a-successful-artist-on-Mastodon/index.md" >}})
 
 Community material:
 
