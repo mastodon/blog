@@ -1,7 +1,7 @@
 ---
 title: "Mastodon quick start guide"
-date: 2018-08-19
-draft: true
+date: 2018-08-27
+draft: false
 author: nico
 resources:
 - name: hero
@@ -70,6 +70,8 @@ Hashtags are a really important thing on Mastodon. In fact, they are the [only p
 
 So for your first toot, a great idea is to post a short #introduction giving some information about yourself and what your interests are and what you'll be talking about on Mastodon. That's also a great hashtag to search, you'll find lots of other people new to the network and many will care about the things you do.
 
+{{< mastodon "https://mastodon.social/@dorigo/100578566888115867" >}}
+
 ### A quick tour of the web interface
 
 > Mastodon offers [many apps](https://joinmastodon.org/apps), both for mobile phones and for the browser; you are not locked into using the standard interface. For a simplified experience, try out [Pinafore](https://pinafore.social)
@@ -84,7 +86,7 @@ Notifications does what it says on the tin. Again, this is across the fediverse.
 
 Local timeline is the live feed of all the toots of people on your server. On many servers, particularly smaller ones and ones focused on a particular topic, this is where the magic happens. It feels like a town square or Slack chatroom. You can reply to people from there and it's a great place to meet people.
 
-The federated timeline is a view of all the public toots your servers knows about from across the whole network (including local ones). The most common reason that something appears in the federated timeline is that someone from your server follows the author of that toot. This column can often be pretty crazy. I enjoy setting that column to show only toots with media, hiding boosts, then seeing a constant stream of daft selfies, hot memes, and funky art.
+The federated timeline is a view of all the public toots your servers knows about from across the whole network (including local ones). The most common reason that something appears in the federated timeline is that someone from your server follows the author of that toot. This column moves fast, and can often be pretty wild. I enjoy setting that column to show only toots with media, hiding boosts, then seeing a constant stream of daft selfies, hot memes, and funky art.
 
 You can also pin a column for a hashtag you're interested in -- just search for that hashtag and then in the column settings choose "pin" and done.
 
