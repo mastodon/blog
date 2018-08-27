@@ -42,7 +42,7 @@ If you aren't here to stick mainly to one topic, you'll likely want to pick a se
 
 In time, you might find yourself wanting an account on another server, whether that means moving your primary account or having a secondary account for a certain aspect of yourself. This is normal behaviour on the fediverse and nothing to worry about. People are completely used to seeing the occasional post like this:
 
-{{< mastodon "https://floss.social/@brainblasted/100283610280782299" >}}
+{{< mastodon "https://divad.xyz/@zyx/100582487377045070" >}}
 
 ### Knowing your server
 
