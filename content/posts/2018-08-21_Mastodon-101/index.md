@@ -88,3 +88,16 @@ My advice is simple: if you're not sure whether a toot needs a CW or not, give i
 
 You can also use a CW to summarise a long post. Maybe you'll think of other uses for it. Have fun.
 
+### Learn more
+
+Official material:
+
+* [What is Mastodon?](https://www.youtube.com/watch?v=IPSbNdBmWKE)
+* [Frequently Asked Questions](https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/FAQ.md)
+* [Mobile apps for iOS and Android](https://joinmastodon.org/apps)
+
+Community material:
+
+* [Intro to Mastodon - Tahajin](https://www.youtube.com/watch?v=W22msAw2zwI)
+* [A Beginner's Guide to Mastodon - Lifehacker](https://lifehacker.com/a-beginner-s-guide-to-mastodon-1828503235)
+* [An Increasingly Less-Brief Guide to Mastodon - Joyeuse Noelle](https://github.com/joyeusenoelle/GuideToMastodon/)
