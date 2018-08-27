@@ -72,6 +72,8 @@ So for your first toot, a great idea is to post a short #introduction giving som
 
 {{< mastodon "https://mastodon.social/@dorigo/100578566888115867" >}}
 
+{{< mastodon "https://mastodon.social/@laches1sm/100530830792499728" >}}
+
 ### A quick tour of the web interface
 
 > Mastodon offers [many apps](https://joinmastodon.org/apps), both for mobile phones and for the browser; you are not locked into using the standard interface. For a simplified experience, try out [Pinafore](https://pinafore.social)
