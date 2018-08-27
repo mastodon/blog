@@ -3,6 +3,9 @@ title: "Mastodon quick start guide"
 date: 2018-08-19
 draft: true
 author: nico
+resources:
+- name: hero
+  src: vlcsnap-2018-08-27-16h43m11s127.png
 categories:
 - Guides
 tags:
