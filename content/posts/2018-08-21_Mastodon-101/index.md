@@ -80,6 +80,8 @@ So for your first toot, a great idea is to post a short #introduction giving som
 
 > Mastodon offers [many apps](https://joinmastodon.org/apps), both for mobile phones and for the browser; you are not locked into using the standard interface. For a simplified experience, try out [Pinafore](https://pinafore.social)
 
+{{< figure src="default-interface.png" caption="A schematic of the default user interface" >}}
+
 The standard Mastodon interface has multiple columns rather than a single feed. You can move or remove these at your leisure.
 
 Home is all the toots in chronological order of the people you're following. It includes the toots of people on your server and on other servers, all that matters is that it's people you follow. Some people like to disable boosts in this column so they just see what their follows themselves say. That option is there if you click the settings button on the top right of the column.
