@@ -84,15 +84,15 @@ So for your first toot, a great idea is to post a short #introduction giving som
 
 The standard Mastodon interface has multiple columns rather than a single feed. You can move or remove these at your leisure.
 
-Home is all the toots in chronological order of the people you're following. It includes the toots of people on your server and on other servers, all that matters is that it's people you follow. Some people like to disable boosts in this column so they just see what their follows themselves say. That option is there if you click the settings button on the top right of the column.
+**Home** is all the toots in chronological order of the people you're following. It includes the toots of people on your server and on other servers, all that matters is that it's people you follow. Some people like to disable boosts in this column so they just see what their follows themselves say. That option is there if you click the settings button on the top right of the column.
 
 > "Boost" (as in "signal boost" or "rocket boost") is a synonym of "reblog" or "retweet" in Mastodon.
 
-Notifications does what it says on the tin. Again, this is across the fediverse. The settings button (top right) has a range of options for this column. You may want to turn off the "boop" sound, for example.
+**Notifications** does what it says on the tin. Again, this is across the fediverse. The settings button (top right) has a range of options for this column. You may want to turn off the "boop" sound, for example.
 
-Local timeline is the live feed of all the toots of people on your server. On many servers, particularly smaller ones and ones focused on a particular topic, this is where the magic happens. It feels like a town square or Slack chatroom. You can reply to people from there and it's a great place to meet people.
+**Local timeline** is the live feed of all the toots of people on your server. On many servers, particularly smaller ones and ones focused on a particular topic, this is where the magic happens. It feels like a town square or Slack chatroom. You can reply to people from there and it's a great place to meet people.
 
-The federated timeline is a view of all the public toots your servers knows about from across the whole network (including local ones). The most common reason that something appears in the federated timeline is that someone from your server follows the author of that toot. This column moves fast, and can often be pretty wild. I enjoy setting that column to show only toots with media, hiding boosts, then seeing a constant stream of daft selfies, hot memes, and funky art.
+**The federated timeline** is a view of all the public toots your servers knows about from across the whole network (including local ones). The most common reason that something appears in the federated timeline is that someone from your server follows the author of that toot. This column moves fast, and can often be pretty wild. I enjoy setting that column to show only toots with media, hiding boosts, then seeing a constant stream of daft selfies, hot memes, and funky art.
 
 You can also pin a column for a hashtag you're interested in -- just search for that hashtag and then in the column settings choose "pin" and done.
 
