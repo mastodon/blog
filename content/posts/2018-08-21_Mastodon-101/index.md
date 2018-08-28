@@ -26,9 +26,9 @@ This means there's no big uncaring company running it all, no shareholders, no c
 
 ### Where do I sign up?
 
-The first thing you have to do is choose your server. This sounds like a hassle but it's actually pretty great.
+The first thing you have to do is **choose your server**. This is an extra step compared to sites like Twitter or Tumblr, but isn't as difficult as it may seem.
 
-Like with email, your identity includes the server you log in to. So for example, I joined mastodon.social so to mention me you can type @nico@mastodon.social in your post. It's not as unwieldy as it sounds because the user interface doesn't show the server name when it's not helpful (like when reading conversations) and puts it in when necessary (like when you reply to someone's post from another server) and you'll find it's not a problem when you're chattering away.
+> Like with email, your identity is hosted by the server you sign up on. So for example, I joined mastodon.social so to mention me you can type @nico@mastodon.social in your post.
 
 If what you want to talk about most fits into a clear category (maybe it's video games or art or queer life or coding or fiction or whatever) then it might be worth making your first server one where that will primarily host that sort of content -- it'll be easier to make connections and find like-minded folk. Some consider your server to be like a neighbourhood or a venue where the general chatter can have a specific focus.
 
@@ -38,7 +38,7 @@ If you aren't here to stick mainly to one topic, you'll likely want to pick a se
 
 **Don't panic!** You'll be able to chatter to people on other servers, no matter which one you choose. Remember, this is like email and you can still email your mum on her ancient Yahoo account from your GMail, for example.
 
-> The word "fediverse" (federated universe) refers to the network of Mastodon servers [and other compatible software]({{< ref "posts/2018-06-27_Why-ActivityPub-is-the-future/index.md" >}}), users of which are able to talk to each other seamlessly.
+> The word "fediverse" (federated universe) refers to the network of all Mastodon servers [and other projects]({{< ref "posts/2018-06-27_Why-ActivityPub-is-the-future/index.md" >}}), users of which are able to talk to each other seamlessly.
 
 In time, you might find yourself wanting an account on another server, whether that means moving your primary account or having a secondary account for a certain aspect of yourself. This is normal behaviour on the fediverse and nothing to worry about. People are completely used to seeing the occasional post like this:
 
