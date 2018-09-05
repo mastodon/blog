@@ -466,6 +466,13 @@ body {
     }
   }
 
+  hr {
+    background: transparent;
+    border: 0;
+    border-top: 1px solid $darker;
+    margin: 26px 0;
+  }
+
   pre {
     margin-bottom: 26px;
     font-size: 16px;

@@ -329,6 +329,11 @@ body {
   .article figure figcaption,
   .article figure figcaption p {
     color: #687590; }
+.article hr {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid #687590;
+  margin: 26px 0; }
 .article pre {
   margin-bottom: 26px;
   font-size: 16px;
