@@ -40,3 +40,9 @@ This will create custom emojis in Mastodon with shortcodes like `:hacker_a:` tha
 If your Mastodon server does not have enough activity to be interesting to new users, that chicken-and-egg problem can now be solved by subscribing to a so-called **federation relay**. Federation relays are separate servers that act as a, well, *relay* between participating Mastodon servers, that is, every participating server receives every public toot from every other participating server.
 
 It has to be mentioned that the core design of Mastodon where a server receives only toots from users it follows, rather than all toots from any one server, is more scalable long-term. However, servers that don't yet follow a lot of people can often feel like ghost towns, and federation relays fix that.
+
+___
+
+**To get started with Mastodon, you can [sign up for free here](https://mastodon.cloud/about) or [here](https://mstdn.io/about), or dive into the deep end of choice [by browsing the list of servers here](https://joinmastodon.org/#getting-started). Or, [use the bridge tool to find where your Twitter friends are](https://bridge.joinmastodon.org) and sign up there.**
+
+Huge thanks to everyone who contributed to the recent releases ([see the full changelogs for accreditation](https://github.com/tootsuite/mastodon/releases/tag/v2.5.0)), to [everyone who sponsors](https://joinmastodon.org/sponsors) the project, and to everyone who makes the network worth using by being awesome tooters! 🐘
