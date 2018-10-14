@@ -1,7 +1,13 @@
 ---
-title: Mastodon 2 Year Anniversary
+title: Mastodon's 2 Year Anniversary
+subtitle: A retrospective
 draft: true
 date: 2018-10-13
+author: gargron
+categories:
+- Op-Ed
+tags:
+- mastodon
 ---
 
 Mastodon was first announced to the public through Hacker News, a link aggregator site for programmers, on October 6, 2016. Now we're celebrating the **2 year anniversary**!<!--more-->
