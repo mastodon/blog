@@ -2,38 +2,39 @@
 title: Mastodon's 2 Year Anniversary
 subtitle: A retrospective
 draft: true
-date: 2018-10-13
+date: 2018-10-14
 author: gargron
+resources:
+- name: hero
+  src: setup.png
 categories:
 - Op-Ed
 tags:
 - mastodon
 ---
 
-Mastodon was first announced to the public through Hacker News, a link aggregator site for programmers, on October 6, 2016. Now we're celebrating the **2 year anniversary**!<!--more-->
+Mastodon was first announced to the public through Hacker News, a link aggregator site for programmers, on October 6, 2016. Now we're celebrating the **2 year anniversary**! 🎉<!--more-->
 
 {{< youtube jh5buGkQVQI >}}
 
-## Network growth
+### Network growth
 
 From **45** registered users on mastodon.social, the only Mastodon server at the time, the network grew to **1,627,557** registered users on **3,460** servers. That's not counting people on non-Mastodon servers that are compatible with Mastodon via ActivityPub!
-
-{{< tweet 849424628401541121 >}}
 
 There are a lot of small servers: The median user number per server is 8 people. The biggest server hosts 415,941 accounts. The 3 largest servers combined host 52% of the network's users, the 25 largest servers host 77% of all users. This is natural as the largest servers are more known and therefore attract a lot of new people. However, for many people who stick around, they act as gateways, wherein once they learn more about Mastodon, they switch to a different, usually smaller server.
 
 The oldest servers that are still around today are mastodon.social, awoo.space, social.tchncs.de and icosahedron.website.
 
-Most exciting growth events:
+Most exciting new server growth events:
 
 - In April 2017, mstdn.jp was created by nullkal in his apartment. The first Japanese server of Mastodon went viral and saw a growth of tens of thousands accounts within a few days, and served as a catalyst for Mastodon's popularity in Japan.
 - In May 2018, after the SESTA/FOSTA laws were passed in the US and forced many sex workers into exile from mainstream social media websites, Assembly Four founded switter.at, a Mastodon server for sex workers. It grew rapidly towards a hundred thousand accounts.
 
 To this day, mastodon.social, mstdn.jp, switter.at, pawoo.net and friends.nico are the largest servers.
 
-## Development milestones
+### Development milestones
 
-From **332** commits by a single developer, the GitHub repository grew to over **6,140** commits by **513** people. Since the start of development in March 2016, **102** versions of Mastodon have been released, beginning with **v0.1.0** and ending with **v2.5.2**.
+From **332** commits by a single developer, the GitHub repository grew to over **6,140** commits by **513** people. Since the start of development in March 2016, **102** versions of Mastodon have been released, beginning with **v0.1.0** up to the latest **v2.5.2**.
 
 **4,343** pull requests were merged, and **2,851** issues were closed.
 
@@ -132,7 +133,7 @@ Here is a time table of Mastodon's most notable features, that is, features that
   - Public pages of profiles and toots are redesigned
   - Featuring friends on public profile is implemented
 
-## Press coverage
+### Press coverage
 
 In the two year span, Mastodon was covered by:
 
@@ -147,7 +148,7 @@ In the two year span, Mastodon was covered by:
 - [Autostraddle](https://www.autostraddle.com/mastodon-101-a-queer-friendly-social-network-youre-gonna-like-a-lot-390948/)
 - [Forbes](https://www.forbes.com/sites/paularmstrongtech/2017/04/09/mastodon-is-what-disruption-looks-like-right-before-it-happens/)
 
-I was interviewed on 3 podcasts:
+I was interviewed on three different podcasts:
 
 - [Software Engineering Daily](https://softwareengineeringdaily.com/2018/04/12/mastodon-federated-social-network-with-eugen-rochko/)
 - [If Then](http://www.slate.com/articles/podcasts/if_then/2018/08/mastodon_founder_eugen_rochko_is_building_a_nazi_free_alternative_to_twitter.html)
@@ -158,3 +159,16 @@ One piece of coverage stands out particularly as the source of a running joke on
 Of course, that article was wrong on many accounts, and severely underestimated Mastodon's survivability. There were many opinion pieces titled things like "Mastodon is dead in the water" predicting its timely demise. In the end, Mastodon out-survived App.net *and* Google+, a multi-million dollar project.
 
 {{< mastodon "https://mastodon.social/@jk/99032083793694002" >}}
+
+### Other
+
+Since beginning as a single repository on GitHub, Mastodon has got:
+
+- [A beautiful, dedicated homepage describing the project](https://joinmastodon.org)
+- [A dedicated blog, the one you are reading right now](https://blog.joinmastodon.org)
+- [A new documentation website](https://docs.joinmastodon.org)
+- [A GitLab server hosting many orbiting code repositories](https://source.joinmastodon.org)
+
+### The road ahead
+
+The v2.6.0 version of Mastodon is currently in the works containing many quality of life improvements, bug fixes, improved administrative tools and a decentralized version of identity verification. Based on IndieWeb ideas, every person will be able to prove ownership of the links in their profile.
