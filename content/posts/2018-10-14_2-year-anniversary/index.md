@@ -81,7 +81,7 @@ Here is a time table of Mastodon's most notable features, that is, features that
 **April 2017**
 
   - The "direct" visibility setting is added
-  - The coyote stops rotating with new GIF autoplay preferences
+  - The coyote stops rotating as new GIF autoplay preferences are added
 
 **June 2017**
 
@@ -157,20 +157,4 @@ One piece of coverage stands out particularly as the source of a running joke on
 
 Of course, that article was wrong on many accounts, and severely underestimated Mastodon's survivability. There were many opinion pieces titled things like "Mastodon is dead in the water" predicting its timely demise. In the end, Mastodon out-survived App.net *and* Google+, a multi-million dollar project.
 
-## Content highlights
-
-Here are some personal favourites from my two years on the platform:
-
 {{< mastodon "https://mastodon.social/@jk/99032083793694002" >}}
-
-{{< mastodon "https://cybre.space/@candle/99802577036824204" >}}
-
-{{< mastodon "https://dev.glitch.social/@impiaaa/99552832901157444" >}}
-
-{{< mastodon "https://cybre.space/@Bingo_Springus/99593057057401970" >}}
-
-{{< mastodon "https://slime.global/@tom/100068838687314521" >}}
-
-{{< mastodon "https://icosahedron.website/@colon_three/99206462291277529" >}}
-
-{{< mastodon "https://mastodon.social/@dnannann/100566754294752769" >}}
