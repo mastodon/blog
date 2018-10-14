@@ -14,13 +14,24 @@ From **45** registered users on mastodon.social, the only Mastodon server at the
 
 {{< tweet 849424628401541121 >}}
 
+There are a lot of small servers: The median user number per server is 8 people. The biggest server hosts 415,941 accounts. The 3 largest servers combined host 52% of the network's users, the 25 largest servers host 77% of all users. This is natural as the largest servers are more known and therefore attract a lot of new people. However, for many people who stick around, they act as gateways, wherein once they learn more about Mastodon, they switch to a different, usually smaller server.
+
+The oldest servers that are still around today are mastodon.social, awoo.space, social.tchncs.de and icosahedron.website.
+
+Most exciting growth events:
+
+- In April 2017, mstdn.jp was created by nullkal in his apartment. The first Japanese server of Mastodon went viral and saw a growth of tens of thousands accounts within a few days, and served as a catalyst for Mastodon's popularity in Japan.
+- In May 2018, after the SESTA/FOSTA laws were passed in the US and forced many sex workers into exile from mainstream social media websites, Assembly Four founded switter.at, a Mastodon server for sex workers. It grew rapidly towards a hundred thousand accounts.
+
+To this day, mastodon.social, mstdn.jp, switter.at, pawoo.net and friends.nico are the largest servers.
+
 ## Development milestones
 
 From **332** commits by a single developer, the GitHub repository grew to over **6,140** commits by **513** people. Since the start of development in March 2016, **102** versions of Mastodon have been released, beginning with **v0.1.0** and ending with **v2.5.2**.
 
 **4,343** pull requests were merged, and **2,851** issues were closed.
 
-Here is a time table of Mastodon's most notable features:
+Here is a time table of Mastodon's most notable features, that is, features that Mastodon is most known for today:
 
 **October 2016**
 
@@ -136,7 +147,9 @@ I was interviewed on 3 podcasts:
 - [If Then](http://www.slate.com/articles/podcasts/if_then/2018/08/mastodon_founder_eugen_rochko_is_building_a_nazi_free_alternative_to_twitter.html)
 - [The Changelog](https://changelog.com/podcast/315)
 
-One piece of coverage stands out particularly as the source of a running joke on Mastodon. Lance Ulanoff from Mashable opened his April 2017 article "Six Reasons Mastodon Won't Survive" with the words "William Shatner couldn't find me on Mastodon. This was a problem." Since then, Mastodon was known as the Shatner-free space, where you are safe to hide from his gaze.
+One piece of coverage stands out particularly as the source of a running joke on Mastodon. Lance Ulanoff from Mashable opened his [April 2017 article](https://mashable.com/2017/04/05/mastodon-wont-survive/) "Six Reasons Mastodon Won't Survive" with the words "William Shatner couldn't find me on Mastodon. This was a problem." Since then, Mastodon was known as the Shatner-free space, where you are safe to hide from his gaze.
+
+Of course, that article was wrong on many accounts, and severely underestimated Mastodon's survivability. There were many opinion pieces titled things like "Mastodon is dead in the water" predicting its timely demise. In the end, Mastodon out-survived App.net *and* Google+, a multi-million dollar project.
 
 ## Content highlights
 
@@ -146,12 +159,12 @@ Here are some personal favourites from my two years on the platform:
 
 {{< mastodon "https://cybre.space/@candle/99802577036824204" >}}
 
-{{< mastodon "https://dev.glitch.social/@impiaaa/99552832901157444" }}
+{{< mastodon "https://dev.glitch.social/@impiaaa/99552832901157444" >}}
 
-{{< mastodon "https://cybre.space/@Bingo_Springus/99593057057401970" }}
+{{< mastodon "https://cybre.space/@Bingo_Springus/99593057057401970" >}}
 
 {{< mastodon "https://slime.global/@tom/100068838687314521" >}}
 
-{{< mastodon "https://icosahedron.website/@colon_three/99206462291277529" }}
+{{< mastodon "https://icosahedron.website/@colon_three/99206462291277529" >}}
 
 {{< mastodon "https://mastodon.social/@dnannann/100566754294752769" >}}
