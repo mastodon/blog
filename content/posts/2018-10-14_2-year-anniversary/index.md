@@ -1,7 +1,7 @@
 ---
 title: Mastodon's 2 Year Anniversary
 subtitle: A retrospective
-draft: true
+draft: false
 date: 2018-10-14
 author: gargron
 resources:
@@ -15,7 +15,7 @@ tags:
 
 Mastodon was first announced to the public through Hacker News, a link aggregator site for programmers, on October 6, 2016. Now we're celebrating the **2 year anniversary**! 🎉<!--more-->
 
-{{< youtube jh5buGkQVQI >}}
+<div style="margin-bottom: 26px">{{< youtube jh5buGkQVQI >}}</div>
 
 ### Network growth
 
@@ -37,6 +37,10 @@ To this day, mastodon.social, mstdn.jp, switter.at, pawoo.net and friends.nico a
 From **332** commits by a single developer, the GitHub repository grew to over **6,140** commits by **513** people. Since the start of development in March 2016, **102** versions of Mastodon have been released, beginning with **v0.1.0** up to the latest **v2.5.2**.
 
 **4,343** pull requests were merged, and **2,851** issues were closed.
+
+This is what Mastodon looked like in October 2016:
+
+<div style="margin-bottom: 26px">{{< youtube YO1jQ8_rAMU >}}</div>
 
 Here is a time table of Mastodon's most notable features, that is, features that Mastodon is most known for today:
 
@@ -169,6 +173,12 @@ Since beginning as a single repository on GitHub, Mastodon has got:
 - [A new documentation website](https://docs.joinmastodon.org)
 - [A GitLab server hosting many orbiting code repositories](https://source.joinmastodon.org)
 
-### The road ahead
+### Fazit
 
-The v2.6.0 version of Mastodon is currently in the works containing many quality of life improvements, bug fixes, improved administrative tools and a decentralized version of identity verification. Based on IndieWeb ideas, every person will be able to prove ownership of the links in their profile.
+I'm very happy with Mastodon's accomplishments. Overseeing such a large project has its ups and downs, as it's impossible to keep everyone happy all the time when people have conflicting desires. Irregardless, I consider these to be the two best years of my life, as work on Mastodon is incredibly fulfilling and interacting with all the interesting people on the platform is very fun.
+
+Would I have done something differently if I was starting from scratch now? Mostly, no. I still receive comments about the name "Mastodon" not being suitable, or "toot" being too silly. I wouldn't change it. I think there is nothing wrong with being less serious, and if it alienates more corporate-minded users, that's fine. I don't wake up every day wishing to interact with my favourite brand.
+
+As for the future, development continues: The v2.6.0 version of Mastodon is currently in the works, containing many quality of life improvements, bug fixes, improved administrative tools and a decentralized version of identity verification.
+
+Mastodon has proved itself sustainable and has accomplished a lot in taking a foothold in mainstream consciousness. With more and more people become disillusioned with the tech giants, Mastodon will become ever more appealing. Let's get to ten million users next.
