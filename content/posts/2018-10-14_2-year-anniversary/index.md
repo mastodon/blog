@@ -21,7 +21,7 @@ Mastodon was first announced to the public through Hacker News, a link aggregato
 
 From **45** registered users on mastodon.social, the only Mastodon server at the time, the network grew to **1,627,557** registered users on **3,460** servers. That's not counting people on non-Mastodon servers that are compatible with Mastodon via ActivityPub!
 
-There are a lot of small servers: The median user number per server is 8 people. The biggest server hosts 415,941 accounts. The 3 largest servers combined host 52% of the network's users, the 25 largest servers host 77% of all users. This is natural as the largest servers are more known and therefore attract a lot of new people. However, for many people who stick around, they act as gateways, wherein once they learn more about Mastodon, they switch to a different, usually smaller server.
+There are a lot of small servers: The median user number per server is 8 people. The biggest server hosts 415,941 accounts. The 3 largest servers combined host 52% of the network's users, the 25 largest servers host 77% of all users [\*](http://sp3r4z.fr/mastodon/). This is natural as the largest servers are more known and therefore attract a lot of new people. However, for many people who stick around, they act as gateways, wherein once they learn more about Mastodon, they switch to a different, usually smaller server.
 
 The oldest servers that are still around today are mastodon.social, awoo.space, social.tchncs.de and icosahedron.website.
 
@@ -175,7 +175,7 @@ Since beginning as a single repository on GitHub, Mastodon has got:
 
 ### Fazit
 
-I'm very happy with Mastodon's accomplishments. Overseeing such a large project has its ups and downs, as it's impossible to keep everyone happy all the time when people have conflicting desires. Irregardless, I consider these to be the two best years of my life, as work on Mastodon is incredibly fulfilling and interacting with all the interesting people on the platform is very fun.
+I'm very happy with Mastodon's accomplishments. Overseeing such a large project has its ups and downs, as it's impossible to keep everyone happy all the time when people have conflicting desires. Regardless, I consider these to be the two best years of my life, as work on Mastodon is incredibly fulfilling and interacting with all the interesting people on the platform is very fun.
 
 Would I have done something differently if I was starting from scratch now? Mostly, no. I still receive comments about the name "Mastodon" not being suitable, or "toot" being too silly. I wouldn't change it. I think there is nothing wrong with being less serious, and if it alienates more corporate-minded users, that's fine. I don't wake up every day wishing to interact with my favourite brand.
 
