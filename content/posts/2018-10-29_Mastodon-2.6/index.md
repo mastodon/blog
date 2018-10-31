@@ -52,7 +52,7 @@ To queue up a backup for someone's account and have them receive a link to the d
 
 You get the idea! Everything except `mastodon:setup` has been moved from the `rake` interface to the `tootctl` interface.
 
-> Use `bin/tootctl --help` to browse the available commands and their documentation!
+> Use `bin/tootctl --help` to learn more about what it can do!
 
 ### Conclusion
 
