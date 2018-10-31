@@ -4,10 +4,13 @@ subtitle: "Highlights from the changelog"
 date: 2018-10-31
 draft: false
 author: gargron
+resources:
+- name: hero
+  src: screenshot-forms.png
 categories:
-  - New Features
+- New Features
 tags:
-  - mastodon
+- mastodon
 ---
 
 After more than a month of work, I am happy to announce the new version of Mastodon, with improved visuals, a new way to assert your identity, and a lot of bug fixes.<!-- more -->
