@@ -6,7 +6,7 @@ draft: false
 author: gargron
 resources:
 - name: hero
-  src: screenshot-forms.png
+  src: screenshot-forms-large.png
 categories:
 - New Features
 tags:
