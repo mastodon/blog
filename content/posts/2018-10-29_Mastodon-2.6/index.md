@@ -2,7 +2,7 @@
 title: "Mastodon 2.6 released"
 subtitle: "Highlights from the changelog"
 date: 2018-10-31
-draft: false
+draft: true
 author: gargron
 categories:
   - New Features
