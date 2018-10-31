@@ -1,8 +1,16 @@
 ---
-title: "What's cool in Mastodon 2.6.0"
+title: "Mastodon 2.6 released"
+subtitle: "Highlights from the changelog"
+date: 2018-10-31
 draft: true
 author: gargron
+categories:
+  - New Features
+tags:
+  - mastodon
 ---
+
+The new version of Mastodon has improved visuals, a new way to assert your identity, and a lot of bug fixes. Here are the most important changes from the [full changelog](https://github.com/tootsuite/mastodon/releases/tag/v2.6.0):<!-- more -->
 
 ### Verification
 
@@ -14,7 +22,7 @@ Of course the caveat is that people have to trust the linked website to be able 
 
 ### Direct messages remaster
 
-The direct messages functionality of Mastodon has been remastered. You can now browse your direct messages grouped by conversations with specific people and conversations you haven't opened will be highlighted, just like you would expect from other services.
+The direct messages functionality of Mastodon has been remastered. You can now browse your direct messages grouped by conversations with specific people and conversations you haven't opened will be highlighted, just like you would expect from other services. This should make keeping up with important messages easier.
 
 ### In-stream link previews
 
@@ -38,6 +46,10 @@ To queue up a backup for someone's account and have them receive a link to the d
 
     bin/tootctl accounts backup alice93
 
-You get the idea! Everything except `mastodon:setup` has been moved from the `rake` interface to the `tootctl` interface.
+You get the idea! Everything except `mastodon:setup` has been moved from the `rake` interface to the `tootctl` interface. Use `bin/tootctl --help` to browse the available commands and their documentation!
 
-### Other
+### Conclusion
+
+**To get started with Mastodon, you can [sign up for free here](https://mastodon.social/about) or [here](https://mastodon.cloud/about), or dive into the deep end of choice [by browsing the list of servers here](https://joinmastodon.org/#getting-started). Or, [use the bridge tool to find where your Twitter friends are](https://bridge.joinmastodon.org) and sign up there.**
+
+As always, huge thanks to [everyone who contributed to this release](https://github.com/tootsuite/mastodon/releases/tag/v2.6.0), to [everyone who sponsors](https://joinmastodon.org/sponsors) the project on [Patreon](https://patreon.com/mastodon), and to everyone who uses the network! 🐘
