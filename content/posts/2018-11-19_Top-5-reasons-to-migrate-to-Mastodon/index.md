@@ -1,6 +1,7 @@
 ---
 title: From Tumblr to Mastodon
 subtitle: 5 reasons to switch
+description: A lot of artists have lost their blogs in the Tumblr purge. Here are 5 reasons why Mastodon is the perfect alternative.
 date: 2018-11-19
 draft: false
 author: gargron
