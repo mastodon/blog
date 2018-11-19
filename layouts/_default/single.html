@@ -3,10 +3,10 @@
 <html lang="en">
   <head>
     {{ partial "head.html" . }}
-    <title>{{ .Page.Title }} - {{ .Site.Title }}</title>
+    <title>{{ .Page.Title }}{{ if isset .Params "subtitle" }}: {{ .Params.subtitle }}{{ end }} - {{ .Site.Title }}</title>
 
     <meta property="og:title" content="{{ .Title }}" />
-    <meta property="og:description" content="{{ .Summary }}" />
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ .Permalink }}" />
 
