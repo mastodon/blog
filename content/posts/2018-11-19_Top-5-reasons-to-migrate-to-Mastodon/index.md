@@ -1,5 +1,6 @@
 ---
 title: 5 reasons to migrate to Mastodon as an artist
+date: 2018-11-19
 draft: false
 author: gargron
 tags:
