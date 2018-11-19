@@ -25,5 +25,5 @@
     {{ .Date.Format "Jan 2, 2006" }}
   </time>
 
-  <div class="summary p-summary">{{ .Summary }}</div>
+  <div class="summary p-summary">{{ with .Description}}{{ . }}{{ else }}{{ .Summary }}{{ end }}</div>
 </div>
