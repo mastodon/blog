@@ -1,6 +1,6 @@
 ---
-title: Top 5 reasons to migrate to Mastodon
-draft: true
+title: 5 reasons to migrate to Mastodon as an artist
+draft: false
 author: gargron
 tags:
 - tumblr
