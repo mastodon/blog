@@ -13,7 +13,7 @@ categories:
 - Op-Ed
 ---
 
-[Apple has delisted the Tumblr app from its store][apple] due to the large amount of adult content on the site. Tumblr has decided to resolve the situation by purging all adult content from its servers, which is not the first in a series of gradual steps against adult content they have taken. A lot of artists and other creators have lost their blogs, and are now looking for alternatives. **Let me outline why Mastodon is the perfect choice here**:<!-- more -->
+[After Apple has delisted the Tumblr app from its store][apple] citing a large amount of adult content on the site, artists and other creators are reporting having their blogs deleted, and are now looking for alternatives. Before choosing another commercial solution like Twitter, **let me outline why Mastodon is the better choice**:<!--more-->
 
 1\. Mastodon has a flexible approach to adult content. Unlike Tumblr and Twitter, your entire account isn't either safe-for-work or not-safe-for-work. Each individual post can be marked as not-safe-for-work, with the media attachments conveniently hidden behind a spoiler until you choose to view them. You as a viewer can, of course, opt in to skip the spoilers automatically. Bonus round: You don't need to be logged in to view sensitive content.
 
