@@ -34,7 +34,7 @@ Last but not least, decentralization is about fixing power asymmetry. A centrali
 
 Any alternative social network that rejects decentralization will ultimately struggle with these issues. And if it won't perish like those that tried and failed before it, it will simply become that which it was meant to replace.
 
-### Digging deeper
+**Digging deeper:**
 
 - [How Mastodon uses decentralization](https://docs.joinmastodon.org/usage/decentralization/)
 - [The nature of the self in the digital age](https://2018.ar.al/notes/the-nature-of-the-self-in-the-digital-age/)
