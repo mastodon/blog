@@ -3,11 +3,20 @@ title: "Why does decentralization matter?"
 date: 2018-12-30
 draft: true
 author: gargron
+categories:
+- Op-Ed
+tags:
+- mastodon
+- facebook
+- twitter
+- decentralization
 ---
 
 Decentralization fundamentally changes the business model of running a social network because it dramatically reduces operating costs. It absolves a single entity of having to shoulder all operating costs alone, as no single server needs to grow beyond its comfort zone and financial capacity. Furthermore the entry cost is near zero, which means an operator of a Mastodon server does not need to seek venture capital or other forms of investment which would pressure them to use large-scale monetization schemes. There is a reason why the $1 per year business model of WhatsApp was rejected by Facebook executives after its acquisition: It is sustainable and fair, but it does not provide the same unpredictable, potentially unbound return of investement that makes stock prices go up as advertising does.
 
 If you are Facebook, that's good for you. But if you are a user of Facebook... The interests of the company and the user are at odds with each other, from which the old adage comes that if you are not paying, you are the product. And it shines through in dark patterns like defaulting to non-chronological feeds (because it's hard to tell if you've seen everything on the page before, it leads to more scrolling or refreshing, which leads to more ad impressions), sending e-mails about unread notifications that don't actually exist, tracking your browsing behaviour across the internet to find out who you are...
+
+But the good thing about a centralized platform, I hear, is that everything is in one place, so you don't have to search around! If you think about it though, is that really a good thing, or is that the reason that Mark Zuckerberg had to answer in front of the congress? Is that why a security breach affecting Facebook (or one of their "special relationships" with other companies) exposes private information of millions of people at the same time? At the end of the day, people overestimate how much content centralization matters for their personal experience (which usually only sees a tiny slice of it), and underestimate how easy it is to discover stuff on a decentralized platform.
 
 Decentralization is biodiversity of the digital world, the hallmark of a healthy ecosystem. A network such as Mastodon and the fediverse form allows different user interfaces, different software, different forms of government to co-exist and cooperate, and when some disaster strikes, some will be more adapted to it than others, and survive what a monoculture wouldn't. You don't have to think long for recent examples, take for example the FOSTA/SESTA bill passed in the US, which turned out to be awful for sex workers, and which affected literally every mainstream social network because they are all based in the US. In Germany, sex work is legal, so why should sex workers in Germany be unable to participate in social media?
 
@@ -15,6 +24,4 @@ One of the other things a decentralized network is more resilient to is censorsh
 
 Last but not least, decentralization is about fixing power assymetry. A centralized social media platform has a hierarchical structure where rules and their enforcement, the development and direction of the platform are decided by the CEO, board of governors, and CTO, with the users having close to no options of disagreeing. You can't walk away when the platform holds all your friends, contacts and audience. A decentralized network deliberately relinquishes control of the platform owner by, essentially, not having one. For example I, as the developer of Mastodon, have only an advisory influence: I can develop new features and publish new releases, but cannot force anyone to upgrade to them if they don't want to; have no control over any Mastodon server except my own no more than I have control over any other website on the internet. That means the network is not subject to my whims, it can adapt to situations faster than I, and serve use cases I couldn't have predicted.
 
-But the good thing about a centralized platform, I hear, is that everything is in one place, so you don't have to search around! If you think about it though, is that really a good thing, or is that the reason that Mark Zuckerberg had to answer in front of the congress? Is that why a security breach affecting Facebook (or one of their "special relationships" with other companies) exposes private information of millions of people at the same time?
-
-Any alternative social network that rejects decentralization will ultimately struggle with these issues, and if it won't perish like those that tried and failed before it, it will become that which it replaces.
+Any alternative social network that rejects decentralization will ultimately struggle with these issues, and if it won't perish like those that tried and failed before it, it will simply become that which it was meant to replace.
