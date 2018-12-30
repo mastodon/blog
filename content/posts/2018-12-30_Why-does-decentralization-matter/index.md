@@ -3,7 +3,9 @@ title: "Why does decentralization matter?"
 date: 2018-12-30
 draft: false
 author: gargron
-hero: https://docs.joinmastodon.org/decentralization.png
+resources:
+- name: hero
+  src: decentralization.jpg
 categories:
 - Op-Ed
 tags:
