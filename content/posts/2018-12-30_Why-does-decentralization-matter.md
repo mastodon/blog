@@ -12,6 +12,12 @@ tags:
 - decentralization
 ---
 
+I've been writing about Mastodon for two whole years now, and it occurred to me that at no point did I lay out why anyone should care about decentralization in clear and consise text. I have, of course, explained it in interviews, and you will find some of the arguments here and there in promotional material, but this article should answer that question once and for all.
+
+> **decentralization**, noun: The dispersion or distribution of functions and powers; The delegation of power from a central authority to regional and local authorities. 
+>
+> **fediverse**, noun: The decentralized social network formed by Mastodon, Pleroma, Misskey and others using the ActivityPub standard.
+
 Decentralization upends the social network business model by dramatically reducing operating costs. It absolves a single entity of having to shoulder all operating costs alone. No single server needs to grow beyond its comfort zone and financial capacity. As the entry cost is near zero, an operator of a Mastodon server does not need to seek venture capital, which would pressure them to use large-scale monetization schemes. There is a reason why Facebook executives rejected the $1 per year business model of WhatsApp after its acquisition: It is sustainable and fair, but it does not provide the same unpredictable, potentially unbound return of investement that makes stock prices go up. Like advertising does.
 
 If you are Facebook, that's good for you. But if you are a user of Facebook... The interests of the company and the user are at odds with each other, from which the old adage comes that if you are not paying, you are the product. And it shines through in dark patterns like defaulting to non-chronological feeds (because it's hard to tell if you've seen everything on the page before, it leads to more scrolling or refreshing, which leads to more ad impressions), sending e-mails about unread notifications that don't actually exist, tracking your browsing behaviour across the internet to find out who you are...
