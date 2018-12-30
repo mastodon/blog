@@ -5,7 +5,7 @@ draft: false
 author: gargron
 resources:
 - name: hero
-  src: decentralization.jpg
+  src: decentralization.png
 categories:
 - Op-Ed
 tags:
