@@ -1,5 +1,6 @@
 ---
 title: "Why does decentralization matter?"
+description: "Reasons why you should care about how your social network is run and structured"
 date: 2018-12-30
 draft: false
 author: gargron
@@ -15,7 +16,7 @@ tags:
 - decentralization
 ---
 
-I've been writing about Mastodon for two whole years now, and it occurred to me that at no point did I lay out why anyone should care about decentralization in clear and consise text. I have, of course, explained it in interviews, and you will find some of the arguments here and there in promotional material, but this article should answer that question once and for all.
+I've been writing about Mastodon for two whole years now, and it occurred to me that at no point did I lay out why anyone should care about decentralization in clear and concise text. I have, of course, explained it in interviews, and you will find some of the arguments here and there in promotional material, but this article should answer that question once and for all.
 
 > **decentralization**, noun: The dispersion or distribution of functions and powers; The delegation of power from a central authority to regional and local authorities. 
 >
