@@ -33,3 +33,8 @@ A decentralized network is also more resilient to censorship--and I do mean the 
 Last but not least, decentralization is about fixing power asymmetry. A centralized social media platform has a hierarchical structure where rules and their enforcement, as well as the development and direction of the platform, are decided by the CEO, with the users having close to no ways to disagree. You can't walk away when the platform holds all your friends, contacts and audience. A decentralized network deliberately relinquishes control of the platform owner, by essentially not having one. For example, as the developer of Mastodon, I have only an advisory influence: I can develop new features and publish new releases, but cannot force anyone to upgrade to them if they don't want to; I have no control over any Mastodon server except my own, no more than I have control over any other website on the internet. That means the network is not subject to my whims; it can adapt to situations faster than I can, and it can serve use cases I couldn't have predicted.
 
 Any alternative social network that rejects decentralization will ultimately struggle with these issues. And if it won't perish like those that tried and failed before it, it will simply become that which it was meant to replace.
+
+### Digging deeper
+
+- [How Mastodon uses decentralization](https://docs.joinmastodon.org/usage/decentralization/)
+- [The nature of the self in the digital age](https://2018.ar.al/notes/the-nature-of-the-self-in-the-digital-age/)
