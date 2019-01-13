@@ -16,6 +16,10 @@ tags:
 - decentralization
 ---
 
+Japanese translation is available: [なぜ脱中央集権（decentralization）が重要なのか？]({{< relref path="2018-12-30_Why-does-decentralization-matter" lang="ja" >}})
+
+---
+
 I've been writing about Mastodon for two whole years now, and it occurred to me that at no point did I lay out why anyone should care about decentralization in clear and concise text. I have, of course, explained it in interviews, and you will find some of the arguments here and there in promotional material, but this article should answer that question once and for all.
 
 > **decentralization**, noun: The dispersion or distribution of functions and powers; The delegation of power from a central authority to regional and local authorities. 
