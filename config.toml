@@ -8,3 +8,11 @@ pygmentsStyle = "dracula"
 
 [permalinks]
   posts = "/:year/:month/:slug/"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.ja]
+    languageName = "日本語"
+    weight = 2
