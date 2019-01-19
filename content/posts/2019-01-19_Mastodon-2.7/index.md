@@ -25,7 +25,7 @@ One of the new features is a **profile directory** that people can opt-in to. Th
 
 The **tutorial** that new people see after signing up has been completely reworked. It has a tighter narrative: Rather than explaining the minutea of the default user interface, it focuses on the main concepts of Mastodon, from which the interface is a derivation. And it is accompanied by colorful illustrations. It also has the benefit of loading a bit faster, since it's not a modal window laid over the interface, but rather it loads *before* the interface.
 
-{{< figure src="Screenshot_2019-01-19 #catstodon.png" caption="Public hashtag page for #catstodon" >}}
+{{< figure src="Screenshot_2019-01-19 catstodon.png" caption="Public hashtag page for #catstodon" >}}
 
 The **public hashtag page** now makes better use of screen estate by arranging toots in a masonry grid instead of a narrow column. The public hashtag page is the page outside the columnized web interface that logged in users see and use--it is a page oriented primarily towards anonymous viewers.
 
