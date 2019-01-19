@@ -39,6 +39,8 @@ By running that command from my machine, I was able to gather these figures: **2
 
 The other new command is `tootctl accounts follow` and it allows you to make the users on your server follow a specified account. As a reminder, users on Mastodon follow their administrator by default, both for important announcements as well as to kickstart their home feed with something when they're new. So that command is useful in those rare cases where the administrator needs to change their account.
 
+> To learn more about a `tootctl` command, append `--help` to it, for example: `tootctl domains crawl --help`
+
 This is far from everything included in the release--there are many smaller improvements, like CSV export for lists and domain blocks, volume sliders for videos, ability to follow multiple hashtags from the same column, improved emoji support, better defences against spammers with MX checks, and more.
 
 ### Conclusion
