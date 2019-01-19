@@ -4,6 +4,9 @@ subtitle: "Highlights from the changelog"
 date: 2019-01-19
 draft: true
 author: gargron
+resources:
+- name: hero
+  src: hero.png
 categories:
 - New Features
 tags:
@@ -33,7 +36,11 @@ The **public hashtag page** now makes better use of screen estate by arranging t
 
 Of course, because it's hard to generalize, and some trolls and spam bots are best contained when they don't realize they are being contained, that notification system can be overriden on a case by case basis.
 
+{{< figure src="Screenshot_2019-01-19 TheKinrar mastodon xyz - Mastodon.png" caption="Admin interface for a remote account" >}}
+
 The moderation interfaces for accounts and instances has also been reworked. Accounts now display the most important numbers in an easy to skim grid. Some useless information has been removed, and some useful information has been added, such as when the user signed up, or who sent them an invite. For accounts from other servers, you can now see which local users follow them at a glance.
+
+{{< figure src="Screenshot_2019-01-19 Federation - Mastodon.png" caption="Administration interface for known servers" >}}
 
 The administration interfaces for known servers and domain blocks have been unified into a common area. Besides displaying how many accounts are known from a particular server, you can now also see how many accounts are followed from your server, how many of their accounts are following your users, how many have been individually blocked or reported, and how much disk space that server's media attachments are taking up.
 
