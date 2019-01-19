@@ -14,8 +14,8 @@ The fresh release of Mastodon brings long-overdue improvements to discoverabilit
 
 The 2.7 release consists of **376 commits** by **36 contributors** since October 31, 2018. For line-by-line attributions, you can peruse the [changelog file][changelog], and for a historically complete list of contributors and translators, you can refer to the [authors file][authors], both included in the release.
 
-[changelog]: #todo
-[authors]: #todo
+[changelog]: https://github.com/tootsuite/mastodon/blob/v2.7.0/CHANGELOG.md
+[authors]: https://github.com/tootsuite/mastodon/blob/v2.7.0/AUTHORS.md
 
 One of the new features is a **profile directory** that people can opt-in to. The directory allows you to see at a glance active posters on a given Mastodon server and filter them by the hashtags in their profile bio. So you can find people who share your interests without reading through the public timelines, and you can even find out who to follow from a different Mastodon server without needing to sign up and lurk there!
 
@@ -51,3 +51,8 @@ As always, huge thanks to everyone who contributed to this release, to [everyone
 
 [sponsors]: https://joinmastodon.org/sponsors
 [patreon]: https://patreon.com/mastodon
+
+### Resources
+
+- [Full changelog](https://github.com/tootsuite/mastodon/releases/tag/v2.7.0)
+- [User documentation](https://docs.joinmastodon.org/usage/basics/)
