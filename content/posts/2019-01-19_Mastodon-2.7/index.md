@@ -1,7 +1,13 @@
 ---
-title: Mastodon 2.7
+title: Mastodon 2.7 released
+subtitle: "Highlights from the changelog"
+date: 2019-01-19
 draft: true
 author: gargron
+categories:
+- New Features
+tags:
+- mastodon
 ---
 
 The fresh release of Mastodon brings long-overdue improvements to discoverability of content and the administration interface, as well as a large number of bug fixes and extra polish.
