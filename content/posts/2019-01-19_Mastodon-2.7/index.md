@@ -1,6 +1,7 @@
 ---
-title: Mastodon 2.7 released
+title: Mastodon 2.7
 subtitle: "Highlights from the changelog"
+description: "In this release: New profile directory, new tutorial, new public hashtag pages and more moderation tools"
 date: 2019-01-19
 draft: true
 author: gargron
