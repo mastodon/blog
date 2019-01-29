@@ -1,5 +1,6 @@
 ---
 title: "Mastodon quick start guide"
+description: "So you want to join Mastodon and get tooting. Great! Here's how to dive straight in."
 date: 2018-08-27
 draft: false
 author: nico
@@ -12,7 +13,11 @@ tags:
 - mastodon
 ---
 
-So you want to join Mastodon and get tooting. Great! Here's how to dive straight in.<!--more-->
+Polish translation is available: [Przewodnik po Mastodonie]({{< relref path="2018-08-21_Mastodon-101" lang="pl" >}})
+
+---
+
+So you want to join Mastodon and get tooting. Great! Here's how to dive straight in.
 
 ### Let's start with the basics. What is this?
 

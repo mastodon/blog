@@ -1,6 +1,7 @@
 ---
 title: "Why we must oppose the new copyright directive"
 subtitle: "It's pretty bad"
+description: "A committee of members of the European Parliament have voted to approve Article 11 and Article 13, which pose a risk to the decentralization of the web and freedom of creative expression."
 date: 2018-06-25
 draft: false
 author: gargron
@@ -16,7 +17,11 @@ tags:
 - copyright
 ---
 
-A committee of members of the European Parliament [have voted to approve Article 11 and Article 13](https://www.bbc.com/news/technology-44546620), which pose a risk to the decentralization of the web and freedom of creative expression.<!--more-->
+Polish translation is available: [Dlaczego musimy sprzeciwić się nowej dyrektywie o prawie autorskim]({{< relref path="2018-06-25_Why-we-must-oppose-the-new-EU-copyright-directive" lang="pl" >}})
+
+---
+
+A committee of members of the European Parliament [have voted to approve Article 11 and Article 13](https://www.bbc.com/news/technology-44546620), which pose a risk to the decentralization of the web and freedom of creative expression.
 
 Article 11 is commonly known as the Link Tax, wherein linking to public pages may become illegal if the link displays a content preview using OpenGraph tags included by the page authors; Article 13 mandates that all user submissions must go through a content filter to detect copyright violations.
 

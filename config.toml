@@ -16,3 +16,6 @@ pygmentsStyle = "dracula"
   [languages.ja]
     languageName = "日本語"
     weight = 2
+  [languages.pl]
+    languageName = "Polski"
+    weight = 3
