@@ -14,6 +14,10 @@ tags:
 - mastodon
 ---
 
+Polish translation is available: [Mastodon 2.7]({{< relref path="2019-01-19_Mastodon-2.7" lang="pl" >}})
+
+---
+
 The fresh release of Mastodon brings long-overdue improvements to discoverability of content and the administration interface, as well as a large number of bug fixes and extra polish.
 
 The 2.7 release consists of **376 commits** by **36 contributors** since October 31, 2018. For line-by-line attributions, you can peruse the [changelog file][changelog], and for a historically complete list of contributors and translators, you can refer to the [authors file][authors], both included in the release.
