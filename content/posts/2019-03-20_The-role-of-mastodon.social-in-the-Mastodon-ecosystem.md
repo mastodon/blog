@@ -1,7 +1,7 @@
 ---
 title: "The role of mastodon.social in the Mastodon ecosystem"
 date: 2019-03-20
-draft: true
+draft: false
 author: gargron
 categories:
 - Op-Ed
