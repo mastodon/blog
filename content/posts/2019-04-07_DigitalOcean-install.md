@@ -18,4 +18,4 @@ The only necessary information for the prompt is a domain name (it should alread
 
 Optionally, the setup prompt can also take Amazon S3, Wasabi or Google Cloud credentials for storing user uploads in the cloud instead of the local filesystem on the droplet.
 
-What you get in the droplet is a standard installation of Mastodon, exactly as if you simply followed installation instructions in our documentation. This means that the documentation already covers everything you might want to know! 
+What you get in the droplet is a standard installation of Mastodon, exactly as if you simply followed installation instructions in our documentation. This means that [the documentation](https://docs.joinmastodon.org) already covers everything you might want to know! 
