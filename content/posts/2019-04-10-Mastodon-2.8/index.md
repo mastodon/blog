@@ -19,6 +19,20 @@ The 2.8 release consists of **392 commits** by **32 contributors** since January
 [changelog]: https://github.com/tootsuite/mastodon/blob/v2.8.0/CHANGELOG.md
 [authors]: https://github.com/tootsuite/mastodon/blob/v2.8.0/AUTHORS.md
 
+Mastodon now has a **poll feature**. Instead of attaching images or video to your post, you can ask your followers to choose an answer to your question. You can choose how long a poll will remain open for. Polls in private posts are accessible only to your followers.
+
+You can now choose which **hashtags to feature on your profile**. They will be displayed on the sidebar and allow visitors to browse your posts specifically under those hashtags.
+
+A new server setting will allow communities to grow without worrying about spammers, trolls, or unexpected traffic spikes: Instead of allowing everyone to sign up, or allowing nobody to sign up, a server owner can choose to let people **apply for an invite** and manually approve sign-ups.
+
+The **landing page has been simplified** to its essence: Sign up form, quick access to a login form for returning users, short and to the point information about the server, and links to ways of exploring the server.
+
+The design of profiles within the web app has been changed to match the design of public profiles more closely, making better use of space and showing the header image without obscuring it.
+
+There is a new **powerful UI for managing your followers and follows**. It allows you to filter them by various criteria, such as your mutuals, or who hasn't been active in a long time, and you can unfollow them in batches, as well as remove them from your followers in batches.
+
+In a similar vein, the import tool for follows, mutes, and blocks now allows you to choose whether the imported data will merge with what you already had in your account, or replace it.
+
 ### Conclusion
 
 **Contributors to this release:** [Aditoo17](https://github.com/Aditoo17), [armandfardeau](https://github.com/armandfardeau), [aurelien-reeves](https://github.com/aurelien-reeves), [BenLubar](https://github.com/BenLubar) [enewhuis](https://github.com/enewhuis), [Gargron](https://github.com/Gargron), [hinaloe](https://github.com/hinaloe), [jeroenpraat](https://github.com/jeroenpraat), [Kjwon15](https://github.com/Kjwon15), [koyuawsmbrtn](https://github.com/koyuawsmbrtn), [m4sk1n](https://github.com/m4sk1n), [mabkenar](https://github.com/mabkenar), [marek-lach](https://github.com/marek-lach), [mayaeh](https://github.com/mayaeh), [noellabo](https://github.com/noellabo), [nolanlawson](https://github.com/nolanlawson), [palindromordnilap](https://github.com/palindromordnilap), [Quenty31](https://github.com/Quenty31), [renatolond](https://github.com/renatolond), [rinsuki](https://github.com/rinsuki), [salvadorpla](https://github.com/salvadorpla), [sascha-sl](https://github.com/sascha-sl), [Shleeble](https://github.com/Shleeble), [Slaynash](https://github.com/Slaynash), [slice](https://github.com/slice), [ThibG](https://github.com/ThibG), [xgess](https://github.com/xgess), [yagizhan49](https://github.com/yagizhan49), [ykzts](https://github.com/ykzts), [ysksn](https://github.com/ysksn)
