@@ -14,7 +14,7 @@ tags:
 - mastodon
 ---
 
-Hi! These are the patch notes.
+In this long-awaited release: Polls, new tools for managing followers, new frontpage design, new admin features, Keybase integration, and more.
 
 {{< figure src="poll.png" caption="A poll" >}}
 
