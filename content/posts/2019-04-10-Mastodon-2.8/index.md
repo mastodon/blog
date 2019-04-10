@@ -1,7 +1,7 @@
 ---
 title: "Mastodon 2.8"
 subtitle: "Highlights from the changelog"
-description: "In this release: Polls, new tools for managing followers, new frontpage design, new admin features and more"
+description: "In this release: Polls, new tools for managing followers, new frontpage design, new admin features, Keybase integration, and more"
 date: 2019-04-10
 draft: true
 author: gargron
@@ -19,15 +19,23 @@ The 2.8 release consists of **392 commits** by **32 contributors** since January
 [changelog]: https://github.com/tootsuite/mastodon/blob/v2.8.0/CHANGELOG.md
 [authors]: https://github.com/tootsuite/mastodon/blob/v2.8.0/AUTHORS.md
 
+{{< figure src="poll.png" caption="A poll" >}}
+
 Mastodon now has a **poll feature**. Instead of attaching images or video to your post, you can ask your followers to choose an answer to your question. You can choose how long a poll will remain open for. Polls in private posts are accessible only to your followers.
+
+{{< figure src="featured-tags.png" caption="Featured hashtags on an artist's profile" >}}
 
 You can now choose which **hashtags to feature on your profile**. They will be displayed on the sidebar and allow visitors to browse your posts specifically under those hashtags.
 
 A new server setting will allow communities to grow without worrying about spammers, trolls, or unexpected traffic spikes: Instead of allowing everyone to sign up, or allowing nobody to sign up, a server owner can choose to let people **apply for an invite** and manually approve sign-ups.
 
+{{< figure src="landing-page.png" caption="The new landing page" >}}
+
 The **landing page has been simplified** to its essence: Sign up form, quick access to a login form for returning users, short and to the point information about the server, and links to ways of exploring the server.
 
 The design of profiles within the web app has been changed to match the design of public profiles more closely, making better use of space and showing the header image without obscuring it.
+
+{{< figure src="relationship-manager.png" caption="Manage follows and followers" >}}
 
 There is a new **powerful UI for managing your followers and follows**. It allows you to filter them by various criteria, such as your mutuals, or who hasn't been active in a long time, and you can unfollow them in batches, as well as remove them from your followers in batches.
 
