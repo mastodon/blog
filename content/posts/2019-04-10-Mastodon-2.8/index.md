@@ -3,7 +3,7 @@ title: "Mastodon 2.8"
 subtitle: "Highlights from the changelog"
 description: "In this release: Polls, new tools for managing followers, new frontpage design, new admin features, Keybase integration, and more"
 date: 2019-04-10
-draft: true
+draft: false
 author: gargron
 resources:
 - name: hero
