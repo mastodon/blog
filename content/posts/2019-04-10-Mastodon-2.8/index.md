@@ -14,7 +14,7 @@ tags:
 - mastodon
 ---
 
-The 2.8 release consists of **410 commits** by **32 contributors** since January 20, 2019. For line-by-line attributions, you can peruse the [changelog file][changelog], and for a historically complete list of contributors and translators, you can refer to the [authors file][authors], both included in the release.
+The 2.8 release consists of **392 commits** by **32 contributors** since January 28, 2019. For line-by-line attributions, you can peruse the [changelog file][changelog], and for a historically complete list of contributors and translators, you can refer to the [authors file][authors], both included in the release.
 
 [changelog]: https://github.com/tootsuite/mastodon/blob/v2.8.0/CHANGELOG.md
 [authors]: https://github.com/tootsuite/mastodon/blob/v2.8.0/AUTHORS.md
