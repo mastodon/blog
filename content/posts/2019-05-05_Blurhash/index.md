@@ -1,17 +1,22 @@
 ---
-title: What is Blurhash?
+title: "Improving support for adult content on Mastodon"
+subtitle: "Introducing Blurhash in Mastodon 2.8.1"
+description: "Using the Blurhash algorithm in Mastodon 2.8.1 to generate prettier previews for sensitive media"
 author: gargron
 date: 2019-05-05
-draft: true
+draft: false
 tags:
 - mastodon
 categories:
 - New Features
+resources:
+- name: hero
+  src: hero.png
 ---
 
-The latest point release of Mastodon (2.8.1) adds a small new feature that might have a significant impact on all adult content creators on the platform. The feature has a fancy, memorable name: Blurhash. But first, let's talk about how adult content works on Mastodon.
+The latest point release of Mastodon adds a small new feature that might have a significant impact on all adult content creators on the platform. The feature has a fancy, memorable name: Blurhash. But first, let's talk about how adult content works on Mastodon.
 
-Mastodon allows you to put content warnings on post. These can be textual, hiding the text content, for example if you want to talk about spoilers or something uncomfortable for other people. Images and videos can be hidden as well, even while leaving the text visible. When the images and videos are hidden, you only see a black box where they would be, that can be clicked to show them.
+Mastodon allows you to put content warnings on posts. These can be textual, hiding the text content, for example if you want to talk about spoilers or something uncomfortable for other people. Images and videos can be hidden as well, even while leaving the text visible. When the images and videos are hidden, you only see a black box where they would be, that can be clicked to show them.
 
 Beyond providing visual protection against say, co-workers looking over your shoulder to see something inappropriate on your screen, Mastodon also does not load said images or videos at all until you choose to unhide them, which helps if it's important that inappropriate content is not stored in your browser's cache. But there is a drawback. Every post with hidden media looks the same. They all blend together. Especially in public timelines, which provide a stream of all public posts that people use to explore Mastodon outside of their friend circle. As a result, posts with hidden media usually get less interactions.
 
