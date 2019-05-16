@@ -1,14 +1,17 @@
 ---
-title: "Introduction of the Mastodon Server Covenant"
+title: "Introducing the Mastodon Server Covenant"
 subtitle: "Changes to the joinmastodon.org server picker"
-description: "To provide a safer experience to new Mastodon users, we are changing the joinmastodon.org server picker and introducing some new requirements"
-draft: true
+description: "To provide a safer experience to new Mastodon users, we are changing the joinmastodon.org server picker"
+draft: false
 author: gargron
 date: 2019-05-16
 tags:
 - mastodon
 categories:
 - Op-Ed
+resources:
+- name: hero
+  src: hero.png
 ---
 Although Mastodon has no central authority, we as a project still want to provide a safer experience than found on Twitter or Reddit. One of the things that gave impetus to the creation of Mastodon was a lack of moderation on Twitter against hate groups. The "no nazis" rule of the original mastodon.social server not only continues to serve as a major attraction of the project, but has also been adopted in the majority of subsequently founded communities as well. 
 
