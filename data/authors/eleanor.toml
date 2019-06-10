@@ -1,0 +1,5 @@
+name = "Eleanor"
+bio = "Editorial Director for the Official Mastodon Blog."
+
+[social]
+mastodon = "https://mastodon.social/@sociallyeleanor"
