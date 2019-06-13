@@ -7,6 +7,9 @@ tags:
 - mastodon
 categories:
 - New Features
+resources:
+- name: hero
+  src: single-column-layout.png
 ---
 
 One of the biggest obstacles for new users to Mastodon has been the multi-column UI. For users accustomed to the single-column layouts of Twitter or Tumblr, Mastodon’s multi-column layout can be overwhelming. At Mastodon, we want users’ first-day experience with us to be a positive and accessible one! A UI that feels cluttered or that leaves users confused dramatically reduces the chances that they will come back to Mastodon as a regular user. It was clear to us that the multi-column layout was impeding this accessibility.
