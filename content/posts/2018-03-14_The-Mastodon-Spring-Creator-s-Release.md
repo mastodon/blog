@@ -10,6 +10,7 @@ categories:
 tags:
 - mastodon
 - art
+- changelog
 ---
 
 The development of the next version of Mastodon coincided with the reveal of Vero, yet another commercial social network silo backed by millionaires with a shady past. Vero has struck a chord, at least until people [caught on to its background](https://twitter.com/_heyheytyler/status/968301107536523265), and it wasn’t just because of its unlimited marketing budget. It has struck a chord because it promised an alternative to Instagram, which started getting progressively worse for creators after being acquired by Facebook. The algorithmic timelines have led to a reality where your post could either get lucky and be seen by all of Instagram, or never be seen by your own followers.

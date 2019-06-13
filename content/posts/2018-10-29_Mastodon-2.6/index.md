@@ -11,6 +11,7 @@ categories:
 - New Features
 tags:
 - mastodon
+- changelog
 ---
 
 After more than a month of work, I am happy to announce the new version of Mastodon, with improved visuals, a new way to assert your identity, and a lot of bug fixes.<!-- more -->

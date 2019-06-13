@@ -12,6 +12,7 @@ categories:
 - New Features
 tags:
 - mastodon
+- changelog
 ---
 
 In this long-awaited release: Polls, new tools for managing followers, new frontpage design, new admin features, Keybase integration, and more.

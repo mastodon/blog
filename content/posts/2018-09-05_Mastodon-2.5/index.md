@@ -8,6 +8,7 @@ categories:
 - New Features
 tags:
 - mastodon
+- changelog
 ---
 
 Mastodon 2.5 is the 100th released version of Mastodon since the project's inception almost 2 years ago.<!-- more --> It brings a variety of improvements to the software, the full list of which is [available in the changelog](https://github.com/tootsuite/mastodon/releases/tag/v2.5.0).

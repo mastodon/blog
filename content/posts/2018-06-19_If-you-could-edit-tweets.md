@@ -8,6 +8,7 @@ categories:
 - New Features
 tags:
 - mastodon
+- changelog
 ---
 
 A fresh new release of the federated social network software is here, and while the primary focus of it has been on fixing bugs and improving performance, it brings a couple of notable new features to the board.

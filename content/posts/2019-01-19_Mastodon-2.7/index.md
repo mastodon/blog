@@ -12,6 +12,7 @@ categories:
 - New Features
 tags:
 - mastodon
+- changelog
 ---
 
 Polish translation is available: [Mastodon 2.7]({{< relref path="2019-01-19_Mastodon-2.7" lang="pl" >}})
