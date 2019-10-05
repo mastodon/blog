@@ -12,7 +12,7 @@
     <li><a href='/'>All</a></li>
 
     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-      <li><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+      <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
     {{ end }}
   </ul>
 </header>
