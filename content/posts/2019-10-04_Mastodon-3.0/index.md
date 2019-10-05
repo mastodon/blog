@@ -1,6 +1,6 @@
 ---
-title: "Mastodon 3.0 Released"
-subtitle: "A short overview of some of our newest features!"
+title: "Mastodon 3.0 released"
+subtitle: "A short overview of some of our newest features"
 date: 2019-10-04
 draft: true
 author: eleanor
@@ -65,8 +65,19 @@ Finally, new users see a minimal UI and are able to change their email address b
 
 ### OStatus is deprecated
 
-Mastodon.social will not longer support OStatus. For most users this means that there will be no change whatsoever. For users of GNUSocial this will mean that they will no longer be able to see Mastodon content. This will affect very few people as there are not many people who still use GNUSocial and it has not been updated in a few years—further discussion can be found on the bug tracker.
+Mastodon will not longer support OStatus. For most users this means that there will be no change whatsoever. For users of GNUSocial this will mean that they will no longer be able to see Mastodon content. This will affect very few people as there are not many people who still use GNUSocial and it has not been updated in a few years—further discussion can be found on the bug tracker.
 
-We've been working hard on the 3.0 release and we hope that it provides an improved and even more enjoyable experience on the fediverse!
+### Conclusion
+
+The 3.0 release consists of **563 commits** by **23 contributors** since June 22, 2019. For line-by-line attributions, you can peruse the [changelog file](https://github.com/tootsuite/mastodon/blob/v3.0.0/CHANGELOG.md), and for a historically complete list of contributors and translators, you can refer to the [authors file](https://github.com/tootsuite/mastodon/blob/v3.0.0/AUTHORS.md), both included in the release.
+
+**Contributors to this release:** [abcang](https://github.com/abcang), [ahangarha](https://github.com/ahangarha), [brortao](https://github.com/brortao), [cutls](https://github.com/cutls), [danhunsaker](https://github.com/danhunsaker), [Gargron](https://github.com/Gargron), [highemerly](https://github.com/highemerly), [hugogameiro](https://github.com/hugogameiro), [ichi-i](https://github.com/ichi-i), [Kjwon15](https://github.com/Kjwon15), [koyuawsmbrtn](https://github.com/koyuawsmbrtn), [madmath03](https://github.com/madmath03), [mayaeh](https://github.com/mayaeh), [noellabo](https://github.com/noellabo), [nzws](https://github.com/nzws), [Shleeble](https://github.com/Shleeble), [ThibG](https://github.com/ThibG), [trwnh](https://github.com/trwnh), [tsia](https://github.com/tsia), [umonaca](https://github.com/umonaca), [ykzts](https://github.com/ykzts), [zunda](https://github.com/zunda)
+
+**Translators for this release:** 101010, Abijeet Patro, Aditoo17, Adrián Lattes, Akarshan Biswas, Alessandro Levati, Alix Rossi, Andrea Lo Iacono, Anunnakey, ariasuni, atarashiako, AW Unad, Benjamin Cobb, borys\_sh, ButterflyOfFire, carolinagiorno, Ch., christalleras, Cutls, cybergene, d5Ziif3K, Daniel Dimitrov, Dewi, diazepan, Diluns, dragnucs2, Dremski, dxwc, eichkat3r, Emyn Nant Nefydd, EPEMA YT, erikstl, Evert Prants, Evgeny Petrov, filippodb, frumble, FédiQuébec, Hinaloe, hiphipvargas, Hugh Liu, hussama, Jack R, JackXu, Jaz-Michael King, Jeong Arm, Jeroen, Johan Schiff, Juan José Salvador Piedra, juanda097, JzshAC, Karol Kosek, kat, KEINOS, koyu, Kristijan Tkalec, lamnatos, liffon, Lukas Fülling, MadeInSteak, Marcepanek\_, Marcin Mikołajczak, Marek Ľach, Masoud Abkenar, Maya Minatsuki, mmokhi, Muha Aliss, Oguz Ersen, OpenAlgeria, Osoitz, oti4500, oɹʇuʞ, PPNplus, Rakino, Ramdziana F Y, Ray, Renato "Lond" Cerqueira, Rhys Harrison, Rikard Linde, Rintan1, Roboron, ruine, Ryo, sabri, Saederup92, Sahak Petrosyan, SamitiMed, Sasha Sorokin, sergioaraujo1, SHeija, shioko, silkevicious, skaaarrr, SnDer, Sokratis Alichanidis, spla, Stasiek Michalski, taoxvx, tctovsli, Thai Localization, Tiago Epifânio, Tradjincal, tykayn, umelard, Unmual, Vanege, vjasiegd, waweic, Xosé M., Yi-Jyun Pan, Zoltán Gera, Zoé Bőle, さっかりんにーさん, 唐宗勛, 森の子リスのミーコの大冒険, 硫酸鶏
+
+As always, huge thanks to everyone who contributed to this release, to [everyone who sponsors the project][sponsors] on [Patreon][patreon], and to everyone who uses the network! 🐘
+
+[sponsors]: https://joinmastodon.org/sponsors
+[patreon]: https://patreon.com/mastodon
 
 Happy tooting!
