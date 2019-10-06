@@ -1,6 +1,7 @@
 ---
 title: "Mastodon 3.0 released"
 subtitle: "A short overview of some of our newest features"
+description: "In this release:"
 date: 2019-10-04
 draft: true
 author: eleanor
