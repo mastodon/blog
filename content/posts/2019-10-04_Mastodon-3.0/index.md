@@ -10,6 +10,9 @@ tags:
 - changelog
 categories:
 - New Features
+resources:
+- name: hero
+  src: hero.png
 ---
 
 It's finally here! Mastodon 3.0 is live! The team has been hard at work on making sure that this release is one of our most user-friendly yet with a number of exciting new features! Here are just a few!<!--more-->
