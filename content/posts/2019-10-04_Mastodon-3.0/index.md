@@ -1,7 +1,7 @@
 ---
-title: "Mastodon 3.0 released"
+title: "Mastodon 3.0"
 subtitle: "A short overview of some of our newest features"
-description: "In this release: Moving accounts, trending hashtags, private servers and more!"
+description: "In this exciting new release: Moving accounts, trending hashtags, private servers and more!"
 date: 2019-10-11
 draft: false
 author: eleanor
@@ -17,7 +17,7 @@ resources:
 
 It's finally here! Mastodon 3.0 is live! The team has been hard at work on making sure that this release is one of our most user-friendly yet with some exciting new features! Here are just a few:
 
-### Stronger Anti-Harassment Tools
+### Stronger anti-harassment tools
 
 We're always looking for new ways to provide users and admins with the most robust and comprehensive tools to combat harassment on the fediverse. We take a lot of pride in excelling where Twitter, Tumblr and Facebook have continuously failed in this regard. As such 3.0 introduces some powerful new features: whitelist mode, and an optional public list of blocked domains.
 
@@ -25,7 +25,7 @@ With the whitelist feature it's now possible for **private, semi-private, and se
 
 Additionally, server admins now have the **option of making their domain blocklists public**, with optional comments clarifying why a domain was blocked. Security on the fediverse relies in part on admins working together to enforce safe community standards, and this allows for the most robust way of sharing information about bad actors in the fediverse. We want you to not just see who was blocked, but why. Transparency lets you see how yours, and other, servers are being run, so you can make informed decisions.
 
-### Moving Accounts
+### Moving accounts
 
 You spoke, we listened! Here is the completely revamped account migration system! Easier than ever, and with 3.0 comes the **ability to bring your followers with you like magic**! Point the old account to the new one, and the new one to the old one, using the new interface, and your followers will be transferred over!
 
@@ -33,21 +33,21 @@ You spoke, we listened! Here is the completely revamped account migration system
 
 Additionally, your old account will no longer show up in searches and will have limited functionality (that, of course, can be undone by re-activating it). This process is streamlined and straightforward, and we hope that it makes moving between servers even easier than before!
 
-### A More Powerful Search
+### A more powerful search
 
 Searching is now more flexible and more powerful than before. **You can now search using "phrase matching" and by excluding words from a search by including a minus sign before a term**. For example: if you wanted to search for Cute Doggos (I know what you like) but didn't want to include cats, you’d just search for `cute doggos -cat` to get to get those puppies.
 
-### 💁 Working with Custom Emojis just got Easier! 😸
+### 💁 Working with custom emojis just got easier! 😸
 
 **Admins can now create custom emoji categories**! No more worrying about having too many, or thinking ‘oh jeez now I have 40 thounking emojo, where will I put them??’ No more scrolling through hundreds of custom emojis on the web UI to find that perfect way to express yourself! 🐣 Categories! They’re here!
 
 {{< figure src="categories.png" caption="Custom custom emojis categories" >}}
 
-### Goodbye OStatus; You’ve Been Deprecated!
+### Goodbye OStatus; You’ve been deprecated!
 
 **Mastodon will no longer support OStatus**. For most users this means that there will be no change whatsoever. For the extremely slim margin of people this affects, please refer to the discussion on the bug tracker to see how we got here. We’re a 100% ActivityPub household now!
 
-### The Hashiest Hashtags
+### The hashiest hashtags
 
 3.0 brings support for **auto-suggestions for hashtags** and shows you how many times each tag has been used in the past week! This makes it easier to see what the fediverse is talking about and what tags are most popular during the week!
 
@@ -57,7 +57,7 @@ Even better, you can see **trending hashtags** now, making it easy to follow alo
 
 {{< figure src="trends.png" caption="Trending hashtags" >}}
 
-### The Timeline's Alive, With the Sound of Music
+### The timeline's alive, with the sound of music
 
 We thought the old media player was pretty disappointing, so we did something about it! Introducing the **new and improved audio player** for web UI! Sharing audio on Mastodon is now much more user-friendly, with a vastly improved experience over the old player.
 
