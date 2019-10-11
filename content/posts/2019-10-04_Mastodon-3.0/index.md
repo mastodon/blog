@@ -15,41 +15,48 @@ resources:
   src: hero.png
 ---
 
-It's finally here! Mastodon 3.0 is live! The team has been hard at work on making sure that this release is one of our most user-friendly yet with a number of exciting new features! Here are just a few!<!--more-->
+It's finally here! Mastodon 3.0 is live! The team has been hard at work on making sure that this release is one of our most user-friendly yet with some exciting new features! Here are just a few:
 
 ### Stronger Anti-Harassment Tools
 
-We're always looking for new ways to provide users and admins with the most robust and comprehensive tools to combat harassment on the fediverse. We take a lot of pride in  excelling where Twitter, Tumblr and Facebook have failed in this regard. As such we're introducing with 3.0 two powerful new features the whitelist and an option public list of blocked domains.
+We're always looking for new ways to provide users and admins with the most robust and comprehensive tools to combat harassment on the fediverse. We take a lot of pride in excelling where Twitter, Tumblr and Facebook have continuously failed in this regard. As such 3.0 introduces some powerful new features: the whitelist, and an optional public list of blocked domains.
 
-With the whitelist feature, it's now possible to make your instance completely private except to those other instances which you are federating with. This means that all pages in an instance are now kept behind a login page, and only those instances that you are federating with can see the content that your instance has posted! This keeps users and instances safe from stalkers, intrusive web crawlers and more. It's now possible to have a private and secure existence on the fediverse.
+With the whitelist feature it's now possible for private, semi-private, and secured networks to be deployed. Want to deploy mastodon for educational institutions, networked between a couple schools? Or do you want to build a secured, user-first network within the fediverse itself? The choice is yours. This protects instances and their users from stalkers, intrusive web crawlers, and other malign agents by creating the tightest security on an instance yet.
 
-Additionally instance admins now have the option of making their domain blocklists public, with optional comments stating why a domain was blocked. Security on the fediverse relies in part on admins working together to enforce the standards of community that they want and this allows for the most robust way of sharing information about bad actors in the fediverse.
+We also made a small but important change when you hide a domain. Now, all your notifications from the domain you’ve hidden are removed from your notifications tab, so you don’t have to see them anymore. We believe users are empowered only when putting more control in their hands to choose what they do, and do not, choose to see. We think it’s important to ensure you have the great possible control over making sure you don’t have to see or engage with content that you find abusive or unwelcome!
 
-### An Entirely Revamped Account Migration UI
+Additionally, instance admins now have the option of making their domain blocklists public, with optional comments clarifying why a domain was blocked. Security on the fediverse relies in part on admins working together to enforce safe community standards, and this allows for the most robust way of sharing information about bad actors in the fediverse. We want you to not just see who was blocked, but why. Transparency lets you see how yours, and other, instances are being run, so you can make informed decisions. 
 
-We've listened to you and completely revamped the way that account migration is handled. Now much easier than before, our new account migration UI makes moving instances significantly easier than before:
+### Account Migration: Reinvented!
+
+You spoke, we listened! Here is the completely revamped account migration system! Easier than ever, and with 3.0 comes the ability to bring your followers with you like magic! 
 
 {{< figure src="image1.png" caption="Account Migration UI" >}}
 
-With the new account migration tool your followers will be moved to your new account automatically, additionally your old account will no longer show up in searches and your old account will have limited functionality (that, of course, can be undone by re-activation of the old account). This process is much more straightforward than the previous method and we hope that it makes moving instances even easier than before!
+Additionally, your old account will no longer show up in searches and will have limited functionality (that, of course, can be undone by re-activation of the old account). This process is streamlined and straightforward, and we hope that it makes moving instances even easier than before!
+
 
 ### A More Powerful Search
 
-Searching is now more flexible and more powerful than before. You can now search using "phrase matching" and by excluding words from a search by including a minus sign before a term. For instance, if you wanted to search for the phrase "Bernie Sanders" but didn't want to include the term "debate," you would simply search for "Bernie sanders -debate" to get to get more specific results.
+Searching is now more flexible and more powerful than before. You can now search using "phrase matching" and by excluding words from a search by including a minus sign before a term. For example: if you wanted to search for Cute Doggos (I know what you like) but didn't want to include cats, you’d just search for "cute doggos -cat" to get to get those puppies.
 
 ### 💁 Working with Custom Emojis just got Easier! 😸
 
-You can now add categories for your instance's custom emojis! Admins can now create custom emoji categories! No more scrolling through hundreds of custom emojis on the web UI to find that perfect way to express yourself! 🐣
+Admins can now create custom emoji categories! No more worrying about having too many, or thinking ‘oh jeez now I have 40 thounking emojo, where will I put them??’ No more scrolling through hundreds of custom emojis on the web UI to find that perfect way to express yourself! 🐣 Categories! They’re here!
 
-### Hashtags
+### Goodbye OStatus; You’ve Been Deprecated!
 
-Mastodon now supports auto-suggestions for hashtags and shows you how many times each tag has been used in the past week! This makes it easier to see what the fediverse is talking about and what tags are most popular during the week!
+Mastodon will not longer support OStatus. For most users this means that there will be no change whatsoever. For the extremely slim margin of people this affects, please refer to the discussion on the bug tracker to see how we got here. We’re a 100% ActivityPub household now!
+
+### The Hashiest Hashtags
+
+3.0 brings support for auto-suggestions for hashtags and shows you how many times each tag has been used in the past week! This makes it easier to see what the fediverse is talking about and what tags are most popular during the week! Even better, you can see trending hashtags now, making it easy to follow along with current events and the lightning-fast world of memes on the fediverse. Hashtag trends aren’t blind though; they’re reviewed by your admin to ensure they aren’t being gamed as a vector for abuse. Trust your admin? Use those hashtags!
 
 {{< figure src="image2.png" caption="Hashtag Suggestion" >}}
 
 ### The Timeline's Alive, With the Sound of Music
 
-Introducing the new and improved audio player for web UI! Sharing audio on Mastodon is now much more user-friendly!
+We thought the old media player was pretty disappointing, so we did something about it! Introducing the new and improved audio player for web UI! Sharing audio on Mastodon is now much more user-friendly, with a vastly improved experience over the old player. 
 
 {{< figure src="image3.png" caption="All new audio player for web UI" >}}
 
@@ -57,19 +64,13 @@ Introducing the new and improved audio player for web UI! Sharing audio on Masto
 
 Single-column mode now supports scrolling from anywhere on the page! This makes viewing the timeline easier than ever and makes mastodon even friendlier to use on laptops and touchscreens.
 
-We've also made it so that when you choose to hide a domain all of your notifications from that domain are removed from the notifications tab! This gives each user greater control over what they wish to see and helps to hide content that may be abusive or otherwise something that users do not wish to engage in.
-
-Additionally we've introduced slow-mode in preferences. This disables live-streaming on the timeline and instead tells users how many new toots there are with a link that manually refreshes the timeline. If you follow a lot of users, or if you simply find the live timeline to be overwhelming this allows you to choose when to see the newest toots!
+Slow mode! It’s a slower mode! Pop into the preferences pane and toggle this mode to disable livestreaming in the timeline. Instead, you’ll see a manual link to refresh the feed, with a counter letting you know how many new toots there are for you to catch up on. Having a lot of followers doesn’t mean you aren’t able to keep up anymore: stay in the loop with slow mode!
 
 {{< figure src="image4.png" caption="Slow Mode Options" >}}
 
 {{< figure src="image5.png" caption="Slow Mode in Action">}}
 
-Finally, new users see a minimal UI and are able to change their email address before their account is approved!
-
-### OStatus is deprecated
-
-Mastodon will not longer support OStatus. For most users this means that there will be no change whatsoever. For users of GNUSocial this will mean that they will no longer be able to see Mastodon content. This will affect very few people as there are not many people who still use GNUSocial and it has not been updated in a few years—further discussion can be found on the bug tracker.
+Lastly, new users see a minimal UI and can change their email address before their account is acivated! Les worrying about typos in the signup phase just makes it easier for new friends to join, which is good news for everyone!
 
 ### Conclusion
 
