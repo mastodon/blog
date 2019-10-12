@@ -1,12 +1,14 @@
 ---
 title: "Adding sign-up to your Mastodon app"
 subtitle: "How to use the app sign-up API"
-draft: true
+draft: false
 author: gargron
-date: 2019-10-04
+date: 2019-10-12
 tags:
 - mastodon
 - api
+categories:
+- Guides
 ---
 
 Since Mastodon 2.7, it is actually possible to let users sign up through your app, instead of asking them to go to a Mastodon website directly and then return. Let's go over how this can be done.<!--more-->
