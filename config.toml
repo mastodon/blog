@@ -19,3 +19,7 @@ pygmentsStyle = "dracula"
   [languages.pl]
     languageName = "Polski"
     weight = 3
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "AMP"]
