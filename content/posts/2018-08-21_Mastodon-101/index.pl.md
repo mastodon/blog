@@ -119,7 +119,7 @@ Oficjalne materiały:
 * [Czym jest Mastodon?](https://www.youtube.com/watch?v=IPSbNdBmWKE)
 * [Najczęściej zadawane pytania](https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/FAQ.md)
 * [Aplikacje na iOS i Androida](https://joinmastodon.org/apps)
-* [Jak odnieść sukces jako artysty na Mastodonie]({{< relref path="2018-06-24_How-to-become-a-successful-artist-on-Mastodon" lang="en"  >}})
+* [Jak odnieść sukces jako artysta na Mastodonie]({{< relref path="2018-06-24_How-to-become-a-successful-artist-on-Mastodon" lang="en"  >}})
 
 Materiały społeczności:
 
