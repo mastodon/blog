@@ -15,7 +15,7 @@ tags:
 - changelog
 ---
 
-Polish translation is available: [Mastodon 2.7]({{< relref path="2019-01-19_Mastodon-2.7" lang="pl" >}})
+Polish translation is available: [Mastodon 2.7]({{< relref path="2019-01-19_Mastodon-2.7/index.md" lang="pl" >}})
 
 ---
 

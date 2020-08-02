@@ -14,7 +14,9 @@ tags:
 - mastodon
 ---
 
-Ten wpis jest tłumaczeniem wpisu [Eugena Rochko](https://mastodon.social/@Gargron) [Mastodon 2.7]({{< relref path="2019-01-19_Mastodon-2.7" lang="en" >}}). Proszę o zgłaszanie [mi](https://101010.pl/@m4sk1n) uwag dotyczących tłumaczenia, jeżeli takie wystąpią.
+Ten wpis jest tłumaczeniem wpisu [Eugena Rochko](https://mastodon.social/@Gargron) [Mastodon 2.7]({{< relref path="2019-01-19_Mastodon-2.7/index.md" lang="en" >}}). Proszę o zgłaszanie [mi](https://101010.pl/@m4sk1n) uwag dotyczących tłumaczenia, jeżeli takie wystąpią.
+
+---
 
 Świeże wydanie Mastodona przynosi długo oczekiwane usprawnienia możliwości poznawania treści i interfejsu administracyjnego, wraz z dużą liczbą poprawek i ulepszeń.
 
