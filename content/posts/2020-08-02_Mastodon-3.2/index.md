@@ -16,6 +16,8 @@ resources:
 
 The new Mastodon release brings you a much better audio player and improved support for different audio and video formats, as well as some additional security mechanisms.<!-- more -->
 
+Polish translation is available: [Mastodon 3.2 – Spojrzenie wgłąb]({{< relref path="2020-08-02_Mastodon-3.2/index.md" lang="pl" >}})
+
 The **audio player has been completely reworked** to have a more eye-catching design. It will extract album art from the uploaded audio file automatically, or allow you to upload a thumbnail of your own choosing to be displayed in the center. Dominant colors from the artwork or thumbnail will then be used to give the player a unique look.
 
 Whereas previously video thumbnails were automatically taken from the first frame of the video, you now also have the ability to **upload a custom thumbnail that will be displayed before the video starts playing**. Simply click on "Edit" on a newly uploaded media file and then choose a new thumbnail!
