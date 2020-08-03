@@ -14,7 +14,7 @@ resources:
   src: hero.png
 ---
 
-Nowe wydanie Mastodona wprowadza zdecydowanie lepszy odtwarzacz audio, usprawnioną obsługę różnorodnych formatów audio i wideo, a także dodatkowe mechanizmy zabezpieczcające.<!-- more -->
+Nowe wydanie Mastodona wprowadza zdecydowanie lepszy odtwarzacz audio, usprawnioną obsługę różnorodnych formatów audio i wideo, a także dodatkowe mechanizmy zabezpieczające.<!-- more -->
 
 ***
 
@@ -22,13 +22,13 @@ Ten wpis jest tłumaczeniem wpisu pt. [Mastodon 3.2 – A look inside]({{< relr
 
 ***
 
-**Całkowicie na nowo opracowano odtwarzacz dźwięku**, aby otrzymał bardziej przyciągający wzrok wygląd. Automatycznie wydobywa on obraz albumu z pliku, lub pozwala na wybów wyświetlanej po środku miniatury. Dominujący kolor z tej grafiki jest wykorzysytwany aby nadać odtwarzaczowi wyróżniający się wygląd.
+**Całkowicie na nowo opracowano odtwarzacz dźwięku**, aby otrzymał bardziej przyciągający wzrok wygląd. Automatycznie wydobywa on obraz albumu z pliku, lub pozwala na wybór wyświetlanej po środku miniatury. Dominujący kolor z tej grafiki jest wykorzystywany aby nadać odtwarzaczowi wyróżniający się wygląd.
 
 Tak jak poprzednio miniatury filmów były automatycznie oparte o pierwszą klatkę filmu, teraz możesz **wysłać własną miniaturę, która będzie wyświetlana przed odtworzeniem filmu**. Po prostu naciśnij „Edytuj” na nowo wysłanym medium i wybierz nową miniaturę!
 
-{{< figure src="embed.gif" caption="Plik dźwiękowy z Mastodona wyświetlany na Twtterze" >}}
+{{< figure src="embed.gif" caption="Plik dźwiękowy z Mastodona wyświetlany na Twitterze" >}}
 
-Jeżeli dzielisz się linkami do filmów lub dźwięku z Mastodona na innych platformach, np. na Twitterze, twoi znajaomi będą mogli **otworzyć odtwarzacz mediów Mastodona bezpośrednio z tej platformy** (zakładadjąc że platforma obsługuje tag `twitter:player`).
+Jeżeli dzielisz się linkami do filmów lub dźwięku z Mastodona na innych platformach, np. na Twitterze, twoi znajomi będą mogli **otworzyć odtwarzacz mediów Mastodona bezpośrednio z tej platformy** (zakładając że platforma obsługuje tag `twitter:player`).
 
 Aby lepiej zabezpieczać konta gdy nie korzystasz z nich, powstał **nowy mechanizm zabezpieczający próby logowania**. Jeżeli nie skonfigurowałeś(-aś) uwierytelniania dwustopniowego, nie byłeś(-aś) obecny(-a) przez przynajmniej dwa tygodnie, a ktoś spróbuje zalogować się z wcześniej nieznanego adres IP, otrzymasz prośbę o wysłanie tokenu wysłanego na Twój adres e-mail.
 
@@ -45,7 +45,7 @@ Na wydanie 3.2 składa się **380 commitów** od **27 autorów** od 14 maja 2020
 
 **Tłumacze tego wydania:** Duy, stan ionut, Besnik_b, Emanuel Pina, regulartranslator, ButterflyOfFire, adrmzz, FédiQuébec, GiorgioHerbie, Marcin Mikołajczak, ariasuni, Thai Localization, 奈卜拉, Mentor Gashi, Xosé M., axi, Selyan Slimane AMIRI, Alix Rossi, Jeroen, SteinarK, ThonyVezbe, Hrach Mkrtchyan, Gwenn, ᏦᏁᎢᎵᏫ mask, Danial Behzadi, spla, Rafael H L Moretti, Jeong Arm, koyu, Yi-Jyun Pan, norayr, Alessandro Levati, Sasha Sorokin, gagik_, lamnatos, Sveinn í Felli, Zoltán Gera, cybergene, Tagomago, Michal Stanke, borys_sh, Ramdziana F Y, Osoitz, Maya Minatsuki, Willia, BurekzFinezt, Evert Prants, ThibG, Dewi, Emyn-Russell Nt Nefydd, vishnuvaratharajan, tolstoevsky, Diluns, Falling Snowdin, Marek Ľach, Balázs Meskó, Ryo, Roboron, StanleyFrew, PPNplus, Heimen Stoffels, Andrew, Iváns, Carlos Solís, Sokratis Alichanidis, TS, SensDeViata, AzureNya, OctolinGamer, 北䑓如法, Laura, Imre Kristoffer Eilertsen, Rikard Linde, Ali Demirtaş, diorama, Daniele Lira Mereb, Goudarz Jafari, psymyn, v4vachan, Sebastián Andil, Khóo, ZiriSut, strubbl, Reg3xp, AlexKoala, VSx86, Mo_der Steven, musix, ギャラ, Saederup92, mynameismonkey, omquylzu, Miro Rauhala, 硫酸鶏, siamano, Viorel-Cătălin Răpițeanu, Pachara Chantawong, Balázs Meskó, Steven Tappert, Unmual, Zijian Zhao, Skew, enolp, Yann Aguettaz, Mick Onio, r3dsp1, Tianqi Zhang, piupiupiudiu, Padraic Calpin, るいーね, Belkacem Mohammed, Miquel Sabaté Solà, serubeena, Solid Rhino, Rintan, 林水溶, Tagada, shafouz, Tom_, OminousCry, ALEM FARID, Nathaël Noguès, Robin van der Vliet, twpenguin, Paz Galindo, 夜楓Yoka, mkljczk, kiwi0, Esther, Renato "Lond" Cerqueira, igordrozniak, Philipp Fischbeck, GaggiX, Allen Zhong, Albatroz Jeremias, Nocta, pezcurrel, Aditoo17, 森の子リスのミーコの大冒険, Doug, Fleva
 
-Jak zawsze, chcielibyśmy podziękować każdemu kto wniósł wkład w ten projekt [każdemu kto wspiera projekt][sponsors] na [Patreonie][patreon] i każdego kto korzysta z sieci! 🐘
+Jak zawsze, chcielibyśmy podziękować każdemu kto wniósł wkład w ten projekt, [każdemu kto wspiera projekt][sponsors] na [Patreonie][patreon] i każdego kto korzysta z sieci! 🐘
 
 [sponsors]: https://joinmastodon.org/sponsors
 [patreon]: https://patreon.com/mastodon
