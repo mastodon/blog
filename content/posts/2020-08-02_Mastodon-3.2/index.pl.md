@@ -1,6 +1,6 @@
 ---
 title: "Mastodon 3.2"
-subtitle: "Spojrzenie wgłąb"
+subtitle: "Spojrzenie w głąb"
 date: 2020-08-02
 draft: false
 author: gargron
