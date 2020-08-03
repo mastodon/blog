@@ -22,7 +22,7 @@ Ten wpis jest tłumaczeniem wpisu pt. [Mastodon 3.2 – A look inside]({{< relr
 
 ***
 
-**Całkowicie na nowo opracowano odtwarczacz dźwięku**, aby otrzymał bardziej przyciągający wzrok wygląd. Automatycznie wydobywa on obraz albumu z pliku, lub pozwala na wybów wyświetlanej po środku miniatury. Dominujący kolor z tej grafiki jest wykorzysytwany aby nadać odtwarzaczowi wyróżniający się wygląd.
+**Całkowicie na nowo opracowano odtwarzacz dźwięku**, aby otrzymał bardziej przyciągający wzrok wygląd. Automatycznie wydobywa on obraz albumu z pliku, lub pozwala na wybów wyświetlanej po środku miniatury. Dominujący kolor z tej grafiki jest wykorzysytwany aby nadać odtwarzaczowi wyróżniający się wygląd.
 
 Tak jak poprzednio miniatury filmów były automatycznie oparte o pierwszą klatkę filmu, teraz możesz **wysłać własną miniaturę, która będzie wyświetlana przed odtworzeniem filmu**. Po prostu naciśnij „Edytuj” na nowo wysłanym medium i wybierz nową miniaturę!
 
@@ -30,7 +30,7 @@ Tak jak poprzednio miniatury filmów były automatycznie oparte o pierwszą klat
 
 Jeżeli dzielisz się linkami do filmów lub dźwięku z Mastodona na innych platformach, np. na Twitterze, twoi znajaomi będą mogli **otworzyć odtwarzacz mediów Mastodona bezpośrednio z tej platformy** (zakładadjąc że platforma obsługuje tag `twitter:player`).
 
-Aby lepiej zabezpieczać konta gdy nie korzystasz z nich, powstał **nowy mechanizm zabezpieczający próby logowania**. Jeżeli nie skonfigurowałeś(-aś) uwierytelniania dwustopniowego, nie byłeś(-aś) obecny(-a) przez przynajmniej dwa tygodnie, a ktoś spróbuje zalogować się z wcześniej nieznanego adres IP, otrzymasz prośbę o wysłanie tokenu wysłanego na Twój adres e-mail.
+Aby lepiej zabezpieczać konta gdy nie korzystasz z nich, powstał **nowy mechanizm zabezpieczający próby logowania**. Jeżeli nie skonfigurowałeś(-aś) uwierytelniania dwustopniowego, nie byłeś(-aś) obecny(-a) przez przynajmniej dwa tygodnie, a ktoś spróbuje zalogować się z wcześniej nieznanego adres IP, otrzymasz prośbę o wysłanie tokenu wysłanego na Twój adres e-mail.
 
 Ta funkcja jest przeznaczona dla osób które zapomniały skonfigurować uwierzytelnianie dwuetapowe. Jeśli to czytasz, pamiętaj że wzorową praktyką jest korzystanie z 2FA (Mastodon nnie wymaaga podana numeru telefonu ani aplikacji Mastodona, każda aplikacja TOTP działa) i używania menedżera haseł, aby tworzyć losowe i unikatowe hasła dla każdego posiadanego konta!
 
