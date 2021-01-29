@@ -42,7 +42,7 @@ Are you following an account that only posts once in a blue moon? And it would a
 
 {{< figure src="popout.gif" caption="Continue watching or listening as you browse" >}}
 
-As for media, you can finally use **familiar hotkeys to control audio and video playback** -- space to toggle playback, "m" to mute, "j" and "l" to jump backward and forward, and a few others. If you scroll away from an audio or video while it's still playing, **the playback will continue in the corner of your screen with convenient buttons to reply, boost, or favourite the post it's from**. And finally, **media modals got a facelift**, now using the average color from the picture for the page overlay and always showing interactive buttons for the post underneath.
+As for media, if you scroll away from an audio or video while it's still playing, **the playback will continue in the corner of your screen with convenient buttons to reply, boost, or favourite the post it's from**. You can also finally use **familiar hotkeys to control audio and video playback** -- space to toggle playback, "m" to mute, "j" and "l" to jump backward and forward, and a few others. And finally, **media modals got a facelift**, now using the average color from the picture for the page overlay and always showing interactive buttons for the post underneath.
 
 ### Conclusion
 
