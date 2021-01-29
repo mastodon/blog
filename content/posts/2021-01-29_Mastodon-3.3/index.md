@@ -1,6 +1,6 @@
 ---
 title: "Mastodon 3.3"
-subtitle: "A look inside"
+subtitle: "What's new"
 date: 2021-01-29
 draft: true
 author: gargron
@@ -14,7 +14,7 @@ resources:
   src: modal.png
 ---
 
-It's Mastodon 3.3 time! We've got security fixes, performance fixes, new moderation tools and quality of life features!<!--more-->
+It's Mastodon 3.3 time 🎉 We've got security fixes, performance fixes, new moderation tools and quality of life features!<!--more-->
 
 ### Reversible suspensions
 
@@ -42,7 +42,7 @@ Are you following an account that only posts once in a blue moon? And it would a
 
 {{< figure src="popout.gif" caption="Continue watching or listening as you browse" >}}
 
-As for media, you can finally use **familiar hotkeys to control audio and video playback** -- space to toggle playback, "m" to mute, "j" and "l" to jump backward and forward, and a few others. If you scroll away from an audio or video while it's still playing, **the playback will continue in the corner of your screen with convenient buttons to reply, boost, or favourite the post it's from**. **Media modals got a facelift**, now using the average color from the picture for the page overlay and always showing interactive buttons for the post underneath.
+As for media, you can finally use **familiar hotkeys to control audio and video playback** -- space to toggle playback, "m" to mute, "j" and "l" to jump backward and forward, and a few others. If you scroll away from an audio or video while it's still playing, **the playback will continue in the corner of your screen with convenient buttons to reply, boost, or favourite the post it's from**. And finally, **media modals got a facelift**, now using the average color from the picture for the page overlay and always showing interactive buttons for the post underneath.
 
 ### Conclusion
 
@@ -52,7 +52,8 @@ The 3.3 release consists of **619 commits** by **21 contributors** since July 27
 
 **Translators for this release:** qezwan, adrmzz, yeft, Koala Yeung, tzium, kamee, Ali Demirtaş, Jurica, Ramdziana F Y, Alix Rossi, gagik_, Hồ Nhất Duy, ᏦᏁᎢᎵᏫ mask, Xosé M., xatier, otrapersona, Sveinn í Felli, Zoltán Gera, Rafael H L Moretti, Floxu, spla, Besnik_b, Emanuel Pina, Saederup92, Jeroen, Jeong Arm, Alessandro Levati, Thai Localization, Marcin Mikołajczak, tolstoevsky, vishnuvaratharajan, Maya Minatsuki, dkdarshan760, Roboron, Danial Behzadi, Imre Kristoffer Eilertsen, Coelacanthus, syncopams, FédiQuébec, koyu, Diluns, ariasuni, Hakim Oubouali, Hayk Khachatryan, v4vachan, Denys, Akarshan Biswas, 奈卜拉, Liboide, cybergene, strubbl, StanleyFrew, Ryo, Sokratis Alichanidis, Rachida S., lamnatos, Tigran, atriix, antonyho, Em St Cenydd, Pukima, Aryamik Sharma, phena109, ahangarha, Isaac Huang, igordrozniak, Allen Zhong, coxde, Rasmus Lindroth, liffon, fragola, Sasha Sorokin, bobchao, twpenguin, ThonyVezbe, Esther, Tagomago, Balázs Meskó, Gopal Sharma, Tofiq Abdula, subram, Ptrcmd, arshat, Scvoet, hiroTS, johne32rus23, Hexandcube, Neo_Chen, Aswin C, Ryan Ho, GiorgioHerbie, Willia, clarmin b8, Hernik, Rikard Linde, Wrya ali, Goudarz Jafari, Pukima, Jeff Huang, Timo Tijhof, Yamagishi Kazutoshi, AlexKoala, Rekan Adl, ButterflyOfFire, Sherwan Othman, Yassine Aït-El-Mouden, Fei Yang, Hougo, Vanege, TracyJacks, mecqor labi, Selyan Slimane AMIRI, norayr, Marek Ľach, mkljczk, marzuquccen, Yi-Jyun Pan, Gargron, dadosch, Orlando Murcio, Ильзира Рахматуллина, shdy, Yogesh K S, Antara2Cinta, Pixelcode, Hinaloe, alnd hezh, Clash Clans, Sébastien Feugère, k_taka, enolp, jmontane, Hallo Abdullah, Kahina Mess, Reg3xp, さっかりんにーさん, Rhys Harrison, GatoOscuro, pullopen, CyberAmoeba, 夜楓Yoka, Xurxo Guerra, Apple, mashirozx, ÀŘǾŚ PÀŚĦÀÍ, filippodb, abidin toumi, tykayn, xpac1985, Ozai, diorama, dashty, Salh_haji6, Ranj A Abdulqadir, Amir Kurdo, Baban Abdulrahman, dobrado, 于晚霞, Hannah, Savarín Electrográfico Marmota Intergalactica, Jari Ronkainen, SamOak, dcapillae, umonaca, ThibG
 
-As always, huge thanks to everyone who contributed to this release, to [everyone who sponsors the project][sponsors] on [Patreon][patreon], and to everyone who uses the network! 🐘
+**Thank you** to everyone who contributed to this release, to [everyone who sponsors the project][sponsors] through [Patreon][patreon] or through [our new sponsors portal][sponsors-portal], and to everyone who uses the network! 🐘
 
 [sponsors]: https://joinmastodon.org/sponsors
 [patreon]: https://patreon.com/mastodon
+[sponsors-portal]: https://sponsor.joinmastodon.org
