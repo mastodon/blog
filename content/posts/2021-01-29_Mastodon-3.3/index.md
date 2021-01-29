@@ -2,7 +2,7 @@
 title: "Mastodon 3.3"
 subtitle: "What's new"
 date: 2021-01-29
-draft: true
+draft: false
 author: gargron
 tags:
 - mastodon
