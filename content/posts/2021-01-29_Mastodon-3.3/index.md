@@ -9,21 +9,40 @@ tags:
 - changelog
 categories:
 - New Features
+resources:
+- name: hero
+  src: modal.png
 ---
 
-It's Mastodon 3.3 time!
+It's Mastodon 3.3 time! We've got security fixes, performance fixes, new moderation tools and quality of life features!<!--more-->
 
-The main change in this release of Mastodon is our approach to suspensions. Previously, suspending an account deleted all of its associated data immediately, so while an account could be unsuspended technically, the person would have to start completely from scratch. Of course, that wasn't ideal -- everybody makes mistakes. Now, the data is kept for 30 days after suspension, giving a long enough time window to correct mistakes or talk through appeals. The suspended person also gets the ability to download an archive of their account, which was not possible before. If there is a need to delete the data immediately, the option is still there for moderators.
+### Reversible suspensions
 
-But that's not all: Whereas previously suspended accounts would not show up in the app at all, now, as long as they're recoverable, they do show up and more clealy communicate that they're in a suspended state. As Mastodon matures and grows, we're striving for more transparency and fail-safety around moderation.
+The main change in this release of Mastodon is **our approach to suspensions**. Previously, suspending an account deleted all of its associated data immediately, so while an account could be unsuspended technically, the person would have to start completely from scratch. Of course, that wasn't ideal -- everybody makes mistakes. Now, the data is kept for 30 days after suspension, giving a long enough time window to correct mistakes or talk through appeals. The suspended person also gets the ability to download an archive of their account, which was not possible before. If there is a need to delete the data immediately, the option is still there for moderators.
 
-Another missing piece has been added to Mastodon's moderation toolbox -- the ability to control access from specific IP addresses or subnets. As a response to a troll making alternative accounts to evade suspensions or a bot farm creating spam accounts, server administrators can now either fully block access from an IP or send new accounts through the approval queue while letting everyone else sign-up normally.
+But that's not all: Whereas previously suspended accounts would not show up in the app at all, now, as long as they're recoverable, they do show up and more clealy communicate that they're in a suspended state. **As Mastodon matures and grows, we're striving for more transparency and fail-safety around moderation.**
 
-The release includes multiple performance optimizations both on the server-side and on the client-side. On the client-side, lag caused by typing up a new post should be if not completely removed, vastly reduced, and all live updates from the Streaming API now come through a single connection no matter how many different columns you have open, one or thirty. Requests for an account's media tab, your favourites, bookmarks, or hashtags should be much faster. Operations involving deleting an account's data are up to 100x faster, reducing delays in the system, and so on.
+### IP blocks
 
-Are you following an account that only posts once in a blue moon? And it would almost certainly be drowned out in an otherwise active home feed? Perhaps an artist that only posts new artwork, or a bot that posts weather warnings for your area -- now you can choose to be notified when a person you follow makes a new post by toggling the bell button on their profile.
+Another missing piece has been added to Mastodon's moderation toolbox -- **the ability to control access from specific IP addresses or subnets**. As a response to a troll making alternative accounts to evade suspensions or a bot farm creating spam accounts, server administrators can now either fully block access from an IP or send new accounts through the approval queue while letting everyone else sign-up normally.
 
-As for media, you can finally use familiar hotkeys to control audio and video playback -- space to toggle playback, "m" to mute, "j" and "l" to jump backward and forward, and a few others. If you scroll away from an audio or video while it's still playing, the playback will continue in the corner of your screen with convenient buttons to reply, boost, or favourite the post it's from. Media modals got a facelift, now using the average color from the picture for the page overlay and always showing interactive buttons for the post underneath.
+{{< figure src="ip-rules.png" caption="Creating a new IP rule from the admin interface" >}}
+
+### Performance improvements
+
+The release includes **multiple performance optimizations** both on the server-side and on the client-side. On the client-side, lag caused by typing up a new post should be if not completely removed, vastly reduced, and all live updates from the Streaming API now come through a single connection no matter how many different columns you have open, one or thirty. Requests for an account's media tab, your favourites, bookmarks, or hashtags should be much faster. Operations involving deleting an account's data are up to 100x faster, reducing delays in the system, and so on.
+
+### "Bell button"
+
+{{< figure src="bell.png" caption="Bell button on the Ruby developer's profile" >}}
+
+Are you following an account that only posts once in a blue moon? And it would almost certainly be drowned out in an otherwise active home feed? Perhaps an artist that only posts new artwork, or a bot that posts weather warnings for your area -- **now you can choose to be notified when a person you follow makes a new post by toggling the bell button on their profile**.
+
+### Pop-out media player
+
+{{< figure src="popout.gif" caption="Continue watching or listening as you browse" >}}
+
+As for media, you can finally use **familiar hotkeys to control audio and video playback** -- space to toggle playback, "m" to mute, "j" and "l" to jump backward and forward, and a few others. If you scroll away from an audio or video while it's still playing, **the playback will continue in the corner of your screen with convenient buttons to reply, boost, or favourite the post it's from**. **Media modals got a facelift**, now using the average color from the picture for the page overlay and always showing interactive buttons for the post underneath.
 
 ### Conclusion
 
