@@ -1,8 +1,9 @@
 ---
 title: "Developing an official iOS app for Mastodon"
 subtitle: "\"Why isn't there a 'Mastodon' app?\""
+description: "Starting on Feb 8, 2021, we will be developing an official iOS app for Mastodon together with Sujitech and Lickability, which will be free to download and focused on helping new users get started"
 date: 2021-02-05
-draft: true
+draft: false
 author: gargron
 resources:
 - name: hero
