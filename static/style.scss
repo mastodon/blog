@@ -679,3 +679,105 @@ body {
     font-size: 16px;
   }
 }
+
+.listmonk-form {
+  border: 1px solid lighten($darkest, 8%);
+  border-radius: 4px;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 26px;
+
+  h3 {
+    margin-top: 0;
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .input-with-button {
+    position: relative;
+
+    input[type=email] {
+      box-sizing: border-box;
+      font-size: 16px;
+      color: $white;
+      display: block;
+      width: 100%;
+      outline: 0;
+      font-family: inherit;
+      resize: vertical;
+      background: darken($darkest, 10%);
+      border: 1px solid lighten($darkest, 8%);
+      border-radius: 4px;
+      padding: 17px 15px;
+      padding-right: 120px;
+
+      &::placeholder {
+        color: lighten(lighten($darkest, 30%), 4%);
+      }
+
+      &:invalid {
+        box-shadow: none;
+      }
+
+      &:focus:invalid:not(:placeholder-shown),
+      &:required:invalid:not(:placeholder-shown) {
+        border-color: lighten($error, 12%);
+      }
+
+      &:required:valid {
+        border-color: $success;
+      }
+
+      &:hover {
+        border-color: lighten($darkest, 20%);
+      }
+
+      &:active,
+      &:focus {
+        border-color: $vibrant;
+        background: darken($darkest, 8%);
+      }
+    }
+
+    button {
+      position: absolute;
+      top: 5px;
+      right: 6px;
+      display: inline-block;
+      border: 0;
+      border-radius: 4px;
+      font-size: 16px;
+      font-family: inherit;
+      line-height: 36px;
+      padding: 4px 16px;
+      font-weight: 500;
+      background: darken($success, 8%);
+      color: $white;
+      text-decoration: none;
+      text-align: center;
+      box-sizing: border-box;
+      cursor: pointer;
+      outline: 0;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background-color: $success;
+      }
+
+      &:active,
+      &:focus {
+        background-color: darken($success, 5%);
+      }
+
+      &:disabled:hover {
+        background-color: $lighter;
+      }
+    }
+  }
+}
