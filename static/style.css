@@ -677,5 +677,14 @@ body {
 .listmonk-form .input-with-button button:disabled:hover {
   background-color: #9baec8;
 }
+.listmonk-form footer {
+  margin-top: 26px;
+}
+.listmonk-form footer a {
+  color: inherit;
+}
+.listmonk-form footer a:hover, .listmonk-form footer a:focus, .listmonk-form footer a:active {
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */

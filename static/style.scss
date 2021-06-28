@@ -780,4 +780,18 @@ body {
       }
     }
   }
+
+  footer {
+    margin-top: 26px;
+
+    a {
+      color: inherit;
+
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
 }
