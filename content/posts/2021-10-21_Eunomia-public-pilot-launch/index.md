@@ -3,7 +3,7 @@ title: "EUNOMIA public pilot launch"
 subtitle: "Digital companion for detecting misinformation now available for testing"
 date: 2021-10-21
 author: gargron
-draft: true
+draft: false
 tags:
 - eunomia
 ---
