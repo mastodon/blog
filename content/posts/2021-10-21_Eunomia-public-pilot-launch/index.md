@@ -25,7 +25,7 @@ EUNOMIA should in theory work with any social media platform, but thanks to its 
 
 It is important to highlight that as a research project no user data can be processed without explicit user consent and as such EUNOMIA is confined entirely to its own Mastodon servers. One of which is now being opened up for the first public pilot!
 
-The public EUNOMIA pilot is now live at [ADDRESS](https://)! The pilot will last one week, unless the developers receive feedback from users that they would want it to stay on for longer. Keep in mind:
+The public EUNOMIA pilot is now live at [mastodon.eunomia.social/](https://mastodon.eunomia.social/)! The pilot will last one week, unless the developers receive feedback from users that they would want it to stay on for longer. Keep in mind:
 
 - You must be 18 or above to sign-up for the pilot
 - There is highly complex tech involved so there probably will be bugs
