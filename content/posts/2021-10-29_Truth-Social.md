@@ -2,7 +2,7 @@
 title: "Trump's new social media platform found using Mastodon code"
 subtitle: "Our statement"
 date: 2021-10-29
-draft: true
+draft: false
 author: gargron
 tags:
 - mastodon
