@@ -1,5 +1,5 @@
 ---
-title: "Trump's new social media platform using Mastodon code"
+title: "Trump's new social media platform found using Mastodon code"
 subtitle: "Our statement"
 date: 2021-10-29
 draft: true
