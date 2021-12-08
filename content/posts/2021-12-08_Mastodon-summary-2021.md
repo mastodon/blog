@@ -68,7 +68,7 @@ categories:
 - 244,634 active users (+814 since January)
 - 2,551 active Mastodon servers
 
-As for the mastodon.social server, here are some of our numbers:
+As for the mastodon.social server, here are some of our numbers for 2021:
 
 - 65,052 new sign-ups
 - 17,951 active users
