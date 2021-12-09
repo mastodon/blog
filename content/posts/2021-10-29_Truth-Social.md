@@ -2,6 +2,7 @@
 title: "Trump's new social media platform found using Mastodon code"
 subtitle: "Our statement"
 date: 2021-10-29
+lastmod: 2021-12-09
 draft: false
 author: gargron
 tags:
@@ -30,3 +31,9 @@ On Oct 26, we sent a formal letter to Truth Social's chief legal officer, reques
 - [Pranksters have already defaced Trump’s new social network](https://www.washingtonpost.com/technology/2021/10/21/trump-truth-social-fake-accounts/)
 - [Donald Trump Accused of Ripping Code From Social Network Mastodon for 'Truth' Site](https://www.newsweek.com/donald-trump-accused-ripping-code-social-network-mastodon-truth-site-1641343)
 - [Trump’s social network has 30 days to stop breaking the rules of its software license](https://www.theverge.com/2021/10/22/22740354/trump-truth-social-network-spac-mastodon-license-software-freedom-conservancy)
+
+### Updates
+
+**Last updated:** Dec 9, 2021
+
+- Truth Social added a page ("Legal Docs" → "Open Source") that links to a ZIP archive of the Mastodon source code, which for now seems to bring them in compliance, though a more detailed analysis will only be possible once their platform publicly launches. In the media: [Trump's social media site quietly admits it's based on Mastodon](https://www.msn.com/en-us/news/technology/trump-s-social-media-site-quietly-admits-it-s-based-on-mastodon/ar-AARpcef?ocid=msedgntp)
