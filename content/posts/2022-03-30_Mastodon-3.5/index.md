@@ -1,8 +1,9 @@
 ---
 title: "Mastodon 3.5"
 subtitle: "What's new"
+description: "A brand new explore page, post editing, and new moderation features are just some of the additions in this new release of Mastodon!"
 date: 2022-03-30
-draft: true
+draft: false
 author: gargron
 tags:
 - mastodon
@@ -24,7 +25,11 @@ Discoverability has always been a hot topic on Mastodon. Discoverability makes o
 
 As we value safety, these new features come with their own moderation tools--nothing will show up in trends unless reviewed by one of the server's moderators first.
 
+A **new, multi-step report flow** improves the quality of information for moderators and highlights available self-help tools in Mastodon to the user.
+
 On the topic of moderation, any action taken by a server moderator against a user's account, such as deleting their posts or suspending the account, will now **be viewable through account settings**, by default accompanied by an e-mail notification, and permit the user to **submit an appeal**. Since actions such as deleting posts or marking posts as sensitive did not use to generate any kind of notification, this should make them more viable precursors to harsher punishments like suspensions; and being able to handle appeals within Mastodon should reduce the burden of out-of-band e-mail communication for moderators and increase user trust in Mastodon.
+
+There is a brand new **moderation dashboard** that shows the development of various key metrics over time and shines some light on where new users come from, which languages they speak, and how many of them stay active months later. A completely **new look for the report screen** reduces the time and effort required to handle reports, and multiple selections on the accounts page offer a way to **clean up spam and bot accounts in large batches**.
 
 ### Conclusion
 
@@ -42,3 +47,10 @@ The 3.5 release consists of **887 commits** by **23 contributors** between June 
 [sponsors-portal]: https://sponsor.joinmastodon.org
 [changelog]: https://github.com/mastodon/mastodon/blob/v3.5.0/CHANGELOG.md
 [authors]: https://github.com/mastodon/mastodon/blob/v3.5.0/AUTHORS.md
+
+{{< figure src="ios.png" caption="Mastodon for iOS" >}}
+
+**P.S.** We just released a new version of our [official iOS app][ios], adding iPad support and many visual improvements, and just started [beta-testing our official Android app](android-beta) with our Patreon supporters.
+
+[ios]: https://apps.apple.com/us/app/mastodon-for-iphone/id1571998974
+[android-beta]: https://www.patreon.com/posts/mastodon-for-64413994
