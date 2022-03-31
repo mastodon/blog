@@ -50,7 +50,7 @@ The 3.5 release consists of **887 commits** by **23 contributors** between June 
 
 {{< figure src="ios.png" caption="Mastodon for iOS" >}}
 
-**P.S.** We just released a new version of our [official iOS app][ios], adding iPad support and many visual improvements, and just started [beta-testing our official Android app](android-beta) with our Patreon supporters.
+**P.S.** We just released a new version of our [official iOS app][ios], adding iPad support and many visual improvements, and just started [beta-testing our official Android app][android-beta] with our Patreon supporters.
 
 [ios]: https://apps.apple.com/us/app/mastodon-for-iphone/id1571998974
 [android-beta]: https://www.patreon.com/posts/mastodon-for-64413994
