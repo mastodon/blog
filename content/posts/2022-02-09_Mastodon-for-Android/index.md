@@ -4,6 +4,9 @@ description: "We are developing an official Android app which will be free and f
 date: 2022-02-09
 draft: false
 author: gargron
+tags:
+- mastodon
+- app
 resources:
 - name: hero
   src: android.png

@@ -5,6 +5,9 @@ description: "Starting on Feb 8, 2021, we will be developing an official iOS app
 date: 2021-02-05
 draft: false
 author: gargron
+tags:
+- mastodon
+- app
 resources:
 - name: hero
   src: hero.jpg
