@@ -3,7 +3,7 @@ title: "Official apps now available for iOS and Android"
 subtitle: "A smoother Mastodon experience"
 description: "Mastodon is now available on Google Play Store and the Apple App Store. Read about some of the design decisions we made for these apps!"
 date: 2022-04-21
-draft: true
+draft: false
 author: gargron
 tags:
 - mastodon
