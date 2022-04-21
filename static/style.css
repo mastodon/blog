@@ -724,4 +724,24 @@ body {
   text-decoration: none;
 }
 
+.app-download-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.app-download-links a {
+  display: block;
+}
+.app-download-links a img {
+  display: block;
+  margin: 0;
+  box-shadow: none;
+  height: 70px;
+  width: auto;
+}
+.app-download-links a.app-download-links__app-store img {
+  height: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
