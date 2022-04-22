@@ -45,9 +45,7 @@ If you aren't here to stick mainly to one topic, you'll likely want to pick a se
 
 > The word "fediverse" (federated universe) refers to the network of all Mastodon servers [and other projects]({{< ref "posts/2018-06-27_Why-ActivityPub-is-the-future/index.md" >}}), users of which are able to talk to each other seamlessly.
 
-In time, you might find yourself wanting an account on another server, whether that means moving your primary account or having a secondary account for a certain aspect of yourself. This is normal behaviour on the fediverse and nothing to worry about. People are completely used to seeing the occasional post like this:
-
-{{< mastodon "https://divad.xyz/@zyx/100582487377045070" >}}
+In time, you might find yourself wanting an account on another server, whether that means moving your primary account or having a secondary account for a certain aspect of yourself. This is normal behaviour on the fediverse and nothing to worry about.
 
 ### Knowing your server
 
