@@ -46,9 +46,7 @@ Jeżeli nie zamierzasz skupić się na jednym temacie, prawdopodobnie chcesz wyb
 
 > Słowo „Fediwersum” (ang. „fediverse”, „federation” + „universe”) odnosi się do sieci serwerów Mastodona [i innego kompatybilnego oprogramowania]({{< relref path="2018-06-27_Why-ActivityPub-is-the-future" lang="en"  >}}), którego użytkownicy mogą wzajemnie ze sobą konwersować.
 
-Po upływie czasu, możesz uznać, że chcesz założyć konto na innym serwerze, chcąc przenieść swoje główne konto lub utworzyć drugie konto dotyczące określonej cząstki siebie. Jest to normalna rzecz w Fediwersum i nie ma czym się martwić. Ludzie przywykli tu do widoku wpisów tego typu raz na jakiś czas:
-
-{{< mastodon "https://divad.xyz/@zyx/100582487377045070" >}}
+Po upływie czasu, możesz uznać, że chcesz założyć konto na innym serwerze, chcąc przenieść swoje główne konto lub utworzyć drugie konto dotyczące określonej cząstki siebie. Jest to normalna rzecz w Fediwersum i nie ma czym się martwić.
 
 ### Poznaj swój serwer
 
