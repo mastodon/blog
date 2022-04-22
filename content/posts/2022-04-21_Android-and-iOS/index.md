@@ -3,7 +3,7 @@ title: "Official apps now available for iOS and Android"
 subtitle: "A smoother Mastodon experience"
 description: "Mastodon is now available on Google Play Store and the Apple App Store. Read about some of the design decisions we made for these apps!"
 date: 2022-04-21
-draft: true
+draft: false
 author: gargron
 tags:
 - mastodon
@@ -15,7 +15,7 @@ resources:
 
 {{< app-download-links >}}
 
-With the release of our Android app on the Play Store we are now present on the both major mobile platforms. The apps are gaining overwhelmingly positive reviews, some even going so far as to claim that [our onboarding is smoother than any other social media platform's](https://bilge.world/mastodon-ios-app-review); our iOS app is rising through the ranks of top social networking apps on the App Store; and for the first time in Mastodon's history, server admins are seeing ever increasing numbers of new sign-ups from mobile apps instead of the web interface.
+With the release of our Android app on the Play Store we are now present on both major mobile platforms. The apps are gaining overwhelmingly positive reviews, some even going so far as to claim that [our onboarding is smoother than any other social media platform's](https://bilge.world/mastodon-ios-app-review); our iOS app is rising through the ranks of top social networking apps on the App Store; and for the first time in Mastodon's history, server admins are seeing ever increasing numbers of new sign-ups from mobile apps instead of the web interface.
 
 We hope the trend continues now that people can easily find the app and sign-up by simply searching Mastodon on their app store of choice, and now that Mastodon can take advantage of the app stores' own discovery features.
 
@@ -41,25 +41,19 @@ The last step in onboarding, after the user has confirmed their e-mail address, 
 
 ### Discovery
 
-While designing the official apps we got an opportunity to reconsider some Mastodon features. The federated timeline, also known as the public timeline, firehose, or "whole known network", is a view into a Mastodon server's real-time database of public posts; and the local timeline is that, but filtered by only posts originating from your Mastodon server. While some people came to rely on those tools, there were multiple reasons against including them in the apps.
+{{< figure src="explore.png" caption="Explore tab in the Android app" >}}
 
-The federated timeline has too high of a signal vs. noise ratio to be effective as a discovery tool. Due to the way Mastodon pulls down content to provide more detailed profiles and conversations, the federated timeline becomes unmanageable on servers of all sizes, even single-user ones. Unsurprisingly, most content is not actually worth looking at, and in some cases, actively undesirable.
+While designing the official apps we got an opportunity to reconsider some Mastodon features. The federated timeline, also known as the public timeline, firehose, or "whole known network", is a view into a Mastodon server's real-time database of public posts; and the local timeline is that, but filtered by only posts originating from your Mastodon server. While some people came to rely on those tools, there were a few reasons to omit them from the apps.
+
+The federated timeline has too low of a signal vs. noise ratio to be effective as a discovery tool. Due to the way Mastodon pulls down content to provide more detailed profiles and conversations, the federated timeline becomes unmanageable on servers of all sizes, even single-user ones. Unsurprisingly, most content is not actually worth looking at, and in some cases, actively undesirable.
 
 This real-time view into everything that's published on the server is a platform for all sorts of abuse that can only be stopped after the damage has been done. Normally, if someone posts spam or nudity, it would not be seen by anyone but themselves. Local and federated timelines instantly turn that into an issue affecting everyone. This puts extra strain on moderators.
 
 With Apple and Google historically holding apps accountable for content users can access through the app, even when the app could be reasonably classified as a browser, showing unfiltered content is a ticking time bomb for the app's presence on the major app stores. Especially considering our goal of attracting new users, those users are of-yet less invested in Mastodon as a platform and less likely to use in-app reporting and blocking tools instead of giving up on the app.
 
-Another consideration for the local timeline specifically is that it detracts from Mastodon's core functionality. Let's say you explain that Mastodon lets you follow anyone regardless what Mastodon server you are on, their posts will be in your home feed, so you can sign-up anywhere or even self-host. But then you have to add that actually, there's a feature that is the total opposite of that, that you have to be on a specific server to see it so you will need multiple accounts.
+Instead, we offer a new explore tab that highlights, among other things, currently popular posts. It is a much more efficient way to find interesting content and follow users on Mastodon without scrolling through many low-quality posts and unfamiliar languages. All data that Mastodon uses for calculating rankings is locally sourced so it's heavily skewed towards things that are popular on your server, and everything goes through your server's moderators before appearing on the explore tab, making it much less prone to abuse.
 
-The local timeline is a centralizing force, as it puts pressure on people to sign-up to a specific server to get the experience they want, rather than being able to get that experience from any account on the network. It's like if GMail started allowing people to send e-mails that are only visible if you have a GMail account. Google would love to do that, and GMail users might even have reasons to want it to happen, but it would be terrible for e-mail.
-
-So if not local and federated timelines, then what?
-
-We offer a new explore tab that highlights, among other things, currently popular posts. It is a much more efficient way to find interesting content and follow users on Mastodon without scrolling through many low-quality posts and unfamiliar languages. All data that Mastodon uses for calculating rankings is locally sourced so it's heavily skewed towards things that are popular on your server, and everything goes through your server's moderators before appearing on the explore tab, making it much less prone to abuse.
-
-{{< figure src="explore.png" caption="Explore tab in the Android app" >}}
-
-We also have a vision of a new feature to replace local timelines: groups. We imagine a group as a place with an actually separate timeline that you can post to, without the post also going out to the public, your profile, and your followers' home feeds. This timeline could be made visible for group members only. You could join it from your account on any other server, thus alleviating concerns of infrastructure centralization while giving people everything they've ever wanted from local timelines. We're set to complete this feature this year.
+We also have a vision of a new feature to eventually supplant local timelines: groups. We imagine a group as a place with an actually separate timeline that you can post to, without the post also going out to the public, your profile, and your followers' home feeds. This timeline could be made visible for group members only. You could join it from your account on any other server, thus alleviating concerns of infrastructure centralization while giving people everything they've ever wanted from local timelines. We're set to complete this feature this year.
 
 ### Going forward
 
