@@ -43,7 +43,7 @@ The last step in onboarding, after the user has confirmed their e-mail address, 
 
 {{< figure src="explore.png" caption="Explore tab in the Android app" >}}
 
-While designing the official apps we got an opportunity to reconsider some Mastodon features. The federated timeline, also known as the public timeline, firehose, or "whole known network", is a view into a Mastodon server's real-time database of public posts; and the local timeline is that, but filtered by only posts originating from your Mastodon server. While some people came to rely on those tools, there were a few reasons to omit them from the apps.
+While designing the official apps we got an opportunity to reconsider some Mastodon features. The federated timeline, also known as the public timeline, firehose, or "whole known network", is a view into a Mastodon server's real-time database of public posts; and the local timeline is that, but filtered by only posts originating from your Mastodon server. While some people came to rely on those tools, there were a few reasons to (at least initially) omit them from the apps.
 
 The federated timeline has too low of a signal vs. noise ratio to be effective as a discovery tool. Due to the way Mastodon pulls down content to provide more detailed profiles and conversations, the federated timeline becomes unmanageable on servers of all sizes, even single-user ones. Unsurprisingly, most content is not actually worth looking at, and in some cases, actively undesirable.
 
@@ -57,5 +57,4 @@ We also have a vision of a new feature to eventually supplant local timelines: g
 
 ### Going forward
 
-We are not done! While the apps support all core functionality of Mastodon, there are still missing features like lists, pinned posts, new post notifications ("bell icon!"), editing, phrase filters management and so on that will be gradually added as we continue development. Plus the aforementioned groups feature in Mastodon itself!
-
+We are not done! While we have decided against including the local timeline in our apps initially, understanding that this feature is important for many community servers on Mastodon in the absence of still theoretical and not yet proven groups, we will be adding it to the explore tab. And while the apps support all core functionality of Mastodon, there are still missing features like lists, pinned posts, new post notifications ("bell icon!"), editing, phrase filters management and so on that will be gradually added as we continue development. Plus the aforementioned groups feature in Mastodon itself!
