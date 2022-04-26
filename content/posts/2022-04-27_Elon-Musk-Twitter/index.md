@@ -6,6 +6,9 @@ author: gargron
 tags:
 - mastodon
 - twitter
+resources:
+- name: hero
+  src: hero.png
 ---
 
 The news of Elon Musk buying Twitter has put Mastodon into the public spotlight as an alternative social network, rapidly exploding our growth with over 30,000 new users in just a single day. This is because at Mastodon, we present a vision of social media that cannot be bought and owned by any billionaire, and strive to create a more resilient global platform without profit incentives. We believe that your ability to communicate online should not be at the whims of a single commercial company.
