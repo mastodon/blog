@@ -1,6 +1,6 @@
 ---
 title: "Twitter buyout puts Mastodon into spotlight"
-date: 2022-04-27
+date: 2022-04-26
 draft: false
 author: gargron
 tags:
