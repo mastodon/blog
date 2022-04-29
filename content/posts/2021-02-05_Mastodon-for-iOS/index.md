@@ -27,4 +27,6 @@ The work begins on February 8, 2021.
 
 To help offset the costs of this undertaking, I have created a new milestone on [Mastodon's Patreon profile](https://patreon.com/mastodon). If you've got a business, you can now [sponsor Mastodon directly](https://sponsor.joinmastodon.org) without going through Patreon, with much smaller processing fees and tax-compliant invoices. **Thanks to everyone who is already sponsoring Mastodon, and stay tuned for updates!**
 
-{{< newsroom "8b9d90ad-9997-4ef9-92df-c1941a1da492" >}}
+**Update:** Our iOS and Android apps are now available!
+
+{{< app-download-links >}}
