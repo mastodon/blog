@@ -20,6 +20,6 @@ We are excited to bring an app that takes usability, new user onboarding and vis
 
 The efforts are sponsored by our generous sponsors on [Patreon](https://patreon.com/mastodon) and our [custom sponsorship platform](https://sponsor.joinmastodon.org), and by the Federal Ministry of Education and Research through the [Prototype Fund](https://prototypefund.de/project/mastodon-mobile-apps-und-e2e-verschluesselung/) (BMBF Förderkennzeichen: 01IS21S29). **Thanks to everyone who is already sponsoring Mastodon, and stay tuned for updates!**
 
-You can subscribe to the mailing list below to be notified when the app enters a public beta, and when it launches:
+**Update:** Our iOS and Android apps are now available!
 
-{{< newsroom "4559536a-0e2d-4582-90e6-b7c07e3c0f6e" >}}
+{{< app-download-links >}}
