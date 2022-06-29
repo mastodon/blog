@@ -1,7 +1,9 @@
 ---
-title: "Mastodon brand updates"
+title: "Mastodon branding updates"
+subtitle: "We're going purple"
+description: "We are teaming up with the design agency Oak to update our homepage and our brand. Goodbye social media blue, hello vibrant purple!"
 date: 2022-06-29
-draft: true
+draft: false
 author: gargron
 tags:
 - mastodon
