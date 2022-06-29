@@ -312,7 +312,7 @@ body {
   text-overflow: ellipsis;
 }
 .thumbnail-grid li .article-information .summary a {
-  color: #79b9e7;
+  color: #bfbfff;
 }
 
 .related-articles {
@@ -336,7 +336,7 @@ body {
 .article h1::before {
   display: block;
   content: "";
-  border-top: 2px solid #2b90d9;
+  border-top: 2px solid #6364ff;
   width: 100px;
   height: 0;
   position: absolute;
@@ -368,7 +368,7 @@ body {
   font-size: 16px;
   line-height: 28px;
   font-style: italic;
-  border-left: 3px solid #2b90d9;
+  border-left: 3px solid #6364ff;
   padding-left: 20px;
   margin-left: -23px;
   padding-bottom: 2px;
@@ -386,7 +386,7 @@ body {
   hyphens: auto;
 }
 .article a {
-  color: #79b9e7;
+  color: #bfbfff;
 }
 .article img {
   display: block;
@@ -500,7 +500,7 @@ body {
   margin-bottom: 30px;
 }
 .entry-nav a {
-  color: #79b9e7;
+  color: #bfbfff;
   display: block;
   border: 1px solid #303643;
   padding: 10px 14px;
@@ -541,7 +541,7 @@ body {
   }
 }
 .pagination a {
-  color: #79b9e7;
+  color: #bfbfff;
   display: inline-block;
   border: 1px solid #303643;
   padding: 10px 14px;
@@ -553,11 +553,11 @@ body {
   color: #687590;
 }
 .pagination .active a {
-  border-color: #79b9e7;
+  border-color: #bfbfff;
 }
 
 .cta-banner {
-  background: #2b90d9;
+  background: #6364ff;
   border-radius: 4px;
   text-align: center;
   padding: 40px;
@@ -577,7 +577,7 @@ body {
 }
 .cta-banner > a {
   font-weight: 500;
-  color: #2b90d9;
+  color: #6364ff;
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -679,7 +679,7 @@ body {
   border-color: #4a5366;
 }
 .listmonk-form .input-with-button input[type=email]:active, .listmonk-form .input-with-button input[type=email]:focus {
-  border-color: #2b90d9;
+  border-color: #6364ff;
   background: #0e1013;
 }
 .listmonk-form .input-with-button button {

@@ -9,6 +9,7 @@ categories:
 - New Features
 tags:
 - mastodon
+- branding
 ---
 
 *My name is Eugen Rochko and I’m the creator of Mastodon, a free, open-source federated social network with over 760,000 users. [You can check it out here](https://joinmastodon.org).*
