@@ -2,10 +2,11 @@
 title: "Twitter suspends Mastodon account, prevents sharing links"
 subtitle: "Our statement"
 date: 2022-12-20
-draft: true
+draft: false
 author: gargron
 tags:
 - mastodon
+- twitter
 categories:
 - Op-Ed
 ---
