@@ -1,4 +1,4 @@
-baseURL = "http://blog.joinmastodon.org/"
+baseURL = "https://blog.joinmastodon.org/"
 languageCode = "en-us"
 title = "Official Mastodon Blog"
 paginate = 6
