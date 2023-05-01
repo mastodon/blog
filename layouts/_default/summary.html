@@ -13,7 +13,7 @@
         {{ $author.name }}
         <span>&nbsp;</span>
         <a href="{{ $author.social.mastodon }}">
-          <i class="fab fa-mastodon"></i>
+          {{ partial "svg" "mastodon" }}
         </a>
       </strong>
     {{ else }}

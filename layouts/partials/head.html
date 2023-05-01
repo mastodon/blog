@@ -3,8 +3,14 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 
 <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
-<link rel='stylesheet' href='/style.css'>
-<link rel='stylesheet' href='/fontawesome.css'>
+
+{{ $styles := resources.Get "css/style.scss" | resources.ToCSS }}
+{{ if .Site.IsServer }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+{{ else }}
+  {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+{{ end }}
 
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

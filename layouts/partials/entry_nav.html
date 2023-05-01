@@ -3,7 +3,7 @@
   <div class='prev-entry sep-before'>
     {{- if .PrevInSection -}}
       <a href='{{ .PrevInSection.Permalink | relURL }}'>
-        <strong><i class="fas fa-chevron-left"></i>&nbsp;Previous</strong>
+        <strong>{{ partial "svg" "chevron-left" }}&nbsp;Previous</strong>
         {{ .PrevInSection.Title }}
       </a>
     {{- end -}}
@@ -12,7 +12,7 @@
   <div class='next-entry sep-before'>
     {{- if .NextInSection -}}
       <a href='{{ .NextInSection.Permalink | relURL }}'>
-        <strong>Next&nbsp;<i class="fas fa-chevron-right"></i></strong>
+        <strong>Next&nbsp;{{ partial "svg" "chevron-right" }}</strong>
         {{ .NextInSection.Title }}
       </a>
     {{- end -}}

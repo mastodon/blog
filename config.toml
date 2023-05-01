@@ -22,4 +22,4 @@ pygmentsStyle = "dracula"
 
 [outputs]
   home = ["HTML", "RSS"]
-  page = ["HTML", "AMP"]
+  page = ["HTML"]

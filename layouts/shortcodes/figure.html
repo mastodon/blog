@@ -1,15 +1,3 @@
-{{ if $.Page.Scratch.Get "output-format" -}}
-{{- $original := .Page.Resources.GetMatch (printf "*%s" (.Get "src")) -}}
-<amp-img src="{{ if $original }}{{ $original.Permalink }}{{ else }}{{ .Get "src" }}{{ end }}"
-         {{- if or (.Get "alt") (.Get "caption") }}
-         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
-         {{- end -}}
-         {{- if $original }}
-         width="{{ $original.Width }}"
-         height="{{ $original.Height }}"{{ end }}
-         layout="responsive">
-</amp-img>
-{{- else -}}
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
@@ -38,4 +26,3 @@
         </figcaption>
     {{- end }}
 </figure>
-{{- end }}
