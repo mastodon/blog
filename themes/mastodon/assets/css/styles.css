@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-.icon {
-  display: inline-block;
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 100 900;
+
+  src: url("/fonts/manrope-variable.woff2") format("woff2 supports variations"),
+    url("/fonts/manrope-variable.woff2") format("woff2-variations");
+}
+
+@layer base {
+  html {
+    font-size: 18px;
+  }
+}
+
+@layer utilities {
+  .icon {
+    display: inline-block;
+  }
 }
