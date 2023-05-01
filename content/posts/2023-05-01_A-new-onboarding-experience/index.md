@@ -1,10 +1,8 @@
 ---
 title: "A new onboarding experience on Mastodon"
-subtitle: ""
-description: ""
 date: 2023-05-01
 author: gargron
-draft: true
+draft: false
 tags:
 - mastodon
 - app
