@@ -21,4 +21,4 @@ Mastodon has grown so much over the past 6 months even despite some of the perce
 
 And our work continues. We’re always listening to the community and we’re excited to bring you some of the most requested features, such as quote posts, improved content and profile search, and groups. We’re also continuously working on improving content and profile discovery, onboarding, and of course our extensive set of moderation tools, as well as removing friction from decentralized features. Keep a lookout for these updates soon.
 
-We’re grateful that you’re a part of this community and to be working with you to build Mastodon into a place where you will always have the power to choose your social media experience..
+We’re grateful that you’re a part of this community and to be working with you to build Mastodon into a place where you will always have the power to choose your social media experience.
