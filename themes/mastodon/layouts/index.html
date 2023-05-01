@@ -18,18 +18,6 @@
     {{ end }}
   </div>
 
-  {{ if gt .TotalPages 1 }}
-    <section class="m-4 md:mx-0 md:my-8">
-      <div class="flex items-center justify-center">
-        {{ if .HasPrev }}
-        <a href="{{ .Prev.URL }}" class="p-4 b-1 border-gray-600 rounded-md font-bold">Previous</a>
-        {{ end }}
-
-        {{ if .HasNext }}
-        <a href="{{ .Next.URL }}" class="p-4 b-1 border-gray-600 rounded-md font-bold">Next</a>
-        {{ end }}
-      </div>
-    </section>
-  {{ end }}
+  {{ partial "pagination.html" . }}
   {{ end }}
 {{ end }}

@@ -1,0 +1,13 @@
+{{ if gt .TotalPages 1 }}
+  <section class="mt-16">
+    <div class="flex items-center justify-center">
+      {{ if .HasPrev }}
+      <a href="{{ .Prev.URL }}" class="py-2 px-8 border border-gray-200 rounded-md font-semibold hover:bg-gray-100">Previous</a>
+      {{ end }}
+
+      {{ if .HasNext }}
+      <a href="{{ .Next.URL }}" class="py-2 px-8 border border-gray-200 rounded-md font-semibold hover:bg-gray-100">Next</a>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

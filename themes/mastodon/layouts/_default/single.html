@@ -43,7 +43,7 @@
 
     {{ if isset .Params "hero" }}
       <div class="rounded-lg overflow-hidden max-w-3xl my-8 mx-auto shadow-lg">
-        <img src="{{ .Params.hero }}" alt="" />
+        <img src="{{ .Params.hero }}" alt="" class="w-full object-contain" />
       </div>
     {{ else }}
       {{ $hero := .Page.Resources.GetMatch "hero" }}
@@ -55,7 +55,7 @@
         {{ end }}
 
         <div class="rounded-lg overflow-hidden max-w-3xl my-8 mx-auto shadow-lg">
-          <img src="{{ $hero.RelPermalink }}" alt="" />
+          <img src="{{ $hero.RelPermalink }}" alt="" class="w-full object-contain" />
         </div>
       {{ end }}
     {{ end }}

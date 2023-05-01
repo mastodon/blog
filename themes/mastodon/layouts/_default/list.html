@@ -7,17 +7,7 @@
     {{ end }}
   </div>
 
-  {{ if gt .Paginator.TotalPages 1 }}
-    <section class="m-4 md:mx-0 md:my-8">
-      <div class="flex items-center justify-center">
-        {{ if .Paginator.HasPrev }}
-        <a href="{{ .Paginator.Prev.URL }}" class="p-4 b-1 border-gray-600 rounded-md font-bold">Previous</a>
-        {{ end }}
-
-        {{ if .Paginator.HasNext }}
-        <a href="{{ .Paginator.Next.URL }}" class="p-4 b-1 border-gray-600 rounded-md font-bold">Next</a>
-        {{ end }}
-      </div>
-    </section>
+  {{ with .Paginator }}
+  {{ partial "pagination.html" . }}
   {{ end }}
 {{ end }}

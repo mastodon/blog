@@ -1,11 +1,11 @@
-<a href="{{ .RelPermalink }}" class="col-span-3 group grid grid-cols-12 gap-x-8 h-entry u-url" rel="bookmark">
-  <div class="w-full relative aspect-[3/2] overflow-hidden rounded-md bg-gray-100 col-span-6">
+<a href="{{ .RelPermalink }}" class="lg:col-span-3 group grid md:grid-cols-12 gap-y-16 gap-x-8 h-entry u-url" rel="bookmark">
+  <div class="w-full relative aspect-[3/2] overflow-hidden rounded-md bg-gray-100 col-span-12 md:col-span-6 shadow-lg">
     {{ with .Page.Resources.GetMatch "hero" }}
       <img src="{{ .RelPermalink }}" alt="" class="absolute w-full h-full object-cover" />
     {{ end }}
   </div>
 
-  <div class="col-span-6">
+  <div class="col-span-12 md:col-span-6">
     <div class="flex items-center gap-x-4 text-xs">
       <time class="text-gray-500 dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
         {{ .Date.Format "Jan 2, 2006" }}

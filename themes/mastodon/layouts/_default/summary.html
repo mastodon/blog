@@ -1,5 +1,5 @@
-<a href="{{ .RelPermalink }}" class="group flex max-w-xl flex-col items-start justify-between h-entry u-url" rel="bookmark">
-  <div>
+<a href="{{ .RelPermalink }}" class="group flex lg:max-w-xl flex-col items-start justify-between h-entry u-url" rel="bookmark">
+  <div class="w-full">
     <div class="flex items-center gap-x-4 text-xs">
       <time class="text-gray-500 dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
         {{ .Date.Format "Jan 2, 2006" }}
@@ -10,7 +10,7 @@
       {{ end }}
     </div>
 
-    <div class="w-full relative aspect-[3/2] overflow-hidden rounded-md my-4 bg-gray-100">
+    <div class="w-full relative aspect-[3/2] w-full overflow-hidden rounded-md my-4 bg-gray-100 shadow-lg">
       {{ with .Page.Resources.GetMatch "hero" }}
         <img src="{{ .RelPermalink }}" alt="" class="absolute w-full h-full object-cover" />
       {{ end }}
