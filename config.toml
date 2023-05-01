@@ -1,11 +1,14 @@
 baseURL = "http://blog.joinmastodon.org/"
 languageCode = "en-us"
-title = "Official Mastodon Blog"
+title = "Mastodon Blog"
 paginate = 9
 preserveTaxonomyNames = true
 pygmentsCodeFences = true
 pygmentsStyle = "dracula"
 theme = "mastodon"
+
+[params]
+  description = "Updates from the Mastodon team"
 
 [permalinks]
   posts = "/:year/:month/:slug/"
