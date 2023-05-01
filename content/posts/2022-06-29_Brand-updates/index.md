@@ -8,6 +8,8 @@ author: gargron
 tags:
 - mastodon
 - branding
+categories:
+- News
 resources:
 - name: hero
   src: hero.png

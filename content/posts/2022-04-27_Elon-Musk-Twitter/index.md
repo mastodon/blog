@@ -6,6 +6,8 @@ author: gargron
 tags:
 - mastodon
 - twitter
+categories:
+- News
 resources:
 - name: hero
   src: hero.png

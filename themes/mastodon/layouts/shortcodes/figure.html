@@ -1,8 +1,8 @@
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+<figure{{ with .Get "class" }} class="not-prose {{ . }}"{{ end }}>
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
-    <img src="{{ .Get "src" }}"
+    <img src="{{ .Get "src" }}" class="rounded-lg shadow-lg"
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
          {{- end -}}
@@ -11,7 +11,7 @@
     /> <!-- Closing img tag -->
     {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-        <figcaption>
+        <figcaption class="text-sm">
             {{ with (.Get "title") -}}
                 <h4>{{ . }}</h4>
             {{- end -}}

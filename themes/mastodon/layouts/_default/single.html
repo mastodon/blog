@@ -1,0 +1,69 @@
+{{ define "content" }}
+  <article class="h-entry">
+    <header class="max-w-prose mx-auto relative">
+      <div class="flex items-center gap-x-4 text-xs mb-8">
+        <a href="/" class="inline-flex items-center font-bold text-violet-700 hover:underline">{{ partial "svg.html" "chevron-left" }} Back</a>
+
+        <time class="text-gray-500 dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+          {{ .Date.Format "Jan 2, 2006" }}
+        </time>
+
+        {{ range .Params.categories }}
+          <span class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600">{{ . }}</span>
+        {{ end }}
+      </div>
+
+      <h1 class="p-name text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        {{ .Page.Title }}
+      </h1>
+
+      {{ if isset .Params "subtitle" }}
+        <h2 class="text-xl leading-8 text-gray-700 mt-2">
+          {{ .Params.subtitle }}
+        </h2>
+      {{ end }}
+
+      <div class="relative mt-8 flex items-center gap-x-4">
+        {{ if isset .Params "author" }}
+          {{ $author := index .Site.Data.authors .Params.author }}
+          <div class="h-10 w-10 rounded-full bg-gray-50 relative overflow-hidden">
+            <img src="/{{ $author.image }}" alt="" class="absolute w-full h-full object-cover">
+          </div>
+
+          <div class="text-sm leading-6">
+            <p class="font-semibold text-gray-900">
+              <span class="absolute inset-0"></span>
+              {{ $author.name }}
+            </p>
+            <p class="text-gray-600">{{ $author.title }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </header>
+
+    {{ if isset .Params "hero" }}
+      <div class="rounded-lg overflow-hidden max-w-3xl my-8 mx-auto shadow-lg">
+        <img src="{{ .Params.hero }}" alt="" />
+      </div>
+    {{ else }}
+      {{ $hero := .Page.Resources.GetMatch "hero" }}
+
+      {{ if $hero }}
+        {{ if not $hero.Params.resize }}
+        {{ else }}
+          {{ $hero := $hero.Resize "800x" }}
+        {{ end }}
+
+        <div class="rounded-lg overflow-hidden max-w-3xl my-8 mx-auto shadow-lg">
+          <img src="{{ $hero.RelPermalink }}" alt="" />
+        </div>
+      {{ end }}
+    {{ end }}
+
+    <main class="e-content max-w-prose mx-auto prose mt-8">
+      {{ .Content }}
+    </main>
+  </article>
+
+  {{ partial "post/related.html" . }}
+{{ end }}

@@ -1,0 +1,44 @@
+<a href="{{ .RelPermalink }}" class="col-span-3 group grid grid-cols-12 gap-x-8 h-entry u-url" rel="bookmark">
+  <div class="w-full relative aspect-[3/2] overflow-hidden rounded-md bg-gray-100 col-span-6">
+    {{ with .Page.Resources.GetMatch "hero" }}
+      <img src="{{ .RelPermalink }}" alt="" class="absolute w-full h-full object-cover" />
+    {{ end }}
+  </div>
+
+  <div class="col-span-6">
+    <div class="flex items-center gap-x-4 text-xs">
+      <time class="text-gray-500 dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+        {{ .Date.Format "Jan 2, 2006" }}
+      </time>
+
+      {{ range .Params.categories }}
+        <span class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600">{{ . }}</span>
+      {{ end }}
+    </div>
+
+    <div class="relative">
+      <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 p-name">
+        <span class="absolute inset-0"></span>
+        {{ .Title }}
+      </h3>
+      <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 p-summary">{{ with .Description}}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
+    </div>
+
+    <div class="relative mt-8 flex items-center gap-x-4">
+      {{ if isset .Params "author" }}
+        {{ $author := index .Site.Data.authors .Params.author }}
+        <div class="h-10 w-10 rounded-full bg-gray-50 relative overflow-hidden">
+          <img src="/{{ $author.image }}" alt="" class="absolute w-full h-full object-cover">
+        </div>
+
+        <div class="text-sm leading-6">
+          <p class="font-semibold text-gray-900">
+            <span class="absolute inset-0"></span>
+            {{ $author.name }}
+          </p>
+          <p class="text-gray-600">{{ $author.title }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</a>

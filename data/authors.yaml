@@ -1,0 +1,15 @@
+gargron:
+  name: Eugen Rochko
+  title: CEO / Founder
+  image: authors/eugen-rochko.jpg
+  social:
+    mastodon: https://mastodon.social/@Gargron
+
+eleanor:
+  name: Eleanor
+
+mainebot:
+  name: Tremaine Friske
+
+nico:
+  name: Nico

@@ -8,6 +8,8 @@ draft: true
 tags:
 - mastodon
 - app
+categories:
+- News
 resources:
 - name: hero
   src: hero.png

@@ -1,0 +1,8 @@
+{{ $related := .Site.RegularPages.Related . | first 2 }}
+{{ with $related }}
+  <div class="grid grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 md:grid-cols-2 h-feed">
+    {{ range . }}
+      {{ .Render "summary" }}
+    {{ end }}
+  </div>
+{{ end }}

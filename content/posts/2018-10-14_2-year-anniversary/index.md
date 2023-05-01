@@ -8,7 +8,7 @@ resources:
 - name: hero
   src: setup.png
 categories:
-- Op-Ed
+- News
 tags:
 - mastodon
 ---

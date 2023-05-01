@@ -8,7 +8,7 @@ tags:
 - mastodon
 - twitter
 categories:
-- Op-Ed
+- News
 ---
 
 On Dec 16, Twitter suspended our @joinmastodon account after we shared a link to the newly registered [Mastodon account of @ElonJet][elonjet], an account that broadcasts public flight path data of Elon Musk’s private jet, which was previously suspended from Twitter itself. At the same time, accounts of multiple journalists from major publications such as CNN, The New York Times, The Washington Post, as well as various independent journalists, were likewise suspended for either linking to the account itself or talking about the event. We also started receiving reports that users were unable to tweet links to any Mastodon servers, including ones completely unrelated to the @ElonJet account, encountering an error message claiming that the links were identified as “potentially harmful”, [among them George Takei][takei], making it more difficult for people to share their Mastodon profiles.

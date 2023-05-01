@@ -7,6 +7,8 @@ author: gargron
 tags:
 - mastodon
 - app
+categories:
+- News
 resources:
 - name: hero
   src: android.png

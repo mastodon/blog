@@ -6,7 +6,7 @@ date: 2021-08-13
 tags:
 - legal
 categories:
-- Op-Ed
+- News
 ---
 
 In June, I was able to officially register Mastodon gGmbH after nearly 8 months of legal work ("gGmbH" means "non-profit limited liability company"). A non-profit limited liability company in Germany is structered and operates similarly to a for-profit limited liability company with a few key differences. The founding document of the company is written such that the activity of the company is working towards goals that benefit the public; the shareholders may not receive any revenue from the company's activities and can at most withdraw the funds that they originally paid in; employees may not receive extraordinarily high wages; and the company can receive donations which are then tax-free, although any other income that does not fit the definition of a donation continues to incur various taxes. To found such a legal entity the founding document must pass a review by the German tax office and the founders must pay in 25,000 EUR of starting capital.

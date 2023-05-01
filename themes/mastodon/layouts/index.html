@@ -1,0 +1,35 @@
+{{ define "content" }}
+  {{ partial "header.html" }}
+
+  {{ with (.Paginator 10) }}
+  <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 h-feed">
+    {{ if not .HasPrev }}
+      {{ range first 1 .Pages }}
+        {{ .Render "featured" }}
+      {{ end }}
+
+      {{ range after 1 .Pages }}
+        {{ .Render "summary" }}
+      {{ end }}
+    {{ else }}
+      {{ range first 9 .Pages }}
+        {{ .Render "summary" }}
+      {{ end }}
+    {{ end }}
+  </div>
+
+  {{ if gt .TotalPages 1 }}
+    <section class="m-4 md:mx-0 md:my-8">
+      <div class="flex items-center justify-center">
+        {{ if .HasPrev }}
+        <a href="{{ .Prev.URL }}" class="p-4 b-1 border-gray-600 rounded-md font-bold">Previous</a>
+        {{ end }}
+
+        {{ if .HasNext }}
+        <a href="{{ .Next.URL }}" class="p-4 b-1 border-gray-600 rounded-md font-bold">Next</a>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+  {{ end }}
+{{ end }}

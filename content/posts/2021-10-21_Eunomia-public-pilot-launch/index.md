@@ -6,6 +6,8 @@ author: gargron
 draft: false
 tags:
 - eunomia
+categories:
+- News
 ---
 
 On behalf of the EUNOMIA project, in which I represent Mastodon, I am happy to announce that after nearly 3 years of development there is now a public pilot for the Mastodon community.

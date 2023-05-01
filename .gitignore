@@ -1,5 +1,6 @@
+node_modules/
 public/
-static/.sass-cache
 resources/
-/.hugo_build.lock
 .vercel
+*.lock
+hugo_stats.json

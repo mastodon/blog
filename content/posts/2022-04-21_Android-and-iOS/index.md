@@ -8,6 +8,8 @@ author: gargron
 tags:
 - mastodon
 - app
+categories:
+- Product Launch
 resources:
 - name: hero
   src: hero.png
