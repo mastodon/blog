@@ -1,12 +1,12 @@
 {{ if gt .TotalPages 1 }}
   <section class="mt-16">
-    <div class="flex items-center justify-center">
+    <div class="flex items-center justify-center gap-x-4 text-sm">
       {{ if .HasPrev }}
-      <a href="{{ .Prev.URL }}" class="py-2 px-8 border border-gray-200 rounded-md font-semibold hover:bg-gray-100">Previous</a>
+      <a href="{{ .Prev.URL }}" class="py-4 px-8 rounded-md font-semibold text-blurple-600 hover:underline flex items-center justify-center gap-x-4">{{ partial "svg.html" "arrow-small-left" }} Previous</a>
       {{ end }}
 
       {{ if .HasNext }}
-      <a href="{{ .Next.URL }}" class="py-2 px-8 border border-gray-200 rounded-md font-semibold hover:bg-gray-100">Next</a>
+      <a href="{{ .Next.URL }}" class="py-4 px-8 font-semibold text-blurple-600 hover:underline flex items-center justify-center gap-x-4">Next {{ partial "svg.html" "arrow-small-right" }}</a>
       {{ end }}
     </div>
   </section>

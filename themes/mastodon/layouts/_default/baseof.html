@@ -6,8 +6,10 @@
 
   {{ hugo.Generator }}
 
-  <link rel="shortcut icon" type="image/png" href="{{ "favicon.ico" | absURL }}" />
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+
+  <link rel="shortcut icon" type="image/png" href="{{ "favicon.ico" | absURL }}" />
+  <link rel="canonical" href="{{ .Permalink }}" />
 
   {{ partial "head/stylesheets.html" . }}
   {{ partial "head/open_graph.html" . }}

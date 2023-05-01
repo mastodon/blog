@@ -1,7 +1,22 @@
 <meta property="og:locale" content="{{ .Site.Params.languageCode }}" />
 <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
-<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}" />
-<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
-<meta property="og:image" content="{{ .Site.Params.avatar | absURL }}" />
+
+{{ if .IsHome }}
+  <meta name="og:image" content="{{ "preview.png" | absURL }}" />
+{{ else }}
+  {{ if isset .Params "hero" }}
+    <meta name="og:image" content="{{ .Params.hero }}" />
+  {{ else }}
+    {{ $hero := .Page.Resources.GetMatch "hero" }}
+
+    {{ if $hero }}
+      {{ $hero := $hero.Resize "1200x" }}
+
+      <meta name="og:image" content="{{ $hero.Permalink }}" />
+    {{ end }}
+  {{ end }}
+{{ end }}

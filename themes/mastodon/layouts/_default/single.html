@@ -2,7 +2,7 @@
   <article class="h-entry">
     <header class="max-w-prose mx-auto relative">
       <div class="flex items-center gap-x-4 text-xs mb-8">
-        <a href="/" class="inline-flex items-center font-bold text-blurple-600 hover:underline hover:text-blurple-500">{{ partial "svg.html" "chevron-left" }} Back</a>
+        <a href="/" class="inline-flex items-center font-bold text-blurple-600 hover:underline hover:text-blurple-500">{{ partial "svg.html" "arrow-small-left" }} Back</a>
 
         <time class="text-gray-500 dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
           {{ .Date.Format "Jan 2, 2006" }}
@@ -26,8 +26,8 @@
       <div class="relative mt-8 flex items-center gap-x-4">
         {{ if isset .Params "author" }}
           {{ $author := index .Site.Data.authors .Params.author }}
-          <div class="h-10 w-10 rounded-full bg-gray-50 relative overflow-hidden">
-            <img src="/{{ $author.image }}" alt="" class="absolute w-full h-full object-cover">
+          <div class="h-10 w-10 rounded-full bg-blurple-gradient relative overflow-hidden">
+            {{ with $author.image }}<img src="{{ . | absURL }}" alt="" class="absolute w-full h-full object-cover">{{ end }}
           </div>
 
           <div class="text-sm leading-6">
@@ -35,7 +35,7 @@
               <span class="absolute inset-0"></span>
               {{ $author.name }}
             </p>
-            <p class="text-gray-600">{{ $author.title }}</p>
+            <p class="text-gray-600">{{ with $author.title }}{{ . }}{{ else }}Guest{{ end }}</p>
           </div>
         {{ end }}
       </div>
@@ -51,7 +51,7 @@
       {{ if $hero }}
         {{ if not $hero.Params.resize }}
         {{ else }}
-          {{ $hero := $hero.Resize "800x" }}
+          {{ $hero := $hero.Resize "1200x" }}
         {{ end }}
 
         <div class="rounded-lg overflow-hidden max-w-3xl my-8 mx-auto shadow-lg">
