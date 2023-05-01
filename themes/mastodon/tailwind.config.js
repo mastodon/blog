@@ -18,6 +18,16 @@ module.exports = {
         600: "#563acc", // "main"
         900: "#2f0c7a",
       },
+
+      nightshade: {
+        50: "#fcefff",
+        100: "#BD8DC8",
+        300: "#834491",
+        600: "#4E155A",
+        900: "#1d0023", // "main"
+      },
+
+      eggplant: "#17063b",
     },
 
     extend: {
