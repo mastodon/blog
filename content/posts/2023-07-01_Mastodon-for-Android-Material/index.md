@@ -1,8 +1,8 @@
 ---
 title: "Mastodon for Android update"
 description: "Today, Mastodon for Android has received a complete Material You redesign. We left no stone unturned — tab bars, settings, composing — everything is refreshed and reflects your color palette."
-date: 2023-06-30
-draft: true
+date: 2023-07-01
+draft: false
 author: gargron
 tags:
 - mastodon
