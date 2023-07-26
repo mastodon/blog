@@ -1,15 +1,15 @@
-<form method="post" action="https://newsroom.joinmastodon.org/subscription/form" class="listmonk-form">
-  <input type="hidden" name="l" value="{{ .Get 0 }}" />
+<form method="post" action="https://newsroom.joinmastodon.org/subscription/form" class="not-prose rounded-md bg-eggplant p-4 py-6 flex flex-col items-center shadow-lg text-white mt-8">
+  <input type="hidden" name="l" value="{{ .Get "id" }}" />
 
-  <h3>✉️ Join the waiting list</h3>
-  <p>Get an e-mail when the app launches</p>
+  <h3 class="text-lg font-bold mb-2 text-nightshade-50">{{ .Get "title" }}</h3>
+  <p class="text-md mb-8 font-semibold">{{ .Get "description" }}</p>
 
-  <div class="input-with-button">
-    <input type="email" name="email" placeholder="Your e-mail address" required="required" />
-    <button type="submit">Join the list</button>
+  <div class="flex gap-4 mb-8">
+    <input type="email" name="email" placeholder="Your e-mail address" required="required" class="block text-sm rounded-md bg-white border-0 bg-transparent shadow-sm ring-1 ring-inset ring-nightshade-50 py-1.5 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blurple-500" />
+    <button type="submit" class="flex-0 text-sm items-center justify-center rounded-md border-2 border-blurple-500 bg-blurple-500 py-2 px-4 !font-semibold text-white transition-colors hover:border-blurple-600 hover:bg-blurple-600 flex">Subscribe</button>
   </div>
 
-  <footer>
-    <a href="https://joinmastodon.org/privacy-policy">Privacy policy</a>
+  <footer class="text-sm">
+    See our <a href="https://joinmastodon.org/privacy-policy" class="text-nightshade-100 hover:underline">privacy policy</a>
   </footer>
 </form>

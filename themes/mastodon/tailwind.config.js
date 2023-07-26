@@ -59,5 +59,10 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/line-clamp'),
-  ]
+  ],
+  safelist: [
+    'grid-cols-3',
+    'gap-4',
+    'col-span-1',
+  ],
 }
