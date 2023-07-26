@@ -3,7 +3,7 @@ title: "New merchandise"
 description: "To help us raise more funds for our development efforts, we are launching a new line of merchandise for Mastodon including t-shirts, mugs, enamel pins, and stickers."
 date: 2023-07-25
 author: gargron
-draft: true
+draft: false
 tags:
 - merch
 - mastodon
