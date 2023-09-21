@@ -4,7 +4,7 @@ subtitle: "A new search experience and more!"
 description: "In this massive update we've added search and removed friction. What's not to love?"
 date: 2023-09-21
 author: gargron
-draft: true
+draft: false
 tags:
 - mastodon
 - changelog
