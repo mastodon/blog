@@ -8,6 +8,8 @@ author: gargron
 tags:
 - mastodon
 - app
+- android
+- ios
 categories:
 - Product Launch
 resources:

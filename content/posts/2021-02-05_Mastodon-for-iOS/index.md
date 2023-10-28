@@ -8,6 +8,7 @@ author: gargron
 tags:
 - mastodon
 - app
+- ios
 categories:
 - News
 resources:

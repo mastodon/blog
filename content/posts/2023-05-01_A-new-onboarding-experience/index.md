@@ -6,6 +6,8 @@ draft: false
 tags:
 - mastodon
 - app
+- android
+- ios
 categories:
 - News
 resources:

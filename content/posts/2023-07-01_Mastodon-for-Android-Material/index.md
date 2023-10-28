@@ -7,6 +7,7 @@ author: gargron
 tags:
 - mastodon
 - app
+- android
 categories:
 - News
 resources:
