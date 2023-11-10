@@ -13,3 +13,10 @@ mainebot:
 
 nico:
   name: Nico
+
+felix:
+  name: Felix Hlatky
+  title: CFO
+  image: authors/felix-hlatky.jpg
+  social:
+    mastodon: https://mastodon.social/@mellifluousbox

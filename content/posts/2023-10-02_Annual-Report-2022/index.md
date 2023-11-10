@@ -8,6 +8,7 @@ draft: false
 tags:
 - mastodon
 - annual-report
+- fundraising
 categories:
 - News
 resources:
