@@ -3,7 +3,7 @@ title: "Mastodon for Android update"
 subtitle: "QR codes for easier profile sharing"
 description: "In our latest Mastodon for Android release, we're making it easier than ever to share profiles using QR codes, among a number of other usability improvements."
 date: 2024-02-28
-draft: true
+draft: false
 author: gargron
 tags:
 - mastodon
