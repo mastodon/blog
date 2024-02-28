@@ -7,7 +7,7 @@ draft: false
 tags:
 - fundraising
 - mastodon
-category:
+categories:
 - News
 ---
 

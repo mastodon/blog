@@ -21,6 +21,6 @@ While we’re exploring multiple different avenues to tackle this issue, the ide
 
 We’re also going to remind people when they’re about to reply to a post that’s over 3 months old. Posts from long ago are rarely a part of an active discussion, so such replies usually happen by mistake. These features will be coming to our iOS app soon, where we’re currently working on a big performance update. If they prove successful, we'll be bringing them to the experience on the web as well.
 
- Overall, we’re committed to ensuring folks on Mastodon have a pleasant experience posting. We hear time and time again how much people enjoy coming to Mastodon to have real conversations with real people. And we want to ensure it stays that way. We look forward to hearing what you think of the new prompts!
+Overall, we’re committed to ensuring folks on Mastodon have a pleasant experience posting. We hear time and time again how much people enjoy coming to Mastodon to have real conversations with real people. And we want to ensure it stays that way. We look forward to hearing what you think of the new prompts!
 
 {{< donate >}}
