@@ -50,3 +50,6 @@ In summing up this round of news, 2024 has both been extremely busy and exciting
 We hope to continue fundraising throughout the year so we can move past simply sustaining Mastodon’s current operational and development capacity and focus on growth and greater impact. Most people don't realize the core developer team of Mastodon is still just two people, and it is these last donations that have allowed us to open a third full-time developer position.
 
 The interest in the fediverse is unprecedented this year, and it will mark a huge milestone in Mastodon’s journey. If you’re interested in being involved in any fundraising efforts or if you’re a funder interested in making a contribution, [please reach out!](mailto:finance@joinmastodon.org) We’re always happy to hear from anyone with as much passion for the open social web as we are.
+
+**US entity name:** Mastodon, Inc. \
+**EIN:** 92-3333630
