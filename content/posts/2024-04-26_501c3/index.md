@@ -76,7 +76,7 @@ Primary operations will remain led by the Germany-based entity.
 
 The Board of the U.S nonprofit does not have the legal powers to make or enforce product-level decisions. They do not oversee day-to-day operations and development of the project. The board oversees the activities specific to the U.S. entity, while advising and supporting the team on key strategic issues.
 
-**Why did you chose these Board members?**
+**Why did you choose these Board members?**
 
 We have carefully selected people who would be most helpful to the Mastodon project. Felix Hlatky has been the Chief Financial Officer of our German entity for a few years and has played a key role in turning the single-person Patreon project into a non-profit with multiple employees. Amir Ghavi has provided pro-bono support for Mastodon on multiple legal matters over the course of a year and brings a lot of expertise in open source licensing, as well as connections in the tech industry thanks to his prominent position at Fried Frank. Biz Stone as a Twitter co-founder has invaluable experience scaling a social media platform to its first few million users and many connections to experts who are familiar with the problems Mastodon is facing, and Mastodon to him represents the vision of social media as a protocol that could have, but unfortunately did not materialize at Twitter. Karien Bezuidenhout is intimately familiar with the operation of non-profit boards and open source project governance. Esra'a Al Shafei brings expertise in human rights advocacy and privacy matters, and has also served on several tech non-profit boards, which we can learn from.
 
