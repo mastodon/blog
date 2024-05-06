@@ -1,7 +1,7 @@
 ---
 title: Trunk & Tidbits, April 2024
 description: "Welcome to the first in a planned ongoing series of updates from the core Mastodon engineering team"
-date: 2024-05-01
+date: 2024-05-07
 draft: false
 categories:
 - Trunk and Tidbits
@@ -12,6 +12,9 @@ tags:
 authors:
 - renchap
 - andy
+resources:
+- name: hero
+  src: hero.png
 ---
 
 Welcome to the first in a planned ongoing series of updates from the core Mastodon engineering team. We’ll also take a quick look at what’s been happening around the broader community.
