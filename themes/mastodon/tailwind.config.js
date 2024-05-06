@@ -64,5 +64,13 @@ module.exports = {
     'grid-cols-3',
     'gap-4',
     'col-span-1',
+    'bg-green-300',
+    'bg-red-200',
+    'bg-stone-300',
+    'bg-blue-300',
+    'bg-orange-200',
+    'bg-lime-200',
+    'bg-emerald-200',
+    'bg-pink-200',
   ],
 }

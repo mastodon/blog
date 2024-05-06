@@ -1,0 +1,12 @@
+{{/* Those also need to be added to tailwind.config.js */}}
+{{
+$colors := dict
+  "interface" "green-300"
+  "new feature" "blue-300"
+  "performance" "orange-200"
+  "developer" "lime-200"
+  "api" "emerald-200"
+  "security" "pink-200"
+}}
+
+<span class="rounded-lg bg-{{ default "stone-300" (index $colors (.Get "name")) }} uppercase px-2 py-1 text-xs font-bold mr-1">{{ .Get "name" }}</span>

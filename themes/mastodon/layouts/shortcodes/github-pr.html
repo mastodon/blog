@@ -1,0 +1,13 @@
+<span class="not-prose">
+  —
+  <a class="whitespace-nowrap inline-flex items-baseline underline" href="https://github.com/mastodon/{{ default "mastodon" (.Get "repo")}}/pull/{{ .Get "id" }}">
+    <img src="/github-logo.svg" alt="Github" class="h-4 inline mr-1 self-center" />
+    <span>PR #{{ .Get "id" }}</span>
+  </a>
+  {{ with .Get "authors" }}
+    <span>(by
+      {{ $authors := split . "," }}
+      {{- delimit (apply $authors "partial" "post/github_author" ".") ", " " and " | safeHTML -}})
+    </span>
+  {{ end -}}
+</span>
