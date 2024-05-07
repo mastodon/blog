@@ -20,3 +20,17 @@ felix:
   image: authors/felix-hlatky.jpg
   social:
     mastodon: https://mastodon.social/@mellifluousbox
+
+renchap:
+  name: Renaud Chaput
+  title: CTO
+  image: authors/renaud-chaput.jpg
+  social:
+    mastodon: https://oisaur.com/@renchap
+
+andy:
+  name: Andy Piper
+  title: Developer Relations
+  image: authors/andy-piper.jpg
+  social:
+    mastodon: https://macaw.social/@andypiper

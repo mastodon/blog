@@ -24,8 +24,8 @@
       {{ end }}
 
       <div class="relative mt-8 flex items-center gap-x-4">
-        {{ if isset .Params "author" }}
-          {{ $author := index .Site.Data.authors .Params.author }}
+        {{ range default (slice .Params.author) .Params.authors }}
+          {{ $author := index $.Site.Data.authors . }}
           <div class="h-10 w-10 rounded-full bg-blurple-gradient relative overflow-hidden">
             {{ with $author.image }}<img src="{{ . | absURL }}" alt="" class="absolute w-full h-full object-cover">{{ end }}
           </div>

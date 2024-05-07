@@ -24,3 +24,11 @@
     flex: 0 0 auto;
   }
 }
+
+.features-list ul {
+  padding-left: 0;
+}
+
+.features-list ul li {
+  list-style: none;
+}
