@@ -5,24 +5,24 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 
-{{ if .IsHome }}
+{{- if .IsHome }}
   <meta name="og:image" content="{{ "preview.png" | absURL }}" />
-{{ else }}
-  {{ if isset .Params "hero" }}
+{{- else }}
+  {{- if isset .Params "hero" }}
     <meta name="og:image" content="{{ .Params.hero }}" />
-  {{ else }}
-    {{ $hero := .Page.Resources.GetMatch "hero" }}
-
-    {{ if $hero }}
-      {{ $hero := $hero.Resize "1200x" }}
-
+  {{- else }}
+    {{- $hero := .Page.Resources.GetMatch "hero" }}
+    {{- if $hero }}
+      {{- $hero := $hero.Resize "1200x" }}
       <meta name="og:image" content="{{ $hero.Permalink }}" />
-    {{ end }}
-  {{ end }}
+    {{- end }}
+  {{- end }}
 
-  {{ range default (slice .Params.author) .Params.authors }}
-    {{ $author := index $.Site.Data.authors . }}
-    {{ with $author.name }}<meta name="article:author" content="{{ . }}" />{{ end }}
-    {{ with $author.webfinger }}<meta name="fediverse:creator" content="{{ . }}" />{{ end }}
-  {{ end }}
-{{ end }}
+  {{- if or (isset .Params "author") (isset .Params "authors") }}
+    {{- range default (slice .Params.author) .Params.authors }}
+      {{- $author := index $.Site.Data.authors . }}
+      {{ with $author.name }}<meta name="article:author" content="{{ . }}" />{{ end }}
+      {{ with $author.webfinger }}<meta name="fediverse:creator" content="{{ . }}" />{{ end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
