@@ -2,6 +2,7 @@ gargron:
   name: Eugen Rochko
   title: CEO / Founder
   image: authors/eugen-rochko.jpg
+  webfinger: Gargron@mastodon.social
   social:
     mastodon: https://mastodon.social/@Gargron
 
@@ -18,6 +19,7 @@ felix:
   name: Felix Hlatky
   title: CFO
   image: authors/felix-hlatky.jpg
+  webfinger: mellifluousbox@mastodon.social
   social:
     mastodon: https://mastodon.social/@mellifluousbox
 
@@ -25,6 +27,7 @@ renchap:
   name: Renaud Chaput
   title: CTO
   image: authors/renaud-chaput.jpg
+  webfinger: renchap@oisaur.com
   social:
     mastodon: https://oisaur.com/@renchap
 
@@ -32,5 +35,6 @@ andy:
   name: Andy Piper
   title: Developer Relations
   image: authors/andy-piper.jpg
+  webfinger: andypiper@macaw.social
   social:
     mastodon: https://macaw.social/@andypiper
