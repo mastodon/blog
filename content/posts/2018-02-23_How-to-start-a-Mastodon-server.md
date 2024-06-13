@@ -11,7 +11,7 @@ tags:
 - mastodon
 ---
 
-So you want to be part of the Mastodon network, and you want to truly own your data, independent of anyone else. Perhaps you want to curate a niche community for a specific interest, or maybe for your own family or close circle of friends. You went [through the documentation](https://github.com/tootsuite/documentation/blob/master/Running-Mastodon/Production-guide.md) and installed the software, or maybe you chose [one of the available](https://maastodon.net) [hosting options](https://masto.host) to avoid all the technical nonsense altogether. What’s next?
+So you want to be part of the Mastodon network, and you want to truly own your data, independent of anyone else. Perhaps you want to curate a niche community for a specific interest, or maybe for your own family or close circle of friends. You went [through the documentation](https://docs.joinmastodon.org/) and installed the software, or maybe you chose [one of the available](https://joinmastodon.org/servers) [hosting options](https://masto.host) to avoid all the technical nonsense altogether. What’s next?
 
 There are three categories of things you’ll be doing: Customization, federation and promotion. If your community is going to be private, you can skip that last part.
 
