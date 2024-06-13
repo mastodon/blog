@@ -36,7 +36,7 @@ The changes below are available to users of instances that are running a recent 
 <div class="features-list">
 
 - {{< feature-label name="interface" >}} Allow administrators to configure the instance favicon and logo. {{< github-pr id=30040 authors="FawazFarid" >}}
-- {{< feature-label name="new feature" >}} Add OpenTelemetry instrumentation. This allows administrators to optionally send traces to their own OpenTelemetry server, to provide monitoring of backend errors and performance with much more detail than logs - useful to identify and fix issues (note that no user data is collected, this is an opt-in diagnostic tool) {{< github-pr id=30130 authors="robbkidd,julianocosta89,renchap" >}}
+- {{< feature-label name="performance" >}} Add OpenTelemetry instrumentation. This allows administrators to optionally send traces to their own OpenTelemetry server, to provide monitoring of backend errors and performance with much more detail than logs - useful to identify and fix issues (note that no user data is collected, this is an opt-in diagnostic tool) {{< github-pr id=30130 authors="robbkidd,julianocosta89,renchap" >}}
 - {{< feature-label name="api" >}} Implement RFC 8414 for OAuth 2.0 server metadata {{< github-pr id=29191 authors="thisismissem" >}}
 - {{< feature-label name="api" >}} Support multiple redirect_uris when creating OAuth 2.0 Applications {{< github-pr id=29192 authors="thisismissem" >}}
 - {{< feature-label name="api" >}} Add a batch fetch API to get multiple accounts and statuses at once. {{< github-pr id=27871 authors="noellabo,ClearlyClaire" >}}
@@ -75,7 +75,7 @@ Additionally, [work is still in progress](https://github.com/mastodon/mastodon/i
 
 We are excited to report that we filled our new core developer position! Our new team member will start in early July, and we will have more to share nearer to the time.
 
-We have fully re-written and clarified the [contribution guide](https://github.com/mastodon/.github/CONTRIBUTING.md), across the whole project. It now includes explanations about how the project works, and where we are most able to accept contributions (not just code contributions). We also have [an issue to visit on the main repository](https://github.com/mastodon/mastodon/issues/30167) with pointers to help you get started. We hope this will make it easier for new contributors to get involved.
+We have fully re-written and clarified the [contribution guide](https://github.com/mastodon/.github/blob/main/CONTRIBUTING.md), across the whole project. It now includes explanations about how the project works, and where we are most able to accept contributions (not just code contributions). We also have [an issue to visit on the main repository](https://github.com/mastodon/mastodon/issues/30167) with pointers to help you get started. We hope this will make it easier for new contributors to get involved.
 
 Finally, a *huge* thank you to our triage team for keeping the issue tracker clean and organized. We appreciate all the work you do to help us stay on top of things.
 
