@@ -35,9 +35,8 @@ The changes below are available to users of instances that are running a recent 
 
 <div class="features-list">
 
-- {{< feature-label name="interface" >}} Allow admins to configure the instance favicon and logo. {{< github-pr id=30040 authors="FawazFarid" >}}
-- {{< feature-label name="new feature" >}} Add OpenTelemetry instrumentation. This allows admins to send traces to their own OpenTelemetry server, allowing monitoring of backend errors and performance with much more details than logs - useful to spot performance issues and fix them. {{< github-pr id=30130 authors="robbkidd,julianocosta89,renchap" >}}
-- {{< feature-label name="api" >}} Implement RFC 8414 for OAuth 2.0 server metadata {{< github-pr id=29191 authors="thisismissem" >}}
+- {{< feature-label name="interface" >}} Allow administrators to configure the instance favicon and logo. {{< github-pr id=30040 authors="FawazFarid" >}}
+- {{< feature-label name="new feature" >}} Add OpenTelemetry instrumentation. This allows administrators to optionally send traces to their own OpenTelemetry server, allowing monitoring of backend errors and performance with much more details than logs - useful to identify and fix issues. No user data is collected. {{< github-pr id=30130 authors="robbkidd,julianocosta89,renchap" >}}- {{< feature-label name="api" >}} Implement RFC 8414 for OAuth 2.0 server metadata {{< github-pr id=29191 authors="thisismissem" >}}
 - {{< feature-label name="api" >}} Support multiple redirect_uris when creating OAuth 2.0 Applications {{< github-pr id=29192 authors="thisismissem" >}}
 - {{< feature-label name="api" >}} Add a batch fetch API to get multiple accounts and statuses at once. {{< github-pr id=27871 authors="noellabo,ClearlyClaire" >}}
 - {{< feature-label name="new feature" >}} Add support for `fediverse:creator` OpenGraph tag in source links shared in posts. This new feature will show a link to an article author's own Mastodon account. This is an experimental first step in a series of related features. {{< github-pr id=30398 authors="Gargron" >}}
