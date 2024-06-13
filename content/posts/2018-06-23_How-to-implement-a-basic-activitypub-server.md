@@ -115,7 +115,7 @@ To deliver our message, we will use POST it to the inbox of the person we are re
 
 HTTP signatures is one of those things that are much easier to do with actual code instead of manually. The signature looks like this:
 
-    Signature: keyId="https://my-example.com/actor#main-key",headers="(request-target) host date",signature="..."
+    Signature: keyId="https://my-example.com/actor#main-key",headers="(request-target) host date digest",signature="..."
 
 The `keyId` refers to public key of our actor, the `header` lists the headers that are used for building the signature, and then finally, the `signature` string itself. The order of the headers must be the same in plain-text and within the to-be-signed string, and header names are always lowercase. The `(request-target)` is a special, fake header that pins down the HTTP method and the path of the destination.
 
@@ -124,6 +124,7 @@ The to-be-signed string would look something like this:
     (request-target): post /inbox
     host: mastodon.social
     date: Sun, 06 Nov 1994 08:49:37 GMT
+	digest: {sha-256 hash of create-hello-world.json}
 
 Mind that there is only a ±30 seconds time window when that signature would be considered valid, which is a big reason why it’s quite difficult to do manually. Anyway, assuming we’ve got the valid date in there, we now need to build a signed string out of it. Let’s put it all together:
 
@@ -132,13 +133,15 @@ require 'http'
 require 'openssl'
 
 document      = File.read('create-hello-world.json')
+sha256        = OpenSSL::Digest::SHA256.new
+digest        = "SHA-256=" + Base64.strict_encode64(sha256.digest(document))
 date          = Time.now.utc.httpdate
 keypair       = OpenSSL::PKey::RSA.new(File.read('private.pem'))
-signed_string = "(request-target): post /inbox\nhost: mastodon.social\ndate: #{date}"
+signed_string = "(request-target): post /inbox\nhost: mastodon.social\ndate: #{date}\ndigest: #{digest}"
 signature     = Base64.strict_encode64(keypair.sign(OpenSSL::Digest::SHA256.new, signed_string))
-header        = 'keyId="https://my-example.com/actor",headers="(request-target) host date",signature="' + signature + '"'
+header        = 'keyId="https://my-example.com/actor",headers="(request-target) host date digest",signature="' + signature + '"'
 
-HTTP.headers({ 'Host': 'mastodon.social', 'Date': date, 'Signature': header })
+HTTP.headers({ 'Host': 'mastodon.social', 'Date': date, 'Signature': header, 'Digest': digest })
     .post('https://mastodon.social/inbox', body: document)
 ```
 
