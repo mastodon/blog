@@ -1,7 +1,7 @@
 ---
 title: "Highlighting journalism on Mastodon"
 subtitle: "A new feature for media organizations, journalists and bloggers"
-description: "Today we're launching a new feature that will highlight writers and journalists that are active on the fediverse when their their articles are being shared."
+description: "Today we're launching a new feature that will highlight writers and journalists that are active on the fediverse when their articles are being shared."
 date: 2024-07-02
 draft: false
 author: gargron
