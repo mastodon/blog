@@ -72,5 +72,6 @@ module.exports = {
     'bg-lime-200',
     'bg-emerald-200',
     'bg-pink-200',
+    'bg-violet-300',
   ],
 }
