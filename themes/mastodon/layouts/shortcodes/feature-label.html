@@ -7,6 +7,8 @@ $colors := dict
   "developer" "lime-200"
   "api" "emerald-200"
   "security" "pink-200"
+  "container" "lime-200"
 }}
 
-<span class="rounded-lg bg-{{ default "stone-300" (index $colors (.Get "name")) }} uppercase px-2 py-1 text-xs font-bold mr-1">{{ .Get "name" }}</span>
+<span
+  class="rounded-lg bg-{{ default "stone-300" (index $colors (.Get "name")) }} uppercase px-2 py-1 text-xs font-bold mr-1">{{ .Get "name" }}</span>
