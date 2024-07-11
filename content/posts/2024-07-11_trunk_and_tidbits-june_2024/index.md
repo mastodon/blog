@@ -50,7 +50,7 @@ In June, the team reviewed and merged 237 Pull Requests (162 when translation an
 - {{< feature-label name="api" >}} The recently-introduced `read:me` OAuth scope has been renamed to `profile` for consistency {{< github-pr id=30357 authors="ThisIsMissEm" >}}
 - {{< feature-label name="new feature" >}} Support for  `fediverse:creator` author links in the web UI. {{< github-pr id=30521 authors="Gargron" >}}
 - {{< feature-label name="api" >}} In order to support multiple authors for a `fediverse:creator` link preview, we are introducing the `authors` attribute in the REST API. This  will contain the author name, optional URL, and optional Fediverse account. For now, this attribute cannot contain more than one author on Mastodon, but this might change. The `author_*` attributes will be deprecated. {{< github-pr id=30846 authors="Gargron" >}}
-- {{< feature-label name="new feature" >}} Mastodon now has profile popovers that show when hovering over an account. We are still gathering feedback and tuning the feature, but it should be especially useful with the new grouped notifications. {{< github-pr id=30754 authors="Gargron" >}}
+- {{< feature-label name="new feature" >}} Mastodon now has account hover cards that show when hovering over an account name. We are still gathering feedback and tuning the feature, but it should be especially useful with the new grouped notifications. {{< github-pr id=30754 authors="Gargron" >}}
 
 </div>
 
