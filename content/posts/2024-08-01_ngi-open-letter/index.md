@@ -17,7 +17,7 @@ authors:
 
 # The European Union must keep funding free software
 
-The Next Generation Internet (NGI) program from the European Commission has been crucial for the development of many open-source products, including Mastodon. They are one of the best initiatives worldwide to finance work on OSS projects. The Mastodon project is supporting this open letter in favor of the NGI programs, and is calling the European Commission to not shut them down.
+The Next Generation Internet (NGI) program from the European Commission has been crucial for the development of many open-source products, including Mastodon. They are one of the best initiatives worldwide to finance work on OSS projects. The Mastodon project is supporting this open letter in favor of the NGI programs, and is calling on the European Commission to not shut them down.
 
 ## Open Letter to the European Commission
 
@@ -46,6 +46,6 @@ This is all the more essential in the current geopolitical context: the challeng
 In this perspective, we urge you to claim for preserving the NGI programme as part of the 2025 funding programme.
 
 
-_The Mastodon team suuports this open letter, initially published by [petites singularités](https://ps.zoethical.org/pub/lettre-publique-aux-ncp-au-sujet-de-ngi/). English translation has been provided by [OW2](https://www.ow2.org/view/Events/The_European_Union_must_keep_funding_free_software_open_letter). You too can support this campaign by publishing this letter [and adding yourself on this page](https://pad.public.cat/lettre-NCP-NGI)._
+_The Mastodon team supports this open letter, initially published by [petites singularités](https://ps.zoethical.org/pub/lettre-publique-aux-ncp-au-sujet-de-ngi/). The English translation has been provided by [OW2](https://www.ow2.org/view/Events/The_European_Union_must_keep_funding_free_software_open_letter). You too can support this campaign by publishing this letter [and adding yourself on this page](https://pad.public.cat/lettre-NCP-NGI)._
 
 [^1]: As defined by Horizon Europe, widening Member States are Bulgaria, Croatia, Cyprus, the Czech Republic, Estonia, Greece, Hungary, Latvia, Lituania, Malta, Poland, Portugal, Romania, Slovakia and Slovenia. Widening associated countries (under condition of an association agreement) include Albania, Armenia, Bosnia, Feroe Islands, Georgia, Kosovo, Moldavia, Montenegro, Morocco, North Macedonia, Serbia, Tunisia, Turkey and Ukraine. Widening overseas regions are : Guadeloupe, French Guyana, Martinique, Reunion Island, Mayotte, Saint-Martin, The Azores, Madeira, the Canary Islands.
