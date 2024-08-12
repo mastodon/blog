@@ -30,7 +30,7 @@ At the very end of July we [opened a role](https://mastodon.social/@MastodonEngi
 
 We continue along the road to Mastodon 4.3, our next major release. We really *hoped* to release a beta in July, but we got some feedback about the filtered notifications feature, and we are making a few changes to address some issues before releasing it more widely. It should be really close now!
 
-The changes described here are already available to users of instances that are running a recent “nightly" version (for example, [mastodon.social](https://mastodon.social) or [mastodon.online](https://mastodon.online)), and will come to others as part of the 4.3 release.
+The changes described here are already available to users of instances that are running a recent “nightly” version (for example, [mastodon.social](https://mastodon.social) or [mastodon.online](https://mastodon.online)), and will come to others as part of the 4.3 release.
 
 # Web and Backend
 
@@ -67,7 +67,7 @@ We also updated the app description in the Play Store to better explain what Mas
 
 ## iOS
 
-- This has been a long-requested feature: you can [now access your lists and followed hashtags from the app](https://github.com/mastodon/mastodon-ios/pull/1325)! Creating or editing lists is not there. Yet, but will be added in a future release.
+- This has been a long-requested feature: you can [now access your lists and followed hashtags from the app](https://github.com/mastodon/mastodon-ios/pull/1325)! Creating or editing lists is not there yet, but will be added in a future release.
 - The new 4.3 filtered notifications feature is available in the app. It does not yet mirror the latest experience from the web (because we are still iterating on it), but the basics are there.
 - Other bug fixes and stability improvements, including fixing the widgets and shortcuts, as well as [correctly counting URLs as 23 characters](https://github.com/mastodon/mastodon-ios/pull/1336), regardless of their actual size.
 
