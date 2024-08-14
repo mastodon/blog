@@ -4,4 +4,4 @@ This repository contains the source code for the Mastodon blog at blog.joinmasto
 
 The blog is built with Hugo, a static site generator.
 
-Contributions are limited to the core Mastodon project team.
+Content contributions are limited to the core Mastodon project team.
