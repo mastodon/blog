@@ -1,7 +1,6 @@
 baseURL = "https://blog.joinmastodon.org/"
 languageCode = "en-us"
 title = "Mastodon Blog"
-paginate = 9
 preserveTaxonomyNames = true
 pygmentsCodeFences = true
 pygmentsStyle = "dracula"
@@ -35,3 +34,8 @@ theme = "mastodon"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[pagination]
+  disableAliases = false
+  pagerSize = 9
+  path = 'page'
