@@ -23,7 +23,7 @@ On Mastodon, your experience depends a lot on the moderation style of the server
 
 Also, if a moderator decision targets your account specifically, you will now receive an in-app notification so you can’t miss it.
 
-We’re also bringing two new major features to help people deal with unwanted attention. Notification grouping has finally arrived to Mastodon, allowing you to make sense of your notifications even if your posts are going viral. Instead of inundating your screen with hundreds of individual notifications for the same post, you’ll see a summary of how many people boosted or favourited it.
+We’re also bringing two new major features to help people deal with unwanted attention. Notification grouping has arrived in Mastodon, allowing you to make sense of your notifications even if your posts are going viral. Instead of inundating your screen with hundreds of individual notifications for the same post, you’ll see a summary of how many people boosted or favourited it.
 
 <video src="filtering.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
 
@@ -37,17 +37,17 @@ One of the ongoing efforts is to make Mastodon easy and delightful to use. We’
 
 We have redesigned the new post composer to be much more intuitive to use, to make sure you get your post right the first time. Not only does it look better, but you can now re-arrange media you’ve uploaded as you see fit, and see exactly what layout it will be displayed in. We’ve also made content warnings and word filters easier to notice and expand.
 
-Across the web app, our iconography and color palette got a refresh, link previews look even better, and you can now hover over anyone’s name to peek at their profile and quickly follow or unfollow them. We also redesigned all of the “utility” emails (password resets, follow notifications, etc.) as well as the first welcome e-mail to help you identify what’s most important.
+Across the web app, our iconography and color palette got a refresh, link previews look even better, and you can now hover over anyone’s name to peek at their profile and quickly follow or unfollow them. We also redesigned all of the “utility” emails (password resets, follow notifications, etc.) as well as the first welcome email to help you identify what’s most important.
 
-Among various redesigned dialogs, new confirmation dialogs for muting and blocking describe exactly what effects muting and blocking will have. If you are about to block another server, we’ll show you exactly how many followers you would lose to help avoid potential mistakes. In the spirit of making the interface more self-explanatory, clicking the domain on someone’s profile now brings up information about Mastodon’s decentralized nature.
+Among various redesigned dialogs, new confirmation dialogs for muting and blocking describe exactly what effects muting and blocking will have. If you are about to block another server, we’ll show you exactly how many followers you would lose to help avoid potential mistakes. In the spirit of surfacing product education in more areas, clicking the domain on someone’s profile now brings up information about Mastodon’s decentralized nature.
 
 ### Onboarding and discovery
 
 Helping new users get started on Mastodon has been a key focus for us over the past few years. We found that people would skip follow recommendations during onboarding and end up with a boring feed that doesn’t offer anything new for hours or days.
 
-At Mastodon, we value the user’s agency over what is shown in the home feed, and pride ourselves on being a reliable platform to keep up with the people you care about without opaque algorithms randomizing which things you see in which order. This presents a challenge when other platforms have created an expectation that the user only has to passively consume what is generated for them instead of actively curating what they want to see.
+We value the user’s agency over what is shown in the home feed, and pride ourselves on being a reliable platform to keep up with the people you care about without opaque algorithms randomizing which things you see in which order. This presents a challenge when other platforms have created an expectation that the user only has to passively consume what is generated for them instead of actively curating what they want to see.
 
-On Mastodon, you need to follow people or hashtags to see them in your home feed. To try and bridge the gap for people who fly past the onboarding, we’ve introduced a little carousel with follow recommendations that will appear above the first post older than four hours on the first page of your home feed.
+On Mastodon, you need to follow people or hashtags to see them in your home feed. To bridge the gap for people who fly past the onboarding, we’ve introduced a little carousel with follow recommendations that will appear above the first post older than four hours on the first page of your home feed.
 
 <video src="carousel.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
 
@@ -55,7 +55,7 @@ We’ve also significantly improved the system of follow recommendations as a wh
 
 ### Helping writers and journalists
 
-In this version we’re introducing a new way to highlight writers and journalists on the fediverse. By adding a little piece of code to their websites, publishers can feature the fediverse profile of the page author in the link previews on Mastodon. That way, when lots of different people are sharing the link, or the link is trending in the News tab, you can easily navigate to the author’s fediverse profile and follow them right from within Mastodon to receive future updates. Publications like The Verge and TechCrunch are already using this.
+In this version we’re introducing a new way to highlight writers and journalists on the fediverse. By adding a single line to their HTML, publishers can feature the fediverse profile of the page author in the link previews on Mastodon. That way, when lots of different people are sharing the link, or the link is trending in the News tab, you can easily navigate to the author’s fediverse profile and follow them right from within Mastodon to receive future updates. Publications like The Verge and TechCrunch are already using this.
 
 <video src="author.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
 
@@ -69,7 +69,7 @@ We are extremely grateful to everyone who supports Mastodon through Patreon, our
 
 {{< donate >}}
 
-### In other news...
+### In other news
 
 <video src="plushie.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
 
