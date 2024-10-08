@@ -3,7 +3,7 @@ title: "Mastodon 4.3"
 subtitle: "New safety and discovery tools and a refreshed look"
 description: "Grouped notifications, notification filtering, better onboarding and a refreshed look await in this new release of our decentralized open-source social media software."
 author: gargron
-draft: true
+draft: false
 date: 2024-10-08
 categories:
 - New Features
