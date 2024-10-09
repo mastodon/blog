@@ -1,6 +1,6 @@
 ---
 title: "Trunk & Tidbits, September 2024"
-description: "Updates, news, and code changes from the Mastodon engineering team, for August 2024. The 4.3 beta is here!"
+description: "Engineering updates from the Mastodon team for September 2024. Behind-the-scenes of the 4.3 release."
 date: 2024-10-11
 draft: true
 categories:
