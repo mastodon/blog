@@ -81,6 +81,16 @@ Thanks to our incredible community and network, the quality of candidates was th
 
 Grouped notifications are now available for users on servers running Mastodon 4.3, alongside a redesign of posts and notifications to match our latest designs.
 
+# Fediscovery
+
+At the September Fediforum event, we introduced the Fediverse Discovery Providers project, also known as [Fediscovery](https://www.fediscovery.org/). If you've been following the Trunk & Tidbits series, you’ll remember we mentioned plans to share more details about this initiative. This project is funded by the European Commission through the NGI Search program.
+
+As part of this work, we released the first specification for “Fediverse Auxiliary Service Providers.” This will enable Fediverse server operators to opt in to additional services that extend the capabilities of their software. You can find all the details [in our repository](https://github.com/mastodon/fediverse_auxiliary_service_provider_specifications), and we encourage your feedback.
+
+We’re currently experimenting with the first building block: allowing a provider to receive data (such as accounts and statuses) from connected instances.
+
+A big shout out to one of our core developers, [David](https://upp2.com/@dave), for leading this effort!
+
 # From the wider community
 
 One of our community members, [@gee@framapiaf.org](https://framapiaf.org/@gee/), recently pointed out that [you can now add your Mastodon profile link to your Steam profile](https://framapiaf.org/@gee/113236663066085795). Meanwhile, our developer advocate [Andy](https://macaw.social/@andypiper) has ssuggested to Ko-fi that they add Mastodon as a social media option, but we’re still waiting for them to implement it. It would be great to see more platforms supporting Fediverse profiles!
