@@ -93,11 +93,11 @@ A big shout out to one of our core developers, [David](https://upp2.com/@dave), 
 
 # From the wider community
 
-One of our community members, [@gee@framapiaf.org](https://framapiaf.org/@gee/), recently pointed out that [you can now add your Mastodon profile link to your Steam profile](https://framapiaf.org/@gee/113236663066085795). Meanwhile, our developer advocate [Andy](https://macaw.social/@andypiper) has ssuggested to Ko-fi that they add Mastodon as a social media option, but we’re still waiting for them to implement it. It would be great to see more platforms supporting Fediverse profiles!
+One of our community members, [@gee@framapiaf.org](https://framapiaf.org/@gee/), recently pointed out that [you can now add your Mastodon profile link to your Steam profile](https://framapiaf.org/@gee/113236663066085795). Meanwhile, our developer advocate [Andy](https://macaw.social/@andypiper) has suggested to Ko-fi that they add Mastodon as a social media option, but we’re still waiting for them to implement it. It would be great to see more platforms supporting Fediverse profiles!
 
 # Thank you
 
-We truly appreciate your support and feedback. September was a fantastic month, with two betas and a release candidate for 4.3, and your input has been invaluable in shaping the final release. We hope you enjoy the new features and improvements, and we’re already working on more for the future.
+We truly appreciate your support and feedback. September was a fantastic month, with two betas and a release candidate for 4.3, and your comments and input helped to shape the final release. We hope you enjoy the new features and improvements - we’re already working on more for the future.
 
 As always, if you want to help us, we appreciate your donations.
 
