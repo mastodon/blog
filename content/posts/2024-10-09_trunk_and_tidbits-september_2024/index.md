@@ -1,7 +1,7 @@
 ---
 title: "Trunk & Tidbits, September 2024"
 description: "Engineering updates from the Mastodon team for September 2024. Behind-the-scenes of the 4.3 release."
-date: 2024-10-11
+date: 2024-10-10
 draft: true
 categories:
 - Trunk and Tidbits
@@ -79,7 +79,11 @@ Thanks to our incredible community and network, the quality of candidates was th
 
 ## Android
 
-Grouped notifications are now available for users on servers running Mastodon 4.3, alongside a redesign of posts and notifications to match our latest designs.
+During September, we landed a number of updates in the Android app to support the new features in 4.3:
+
+- Grouped notifications are now available for users on servers running Mastodon 4.3.
+- Posts and notifications were redesigned to match the latest look and feel.
+- Notifications about the impact of domain blocks (lost follow connections) are now available.
 
 # Fediscovery
 
