@@ -2,7 +2,6 @@
 title: "Trunk & Tidbits, September 2024"
 description: "Engineering updates from the Mastodon team for September 2024. Behind-the-scenes of the 4.3 release."
 date: 2024-10-10
-draft: true
 categories:
 - Trunk and Tidbits
 - Engineering
