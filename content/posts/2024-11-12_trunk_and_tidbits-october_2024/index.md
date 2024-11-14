@@ -45,7 +45,9 @@ We really appreciate the contributions and support. If you would like to get inv
 
 ### Backend
 
-There were a number of small bug fixes following the 4.3.0 release, that made it into 4.3.1.
+The month started with a focus on small bug fixes following the 4.3.0 release, that made it into 4.3.1.
+
+Here is a list of the notable changes that were merged in October, and will appear in the next Mastodon release:
 
 <div class="features-list">
 
@@ -53,7 +55,7 @@ There were a number of small bug fixes following the 4.3.0 release, that made it
 - {{< feature-label name="new feature" >}} Added back a 6 hour mute option, in addition to the existing 1, 7 and 30 days. {{< github-pr id=32522 authors="renchap" >}}
 - {{< feature-label name="new feature" >}} Group follow notifications. This can be disabled in the notification settings. {{< github-pr id=32520 authors="renchap" >}}
 - {{< feature-label name="new feature" >}} Added a way for push notification endpoints to cancel a push subscription. This is especially useful if your push notification server handles things asynchronously and you know that a subscription token has been permanently invalidated. For example, we are [updating our own mobile notification server](https://github.com/mastodon/webpush-apn-relay/pull/8) to benefit from this feature. {{< github-pr id=32626 authors="oneiros" >}}
-- {{< feature-label name="interface" >}} Improved the instructions to set up the `fediverse:creator` tag. {{< github-pr id=32522 authors="ClearlyClaire" >}}
+- {{< feature-label name="interface" >}} Improved the instructions to set up the `fediverse:creator` tag. {{< github-pr id=32383 authors="ClearlyClaire" >}}
 - {{< feature-label name="interface" >}} The look of Filters and Content Warnings have been adjusted based on community feedback. {{< github-pr id=32543 authors="ClearlyClaire" >}}
 - {{< feature-label name="interface" >}} Text formatting in posts should look better (and is aligned with our latest design on Android). Right now it is not possible to post formatted text on Mastodon directly, but supporting this is on the roadmap. {{< github-pr id=32633 authors="gargron" >}}
 - {{< feature-label name="interface" >}} Like and boost counts for remote posts should now be more accurate, as they are fetched when a status is refreshed. This is not real-time, and is only a first step toward better support for remote-content synchronisation. Thanks to [@sneakers-the-rat](https://github.com/sneakers-the-rat) for this contribution, and other PRs that we are currently reviewing. {{< github-pr id=32620 authors="sneakers-the-rat" >}}
