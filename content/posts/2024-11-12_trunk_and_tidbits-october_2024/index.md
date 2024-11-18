@@ -111,7 +111,7 @@ Sadly, after many years, the [botsin.space](https://botsin.space) Mastodon insta
 
 There are a number of options if you run one of the bots affected by this change. Here is a short list:
 
- - Look for a new Mastodon instance. One option could be [mastodon.bot](https://mastodon.bot) (other instances are available!). If you do this before botsin.space goes away, you can use the [move account option](https://docs.joinmastodon.org/user/moving/) to migrate the bot's follower and following networks to the new home instance.
+ - Look for a new Mastodon instance. One option *could* be [mastodon.bot](https://mastodon.bot) - although, it looks like it needs to be updated to the latest Mastodon version, so do look around, other instances are available! If you set up an account on a different server before botsin.space goes away, you can use the [move account option](https://docs.joinmastodon.org/user/moving/) to migrate the bot's follower and following networks to the new home instance.
 - [Botwiki](https://botwiki.org) continues to be an amazing resource for bot developers of all kinds, and has a [list of resources for Fediverse bot creators](https://botwiki.org/resources/fediverse-bots/).
 - [Terence Eden](https://mastodon.social/@edent) has created an interesting new single-purpose ActivityPub app - [ActivityBot](https://shkspr.mobi/blog/2024/11/introducing-activitybot-the-simplest-way-to-build-mastodon-bots/)- that makes it easy to build and host your own bot directly, without needing to live on a Mastodon instance (but your app will still be accessible in the Fediverse as a whole).
 
