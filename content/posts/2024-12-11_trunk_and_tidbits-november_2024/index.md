@@ -14,7 +14,6 @@ authors:
 resources:
 - name: hero
   src: hero.png
-draft: true
 ---
 
 # Trunk & Tidbits, November 2024
