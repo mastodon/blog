@@ -8,12 +8,15 @@ gargron:
 
 eleanor:
   name: Eleanor
+  guest: true
 
 mainebot:
   name: Tremaine Friske
+  guest: true
 
 nico:
   name: Nico
+  guest: true
 
 felix:
   name: Felix Hlatky
@@ -38,3 +41,10 @@ andy:
   webfinger: andypiper@macaw.social
   social:
     mastodon: https://macaw.social/@andypiper
+
+mastodon:
+  name: The Mastodon Team
+  webfinger: mastodon@mastodon.social
+  image: authors/mastodon.png
+  social:
+    mastodon: https://mastodon.social/@mastodon

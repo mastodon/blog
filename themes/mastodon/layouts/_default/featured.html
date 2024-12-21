@@ -25,19 +25,8 @@
     </div>
 
     <div class="relative mt-8 flex items-center gap-x-4">
-      {{ if isset .Params "author" }}
-        {{ $author := index .Site.Data.authors .Params.author }}
-        <div class="h-10 w-10 rounded-full bg-blurple-gradient relative overflow-hidden">
-          {{ with $author.image }}<img src="{{ . | absURL }}" alt="" class="absolute w-full h-full object-cover">{{ end }}
-        </div>
-
-        <div class="text-sm leading-6">
-          <p class="font-semibold text-gray-900">
-            <span class="absolute inset-0"></span>
-            {{ $author.name }}
-          </p>
-          <p class="text-gray-600">{{ with $author.title }}{{ . }}{{ else }}Guest{{ end }}</p>
-        </div>
+      {{ range default (slice .Params.author) .Params.authors }}
+        {{ partial "author" (index $.Site.Data.authors .) }}
       {{ end }}
     </div>
   </div>
