@@ -22,7 +22,7 @@ Today, we are excited to announce that Mastodon is taking important steps to ens
 
 ## What is changing
 
-Simply, we are going to transfer ownership of key Mastodon ecosystem and platform components to a new non-profit organization, affirming the intent that Mastodon should not be owned or controlled by a single individual.
+Simply, we are going to transfer ownership of key Mastodon ecosystem and platform components (including name and copyrights, among other assets) to a new non-profit organization, affirming the intent that Mastodon should not be owned or controlled by a single individual.
 
 When founder Eugen Rochko started working on Mastodon, his focus was on creating the code and conditions for the kind of social media he envisioned. The legal setup was a means to an end, a quick fix to allow him to continue operations. From the start, he declared that Mastodon would not be for sale and would be free of the control of a single wealthy individual, and he could ensure that because he was the person in control, the only ultimate decision-maker.
 
