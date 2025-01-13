@@ -52,7 +52,7 @@ As part of this transition we are committed to bringing you more [transparency](
 
 We want to be transparent about our operations and priorities for another reason too. **We need your help.** Grassroots efforts like Mastodon and the Fediverse require [creative](https://github.com/mastodon/mastodon/blob/main/CONTRIBUTING.md) and [monetary](https://joinmastodon.org/sponsors) contributions from their communities.
 
-We need to grow our annual operating budget from $600,000 to €5 million in 2025\. With these additional funds we will grow our team, invest in our community’s safety, and keep building the world’s most free and open social network — the Fediverse. To put it simply, every donation we receive will be put back into enriching the Mastodon software ecosystem and community.
+We need to grow our annual operating budget to €5 million in 2025\. With these additional funds we will grow our team, invest in our community’s safety, and keep building the world’s most free and open social network — the Fediverse. To put it simply, every donation we receive will be put back into enriching the Mastodon software ecosystem and community.
 
 Only with your support can Mastodon and the Fediverse remain free and accessible to everyone. It will take all of us working together to build resilient, governable, open and safe digital spaces.
 
