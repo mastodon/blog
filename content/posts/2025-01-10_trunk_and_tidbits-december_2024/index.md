@@ -1,7 +1,7 @@
 ---
 title: "Trunk & Tidbits, December 2024"
 description: "The latest engineering updates from the Mastodon team technical updates covering December 2024: including Fediscovery, FOSDEM... and, holidays."
-date: 2025-01-14
+date: 2025-01-10
 categories:
 - Trunk and Tidbits
 - Engineering
