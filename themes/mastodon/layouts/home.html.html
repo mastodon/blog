@@ -1,0 +1,24 @@
+{{ define "content" }}
+  {{ partial "header.html" }}
+  {{ $pages := where site.RegularPages ".Params.section" "ne" "Trunk and Tidbits" }}
+  {{ $trunk_and_tidbits_pages := where site.RegularPages ".Params.section" "eq" "Trunk and Tidbits" }}
+  {{ with (.Paginate $pages 10) }}
+  <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 h-feed">
+    {{ if not .HasPrev }}
+      {{ range first 1 .Pages }}
+        {{ .Render "featured" }}
+      {{ end }}
+
+      {{ range after 1 .Pages }}
+        {{ .Render "summary" }}
+      {{ end }}
+    {{ else }}
+      {{ range first 9 .Pages }}
+        {{ .Render "summary" }}
+      {{ end }}
+    {{ end }}
+  </div>
+
+  {{ partial "pagination.html" . }}
+  {{ end }}
+{{ end }}
