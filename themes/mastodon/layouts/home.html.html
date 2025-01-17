@@ -1,24 +1,45 @@
 {{ define "content" }}
   {{ partial "header.html" }}
-  {{ $pages := where site.RegularPages ".Params.section" "ne" "Trunk and Tidbits" }}
+  {{ $pages := .Paginate (where site.RegularPages ".Params.section" "ne" "Trunk and Tidbits") 9 }}
   {{ $trunk_and_tidbits_pages := where site.RegularPages ".Params.section" "eq" "Trunk and Tidbits" }}
-  {{ with (.Paginate $pages 10) }}
+
   <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 h-feed">
-    {{ if not .HasPrev }}
-      {{ range first 1 .Pages }}
+    {{ if not $pages.HasPrev }}
+      {{ range first 1 $pages.Pages }}
         {{ .Render "featured" }}
       {{ end }}
 
-      {{ range after 1 .Pages }}
+      <div class="col-start-3 row-start-2 space-y-4">
+        {{ range first 8 $trunk_and_tidbits_pages }}
+          <a href="{{ .RelPermalink }}" class="group block h-entry u-url" rel="bookmark">
+            <h3 class="w-full text-md font-semibold leading-6 text-gray-900 group-hover:text-blurple-500 p-name">{{ .Title }}</h3>
+            <div class="mt-2 w-full flex items-center gap-x-4">
+              <time class="text-xs text-gray-500 dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+                {{ .Date.Format "Jan 2, 2006" }}
+              </time>
+              <div class="flex items-center gap-x-2">
+                {{ if or (isset .Params "author") (isset .Params "authors") }}
+                  {{ range default (slice .Params.author) .Params.authors }}
+                    <div class="h-4 w-4 rounded-full bg-blurple-gradient relative overflow-hidden">
+                      {{ with (index $.Site.Data.authors .).image }}<img src="{{ . | absURL }}" alt="" class="absolute w-full h-full object-cover">{{ end }}
+                    </div>
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+          </a>
+        {{ end }}
+      </div>
+
+      {{ range after 1 $pages.Pages }}
         {{ .Render "summary" }}
       {{ end }}
     {{ else }}
-      {{ range first 9 .Pages }}
+      {{ range first 9 $pages.Pages }}
         {{ .Render "summary" }}
       {{ end }}
     {{ end }}
   </div>
 
-  {{ partial "pagination.html" . }}
-  {{ end }}
+  {{ partial "pagination.html" $pages }}
 {{ end }}
