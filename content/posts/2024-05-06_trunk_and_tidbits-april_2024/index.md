@@ -3,6 +3,7 @@ title: Trunk & Tidbits, April 2024
 description: "Welcome to the first in a planned ongoing series of updates from the core Mastodon engineering team"
 date: 2024-05-07
 draft: false
+section: Trunk and Tidbits
 categories:
 - Trunk and Tidbits
 - Engineering

@@ -2,6 +2,7 @@
 title: "Trunk & Tidbits, November 2024"
 description: "Mastodon core team technical updates for November 2024: the latest point releases, progress on Fediscovery, FOSDEM planning, and projects from the developer community."
 date: 2024-12-11
+section: Trunk and Tidbits
 categories:
 - Trunk and Tidbits
 - Engineering

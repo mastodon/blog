@@ -7,6 +7,8 @@
 
       {{ range .Params.categories }}
         <span class="relative z-10 rounded-full bg-nightshade-50 text-nightshade-900 px-3 py-1.5 font-medium">{{ . }}</span>
+      {{ else }}
+        <span class="relative z-10 rounded-full bg-nightshade-50 text-nightshade-900 px-3 py-1.5 font-medium">Uncategorized</span>
       {{ end }}
     </div>
 
