@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Fetch GitHub PR Author",
+      "type": "shell",
+      "command": "node .vscode/fetch_pr_authors.js ${input:prNumber}",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "prNumber",
+      "type": "promptString",
+      "description": "Enter PR number"
+    }
+  ]
+}
