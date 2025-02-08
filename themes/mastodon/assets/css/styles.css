@@ -32,3 +32,11 @@
 .features-list ul li {
   list-style: none;
 }
+
+div.tandt {
+  display: block;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+}
