@@ -18,8 +18,6 @@ resources:
 draft: false
 ---
 
-# Trunk & Tidbits, October 2024
-
 Welcome back to our monthly engineering series. In October, our long-anticipated plushies got out into the wild (mostly in Europe, for now), and we were busy tuning the code and planning what's next.
 
 This is also a larger entry in our blog series, for updates from around our community.

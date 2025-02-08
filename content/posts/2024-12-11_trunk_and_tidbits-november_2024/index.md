@@ -17,8 +17,6 @@ resources:
   src: hero.png
 ---
 
-# Trunk & Tidbits, November 2024
-
 Hi everyone! We're back with our monthly engineering update, looking back at a busy November.
 
 ## General news

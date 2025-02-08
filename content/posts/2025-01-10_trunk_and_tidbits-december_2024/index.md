@@ -17,8 +17,6 @@ resources:
   src: hero.png
 ---
 
-# Trunk & Tidbits, December 2024
-
 A belated "happy 2025!" wish, from the Mastodon team (although, if you've been paying attention, there has been [some important news already](https://blog.joinmastodon.org/2025/01/the-people-should-own-the-town-square/) this month). We're a little later than planned in posting a summary of the work that happened during December, but let's get into it.
 
 Last month was a bit more quiet than usual, because most of the team took time off with friends and family over the annual holiday season.

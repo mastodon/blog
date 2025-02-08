@@ -18,8 +18,6 @@ resources:
 
 ---
 
-# Trunk & Tidbits, September 2024
-
 Hello, friends! It’s time for another installment of our engineering updates series. Here’s what’s been happening in the code this past month.
 
 ## Releases

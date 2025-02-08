@@ -18,8 +18,6 @@ resources:
   src: hero.png
 ---
 
-# Trunk & Tidbits, August 2024
-
 It was a big month for the Mastodon team, with a lot of work going into getting the first beta release of version 4.3 ready - but that's not all that we've worked on. Here is our monthly update on what we've been up to.
 
 ## Releases

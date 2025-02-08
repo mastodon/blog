@@ -18,9 +18,6 @@ resources:
   src: hero.png
 ---
 
-
-# Trunk & Tidbits, July 2024
-
 Hey, friends - here is another instalment in our engineering updates series. This is what has been happening in the code lately.
 
 ## Team Updates
