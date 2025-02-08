@@ -2,6 +2,7 @@
 title: "Trunk & Tidbits, January 2025"
 description: "News and updates from the Mastodon developers. Technical changes from January 2025, and what the core team did at FOSDEM."
 date: 2025-02-07
+section: Trunk and Tidbits
 categories:
 - Trunk and Tidbits
 - Engineering
