@@ -1,0 +1,7 @@
+{
+  "Insert Feature Label": {
+    "prefix": "feature-label",
+    "body": "{{< feature-label name=\"${1|interface,performance,security,api,ui,backend,devops,testing,documentation|}\" >}}",
+    "description": "Insert a feature-label shortcode with selectable values"
+  }
+}
