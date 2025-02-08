@@ -10,9 +10,11 @@
       {{ end }}
 
       <div class="col-start-3 row-start-2 space-y-4">
+        <div class="tandt">Trunk & Tidbits (code blog)</div>
         {{ range first 8 $trunk_and_tidbits_pages }}
           <a href="{{ .RelPermalink }}" class="group block h-entry u-url" rel="bookmark">
-            <h3 class="w-full text-md font-semibold leading-6 text-gray-900 group-hover:text-blurple-500 p-name">{{ .Title }}</h3>
+            <h3 class="w-full text-md font-semibold leading-6 text-gray-900 group-hover:text-blurple-500 p-name"></h3>
+              &nbsp;🗓️&nbsp;&nbsp; {{ .Title | replaceRE "^Trunk & Tidbits, " "Update, " }}</h3>
             <div class="mt-2 w-full flex items-center gap-x-4">
               <time class="text-xs text-gray-500 dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
                 {{ .Date.Format "Jan 2, 2006" }}
