@@ -2,6 +2,7 @@
 title: "Trunk & Tidbits, October 2024"
 description: "Engineering updates from the Mastodon core team, October 2024. Initial updates post-4.3, a new team member, and lots of community news."
 date: 2024-11-13
+section: Trunk and Tidbits
 categories:
 - Trunk and Tidbits
 - Engineering
@@ -16,8 +17,6 @@ resources:
   src: hero.png
 draft: false
 ---
-
-# Trunk & Tidbits, October 2024
 
 Welcome back to our monthly engineering series. In October, our long-anticipated plushies got out into the wild (mostly in Europe, for now), and we were busy tuning the code and planning what's next.
 

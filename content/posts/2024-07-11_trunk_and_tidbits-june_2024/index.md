@@ -3,6 +3,7 @@ title: "Trunk & Tidbits, June 2024"
 description: "Mastodon engineering team updates for June 2024"
 date: 2024-07-11
 draft: false
+section: Trunk and Tidbits
 categories:
 - Trunk and Tidbits
 - Engineering

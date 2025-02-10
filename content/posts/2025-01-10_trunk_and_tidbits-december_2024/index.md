@@ -2,6 +2,7 @@
 title: "Trunk & Tidbits, December 2024"
 description: "The latest engineering updates from the Mastodon team technical updates covering December 2024: including Fediscovery, FOSDEM... and, holidays."
 date: 2025-01-10
+section: Trunk and Tidbits
 categories:
 - Trunk and Tidbits
 - Engineering
@@ -15,8 +16,6 @@ resources:
 - name: hero
   src: hero.png
 ---
-
-# Trunk & Tidbits, December 2024
 
 A belated "happy 2025!" wish, from the Mastodon team (although, if you've been paying attention, there has been [some important news already](https://blog.joinmastodon.org/2025/01/the-people-should-own-the-town-square/) this month). We're a little later than planned in posting a summary of the work that happened during December, but let's get into it.
 

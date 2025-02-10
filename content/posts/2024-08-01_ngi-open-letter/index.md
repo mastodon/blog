@@ -7,12 +7,11 @@ tags:
 - mastodon
 - opensource
 - ngi
+categories:
+- Op-Ed
 authors:
 - gargron
 - renchap
-# resources:
-# - name: hero
-#   src: hero.png
 ---
 
 # The European Union must keep funding free software
