@@ -4,6 +4,7 @@ description: "It is more important than ever that the social web is not controll
 date: 2025-01-13
 author: mastodon
 draft: false
+weight: 1
 categories:
 - News
 tags:
