@@ -33,6 +33,25 @@
   list-style: none;
 }
 
+blockquote.warning {
+  position: relative;
+  background: #fffbeb;
+  border-left: 6px solid #f59e0b;
+  padding: 0rem 1.5rem 0rem 3rem;
+  color: #92400e;
+  quotes: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+blockquote.warning::before {
+  content: "⚠️";
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+
 div.tandt {
   display: block;
   font-weight: bold;
