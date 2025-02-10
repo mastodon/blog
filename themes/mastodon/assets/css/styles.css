@@ -51,6 +51,7 @@ blockquote.warning::before {
   top: 10px;
   left: 10px;
   z-index: 1;
+}
 
 div.tandt {
   display: block;
