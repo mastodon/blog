@@ -4,7 +4,7 @@ subtitle: "Our approach to this long-requested feature"
 description: "Sharing our thinking and progress on bringing Quote Posts to Mastodon, with a goal to create a safe and respectful space for everyone."
 author: mastodon
 draft: true
-date: 2025-02-10
+date: 2025-02-14
 categories:
 - New Features
 tags:
