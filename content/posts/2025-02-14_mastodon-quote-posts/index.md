@@ -34,7 +34,7 @@ If you’ve been following our project, we first mentioned that we were consider
 
 There are two primary elements to bringing Quote Posts to Mastodon: user-centric, and technical.
 
-As explained above, the team started out with a shared view that Quote Posts can be misused. Many people simply do not want their content to be reposted by others; or they may find that if it is, they receive unwelcome attention.
+As explained above, the team started out with a shared view that Quote Posts can be misused. Many people simply do not want their content to be reframed by others; or they may find that if it is reposted, they receive unwelcome attention.
 
 In order to mitigate these issues, we plan to include several features in our implementation:
 
@@ -44,16 +44,16 @@ In order to mitigate these issues, we plan to include several features in our im
 
 We also want to build a tight integration for Quote Posts with the reporting functionality, to help people to feel more safe.
 
-On the technical side, the concept of Quote Posts is not standardised - there is no agreed way to build this feature into a W3C ActivityPub implementation so that it is automatically interoperable with the other applications in the Fediverse. Today, some third party Mastodon clients approximate quote posts, by showing a preview if a post contains a link to another post - but those efforts do not come with any of the features that we want to include. We want to collaborate to create a specification, so that we can encourage a better (and safer) way for all clients to have this functionality. We’ve spent time talking with users, with other Fediverse software developers (which include user facing applications), and with the developers of our own client apps, about how they might expect to see or implement Quote Posts. The output from this will be concrete proposals to help everyone building on the social web.
+On the technical side, the concept of Quote Posts is not standardised - there is no agreed way to build this feature into a W3C ActivityPub implementation so that it is automatically interoperable with the other applications in the Fediverse. Today, some third party Mastodon clients approximate quote posts, by showing a preview if a post contains a link to another post - but those efforts do not come with any of the features that we want to include. We want to collaborate to create a specification, so that we can encourage a better (and safer) way for all clients to have this functionality. We’ve spent time talking with users, with other Fediverse software developers (which include user facing applications), and with the developers of our own client apps, about how they might expect to see or implement Quote Posts. The output from this will be concrete proposals to help everyone building on the Fediverse.
 
 ## The process
 
 We are in the process of writing ActivityPub extensions (which we will publish as [Fediverse Enhancement Proposals](https://codeberg.org/fediverse/fep)), in collaboration with other developers, to cover these features for any ActivityPub software that chooses to use them. These specifications can allow everyone to efficiently implement this same feature in an interoperable way. We’ve shared [initial work on this](https://socialhub.activitypub.rocks/t/pre-fep-quote-posts-quote-policies-and-quote-controls/5031) for ActivityPub developers, and we're also posting the [background research](https://github.com/mastodon/specs-background/blob/main/quote-posts/quote-posts-research-and-goals.md) we performed, that was discussed with others - in both cases, these are being posted as deeper-dives for technical audiences and other implementers; they do not represent final outputs and choices.
 
-In addition to these proposals, this feature will impact many parts of the Mastodon codebase, including the ActivityPub-handling code, the public API, web user interface, moderation panel and capabilities (reporting will not be trivial), the administration panel, and the official iOS and Android applications. We’re working on it, but Quote Posts will still take more time to develop.
+In addition to these proposals, this feature will impact many parts of the Mastodon codebase, including the ActivityPub-handling code, the public API, web user interface, moderation panel and capabilities, the administration panel, and the official iOS and Android applications. We’re working on it, but Quote Posts will still take more time to develop.
 
 ## The future
 
-We know that Quote Posts are a source of concern for some members of the community, and highly-requested by others. We’re committed to sharing our progress, and listening to your feedback. Thanks for being a part of the open social web, and for using Mastodon.
+We know that Quote Posts are a source of concern for some members of the community, and highly-requested by others. We’re committed to sharing our progress, and listening to your feedback. Thanks for being a part of the federated open social web, and for using Mastodon.
 
 {{< donate >}}
