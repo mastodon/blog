@@ -1,6 +1,6 @@
 ---
 title: "Trunk & Tidbits, March 2025"
-description: "News from the Mastodon engineering team. Changes and work-in-progress from March 2025."
+description: "News from the Mastodon engineering team for March 2025 - including some big changes to the main code, updates to the mobile apps, Fediscovery progress, and the end of support for Mastodon 4.1."
 date: 2025-04-07
 section: Trunk and Tidbits
 categories:
@@ -15,7 +15,7 @@ authors:
 resources:
 - name: hero
   src: hero.png
-draft: true
+draft: false
 ---
 
 Greetings! We're back, with our monthly update from the Mastodon engineering team.
@@ -104,7 +104,7 @@ This was a big month across the community.
 - [Tom Casavant](https://tomkahe.com/@tom) continues to contribute to getting Mastodon into all the right places, and submitted a [pull request to add Mastodon trends as a widget for Glance](https://github.com/glanceapp/community-widgets/pull/8).
 - A new iOS app called [Sabertooth](https://sabertooth.xyz/) appeared.
 - If you use Discord, then you should find that [embeds of Mastodon posts just got much nicer](https://social.treehouse.systems/@rcombs/114145509598513980).
-   - by the way, if you [support us on Patreon](https://www.patreon.com/mastodon), you can get access to our Discord server and chat with us there.
+   - by the way, if you [support us on Patreon](https://www.patreon.com/mastodon), you can get access to our Discord server.
 - [Fred Rocha](https://mastodon.social/@john_fisherman) wrote a [blog post about how he uses Mastodon in 2025](https://fredrocha.net/2025/03/18/how-i-use-mastodon-in-2025/).
 
 That was a lot of news! We are excited to see the community continuing to share interesting apps and examples. Let us know if you're building something cool, and we may feature it in a future post.
