@@ -8,7 +8,7 @@ categories:
 tags:
 - mastodon
 authors:
-- andy
+- mastodon
 resources:
 - name: hero
   src: hero.png
