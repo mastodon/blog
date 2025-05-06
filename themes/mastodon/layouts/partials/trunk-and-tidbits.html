@@ -1,0 +1,49 @@
+{{ $trunk_and_tidbits_pages := where site.RegularPages ".Params.section" "eq"
+	"Trunk and Tidbits" }}
+
+<div class="h-min lg:mt-[49px] rounded-md overflow-hidden border border-gray-200 shadow-lg">
+    <img
+      src="/trunk-and-tidbits-hero.png"
+      alt="Colourful illustration of the Mastodon mascot holding binoculars, looking up at a star-filled night sky."
+      class="w-full"
+    >
+    <div class="space-y-3 p-4">
+      <h3 class="text-lg font-semibold leading-6">Trunk & Tidbits</h3>
+      <p class="text-sm leading-6">
+        Monthly engineering updates: the latest releases, code changes & community news.
+      </p>
+      <ul class="space-y-2">
+        {{ range first 3 $trunk_and_tidbits_pages }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="group block h-entry u-url" rel="bookmark">
+            <h4
+              class="w-full text-md font-semibold leading-6 text-gray-900 group-hover:text-blurple-500 p-name"
+            >
+              {{ .Title | replaceRE "^Trunk & Tidbits, " " " }}
+            </h4>
+            <div class="mt-1 w-full flex items-center gap-x-4">
+              <time
+                class="text-xs text-gray-500 dt-published"
+                datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}"
+              >
+                {{ .Date.Format "Jan 2, 2006" }}
+              </time>
+              <div class="flex items-center gap-x-2">
+                {{ if or (isset .Params "author") (isset .Params "authors") }}
+                  {{ range default (slice .Params.author) .Params.authors }}
+                    <div class="h-4 w-4 rounded-full bg-blurple-gradient relative overflow-hidden">
+                      {{ with (index $.Site.Data.authors .).image }}
+                        <img src="{{ . | absURL }}" alt="" class="absolute w-full h-full object-cover" />
+                      {{ end }}
+                    </div>
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      <a href="/categories/trunk-and-tidbits/" class="flex-0 text-sm font-semibold text-blurple-600 hover:underline flex items-center gap-x-2 !mt-4">Read more {{ partial "svg.html" "arrow-small-right" }}</a>
+    </div>
+</div>
