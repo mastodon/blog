@@ -2,7 +2,6 @@
 title: "Evolving the Team"
 description: "An update on Mastodon’s core team and organisation."
 date: 2025-05-01
-section: Trunk and Tidbits
 categories:
 - News
 tags:
