@@ -52,11 +52,3 @@ blockquote.warning::before {
   left: 10px;
   z-index: 1;
 }
-
-div.tandt {
-  display: block;
-  font-weight: bold;
-  font-size: 1.25rem;
-  color: #1a202c;
-  margin-bottom: 1rem;
-}
