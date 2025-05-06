@@ -4,3 +4,5 @@ resources/
 .vercel
 *.lock
 hugo_stats.json
+.DS_Store
+.vscode/settings.json
