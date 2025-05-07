@@ -11,7 +11,7 @@
 			{{ .Render "summary" }}
 		{{ end }}
 		{{ partial "trunk-and-tidbits" . }}
-		{{ range after 1 $pages.Pages }}
+		{{ range after 3 $pages.Pages }}
 			{{ .Render "summary" }}
 		{{ end }}
 	{{ else }}
