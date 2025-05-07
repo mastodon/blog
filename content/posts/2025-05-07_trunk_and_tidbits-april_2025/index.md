@@ -86,7 +86,7 @@ We published a first draft of the [`follow_recommendation`](https://github.com/m
 - The Discourse team [announced](https://blog.discourse.org/2025/04/discourse-and-the-fediverse/) support for ActivityPub and the Fediverse. Welcome!
 - Looking for a fun Mastodon web client with themes and animations? [Hai](https://antijingoist.itch.io/hai)!
 - Some [Mastodon components for Svelte](https://github.com/ryanatkn/fuz_mastodon).
-- [Mastodon for n8n](https://github.com/redoracle/n8n-nodes-the-mastodon_node) = Mastodon functionality for n8n, a workflow automation tool.
+- [Mastodon for n8n](https://github.com/redoracle/n8n-nodes-the-mastodon) = Mastodon functionality for n8n, a workflow automation tool.
 - We don't have an algorithm, but some other people have built some. A new release of FediAlgo [was announced](https://universeodon.com/@cryptadamist/114395249311910522).
 
 Built something cool on Mastodon? Let us know! We love to see what the community is building, and we want to share it with everyone.
