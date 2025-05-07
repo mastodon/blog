@@ -36,7 +36,7 @@ In addition, there are some updates to the operational side of the organisation:
 
 - [Andy Piper](https://macaw.social/@andypiper) is now Head of Communications. Andy was previously working to support our Developer Relations efforts on a freelance basis, and transitioned to lead communications across the project.
 - [Philip Schröpel](https://mastodon.social/@philipkristians) has taken on the role of Chief of Staff. Philip joined the Mastodon team as a Finance Associate in 2024. He is now leading a range of projects across Mastodon’s operations and partnerships.
-- Zora Steiner is joining us on 2 May as a Junior Project Manager, to support the team with a wide range of projects within Business Operations, like fundraising, grant applications, marketing and more.
+- [Zora Steiner](https://mastodon.social/@zoraxzora) is joining us on 2 May as a Junior Project Manager, to support the team with a wide range of projects within Business Operations, like fundraising, grant applications, marketing and more.
 
 We’ll have more to share about specific roles on the team as the transition to the new structure is finalised.
 
