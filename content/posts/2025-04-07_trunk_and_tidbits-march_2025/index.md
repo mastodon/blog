@@ -57,6 +57,8 @@ Looking ahead, we posted a notice about future versions of Mastodon (from 4.4 on
 
 In March, we reviewed and merged 167 Pull Requests (106 with translation and dependency updates removed) from 14 authors. Thank you for all of the contributions!
 
+<div class="features-list">
+
 - {{< feature-label name="api" >}} Added new fields in the instance endpoint to get the instance's about, terms of service and privacy policy pages, so apps can display them (including during signup). {{< github-pr id=33849 authors="ClearlyClaire" >}}
 - {{< feature-label name="api" >}} Added an attribute to the instance endpoint to understand whether a reason is required for sign ups. {{< github-pr id=34280 authors="ClearlyClaire" >}}
 - {{< feature-label name="new feature" >}} Updated the Terms of Service feature to add a publication date, allowing users to review the ToS before they take action. {{< github-pr id=33993 authors="Gargron" >}}
@@ -69,6 +71,8 @@ In March, we reviewed and merged 167 Pull Requests (106 with translation and dep
 - {{< feature-label name="new feature" >}} Support for Fediverse Auxiliary Service Providers has been merged. No capabilities are implemented yet, but this is the first step towards supporting [Fediscovery](<https://fediscovery.org>) in Mastodon, and opens the door for many other exciting features. {{< github-pr id=34031 authors="oneiros" >}}
 - {{< feature-label name="interface" >}}The media modal behaviour on mobile has been improved, with better gesture support. {{< github-pr id=34210 authors="Gargron" >}}
 - {{< feature-label name="admin" >}} `admin.sign_up` notifications can now be grouped. {{< github-pr id=34298 authors="ClearlyClaire" >}}
+
+</div>
 
 ## Android
 
