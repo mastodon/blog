@@ -53,7 +53,7 @@ The two Mastodon servers that we operate (mastodon.social and mastodon.online) r
 
 A beta release of Mastodon 4.4 will be available in the next couple of weeks, and we'll be looking for feedback ahead of the final release. If you’re interested in testing the beta, please keep an eye on our [GitHub repository](https://github.com/mastodon/mastodon).
 
-If you operate a Mastodon instance, we want to point out that there are some recent regulatory changes in different places around the world, that may affect your service depending on where you are located. We’re grateful to our friends at [IFTAS](https://about.iftas.org) for sharing information on these changes - be sure to take a look at [their resources](https://connect.iftas.org/library-category/legal-regulatory/) if you need some guidance around these.
+If you operate a Mastodon instance, we want to point out that there are some recent regulatory changes in different places around the world, that may affect your service depending on where you are located. We’re grateful to our friends at [IFTAS](https://about.iftas.org) for sharing information on these changes - be sure to take a look at [their resources](https://connect.iftas.org/library/legal-regulatory/) if you need some guidance around these.
 
 Finally, and very importantly - we want to thank you, for being a part of the Mastodon community. Unlike the legacy centralised networks, Mastodon is not “one size fits all”. It is important that there are many different Mastodon servers, reflecting the diverse groups and cultures around the world. We appreciate your support.
 
