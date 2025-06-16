@@ -2,7 +2,12 @@
 title: "Mastodon is a digital public good"
 date: 2025-06-18
 draft: true
-
+description: "Mastodon has been added to the Digital Public Goods Alliance's DPG Registry."
+author: andy
+tags:
+ - mastodon
+categories:
+ - News
 ---
 We're happy to share that today, [Mastodon](https://www.digitalpublicgoods.net/r/mastodon) was added to the Digital Public Goods Alliance’s [DPG Registry](http://digitalpublicgoods.net/registry/).
 
