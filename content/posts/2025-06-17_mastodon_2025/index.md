@@ -41,7 +41,7 @@ There’s an element here of how we’re building and adding features to Mastodo
 
 ## Sustainability
 
-Over the past few years, we’ve [shared annual reports](https://blog.joinmastodon.org/2024/12/annual-report-2023/) that describe where our funding comes from: donations largely from individual / grass roots supporters (currently starting at [$1 per month on Patreon](https://www.patreon.com/mastodon)), with an occasional substantial gift from an organisation or individual; and, some grants from EU programmes and institutions. We’ve always relied on these to sustain our small core team.
+Over the past few years, we’ve [shared annual reports](https://blog.joinmastodon.org/2024/12/annual-report-2023/) that describe where our funding comes from: donations largely from individual / grass roots supporters (currently starting at [81 per month on Patreon](https://www.patreon.com/mastodon)), with an occasional substantial gift from an organisation or individual; and, some grants from EU programmes and institutions. We’ve always relied on these to sustain our small core team.
 
 In 2024, we were able to provide commercial services for the first time, by hosting the [European Commission’s Mastodon instance](https://ec.social-network.europa.eu/@EUCommission), and by signing a support contract with the German federal state of [Schleswig-Holstein](https://social.schleswig-holstein.de/@landesregierung). 2024 was also the first year we were able to raise donations from wealthy individuals, which gave us more financial freedom to make large changes to the organisation.
 
