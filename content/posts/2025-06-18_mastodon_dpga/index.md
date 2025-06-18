@@ -23,4 +23,6 @@ Digital public goods are defined as open source software, open standards, open d
 
 Mastodon’s mission is to ensure that our online social spaces belong to the people forever, and provide a safe place for public discourse. Our vision is an open and safe social internet that encourages everyone to connect, create, feel welcome and be free to dream. We are part of the Fediverse, built on common shared standards, and an important element of digital public infrastructure (DPI). As concerns continue over the centralising power of legacy Big Tech platforms, Mastodon’s status as a recognised digital public good underscores the crucial role our project and software play in fostering democratic online spaces across the web.
 
+You can follow the Digital Public Goods Alliance on Mastodon at [@DPGAlliance@mastodon.social](https://mastodon.social/@DPGAlliance).
+
 _For any enquiry regarding this announcement, please contact [press@joinmastodon.org](mailto:press@joinmastodon.org). For more information on the Digital Public Goods Alliance please reach out to [hello@digitalpublicgoods.net](mailto:hello@digitalpublicgoods.net)._
