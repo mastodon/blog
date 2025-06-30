@@ -13,10 +13,10 @@ categories:
 resources:
 - name: hero
   src: hero.png
-draft: false
+draft: true
 ---
 
-Mastodon 4.4 is just around the corner: the [release candidate is now available](), and the final release should be coming along very soon. Just before the final version arrives, we wanted to shine the spotlight on some of the new features and changes that will be particularly important to anyone building apps or integrations.
+Mastodon 4.4 is just around the corner: the [release candidate is now available](), and the final release should be coming along very soon. Just before the final version arrives, we wanted to shine a spotlight on some of the new features and changes that will be particularly important to anyone building apps or integrations.
 
 As a reminder, we also share a monthly engineering update (our [Trunk and Tidbits](https://blog.joinmastodon.org/categories/trunk-and-tidbits/) series) and if you’ve been following those, some of these changes may already be familiar. You’ll see below that there are a lot of useful new additions that have arrived during this development cycle.
 
@@ -30,7 +30,7 @@ We wrote about [our approach to implementing Quote Posts](https://blog.joinmasto
 
 In practical terms, this means that incoming quote posts can now be displayed in the web UI. We expect to update our own mobile apps to display quote posts in the coming months. Being quoted and quoting other people and is not implemented yet (this is coming in Mastodon 4.5).
 
-In the REST API, quote posts are represented by a new `quote` attribute on [Status](https://docs.joinmastodon.org/entities/Status/#quote) and [StatusEdit](https://www.notion.so/Mastodon-4-4-for-Developers-1eb6208ac91b80fbb5bce9aaeb61d9f9?pvs=21) entities.
+In the REST API, quote posts are represented by a new `quote` attribute on [Status](https://docs.joinmastodon.org/entities/Status/#quote) and [StatusEdit](https://docs.joinmastodon.org/entities/StatusEdit/#quote) entities.
 
 The special CSS class `quote-inline` is used to represent backward-compatible information that is redundant with the display of quote posts, and can be safely hidden by clients which display quote posts. [Read more about this in the FEP](https://codeberg.org/fediverse/fep/src/branch/main/fep/044f/fep-044f.md#backward-compatibility-considerations).
 
