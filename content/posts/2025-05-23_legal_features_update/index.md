@@ -21,7 +21,7 @@ Communities need some ground rules; and, on the internet, we also need to be awa
 
 ## Terms of Service
 
-Mastodon servers already have _Server Rules_ and a _Privacy Policy_, that owners need to define when they create their instance. There will also now be an optional _Terms of Service_. To help you get started, we’re providing a generator (based on a template from our own law firm). The effective change date of the Terms of Service will be included, to allow users to review them before taking any action.
+Mastodon servers already have _Server Rules_ and a _Privacy Policy_, that owners need to define when they create their instance. There will also now be an optional _Terms of Service_. To help you get started, in the future (post-4.4 final release) we will be providing a generator for the Terms of Service. The effective change date of the Terms of Service will be included, to allow users to review them before taking any action.
 
 If you operate a Mastodon instance, you should decide whether you need a Terms of Service - it _may_ not apply if you run a single-user instance where you are the only user, for example. If you do need one, you should look through the text that is provided by the generator, and decide whether this is appropriate for your server and jurisdiction (i.e. for the laws of the country where your server is located).
 
@@ -48,6 +48,7 @@ There’s a change to the sign-up API to support this new feature (previously an
 The two Mastodon servers that we operate (mastodon.social and mastodon.online) run preview nightly releases of the next version, and we’ve started to enable these features there already.
 
 - If you have an account on one of these servers, you will receive an email in the coming weeks notifying you about the new Terms of Service. We plan to publish these by 9th June 2025, with at least 30 days from the date of publication before they become effective.
+  - _Note:_ as at 20th June 2025 this process is on hold, as we are revising the Terms of Service text. We will update this post when we have a new date for publication.
 - Rules translations into a number of major languages have been added to these servers.
 - An age requirement on sign-up (with a minimum age of 16) for these servers is enabled from today, 23rd May 2025.
 
