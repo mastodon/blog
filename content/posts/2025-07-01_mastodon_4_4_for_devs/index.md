@@ -13,7 +13,7 @@ categories:
 resources:
 - name: hero
   src: hero.png
-draft: true
+draft: false
 ---
 
 Mastodon 4.4 is just around the corner: the [release candidate is now available](https://github.com/mastodon/mastodon/releases/tag/v4.4.0-rc.1), and the final release should be coming along very soon. Just before the final version arrives, we wanted to shine a spotlight on some of the new features and changes that will be particularly important to anyone building apps or integrations.
