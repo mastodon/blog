@@ -28,7 +28,7 @@ We’ve divided this post into two broad sections: updates that are likely to be
 
 We wrote about [our approach to implementing Quote Posts](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon/) earlier in the year. Mastodon 4.4 brings the first element of this implementation - support for verifying and displaying remote quote posts that conform to [FEP-044f](https://codeberg.org/fediverse/fep/src/branch/main/fep/044f/fep-044f.md), a [Fediverse Enhancement Proposal](https://codeberg.org/fediverse/fep/src/branch/main) we shared with the broader developer community.
 
-In practical terms, this means that incoming quote posts can now be displayed in the web UI. We expect to update our own mobile apps to display quote posts in the coming months. Being quoted and quoting other people and is not implemented yet (this is coming in Mastodon 4.5).
+In practical terms, this means that incoming quote posts can now be displayed in the web UI. We expect to update our own mobile apps to display quote posts in the coming months. Being quoted and quoting other people is not implemented yet (this is coming in Mastodon 4.5).
 
 In the REST API, quote posts are represented by a new `quote` attribute on [Status](https://docs.joinmastodon.org/entities/Status/#quote) and [StatusEdit](https://docs.joinmastodon.org/entities/StatusEdit/#quote) entities.
 
