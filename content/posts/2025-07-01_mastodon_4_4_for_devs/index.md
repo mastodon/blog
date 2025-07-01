@@ -16,7 +16,7 @@ resources:
 draft: true
 ---
 
-Mastodon 4.4 is just around the corner: the [release candidate is now available](), and the final release should be coming along very soon. Just before the final version arrives, we wanted to shine a spotlight on some of the new features and changes that will be particularly important to anyone building apps or integrations.
+Mastodon 4.4 is just around the corner: the [release candidate is now available](https://github.com/mastodon/mastodon/releases/tag/v4.4.0-rc.1), and the final release should be coming along very soon. Just before the final version arrives, we wanted to shine a spotlight on some of the new features and changes that will be particularly important to anyone building apps or integrations.
 
 As a reminder, we also share a monthly engineering update (our [Trunk and Tidbits](https://blog.joinmastodon.org/categories/trunk-and-tidbits/) series) and if you’ve been following those, some of these changes may already be familiar. You’ll see below that there are a lot of useful new additions that have arrived during this development cycle.
 
@@ -96,7 +96,7 @@ For now, this needs to be explicitly enabled through the `http_message_signature
 
 We’re working on providing more useful services to the Fediverse as a whole, beyond just Mastodon. You can read the [Fediverse Auxiliary Service Provider specification](https://github.com/mastodon/fediverse_auxiliary_service_provider_specifications) on GitHub. We’re excited about the idea of shared, decentralised services that expand the scope of individual servers, help to balance the load between groups of instances, and provide augmented capabilities across diverse platforms. For example, there could be FASP implementations that provide link preview generation, anti-spam services, or improved search and discovery. None of these are limited to supporting Mastodon, so they offer some interesting possibilities for greater collaboration between different Fediverse software implementations. Curious to learn more? Take a look at [this session from FOSDEM 2025](https://video.fosdem.org/2025/ud2208/fosdem-2025-4531-fediscovery-improving-search-and-discovery-on-the-fediverse.av1.webm).
 
-In version 4.4, we’ve enabled initial support for FASPs in Mastodon, via the `fasp` feature flag. This is mostly of interest to developers who would like to implement their own FASP. In this initial step, it also includes the capability to share data with a discovery provider (see [https://www.fediscovery.org](https://www.fediscovery.org/)). Let us know if you’re interested in trying out our existing discovery provider, or if you plan to work on additional FASP ideas.
+In version 4.4, we’ve enabled initial support for FASPs in Mastodon, via the `fasp` feature flag. This is mostly of interest to developers who would like to implement their own FASP. In this initial step, it also includes the capability to share data with a discovery provider and use discovery providers to discover accounts through search and follow recommendations(see [https://www.fediscovery.org](https://www.fediscovery.org/)). Let us know if you’re interested in trying out our existing discovery provider, or if you plan to work on additional FASP ideas.
 
 ### Contributing features to Mastodon
 
@@ -104,6 +104,6 @@ One more interesting update, is for developers who wish to contribute to the Mas
 
 In the future, if you want to contribute a significant new feature, then you may wish to discuss with the team to potentially have it behind an experimental feature flag. There's no specific requirement for new features to be marked as experimental, but it can be useful to have a way to selectively test, before they are fully integrated into the core codebase. This sets a foundation for doing so in the future.
 
-## Thanks for your support
+## Thanks for building on Mastodon!
 
-We love to see all of the great apps and creative integrations that developers build on Mastodon and contribute to the Fediverse! Take a look at the [changelog for 4.4]() for full details of all the updates - that also includes links to the relevant issues, pull requests with commits, and documentation.
+We love to see all of the great apps and creative integrations that developers build on Mastodon and contribute to the Fediverse! Take a look at the [changelog for 4.4](https://github.com/mastodon/mastodon/releases/tag/v4.4.0-rc.1) for full details of all the updates - it also includes links to relevant issues, pull requests with commits, and documentation.
