@@ -3,7 +3,7 @@ title: "Mastodon 4.4"
 subtitle: "New ways to showcase your content, manage your network, and enjoy your timeline"
 description: "Improved profile features, enhanced list management, refreshed navigation, and the initial part of our Quote Posts implementation. All of these and more, in our latest release."
 author: mastodon
-draft: true
+draft: false
 date: 2025-07-08
 categories:
 - New Features
