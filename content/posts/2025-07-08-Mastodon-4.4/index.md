@@ -17,7 +17,7 @@ resources:
 
 Mastodon 4.4 is here, bringing you new ways to showcase yourself, manage your growing network, and enjoy what's in your timeline. Administrators and moderators also gain new tools for keeping communities safe.
 
-As always, if you use [mastodon.social](http://mastodon.social), you may already have seen some of the updates as they gradually showed up across the user experience. Rolling out a new stable release enables us to share all of that goodness across the whole Mastodon community. We encourage all server operators to [upgrade to Mastodon 4.4](https://github.com/mastodon/mastodon/releases/tag/v4.4.0), starting today.
+As always, if you use [mastodon.social](http://mastodon.social), you may already have seen some of the updates as they gradually showed up across the user experience. Rolling out a new stable release enables us to share all of that goodness across the whole Mastodon community. We encourage all server operators to [upgrade to Mastodon 4.4](https://github.com/mastodon/mastodon/releases/tag/v4.4.1), starting today.
 
 🔍 If you’re a developer building on Mastodon, you should check out our [Mastodon 4.4 for Developers](https://blog.joinmastodon.org/2025/07/mastodon-4-4-for-devs/) post, for all the additions and changes in the Mastodon API. 🛠
 
