@@ -86,7 +86,7 @@ Version 2025.03 is now available on the App Store for all users, bringing an imp
 
 ## Fediscovery
 
-Our [reference discovery provider](https://www.notion.so/Github-25298b9f28d04f9fb4b8cff033b83246?pvs=21) has become easier to install as we added documentation and an official helm chart. We started testing this in a production setting with a few select servers.
+Our [reference discovery provider](https://github.com/mastodon/fediscoverer) has become easier to install as we added documentation and an official helm chart. We started testing this in a production setting with a few select servers.
 
 On the Mastodon side, we merged support for account search and follow recommendations. Both are in 4.4, but still behind a feature flag (server administrators need to enable these features). The integrations do not have immediate user-visible effects, but should help smaller servers to fill their local database with remote accounts. Once available, these then improve account discoverability across the Fediverse.
 
