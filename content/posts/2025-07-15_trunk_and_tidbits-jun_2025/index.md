@@ -10,12 +10,12 @@ tags:
 - engineering
 - mastodon
 authors:
-- andy
 - renchap
+- andy
 resources:
 - name: hero
   src: hero.png
-draft: true
+draft: false
 ---
 
 It was another busy month in June, as we moved into the final stretch of the 4.4 release process. We also covered a lot of events during the month. Here’s what was happening.
@@ -35,7 +35,7 @@ Beyond the work of the engineering team:
 - [Felix](https://mastodon.social/@mellifluousbox) was at the Internet Governance Forum in Oslo;
 - [Hannah](https://hachyderm.io/@haubles) spoke about [Mastodon being recognised as a Digital Public Good](https://blog.joinmastodon.org/2025/06/mastodon-dpga/), at the UN Open Source Week;
 - [Renaud](https://oisaur.com/@renchap) represented us at the NGI Forum in Brussels;
-- and, [Zora](https://mastodon.social/@zoraxzora) co-hosted a Mastodon workshop at the Publix day in Berlin.
+- [Zora](https://mastodon.social/@zoraxzora) co-hosted a Mastodon workshop at the Publix day in Berlin.
 
 Relatedly, we were happy that our most recent grant application to the NGI0 Commons fund was approved. This means that we will have some funding to work on [institutional features](https://nlnet.nl/project/Mastodon-for-institutions/) over the next year.
 
@@ -72,7 +72,7 @@ In June, we reviewed and merged 189 Pull Requests (137 with translation and depe
 - {{< feature-label name="backend" >}} Added Fediscovery support for account search {{< github-pr id=34033 authors="oneiros" >}}
 - {{< feature-label name="admin" >}} Added support for writing moderation notes for instances {{< github-pr id=31529 authors="ThisIsMissEm" >}}
 - {{< feature-label name="admin" >}} Added support for a second set of SMTP credentials for non-transactional emails {{< github-pr id=35203 authors="oneiros" >}}
-- {{< feature-label name="backend" >}} {{< feature-label name="interface" >}}  Many small fixes to the backend and interface, to polish the 4.4 release
+- {{< feature-label name="backend" >}} {{< feature-label name="interface" >}} Many small fixes to the backend and interface, to polish the 4.4 release
 
 </div>
 
@@ -94,7 +94,7 @@ Although the additions do not have an instant effect, we already have an experim
 
 ## Community news
 
-In June, we spotted that the excellent [Robb](https://social.lol/@robb) (maker of [EchoFeed](https://echofeed.app/)) created [a plugin for TRMNL](https://github.com/rknightuk/trmnl-mastodon-profile) (an e-Ink display device) to show Mastodon profile information. Fun 📊
+In June, we spotted that the excellent [Robb](https://social.lol/@robb) (maker of [EchoFeed](https://echofeed.app/)) created [a plugin for TRMNL](https://github.com/rknightuk/trmnl-mastodon-profile), an e-Ink display device, to show Mastodon profile information. A fun little display! 📊
 
 There’s ➡ more space here ⬅ for another one or two projects 😉 As a reminder, if you are building on Mastodon and our API, we’d love to hear about your project. Let [Andy](https://macaw.social/@andypiper) know about it, so we can include a shout-out and tell the community about it.
 
