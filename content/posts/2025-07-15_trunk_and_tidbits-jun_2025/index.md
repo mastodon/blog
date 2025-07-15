@@ -67,7 +67,7 @@ In June, we reviewed and merged 189 Pull Requests (137 with translation and depe
 - {{< feature-label name="interface" >}} Update the navigation layout on small screens {{< github-pr id=34910 authors="Gargron" >}}
 - {{< feature-label name="interface" >}} Replaced the dropdown menu near the composer with a “More” button in the main navigation {{< github-pr id=34987 authors="Gargron" >}}
 - {{< feature-label name="interface" >}} Renamed “Explore” to “Trending” {{< github-pr id=34985 authors="Gargron" >}}
-- {{< feature-label name="admin" >}} Reordered the emails in the main navigation panel {{< github-pr id=35029 authors="Gargron" >}}
+- {{< feature-label name="admin" >}} Reordered the items in the main navigation panel {{< github-pr id=35029 authors="Gargron" >}}
 - {{< feature-label name="backend" >}} Added Fediscovery support to follow recommendations {{< github-pr id=35218 authors="oneiros" >}}
 - {{< feature-label name="backend" >}} Added Fediscovery support for account search {{< github-pr id=34033 authors="oneiros" >}}
 - {{< feature-label name="admin" >}} Added support for writing moderation notes for instances {{< github-pr id=31529 authors="ThisIsMissEm" >}}
