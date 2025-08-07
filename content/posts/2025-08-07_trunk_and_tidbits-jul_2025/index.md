@@ -66,6 +66,8 @@ Finished work on 2025.04, including:
 - Editing a post now gives the same progress indication as publishing a post for the first time (filling up the button)
 - Efficiency improvements to avoid the “too many requests” error (fixes [#1449](https://github.com/mastodon/mastodon-ios/issues/1449))
 
+Behind-the-scenes, there is work in progress to completely rework the way posts and timelines are handled.
+
 ## Community
 
 We spotted a couple of interesting new app releases this month.
