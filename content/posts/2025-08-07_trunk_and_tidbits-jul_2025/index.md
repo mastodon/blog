@@ -25,7 +25,7 @@ In July, we [announced that we’d be running a donation campaign in our mobile 
 
 ## Releases
 
-At the start of August (just before publishing this update) we released version [4.4.3](https://github.com/mastodon/mastodon/releases/tag/4.4.3), along with [4.3.11](https://github.com/mastodon/mastodon/releases/tag/4.3.11), and [4.2.24](https://github.com/mastodon/mastodon/releases/tag/4.2.24). These are the _current, recommended releases_.
+At the start of August (just before publishing this update) we released version [4.4.3](https://github.com/mastodon/mastodon/releases/tag/v4.4.3), along with [4.3.11](https://github.com/mastodon/mastodon/releases/tag/v4.3.11), and [4.2.24](https://github.com/mastodon/mastodon/releases/tag/v4.2.24). These are the _current, recommended releases_.
 
 These releases contain bugfixes, a fix for a moderate severity rate limit issue, and a fix for a security issue if you use SAML. In version 4.4.3 there are also changes to how quote posts are handled, as we continue to work towards full support for quote posts in the next main release (see below for more on this).
 
