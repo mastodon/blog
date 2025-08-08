@@ -24,8 +24,10 @@ theme = "mastodon"
     weight = 3
 
 [outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML"]
+  home = ['html', 'rss']
+  page = ['html']
+  section = ['html', 'rss']
+  taxonomy = ['html', 'rss']
 
 [build]
   writeStats = true
