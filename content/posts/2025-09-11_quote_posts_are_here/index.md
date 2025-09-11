@@ -24,7 +24,7 @@ Over the years, we’ve learned just how essential quoting is to many of you. Wh
 
 Quoting is a powerful tool, and like any tool, it can be misused. That’s why we’ve taken time to introduce quotes in a way that aligns with Mastodon values, focusing on safety and mental health – not just on engagement.
 
-Found something inspiring? Quote your favourite posts from where you typically boost them. Don’t want to be quoted? Disable quoting by default for all posts, or turn off quoting for a specific post. Want your thoughts to inspire a wider audience? Keep the default setting enabled to ‘anyone’. *You’re in control of how much or how little you engage.*
+Found something inspiring? Quote your favourite posts from where you typically boost them. Don’t want to be quoted? Disable quoting by default for all posts, or turn off quoting for a specific post. Want your thoughts to inspire a wider audience? Keep the default setting enabled to ‘Anyone’. *You’re in control of how much or how little you engage.*
 
 Read on for a deeper look at how quote posts will look and function in Mastodon 4.5.
 
