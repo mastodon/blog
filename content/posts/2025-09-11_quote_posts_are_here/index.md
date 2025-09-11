@@ -19,13 +19,11 @@ resources:
 
 Over the years, we’ve learned just how essential quoting is to many of you. When done responsibly, quoting allows us to expand discussions, make new connections, and amplify underrepresented voices.
 
-[**Related: Bringing Quote Posts to Mastodon**](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon/)
+Quoting is a powerful tool, and like any tool, it can be misused. That’s why we’ve taken time to introduce quotes in a way that aligns with Mastodon values, focusing on safety and mental health – not just on engagement. We shared our thinking about [bringing quote posts to Mastodon](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon/) earlier in the year.
 
-Quoting is a powerful tool, and like any tool, it can be misused. That’s why we’ve taken time to introduce quotes in a way that aligns with Mastodon values, focusing on safety and mental health – not just on engagement.
+Found something inspiring? Quote your favourite posts from where you typically boost them. Don’t want to be quoted? Disable quoting by default for all posts, or turn off quoting for a specific post. Want your thoughts to inspire a wider audience? Keep the default setting enabled to ‘Anyone’. **You’re in control of how much or how little you engage.**
 
-Found something inspiring? Quote your favourite posts from where you typically boost them. Don’t want to be quoted? Disable quoting by default for all posts, or turn off quoting for a specific post. Want your thoughts to inspire a wider audience? Keep the default setting enabled to ‘Anyone’. *You’re in control of how much or how little you engage.*
-
-Read on for a deeper look at how quote posts will look and function in Mastodon 4.5.
+Quote post functionality will arrive on [mastodon.online](http://mastodon.online) and [mastodon.social](http://mastodon.social) next week, and will be available in Mastodon 4.5 soon thereafter. Read on for a more detailed look at how quote posts will look and function in Mastodon 4.5.
 
 ## You’re in control of who quotes you {#controls}
 
@@ -87,7 +85,7 @@ As you may know, we worked on a [technical specification for the Fediverse that 
 
 ## Stay tuned
 
-Quote post functionality will arrive on [mastodon.online](http://mastodon.online) and [mastodon.social](http://mastodon.social) next week, and will be available in Mastodon 4.5 soon thereafter. If you use a third-party app, the feature may not show up right away, and you may need to wait for the author to add it.
+As we mentioned at the start, quote post functionality will arrive on [mastodon.online](http://mastodon.online) and [mastodon.social](http://mastodon.social) next week. If you use a third-party app, the feature may not show up right away, and you may need to wait for the author to add it. It will be available more widely when Mastodon 4.5 is released in the near future.
 
 For more information on how to use quote posts, [have a look at the FAQ section of the documentation](https://docs.joinmastodon.org/user/quote-posts/#faq).
 
