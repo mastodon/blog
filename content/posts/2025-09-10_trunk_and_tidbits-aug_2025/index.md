@@ -83,7 +83,7 @@ If you’re into more modern platforms, the Android app Tusky reached version 30
 Here are just a couple more highlights of other recent releases:
 
 - [TootSDK](https://github.com/TootSDK/TootSDK/tags), a Swift library, made a number of releases during August.
-- [Mastodon.py](http://Mastodon.py), a Python library, brought functionality up-to-date with Mastodon 4.4.3 (and made a few more releases in August, as well).
+- [Mastodon.py](https://github.com/halcy/Mastodon.py/releases/tag/v2.1.0), a Python library, brought functionality up-to-date with Mastodon 4.4.3 (and made a few more releases in August, as well).
 
 ## Thanks
 
