@@ -88,9 +88,9 @@ As you may know, we worked on a [technical specification for the Fediverse that 
 
 ## Stay tuned
 
-Quote post functionality will arrive on [mastodon.social](http://mastodon.social) next week, and will be built into Mastodon 4.5 soon thereafter. If you use a third-party app, the feature may not show up right away, and you may need to wait for the author to add it.
+Quote post functionality will arrive on [mastodon.online](http://mastodon.online) and [mastodon.social](http://mastodon.social) next week, and will be available in Mastodon 4.5 soon thereafter. If you use a third-party app, the feature may not show up right away, and you may need to wait for the author to add it.
 
-For more information on how to use quote posts, [have a look at the FAQ section of the documentation](https://docs.joinmastodon.org/user/posting/quote-posts/#faq).
+For more information on how to use quote posts, [have a look at the FAQ section of the documentation](https://docs.joinmastodon.org/user/quote-posts/#faq).
 
 If you’d like to preemptively opt out of being quoted, you can do so on Mastodon 4.4 under *Settings > Preferences > Other*.
 
