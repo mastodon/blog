@@ -44,6 +44,7 @@ andy:
 
 mastodon:
   name: The Mastodon Team
+  title: Building a better social web
   webfinger: mastodon@mastodon.social
   image: authors/mastodon.png
   social:
