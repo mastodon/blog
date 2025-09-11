@@ -1,0 +1,5 @@
+# Custom Dictionary Words
+Fediverse
+ActivityPub
+NGI
+NLNet

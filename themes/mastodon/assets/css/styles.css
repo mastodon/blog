@@ -52,3 +52,24 @@ blockquote.warning::before {
   left: 10px;
   z-index: 1;
 }
+
+blockquote.info {
+  position: relative;
+  background: #cdd1ff;
+  border-left: 6px solid #858afa;
+  padding: 0rem 1.5rem 0rem 3rem;
+  color: #563acc;
+  quotes: none;
+  display: flex;
+  align-items: flex-start;
+  font-style: normal;
+}
+
+blockquote.info::before {
+  content: "ℹ️";
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
