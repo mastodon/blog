@@ -1,6 +1,7 @@
 ---
 title: "Introducing quote posts"
 subtitle: "We’re expanding ways to engage while preserving author safety."
+description: "Over the years, we’ve learned just how essential quoting is to many of you. When done responsibly, quoting allows us to expand discussions, make new connections, and amplify underrepresented voices. Here's how quote posts will work on Mastodon."
 date: 2025-09-11
 author: mastodon
 draft: false
@@ -10,6 +11,7 @@ tags:
 - activitypub
 categories:
 - New Features
+- Product Launch
 resources:
 - name: hero
   src: hero.png
@@ -32,9 +34,9 @@ Read on for a deeper look at how quote posts will look and function in Mastodon 
 
 Disable or limit quotes by navigating to *Settings > Preferences > Posting Defaults*. These defaults will apply to all *future* posts you create.
 
-(Note: Users on Mastodon 4.4 will find this setting under *Settings > Preferences > Other* instead.)
+(Note: if your server is running Mastodon 4.4.x, you will find this setting under *Settings > Preferences > Other* instead)
 
-[]()
+<video src="defaults.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
 
 Your visibility setting controls options for who can quote. When you make a followers-only post, others (including followers) won’t be able to quote it – this ensures that your post remains visible to only your followers.
 
@@ -42,17 +44,13 @@ Your visibility setting controls options for who can quote. When you make a foll
 
 Override your global settings for an individual post by navigating to *Visibility and interaction settings* within the composer.
 
-[]()
+<video src="individual-post.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
 
 ### Notifications and revocation {#revoke}
 
-When someone quotes one of your posts, you’ll be notified.
+When someone quotes one of your posts, you’ll be notified. You can easily remove your quoted post from theirs, using the ••• Options menu.
 
-[]()
-
-You can easily remove your quoted post from theirs using the ••• Options menu.
-
-[]()
+<video src="revoke.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
 
 Sometimes, removing a single post may not be enough. If you believe someone is abusing the ability to quote you, you can also take the following actions:
 
@@ -63,7 +61,7 @@ Sometimes, removing a single post may not be enough. If you believe someone is a
 
 On your own published posts, edit the quote settings from the ••• menu. Changes will prevent users from quoting your post in the future, but will not apply retroactively to quotes already published.
 
-[]()
+<video src="change-post.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
 
 Only public and quiet public posts can be edited this way, since your followers-only posts and direct mentions can only ever be quoted by you.
 
@@ -72,12 +70,9 @@ Only public and quiet public posts can be edited this way, since your followers-
 ### Quoting from the Boost menu
 
 If an author of a post has enabled quoting, you’ll see an option to quote their post under a new menu accessed from the *Boost* button.
-
-[]()
-
 Your post will then appear within the composer window, where you can add your comment and post to continue the discussion.
 
-[]()
+<video src="initiate.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
 
 **Power booster?** You can still boost quickly using `Shift + Click` on the *Boost* button or using the `B` hotkey.
 
@@ -86,8 +81,6 @@ Your post will then appear within the composer window, where you can add your co
 ### Quoting across the Fediverse {#fediverse}
 
 While Mastodon will automatically approve or reject quotes according to your settings (see [You’re in control of who quotes you](#controls)), other Fediverse software might require manual approval of quotes. This means that when you quote posts from across the Fediverse, it may take time for your quote to appear. When the quote is approved, it will automatically update on your post.
-
-[]()
 
 As you may know, we worked on a [technical specification for the Fediverse that offers the concept of consent-respecting quote posts](https://codeberg.org/fediverse/fep/src/branch/main/fep/044f/fep-044f.md). We’ve also collaborated with other apps and services to make this work between platforms. We expect that not every platform will update to use this specification right away, but we hope to see more of them do so in the future.
 
@@ -105,4 +98,4 @@ We’re committed to making quote posts a tool for meaningful discourse. If you 
 
 ### Gratitude
 
-We’d like to thank [the NGI Entrust Fund and NLNet](https://nlnet.nl/project/Mastodon-Quoting/) for their support towards building this feature for Mastodon and the wider Fediverse.
+We’d like to thank [the NGI Entrust Fund and NLNet](https://nlnet.nl/project/Mastodon-Quoting/) for their support towards building this feature for Mastodon and ActivityPub.
