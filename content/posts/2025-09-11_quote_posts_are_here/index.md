@@ -19,8 +19,7 @@ resources:
 
 Over the years, we’ve learned just how essential quoting is to many of you. When done responsibly, quoting allows us to expand discussions, make new connections, and amplify underrepresented voices.
 
-> [**Related: Bringing Quote Posts to Mastodon**](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon/)
-{.info}
+[**Related: Bringing Quote Posts to Mastodon**](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon/)
 
 Quoting is a powerful tool, and like any tool, it can be misused. That’s why we’ve taken time to introduce quotes in a way that aligns with Mastodon values, focusing on safety and mental health – not just on engagement.
 
