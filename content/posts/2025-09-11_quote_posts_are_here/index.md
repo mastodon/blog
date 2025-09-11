@@ -25,43 +25,6 @@ Found something inspiring? Quote your favourite posts from where you typically b
 
 Quote post functionality will arrive on [mastodon.online](http://mastodon.online) and [mastodon.social](http://mastodon.social) next week, and will be available in Mastodon 4.5 soon thereafter. Read on for a more detailed look at how quote posts will look and function in Mastodon 4.5.
 
-## You’re in control of who quotes you {#controls}
-
-### Default settings
-
-Disable or limit quotes by navigating to *Settings > Preferences > Posting Defaults*. These defaults will apply to all *future* posts you create.
-
-(Note: if your server is running Mastodon 4.4.x, you will find this setting under *Settings > Preferences > Other* instead)
-
-<video src="defaults.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
-
-Your visibility setting controls options for who can quote. When you make a followers-only post, others (including followers) won’t be able to quote it – this ensures that your post remains visible to only your followers.
-
-### Post-level settings
-
-Override your global settings for an individual post by navigating to *Visibility and interaction settings* within the composer.
-
-<video src="individual-post.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
-
-### Notifications and revocation {#revoke}
-
-When someone quotes one of your posts, you’ll be notified. You can easily remove your quoted post from theirs, using the ••• Options menu.
-
-<video src="revoke.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
-
-Sometimes, removing a single post may not be enough. If you believe someone is abusing the ability to quote you, you can also take the following actions:
-
-- Block the user. While this action won’t retroactively remove your post from posts the user has already published, it will prevent the user from quoting you in future posts.
-- Change the quote settings for your published post. The next section outlines how to do this.
-
-### Changing quote settings on a published post
-
-On your own published posts, edit the quote settings from the ••• menu. Changes will prevent users from quoting your post in the future, but will not apply retroactively to quotes already published.
-
-<video src="change-post.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
-
-Only public and quiet public posts can be edited this way, since your followers-only posts and direct mentions can only ever be quoted by you.
-
 ## Quote anyone who wants to be quoted
 
 ### Quoting from the Boost menu
@@ -69,7 +32,7 @@ Only public and quiet public posts can be edited this way, since your followers-
 If an author of a post has enabled quoting, you’ll see an option to quote their post under a new menu accessed from the *Boost* button.
 Your post will then appear within the composer window, where you can add your comment and post to continue the discussion.
 
-<video src="initiate.mp4" autoplay playsinline muted loop class="rounded-md shadow-lg"></video>
+<video src="initiate.mp4" autoplay loop playsinline controls muted class="rounded-md shadow-lg"></video>
 
 **Power booster?** You can still boost quickly using `Shift + Click` on the *Boost* button or using the `B` hotkey.
 
@@ -82,6 +45,43 @@ While Mastodon will automatically approve or reject quotes according to your set
 As you may know, we worked on a [technical specification for the Fediverse that offers the concept of consent-respecting quote posts](https://codeberg.org/fediverse/fep/src/branch/main/fep/044f/fep-044f.md). We’ve also collaborated with other apps and services to make this work between platforms. We expect that not every platform will update to use this specification right away, but we hope to see more of them do so in the future.
 
 **Developing a Mastodon client?** Visit our [draft developer implementation guide and documentation](https://github.com/mastodon/documentation/pull/1710).
+
+## You’re in control of who quotes you {#controls}
+
+### Default settings
+
+Disable or limit quotes by navigating to *Settings -> Preferences -> Posting Defaults*. These defaults will apply to all *future* posts you create.
+
+(Note: if your server is running Mastodon 4.4.x, you will find this setting under *Settings -> Preferences -> Other* instead)
+
+<video src="defaults.mp4" autoplay playsinline controls muted loop class="rounded-md shadow-lg"></video>
+
+Your visibility setting controls options for who can quote. When you make a followers-only post, others (including followers) won’t be able to quote it – this ensures that your post remains visible to only your followers.
+
+### Post-level settings
+
+Override your global settings for an individual post by navigating to *Visibility and interaction settings* within the composer.
+
+<video src="individual-post.mp4" playsinline controls muted class="rounded-md shadow-lg"></video>
+
+### Notifications and revocation {#revoke}
+
+When someone quotes one of your posts, you’ll be notified. You can easily remove your quoted post from theirs, using the ••• Options menu.
+
+<video src="revoke.mp4" playsinline controls muted class="rounded-md shadow-lg"></video>
+
+Sometimes, removing a single post may not be enough. If you believe someone is abusing the ability to quote you, you can also take the following actions:
+
+- Block the user. While this action won’t retroactively remove your post from posts the user has already published, it will prevent the user from quoting you in future posts.
+- Change the quote settings for your published post. The next section outlines how to do this.
+
+### Changing quote settings on a published post
+
+On your own published posts, edit the quote settings from the ••• menu. Changes will prevent users from quoting your post in the future, but will not apply retroactively to quotes already published.
+
+<video src="change-post.mp4" playsinline controls muted class="rounded-md shadow-lg"></video>
+
+Only public and quiet public posts can be edited this way, since your followers-only posts and direct mentions can only ever be quoted by you.
 
 ## Stay tuned
 
