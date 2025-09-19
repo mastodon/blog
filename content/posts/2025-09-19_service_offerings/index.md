@@ -2,7 +2,7 @@
 title: "Service offerings from Mastodon"
 subtitle: "Hosting and support for institutions"
 description: "We're offering hosting, support and moderation services, to establish a more sustainable financial base while we continue to build a better social web."
-date: 2025-09-19T11:00:00+01:00
+date: 2025-09-19
 author: mastodon
 draft: false
 tags:
