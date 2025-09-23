@@ -85,7 +85,7 @@ Only public and quiet public posts can be edited this way; your followers-only p
 
 As we mentioned at the start, quote post functionality will arrive on [mastodon.online](http://mastodon.online) and [mastodon.social](http://mastodon.social) next week. If you use a third-party app, the feature may not show up right away, and you may need to wait for the author to add it. It will be available more widely when Mastodon 4.5 is released in the near future.
 
-**Developing a Mastodon client?** Visit our [draft developer implementation guide and documentation](https://github.com/mastodon/documentation/pull/1710).
+**Developing a Mastodon client?** Visit our [developer implementation guide and documentation](https://docs.joinmastodon.org/client/quotes/).
 
 For more information on how to use quote posts, [have a look at the FAQ section of the documentation](https://docs.joinmastodon.org/user/quote-posts/#faq).
 
