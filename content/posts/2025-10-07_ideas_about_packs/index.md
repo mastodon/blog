@@ -30,13 +30,13 @@ In this blog post, we want to talk about bringing a similar concept to Mastodon 
 
 ## Challenges and considerations
 
-We know that there are existing efforts to make it easier to discover user-curated collections of users (for example, [fedidevs.com](https://fedidevs.com/starter-packs/) offers some “Starter Packs”). We’ve been happy to see these being shared, as they can help people discover interesting individuals and organisations to follow. However, we believe that there are ways to improve on the idea, that are more aligned with the values we try to bring to the Fediverse and that offer more to the decentralised ecosystem as a whole.
+We know that there are existing efforts to make it easier to discover curated collections of users (for example, [fedidevs.com](https://fedidevs.com/starter-packs/) offers “Starter Packs”). We’ve been happy to see these being shared, as they can help people discover interesting individuals and organisations to follow. However, we believe that there are ways to improve on the idea, that are more aligned with the values we try to bring to the Fediverse and that offer more to the decentralised ecosystem as a whole.
 
 Firstly, it’s important to us that users have control over whether they appear in Packs on Mastodon. Early design explorations with our concept of Packs led us to the following possibilities:
 
 - Packs will become an extension of discovery. Users who wish to opt out entirely from Packs will be able to do so by disabling the existing setting, labelled *“Feature profile and posts in discovery algorithms”*. This will signal that an account cannot be added to a Pack.
 - Users will also be notified when they are included in a Pack. Unlike on Bluesky, where users wishing to remove themselves from a Starter Pack must either report the Starter Pack or block the user, users on Mastodon will have a more neutral mechanism to remove themselves from a Pack they do not wish to be part of.
-(note: we implemented something similar with the Quote Posts feature, where a post can be removed from a quote post; this same idea would flow through to Packs).
+(note: we implemented something similar with the Quote Posts feature, where an original post can be removed from a quote post; this same idea would flow through to Packs).
 
 As always, decentralisation presents its own challenges. Just as Mastodon users can follow people on other Fediverse servers, our goal is for them to also be able to find and interact with Packs created elsewhere in the Fediverse. When Alice creates a Pack on her server example.com, how does Bob on example.online get to know about it, and come to interact with it? What if example.com and example.online run different software? These questions can be addressed via established Fediverse discussion processes.
 
@@ -50,4 +50,4 @@ We expect to release an initial version of Packs, plus other minor improvements 
 
 ### We want to hear your thoughts
 
-We want to make Packs a great feature for discovery and onboarding. If you have thoughts on the ideas described above, contact us at [**feedback@joinmastodon.org**](mailto:feedback@joinmastodon.org). We may not be able to respond to every individual message, but we’ll be reading every piece of feedback to learn more about your ideas.
+We want to make Packs a great feature for discovery and onboarding. If you have thoughts on the ideas described above, contact us at [feedback@joinmastodon.org](mailto:feedback@joinmastodon.org). We may not be able to respond to every individual message, but we’ll be reading every piece of feedback to learn more about your ideas.
