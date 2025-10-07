@@ -49,3 +49,12 @@ mastodon:
   image: authors/mastodon.png
   social:
     mastodon: https://mastodon.social/@mastodon
+
+imani:
+  name: Imani Joy
+  title: Product Designer
+  image: authors/imani-joy.jpg
+  webfinger: imanijoy@mastodon.social
+  social:
+    mastodon: https://mastodon.social/@imanijoy
+
