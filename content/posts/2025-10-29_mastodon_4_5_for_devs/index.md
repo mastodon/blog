@@ -1,7 +1,7 @@
 ---
 title: "Mastodon 4.5 for Developers"
 description: "Mastodon 4.5 contains several technical changes that developers will want to learn about."
-date: 2025-10-30
+date: 2025-10-29
 slug: mastodon-4-5-for-devs
 authors:
  - mastodon
