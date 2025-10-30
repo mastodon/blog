@@ -1,17 +1,26 @@
 {{ define "content" }}
   <article class="h-entry">
     <header class="max-w-prose mx-auto relative">
-      <div class="flex flex-wrap items-center gap-x-4 text-xs mb-8">
-        <a href="/" class="inline-flex items-center font-bold text-blurple-600 hover:underline hover:text-blurple-500">{{ partial "svg.html" "arrow-small-left" }} Back</a>
-
-        <time class="text-gray-500 dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
-          {{ .Date.Format "Jan 2, 2006" }}
-        </time>
-
+      <div class="flex items-center justify-between text-xs mb-8">
         <div class="flex flex-wrap items-center gap-x-4">
-          {{ range .Params.categories }}
-            <a class="relative z-10 rounded-full bg-nightshade-50 text-nightshade-900 px-3 py-1.5 font-medium hover:text-nightshade-600 whitespace-nowrap" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-          {{ end }}
+          <a href="/" class="inline-flex items-center font-bold text-blurple-600 hover:underline hover:text-blurple-500">{{ partial "svg.html" "arrow-small-left" }} Back</a>
+
+          <time class="text-gray-500 dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+            {{ .Date.Format "Jan 2, 2006" }}
+          </time>
+
+          <div class="flex flex-wrap items-center gap-x-4">
+            {{ range .Params.categories }}
+              <a class="relative z-10 rounded-full bg-nightshade-50 text-nightshade-900 px-3 py-1.5 font-medium hover:text-nightshade-600 whitespace-nowrap" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+          </div>
+        </div>
+
+        <div class="flex items-center gap-x-2 text-gray-400">
+          {{ partial "svg.html" "share" }}
+          <a target="_blank" rel="noopener" href="https://share.joinmastodon.org/?text={{ .Permalink }}" class="inline-flex items-center gap-x-1 rounded-full bg-blurple-600 text-white px-3 py-1.5 font-bold hover:bg-blurple-500" aria-label="Share on Mastodon">
+            Share on {{ partial "svg.html" "mastodon" }}
+          </a>
         </div>
       </div>
 
