@@ -52,7 +52,7 @@ Please note that the new AsyncRefresh API is still marked as being *experimental
 
 Mastodon 4.5 offers server administrators granular options to decide which timelines can be accessed by everyone, only by signed in users or not at all. See the documentation of the `Instance` entity, [specifically this attribute and all the following](https://docs.joinmastodon.org/entities/Instance/#timelines_access) for what is possible and how to detect a server's current settings.
 
-This can lead to situations where when you request a timeline through one of the [timeline endpoints](https://docs.joinmastodon.org/methods/timelines/) you now get a `401` response, meaning access is disabled.
+When you request a timeline through one of the [timeline endpoints](https://docs.joinmastodon.org/methods/timelines/) without an access token you can now get a `401` response, meaning either a signed-in user is required or the feed has been disabled altogether. If you use a valid access token and the user is authenticated successfully, you will receive a successful response, `200`, just like before, but the result will be empty in the case that the feed has been disabled completely. When in doubt, always check the new settings mentioned above.
 
 There is one notable exception: Even if access to timelines is disabled completely, they might still be useful as a tool for moderators to scan for new statuses proactively. That is why there is a new role permission to override the settings. See the [`Role` entity](https://docs.joinmastodon.org/entities/Role/#permission-flags) documentation. You will still be able to request timelines on behalf of users with this permission, even when access is disabled for everyone else.
 
