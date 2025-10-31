@@ -16,6 +16,8 @@ resources:
 draft: false
 ---
 
+_**Update October 31:** Added a missing section about new timeline settings._
+
 Mastodon 4.5 is almost ready. We just released the first (and hopefully only) [release candidate](https://github.com/mastodon/mastodon/releases/tag/v4.5.0-rc.1), and the final release should be coming along very soon. This is once again a good time to highlight some of the new features and changes that are important to anyone building on top of Mastodon and its APIs.
 
 This post has two major sections: updates that are likely to be most relevant for developers of Mastodon client applications, and updates that are more applicable to the broader Fediverse and other ActivityPub-compatible services.
@@ -45,6 +47,14 @@ To support the pattern, we added a new API called [AsyncRefresh](https://docs.jo
 We decided to make "Fetch all replies" the first use-case to try out this new API. When querying the [`/api/v1/statuses/:id/context` endpoint](https://docs.joinmastodon.org/methods/statuses/#context) you might now encounter the new custom HTTP header.
 
 Please note that the new AsyncRefresh API is still marked as being *experimental*. We want to ensure that it works for at least one other use-case before declaring it final. We commit to keeping the experimental endpoint around for one Mastodon version after releasing the final endpoint, to help ease the transition.
+
+### New timeline settings
+
+Mastodon 4.5 offers server administrators granular options to decide which timelines can be accessed by everyone, only by signed in users or not at all. See the documentation of the `Instance` entity, [specifically this attribute and all the following](https://docs.joinmastodon.org/entities/Instance/#timeline_access) for what is possible and how to detect a server's current settings.
+
+This can lead to situations where when you request a timeline through one of the [timeline endpoints](https://docs.joinmastodon.org/methods/timelines/) you now get a `401` response, meaning access is disabled.
+
+There is one notable exception: Even if access to timelines is disabled completely, they might still be useful as a tool for moderators to scan for new statuses proactively. That is why there is a new role permission to override the settings. See the [`Role` entity](https://docs.joinmastodon.org/entities/Role/#permission-flags) documentation. You will still be able to request timelines on behalf of users with this permission, even when access is disabled for everyone else.
 
 ## Fediverse ecosystem
 
