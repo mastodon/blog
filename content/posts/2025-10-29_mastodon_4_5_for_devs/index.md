@@ -50,7 +50,7 @@ Please note that the new AsyncRefresh API is still marked as being *experimental
 
 ### New timeline settings
 
-Mastodon 4.5 offers server administrators granular options to decide which timelines can be accessed by everyone, only by signed in users or not at all. See the documentation of the `Instance` entity, [specifically this attribute and all the following](https://docs.joinmastodon.org/entities/Instance/#timeline_access) for what is possible and how to detect a server's current settings.
+Mastodon 4.5 offers server administrators granular options to decide which timelines can be accessed by everyone, only by signed in users or not at all. See the documentation of the `Instance` entity, [specifically this attribute and all the following](https://docs.joinmastodon.org/entities/Instance/#timelines_access) for what is possible and how to detect a server's current settings.
 
 This can lead to situations where when you request a timeline through one of the [timeline endpoints](https://docs.joinmastodon.org/methods/timelines/) you now get a `401` response, meaning access is disabled.
 
