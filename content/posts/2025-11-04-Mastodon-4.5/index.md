@@ -27,7 +27,7 @@ As always, if you use [mastodon.social](http://mastodon.social), you may already
 
 Quoting has been integral to deepening discussions online, and it's now available in Mastodon 4.5. This release not only introduces authoring capabilities but also mechanisms prioritizing user safety and privacy. Authors can limit and disable quoting, both globally on the new Posting Defaults page, and individually on specific posts. Also, when quoted, they can easily revoke the use of their post.
 
-Learn more about Quote posts in our [previous blog post](/2025/09/introducing-quote-posts/), our [FAQ](https://docs.joinmastodon.org/user/quote-posts/#faq), and our [developer implementation guide](/2025/09/introducing-quote-posts/).
+Learn more about Quote posts in our [previous blog post](https://blog.joinmastodon.org/2025/09/introducing-quote-posts/), our [FAQ](https://docs.joinmastodon.org/user/quote-posts/#faq), and our [developer implementation guide](https://docs.joinmastodon.org/client/quotes/).
 
 ## Fetch All Replies: Completing the Conversation Flow
 
@@ -65,7 +65,7 @@ The web interface now includes support for displaying native emoji. A new settin
 
 ## Looking ahead
 
-Our team is already working on Mastodon 4.6 (tentatively planned for the first quarter of next year). We shared our [early explorations around Packs](/2025/10/our-ideas-about-packs/) and are planning to include the first parts of this feature in our next version. It will also include improvements to onboarding, and some features targeted toward institutions with a presence on Mastodon, thanks to a [grant by NLNet and NGI Zero Commons Fund](https://nlnet.nl/project/Mastodon-for-institutions/).
+Our team is already working on Mastodon 4.6 (tentatively planned for the first quarter of next year). We shared our [early explorations around Packs](https://blog.joinmastodon.org/2025/10/our-ideas-about-packs/) and are planning to include the first parts of this feature in our next version. It will also include improvements to onboarding, and some features targeted toward institutions with a presence on Mastodon, thanks to a [grant by NLNet and NGI Zero Commons Fund](https://nlnet.nl/project/Mastodon-for-institutions/).
 
 We just updated [our public roadmap](https://www.staging.joinmastodon.org/roadmap) to provide better transparency on what is currently in the works, and what we are planning to focus on next.
 
