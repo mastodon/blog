@@ -4,7 +4,7 @@ subtitle: "Featuring Quote posts, a solution to missing replies, and more"
 description: "Quote posts, the end of missing replies, new tools for admins and better emojis. All of these and more, in our latest release."
 author: mastodon
 draft: false
-date: 2025-11-04
+date: 2025-11-06
 categories:
 - New Features
 tags:
