@@ -67,7 +67,7 @@ The web interface now includes support for displaying native emoji. A new settin
 
 Our team is already working on Mastodon 4.6 (tentatively planned for the first quarter of next year). We shared our [early explorations around Packs](https://blog.joinmastodon.org/2025/10/our-ideas-about-packs/) and are planning to include the first parts of this feature in our next version. It will also include improvements to onboarding, and some features targeted toward institutions with a presence on Mastodon, thanks to a [grant by NLNet and NGI Zero Commons Fund](https://nlnet.nl/project/Mastodon-for-institutions/).
 
-We just updated [our public roadmap](https://www.staging.joinmastodon.org/roadmap) to provide better transparency on what is currently in the works, and what we are planning to focus on next.
+We just updated [our public roadmap](https://joinmastodon.org/roadmap) to provide better transparency on what is currently in the works, and what we are planning to focus on next.
 
 ## Support Mastodon
 
