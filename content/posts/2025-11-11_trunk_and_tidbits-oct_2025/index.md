@@ -55,11 +55,21 @@ For previous stable release branches, we also shipped:
 - version [**4.3.14**](https://github.com/mastodon/mastodon/releases/tag/v4.3.14)
 - version [**4.2.27**](https://github.com/mastodon/mastodon/releases/tag/v4.2.27)
 
-As always, we recommend that all Mastodon server owners should be running the latest point version for their release branch, and ideally, to upgrade to the newest stable version of Mastodon. There are a lot of new features in version 4.5, particularly since this release makes display and authoring of quote posts, and controls for these, available to everyone.
+As always, we recommend that all Mastodon server owners should be running the latest point version for their release branch, and ideally, to upgrade to the newest stable version of Mastodon. There are a lot of new features in version 4.5, particularly since this release makes display and authoring of quote posts available to everyone.
 
 The release of Mastodon 4.5 also updates our list of supported versions, and [upcoming end-of-life dates](https://github.com/mastodon/mastodon/blob/main/SECURITY.md). In particular, the 4.2 branch will no longer receive updates after January 8, 2026, and the 4.3 branch will reach EOL on May 6, 2026.
 
-You will find that [the Roadmap page on the website](https://joinmastodon.org/roadmap?ref=webtechnology.news) has had a complete overhaul. With our team changes and the increased pace of development, as well as changes to how we arrange our work, we know that the previous roadmap was outdated and did not reflect what we are currently working on or considering. The page is now simplified into features we've recently shipped (current stable release); those we are actively working on (for the next major release); and those we are exploring (this may include research and specification work, usually for a version after the next major update). This is simply to provide a little more insight into where the team's efforts are directly focused; it does not exclude other changes and adjustments that we make along the way.
+### Looking ahead
+
+You will find that [the Roadmap page on the website](https://joinmastodon.org/roadmap?ref=webtechnology.news) has had a complete overhaul. We know that the previous roadmap was outdated and did not reflect what we are currently working on, or considering for future versions - particularly with our expanded team and the increased pace of development.
+
+The page is now simplified into:
+
+- features we've recently shipped (current stable release);
+- those we are actively working on (for the next major release);
+- and those we are exploring (this may include research and specification work, usually for a version after the next major update).
+
+The road map is simply to provide a little more insight into where the team's efforts are directly focused. The existence of this page and its contents, does not exclude other changes and adjustments that we make along the way.
 
 ## Backend and Web
 
@@ -73,8 +83,8 @@ Reflecting the pace of change in the final weeks before 4.5 shipped, we reviewed
 - {{< feature-label name="admin" >}} Added granular settings for the various live feeds. {{< github-pr id=36338 authors="ClearlyClaire" >}} {{< github-pr id=36607 authors="ClearlyClaire" >}}
 - {{< feature-label name="interface" >}} Improved display of CWs, link previews and quote posts in the admin UI. {{< github-pr id=35958 authors="ThisIsMissEm" >}} {{< github-pr id=35935 authors="ThisIsMissEm" >}} {{< github-pr id=35964 authors="ThisIsMissEm" >}}
 - {{< feature-label name="new feature" >}} Small fixes and improvements to the 'fetch all replies' widget, and periodic checks for new replies. {{< github-pr id=36334 authors="diondiondion" >}} {{< github-pr id=36383 authors="diondiondion" >}} {{< github-pr id=36547 authors="diondiondion" >}}
-- {{< feature-label name="developer" >}} Changed the identifiers used in ActivityPub URLs for new users to not contain the username, which will enable account renames for this accounts in a future version. {{< github-pr id=36316 authors="ClearlyClaire" >}} {{< github-pr id=36365 authors="ClearlyClaire" >}}
-- {{< feature-label name="interface" >}} Added a new setting to allow one-click boosting, which moves the quote option into the status three dots menu. {{< github-pr id=36516 authors="diondiondion" >}}
+- {{< feature-label name="developer" >}} Changed the identifiers used in ActivityPub URLs for new users to not contain the username, which will enable account renames (for these accounts) in a future version. {{< github-pr id=36316 authors="ClearlyClaire" >}} {{< github-pr id=36365 authors="ClearlyClaire" >}}
+- {{< feature-label name="new feature" >}} Added a new setting to allow one-click boosting, which moves the quote option into the status three dots menu. {{< github-pr id=36516 authors="diondiondion" >}}
 - {{< feature-label name="new feature" >}} Changed the minimum characters required for a logged out account search from five to three. {{< github-pr id=36487 authors="Gargron" >}}
 - {{< feature-label name="api" >}} Enabled receiving “modern” RFC 9421 HTTP signatures for all servers. {{< github-pr id=36610 authors="oneiros" >}}
 - {{< feature-label name="api" >}} Added support for `Update` to non-natively handled ActivityPub object types. {{< github-pr id=36322 authors="ClearlyClaire" >}}
