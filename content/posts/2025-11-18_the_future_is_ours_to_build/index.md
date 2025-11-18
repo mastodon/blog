@@ -1,7 +1,7 @@
 ---
 title: "The Future is Ours to Build - Together"
 description: "We’re pleased to introduce Mastodon’s new leadership team, and to share some other important updates."
-date: 2025-11-18T09:00:00+01:00
+date: 2025-11-18T00:00:01+01:00
 categories:
 - News
 tags:
