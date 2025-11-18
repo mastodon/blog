@@ -1,6 +1,6 @@
 gargron:
   name: Eugen Rochko
-  title: CEO / Founder
+  title: Strategy & Product Advisor, Founder
   image: authors/eugen-rochko.jpg
   webfinger: Gargron@mastodon.social
   social:
@@ -20,7 +20,7 @@ nico:
 
 felix:
   name: Felix Hlatky
-  title: CFO
+  title: Executive Director
   image: authors/felix-hlatky.jpg
   webfinger: mellifluousbox@mastodon.social
   social:
@@ -28,7 +28,7 @@ felix:
 
 renchap:
   name: Renaud Chaput
-  title: CTO
+  title: Technical Director
   image: authors/renaud-chaput.jpg
   webfinger: renchap@oisaur.com
   social:
