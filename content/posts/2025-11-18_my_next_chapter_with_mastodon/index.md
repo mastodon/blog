@@ -1,7 +1,7 @@
 ---
 title: "My next chapter with Mastodon"
 description: "Reflections on my time leading the Mastodon project."
-date: 2025-11-18T08:59:00+01:00
+date: 2025-11-18T00:00:00+01:00
 categories:
 - Op-Ed
 tags:
