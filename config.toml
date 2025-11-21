@@ -9,6 +9,16 @@ theme = "mastodon"
 [params]
   description = "Updates from the Mastodon team"
 
+  # Social links (used in footer)
+  [params.social]
+    mastodon = "https://mastodon.social/@Mastodon"
+    engineering = "https://mastodon.social/@MastodonEngineering"
+
+  # Analytics configuration
+  [params.analytics]
+    # Simple Analytics script URL
+    script = "https://scripts.simpleanalyticscdn.com/latest.js"
+
 [permalinks]
   posts = "/:year/:month/:slug/"
 

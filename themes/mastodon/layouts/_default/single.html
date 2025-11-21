@@ -41,26 +41,13 @@
       </div>
     </header>
 
-    {{ if isset .Params "hero" }}
+    {{ if or (isset .Params "hero") (.Page.Resources.GetMatch "hero") }}
       <div class="rounded-lg overflow-hidden max-w-3xl my-8 mx-auto shadow-lg">
-        <img src="{{ .Params.hero }}" alt="" class="w-full object-contain" />
+        {{ partial "hero-image" (dict "page" . "class" "w-full object-contain" "loading" "eager") }}
       </div>
-    {{ else }}
-      {{ $hero := .Page.Resources.GetMatch "hero" }}
-
-      {{ if $hero }}
-        {{ if not $hero.Params.resize }}
-        {{ else }}
-          {{ $hero := $hero.Resize "1200x" }}
-        {{ end }}
-
-        <div class="rounded-lg overflow-hidden max-w-3xl my-8 mx-auto shadow-lg">
-          <img src="{{ $hero.RelPermalink }}" alt="" class="w-full object-contain" />
-        </div>
-      {{ end }}
     {{ end }}
 
-    <main class="e-content max-w-prose mx-auto prose mt-8">
+    <main id="main-content" class="e-content max-w-prose mx-auto prose mt-8">
       {{ .Content }}
     </main>
   </article>

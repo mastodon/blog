@@ -13,7 +13,7 @@
   {{- else }}
     {{- $hero := .Page.Resources.GetMatch "hero" }}
     {{- if $hero }}
-      {{- $hero := $hero.Resize "1200x" }}
+      {{- $hero = $hero.Resize "1200x" }}
       <meta name="og:image" content="{{ $hero.Permalink }}" />
     {{- end }}
   {{- end }}

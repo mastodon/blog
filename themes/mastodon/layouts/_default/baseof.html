@@ -11,6 +11,11 @@
   <link rel="shortcut icon" type="image/png" href="{{ "favicon.ico" | absURL }}" />
   <link rel="canonical" href="{{ .Permalink }}" />
 
+  {{/* Preconnect to external resources */}}
+  {{ if ne .Site.Params.analytics.enabled false }}
+  <link rel="preconnect" href="https://scripts.simpleanalyticscdn.com" crossorigin>
+  {{ end }}
+
   {{ partial "head/stylesheets.html" . }}
   {{ partial "head/open_graph.html" . }}
 
@@ -19,6 +24,7 @@
   {{ end }}
 </head>
 <body>
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-blurple-600 focus:text-white focus:rounded">Skip to content</a>
   <div class="bg-white py-12 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       {{ block "content" . }}{{ end }}
@@ -26,7 +32,9 @@
       {{ partial "footer.html" . }}
     </div>
   </div>
-  <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  {{ if ne .Site.Params.analytics.enabled false }}
+  <script async src="{{ .Site.Params.analytics.script | default "https://scripts.simpleanalyticscdn.com/latest.js" }}"></script>
+  {{ end }}
 
 </body>
 </html>

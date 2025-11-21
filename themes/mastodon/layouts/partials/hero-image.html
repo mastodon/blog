@@ -1,0 +1,14 @@
+{{- $class := .class | default "w-full object-cover" -}}
+{{- $loading := .loading | default "lazy" -}}
+
+{{- if isset .page.Params "hero" -}}
+  <img src="{{ .page.Params.hero }}" alt="" class="{{ $class }}" loading="{{ $loading }}" />
+{{- else -}}
+  {{- $hero := .page.Resources.GetMatch "hero" -}}
+  {{- if $hero -}}
+    {{- if .resize -}}
+      {{- $hero = $hero.Resize .resize -}}
+    {{- end -}}
+    <img src="{{ $hero.RelPermalink }}" alt="" class="{{ $class }}" loading="{{ $loading }}" />
+  {{- end -}}
+{{- end -}}

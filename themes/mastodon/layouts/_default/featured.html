@@ -1,8 +1,6 @@
 <a href="{{ .RelPermalink }}" class="lg:col-span-3 group grid md:grid-cols-12 gap-x-8 gap-y-4 md:gap-y-16 h-entry u-url" rel="bookmark">
   <div class="w-full relative aspect-[3/2] overflow-hidden rounded-md bg-blurple-gradient md:col-span-6 shadow-lg ring-blurple-500 group-hover:ring-2">
-    {{ with .Page.Resources.GetMatch "hero" }}
-      <img src="{{ .RelPermalink }}" alt="" class="absolute w-full h-full object-cover" />
-    {{ end }}
+    {{ partial "hero-image" (dict "page" . "class" "absolute w-full h-full object-cover") }}
   </div>
 
   <div class="md:col-span-6">

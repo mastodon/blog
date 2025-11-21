@@ -13,9 +13,7 @@
     </div>
 
     <div class="w-full relative aspect-[3/2] w-full overflow-hidden rounded-md my-4 bg-blurple-gradient shadow-lg ring-blurple-500 group-hover:ring-2">
-      {{ with .Page.Resources.GetMatch "hero" }}
-        <img src="{{ .RelPermalink }}" alt="" class="absolute w-full h-full object-cover" />
-      {{ end }}
+      {{ partial "hero-image" (dict "page" . "class" "absolute w-full h-full object-cover") }}
     </div>
 
     <div class="relative">
