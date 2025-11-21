@@ -1,4 +1,4 @@
-<meta property="og:locale" content="{{ .Site.Params.languageCode }}" />
+<meta property="og:locale" content="{{ .Site.Language.Lang }}" />
 <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
 <meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}" />

@@ -32,6 +32,11 @@ theme = "mastodon"
 [build]
   writeStats = true
 
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
