@@ -5,7 +5,7 @@
     </p>
 
     <p class="flex-0 justify-end flex gap-x-4 items-center">
-      <a class="hover:text-blurple-500" href='{{ .Site.Params.social.mastodon | default "https://mastodon.social/@Mastodon" }}' target='_blank' rel='noopener' aria-label="Mastodon on Mastodon">{{ partial "svg" "mastodon" }}</a>
+      <a class="hover:text-blurple-500" href='{{ .Site.Params.social.mastodon | default "https://mastodon.social/@Mastodon" }}' target='_blank' rel='me,noopener' aria-label="Mastodon on Mastodon">{{ partial "svg" "mastodon" }}</a>
       <a class="hover:text-blurple-500" href='{{ .Site.Params.social.engineering | default "https://mastodon.social/@MastodonEngineering" }}' target='_blank' rel='noopener' aria-label="Mastodon Engineering on Mastodon">{{ partial "svg" "mastodon" }}</a>
       <a class="hover:text-blurple-500" href='/index.xml' target='_blank' aria-label="RSS Feed">{{ partial "svg" "rss" }}</a>
     </p>
