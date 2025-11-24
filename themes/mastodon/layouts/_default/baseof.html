@@ -33,7 +33,8 @@
     </div>
   </div>
   {{ if ne .Site.Params.analytics.enabled false }}
-  <script async src="{{ .Site.Params.analytics.script | default "https://scripts.simpleanalyticscdn.com/latest.js" }}"></script>
+  <script data-mode="hash" async src="{{ .Site.Params.analytics.script | default "https://scripts.simpleanalyticscdn.com/latest.js" }}"></script>
+  <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
   {{ end }}
 
 </body>
