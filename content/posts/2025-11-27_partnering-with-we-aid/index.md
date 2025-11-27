@@ -11,7 +11,7 @@ author: mastodon
 resources:
 - name: hero
   src: hero.png
-draft: true
+draft: false
 ---
 
 We are happy to announce fiscal sponsorship via [WE AID](https://www.we-aid.org/en/project-details/106/), a German nonprofit organisation that supports charitable projects within an established legal framework. This move is part of [Mastodon’s transformation](https://blog.joinmastodon.org/2025/11/the-future-is-ours-to-build-together/).
