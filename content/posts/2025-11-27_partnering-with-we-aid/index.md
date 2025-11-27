@@ -23,3 +23,5 @@ With WE AID’s support, Mastodon joins the ranks of nonprofit tech pioneers we 
 Through this partnership, WE AID provides Mastodon with the infrastructure to continue to thrive as a public-benefit project, rooted in Europe. Together, we’re proving that social media can be community-owned, ethically governed, and globally accessible.
 
 Mastodon’s home, the Fediverse, mirrors Europe’s own decentralised ethos. Just as the European Union is home to diverse cultures, languages, and jurisdictions, the Fediverse empowers communities to connect across barriers, fostering unique spaces, no matter their size, for linguistic, cultural, and technical diversity. This alignment embodies the EU’s vision of unity in diversity, ensuring the digital commons remain open, inclusive, and resilient.
+
+{{< donate >}}
