@@ -27,13 +27,13 @@ Oh, and also, this happened... 🎉
 
 ## Events in November, and ahead
 
-Andy was at Decidim Fest in Barcelona, as part of [the panel "Can Decentralization Fix Social Media?"](https://meta.decidim.org/conferences/DecidimFest25/f/1980/meetings/2118). There were some lively conversations about digital sovereignty and technical standards, but the core of the event itself was participatory technology for democracy. The concept that civic institutions should own their own social channels, aligns strongly with Mastodon's own vision and values.
+[Andy](https://macaw.social/@andypiper) was at Decidim Fest in Barcelona, as part of [the panel "Can Decentralization Fix Social Media?"](https://meta.decidim.org/conferences/DecidimFest25/f/1980/meetings/2118). There were some lively conversations about digital sovereignty and technical standards, but the core of the event itself was participatory technology for democracy. The concept that civic institutions should own their own social channels, aligns strongly with Mastodon's own vision and values.
 
-Felix joined the in-person Fediforum track at SFSCon in Bolzano, Italy. It was great to connect with a number of our friends from around the Fediverse.
+[Felix](https://mastodon.social/@mellifluousbox) joined the [in-person Fediforum track at SFSCon](https://www.sfscon.it/tracks/fediverse-track-2025/) in Bolzano, Italy. It was great to connect with a number of our friends from around the Fediverse.
 
-Also, last month saw the European Digital Sovereignty Summit held in Berlin. Our new Executive Director Felix, and our Chief of Staff, Philip, were able to attend, and  connect with other organisations that share a similar mission to Mastodon.
+Last month also saw the [European Digital Sovereignty Summit](https://bmds.bund.de/aktuelles/eu-summit/programme) held in Berlin. Our new Executive Director Felix, and our Chief of Staff, [Philip](https://mastodon.social/@philipkristians), were able to attend, and connect with other organisations that share a similar mission to Mastodon.
 
-Looking ahead into early 2026, we will have a stand at FOSDEM. We’re excited to be heading back to Brussels, where we will also be present in the Social Web Devroom.
+Looking ahead into early 2026, we will have [a stand](https://fosdem.org/2026/news/2025-11-16-accepted-stands/) at [FOSDEM](https://fosdem.org/2026/). We’re excited to be heading back to Brussels, where we will also be present in the Social Web Devroom.
 
 ## Releases
 
@@ -51,22 +51,22 @@ In November 2025 we reviewed and merged 237 Pull Requests (159 with translation 
 
 <div class="features-list">
 
-- {{< feature-label name="interface" >}} The experimental `theme_tokens` feature flag as well as our legacy styles have been removed from our codebase, and our new theme tokens (based on CSS variables) are now live on mastodon.social and mastodon.online (and any other servers using our nightly builds). If you’re maintaining a third-party theme or a server with custom CSS, now is a good time to ensure your styling tweaks play well with this update. {{< github-pr id=37056 authors="diondiondion" >}}
-- {{< feature-label name="new feature" >}} Implementation of “Collections” ([our take on Starter Packs](https://blog.joinmastodon.org/2025/10/our-ideas-about-packs/)) has begun. We are slowly laying foundations, so nothing to see yet, but we are getting there! {{< github-pr id=37049 authors="oneiros" >}} {{< github-pr id=37020 authors="oneiros" >}} {{< github-pr id=37005 authors="oneiros" >}} {{< github-pr id=36977 authors="oneiros" >}}
-- {{< feature-label name="interface" >}} Added notifications about interactions between quote posts and Direct Messages {{< github-pr id=36696 authors=”ChaosExAnima” >}}
-- {{< feature-label name="interface" >}} Updated the media modal with smoother scrolling experience {{< github-pr id=36673 authors=”ChaosExAnima” >}}{{< github-pr id=36782 authors=”ChaosExAnima” >}}{{< github-pr id=36806 authors=”ChaosExAnima” >}}{{< github-pr id=36916 authors=”ChaosExAnima” >}}{{< github-pr id=37034 authors=”ChaosExAnima” >}}
-- {{< feature-label name="interface" >}}  Fixed issues with emoji caching and web worker {{< github-pr id=36808 authors="ChaosExAnima" >}}{{< github-pr id=36897 authors="ChaosExAnima" >}}
-- {{< feature-label name="interface" >}} Fix post and keyboard navigation issues {{< github-pr id=37052 authors="diondiondion" >}} {{< github-pr id=37044 authors="diondiondion" >}} {{< github-pr id=36935 authors="diondiondion" >}} {{< github-pr id=36927 authors="ClearlyClaire" >}} {{< github-pr id=36804 authors="diondiondion" >}} {{< github-pr id=36736 authors="diondiondion" >}} {{< github-pr id=36870 authors="diondiondion" >}}{{< github-pr id=36866 authors="diondiondion" >}}
+- {{< feature-label name="interface" >}} The experimental `theme_tokens` feature flag as well as our legacy styles have been removed from our codebase, and our new theme tokens (based on CSS variables) are now live on mastodon.social and mastodon.online (and any other servers using our nightly builds). If you are maintaining a third-party theme or a server with custom CSS, now is a good time to ensure your styling tweaks play well with this update. {{< github-pr id=37056 authors="diondiondion" >}}
+- {{< feature-label name="new feature" >}} Implementation of "Collections" ([our take on Starter Packs](https://blog.joinmastodon.org/2025/10/our-ideas-about-packs/)) has begun. We are slowly laying foundations, so nothing to see yet, but we are getting there! {{< github-pr id=37049 authors="oneiros" >}} {{< github-pr id=37020 authors="oneiros" >}} {{< github-pr id=37005 authors="oneiros" >}} {{< github-pr id=36977 authors="oneiros" >}}
+- {{< feature-label name="interface" >}} Added notifications about interactions between quote posts and Direct Messages {{< github-pr id=36696 authors="ChaosExAnima" >}}
+- {{< feature-label name="interface" >}} Updated the media modal with smoother scrolling experience {{< github-pr id=36673 authors="ChaosExAnima" >}} (and multiple others)
+- {{< feature-label name="interface" >}} Fixed issues with emoji caching and web worker {{< github-pr id=36808 authors="ChaosExAnima" >}} {{< github-pr id=36897 authors="ChaosExAnima" >}}
+- {{< feature-label name="interface" >}} Fix post and keyboard navigation issues {{< github-pr id=37052 authors="diondiondion" >}} (and multiple others)
 - {{< feature-label name="interface" >}} Move "Privacy and reach" from "Public profile" to top-level navigation in settings {{< github-pr id=27294 authors="ChaelCodes" >}}
 - {{< feature-label name="interface" >}} Fix duplicated counters in some languages {{< github-pr id=32614 authors="xatier" >}} {{< github-pr id=36844 authors="ChaoxExAnima" >}}
 - {{< feature-label name="interface" >}} Improve viewing non-public hashtag pages when not logged in {{< github-pr id=36961 authors=diondiondion >}}
 - {{< feature-label name="interface" >}} Prevent vertical videos from overflowing the viewport {{< github-pr id=36966 authors=diondiondion >}}
 - {{< feature-label name="developer" >}} Fix Accept headers when fetching ActivityPub objects to match spec (AP integrity/interoperability) {{< github-pr id=30354 authors="TheOneric" >}}
 - {{< feature-label name="api" >}} Fix `/api/v1/statuses/:id/context` sometimes returning Mastodon-Async-Refresh without result_count {{< github-pr id=36779 authors="ClearlyClaire" >}}
-- {{< feature-label name="admin" >}} Increase HTTP read timeout for expensive S3 batch delete operations {{< github-pr id=37004 authors="ClearlyClaire" >}}{{< github-pr id=36971 authors="ClearlyClaire" >}}{{< github-pr id=36996 authors="ClearlyClaire" >}}
+- {{< feature-label name="admin" >}} Increase HTTP read timeout for expensive S3 batch delete operations {{< github-pr id=37004 authors="ClearlyClaire" >}} {{< github-pr id=36971 authors="ClearlyClaire" >}} {{< github-pr id=36996 authors="ClearlyClaire" >}}
 - {{< feature-label name="admin" >}} Increase nginx proxy_read_timeout to avoid long-request failures {{< github-pr id=30599 authors="shleeable" >}}
 - {{< feature-label name="admin" >}} Optimize nginx location blocks {{< github-pr id=19644 authors="Izorkin" >}}
-- {{< feature-label name="admin" >}} Fix `tootctl status remove` removing quoted posts and remote quotes of local posts (CLI/API behavior) {{< github-pr id=37009 authors="ClearlyClaire" >}}
+- {{< feature-label name="admin" >}} Fix `tootctl status remove` removing quoted posts and remote quotes of local posts {{< github-pr id=37009 authors="ClearlyClaire" >}}
 - {{< feature-label name="admin" >}} Separate remote thumbnails into cache/ directory {{< github-pr id=36911 authors="shugo" >}}
 - {{< feature-label name="admin" >}} Add systemd service file for Prometheus exporter {{< github-pr id=35130 authors="ThisIsMissEm" >}}
 - {{< feature-label name="admin" >}} Rely on Puma default environment and remove legacy AR connection boot from Puma config {{< github-pr id=36760 authors="mjankowski" >}} {{< github-pr id=36757 authors="mjankowski" >}}
