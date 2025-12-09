@@ -6,7 +6,7 @@ categories:
 - Op-Ed
 tags:
 - mastodon
-author: mastodon
+author: hannah
 resources:
 - name: hero
   src: hero.png

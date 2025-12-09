@@ -34,6 +34,14 @@ renchap:
   social:
     mastodon: https://oisaur.com/@renchap
 
+hannah:
+  name: Hannah Aubry
+  title: Community Director
+  image: authors/hannah-aubry.jpg
+  webfinger: haubles@hachyderm.io
+  social:
+    mastodon: https://hachyderm.io/@haubles
+
 andy:
   name: Andy Piper
   title: Head of Communications
@@ -57,4 +65,3 @@ imani:
   webfinger: imanijoy@mastodon.social
   social:
     mastodon: https://mastodon.social/@imanijoy
-
