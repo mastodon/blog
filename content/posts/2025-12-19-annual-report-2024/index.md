@@ -16,7 +16,7 @@ resources:
   src: hero.png
 ---
 
-We are happy to release our 2024 Annual Report. We’re a non-profit, and open-source; we value transparency, and we are committed to informing our users and supporters about how we operate.
+We are happy to release our 2024 Annual Report. We're a non-profit, and open-source; we value transparency, and we are committed to informing our users and supporters about how we operate.
 
 Our 2024 was transformative in ways we didn't anticipate, and we wanted to capture the full story before sharing it with you. As you'll see in the report, a *lot* happened in 2024; and 2025 brought along new challenges and accomplishments, which we look forward to sharing with you much sooner this time.
 
