@@ -19,9 +19,9 @@ draft: false
 
 Welcome back, friends: and, happy 2026. Our team is anticipating a lot of exciting developments this year!
 
-As we write this update in early January, [FOSDEM](https://fosdem.org/2026) is just a few weeks away. We will have a stand at the event for the third year in a row, where you’ll be able to talk to folks from the team. If you’ve visited us at FOSDEM in the past, you should expect a different setup this year. We will have much less merchandise to pick up from us in person - this is for logisical reasons: you can still [order merch online](https://shop.joinmastodon.org), but we don’t plan to have t-shirts, plushies or mugs with us this year, only some of the smaller items.
+As we write this update in early January, [FOSDEM](https://fosdem.org/2026) is just a few weeks away. We will have a stand at the event for the third year in a row, where you’ll be able to talk to folks from the team. If you’ve visited us at FOSDEM in the past, you should expect a different setup this year. We will have less merchandise to pick up from us in person, for logisical reasons: you can still [order merch online](https://shop.joinmastodon.org), but we don’t plan to have t-shirts, plushies or mugs with us this year, only some of the smaller items.
 
-Apart from our table, we also have a presence in a couple of devrooms. Our Community Director, [Hannah](https://hachyderm.io/@haubles) will be on stage in the [Social Web Devroom](https://fosdem.org/2026/schedule/track/social-web/) with a session entitled [Tending the Herd](https://fosdem.org/2026/schedule/event/HJYRFF-tending-the-herd/). We hope to meet some Trunk & Tidbits readers there, so please say hello 🫶🏻
+Apart from our table, we also have a presence in a couple of devrooms. Our Community Director, [Hannah](https://hachyderm.io/@haubles) will be on stage in the [Social Web Devroom](https://fosdem.org/2026/schedule/track/social-web/) with a session entitled [Tending the Herd](https://fosdem.org/2026/schedule/event/HJYRFF-tending-the-herd/), and will be on a panel on another track as well. We hope to meet some Trunk & Tidbits readers in the Social Web Devroom, so please say hello 🫶🏻
 
 ## Releases
 
