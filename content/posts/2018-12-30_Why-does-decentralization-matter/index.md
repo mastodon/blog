@@ -40,5 +40,4 @@ Any alternative social network that rejects decentralization will ultimately str
 
 **Digging deeper:**
 
-- [How Mastodon uses decentralization](https://docs.joinmastodon.org/usage/decentralization/)
 - [The nature of the self in the digital age](https://2018.ar.al/notes/the-nature-of-the-self-in-the-digital-age/)
