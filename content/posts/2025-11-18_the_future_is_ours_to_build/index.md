@@ -35,7 +35,7 @@ When we first set out to design a leadership structure for Mastodon, our aim was
 
 - **Community Director: Hannah Aubry**
 
-    Hannah has been involved with Mastodon since early 2023, first as a partner and champion of the project during her time running the Fast Forward program at Fastly, then as a volunteer on our outreach team. Earlier this year, she joined our Board of Directors. In her role as Community Director, she’ll oversee the strategy and growth of Mastodon’s community and trust & safety programmes. She brings her valuable experience in community, social media, and free and open-source software. You can get in touch with her at [@haubles@hachyderm.io](https://hachyderm.io/@haubles).
+    Hannah has been involved with Mastodon since early 2023, first as a partner and champion of the project during her time running the Fast Forward program at Fastly, then as a volunteer on our outreach team. Earlier this year, she joined our Board of Directors. In her role as Community Director, she’ll oversee the strategy and growth of Mastodon’s community. She brings her valuable experience in community, social media, and free and open-source software. You can get in touch with her at [@haubles@hachyderm.io](https://hachyderm.io/@haubles).
 
 {{< figure
   src="team.jpg"
