@@ -50,7 +50,7 @@ Progress towards the next major release of Mastodon continues. Here's what the t
 - {{< feature-label name="ui" >}} Work on the editing UI for the upcoming Collections feature is in progress, so is work on federation of Collections
 - {{< feature-label name="ui" >}} Continued work on the new Profile design: expect some visible changes in the coming weeks, for users running nightly releases
 - {{< feature-label name="performance" >}} Fix a performance issue with the status batch delete SQL query {{< github-pr id=37469 authors="ClearlyClaire" >}}
-- {{< feature-label name="interface" >}} Add new `data-color-scheme` and `data-contract` attributes on `<html>` to let themes easily get the correct color scheme and contrast settings for the user {{< github-pr id=37477 authors="diondiondion" >}}
+- {{< feature-label name="interface" >}} Add new `data-color-scheme` and `data-contrast` attributes on `<html>` to let themes easily get the correct color scheme and contrast settings for the user {{< github-pr id=37477 authors="diondiondion" >}}
 - {{< feature-label name="backend" >}} Shortened caching duration for pending quote post approvals, which should help to reduce the number of times a quote is displayed as pending {{< github-pr id=37570 authors="ClearlyClaire" >}}
 - {{< feature-label name="backend" >}} Removed support for ImageMagick, which has been deprecated for the last 2 versions. Mastodon now requires `libvips` {{< github-pr id=37488 authors="mjankowski" >}}
 - {{< feature-label name="backend" >}} Added storage of image descriptions for profile pictures and headers when they come from federation. This does not have any impact in the UI, nor can they be set by Mastodon users for now. {{< github-pr id=37634 authors="ClearlyClaire" >}}
