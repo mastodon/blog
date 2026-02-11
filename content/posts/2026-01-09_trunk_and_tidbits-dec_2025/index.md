@@ -29,7 +29,7 @@ In the past week, we released versions [4.5.4](https://github.com/mastodon/masto
 
 These versions contain fixes for various bugs, and include important security fixes (one high severity, and one moderate severity). We recommend that all server administrators update to the new point releases for the Mastodon version they are running.
 
-> Note the [end-of-life dates](https://github.com/mastodon/mastodon/blob/main/SECURITY.md). Mastodon v4.2.29 will be the final update for the Mastodon v4.2 branch. Coming up, he 4.3 branch will reach EOL on **May 6, 2026**.
+> Note the [end-of-life dates](https://github.com/mastodon/mastodon/blob/main/SECURITY.md). Mastodon v4.2.29 will be the final update for the Mastodon v4.2 branch. Coming up, the 4.3 branch will reach EOL on **May 6, 2026**.
 {.warning}
 
 ## Backend and Web
