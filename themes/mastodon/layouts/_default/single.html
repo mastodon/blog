@@ -17,8 +17,7 @@
         </div>
 
         <div class="flex items-center gap-x-2 text-gray-400">
-          {{ partial "svg.html" "share" }}
-          <a target="_blank" rel="noopener" href="https://share.joinmastodon.org/#text={{ .Permalink }}" class="inline-flex items-center gap-x-1 rounded-full bg-blurple-600 text-white px-3 py-1.5 font-bold hover:bg-blurple-500" aria-label="Share on Mastodon">
+          <a target="_blank" rel="noopener" href="https://share.joinmastodon.org/#text={{ .Permalink }}" class="inline-flex items-center gap-x-1 rounded-full bg-blurple-600 text-white px-3 py-1.5 font-bold hover:bg-blurple-500 whitespace-nowrap" aria-label="Share on Mastodon">
             Share on {{ partial "svg.html" "mastodon" }}
           </a>
         </div>
