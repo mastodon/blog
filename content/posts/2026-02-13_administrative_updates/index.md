@@ -11,7 +11,7 @@ authors:
 resources:
 - name: hero
   src: hero.png
-draft: true
+draft: false
 ---
 
 In November 2025, we [shared our new organisational structure](https://blog.joinmastodon.org/2025/11/the-future-is-ours-to-build-together/), and explained that the process to establish a new, non-profit, home for the project in Europe is well underway.
