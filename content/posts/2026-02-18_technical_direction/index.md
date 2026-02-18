@@ -1,7 +1,7 @@
 ---
 title: "Our technical direction"
 description: "Sharing the thinking behind the technical and product plans for upcoming releases."
-date: 2026-02-17
+date: 2026-02-18
 categories:
 - News
 tags:
@@ -53,7 +53,7 @@ Public figures, journalists, and institutions are looking for alternatives to ma
 
 ### Onward, together
 
-These upcoming changes represent our commitment to building a social web that puts people first. Mastodon won’t ever harvest your data or chase engagement metrics. We’re focused on creating spaces where authentic connection can flourish. If you have thoughts on software improvements, [drop us an email](mailto:feedback@joinmastodon.org?subject=Technical%20direction%20blog%20post), we’re listening.
+These upcoming changes represent our commitment to building a social web that puts people first. Mastodon won’t ever harvest your data or chase engagement metrics. We’re focused on creating spaces where authentic connection can flourish. If you have thoughts on software improvements, [send us an email](mailto:feedback@joinmastodon.org?subject=Technical%20direction%20blog%20post).
 
 ### Support Mastodon
 
