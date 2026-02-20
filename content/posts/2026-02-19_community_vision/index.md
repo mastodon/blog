@@ -54,7 +54,7 @@ That’s all for now, folks! Thanks for reading and stay tuned: We plan to start
 
 If you liked the projects and direction you read about here and over the last two days, please consider [sending a donation](https://joinmastodon.org/sponsors#donate) our way to support this work and Mastodon’s future. If you’re already a donor: Thank you!
 
-Next up: a feature interview of Yehuda, the server admin of [turtleisland.social](http://turtleisland.social/).
+Next up: a feature interview with Yehuda and Tzipporah, the Indigenous grandfather/daughter duo that runs [turtleisland.social](http://turtleisland.social/).
 
 See you there 👋
 
