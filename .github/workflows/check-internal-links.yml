@@ -15,7 +15,7 @@ on:
 jobs:
   check-internal-links:
     permissions:
-        contents: read
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
