@@ -74,7 +74,7 @@ On the code projects side of things, we spotted [an RSS-to-Mastodon app](https:/
 There were also a few client apps released over the past month that may be of interest:
 
 - [Elefeed](https://elefeed.app/) is an experimental web client that allows you to view your feed with and without followed hashtags, etc.
-- [CrowFi](https://www.notion.so/Apple-Feedbacks-Filed-2106208ac91b80d38e0ef056921cd7af?pvs=21) is a recently-released iOS client app;
+- [CrowFi](https://apps.apple.com/gb/app/crowfi/id6756513753) is a recently-released iOS client app;
 - [Oliphaunt](https://apps.apple.com/us/app/oliphaunt-for-mastodon/id6745527185?mt=12) is a macOS client app;
 - [MastoBlaster](https://www.mastoblaster.com/) is an iOS app currently on TestFlight, that works with Mastodon servers and with other Fediverse servers, specifically [snac](https://codeberg.org/grunfink/snac2).
 
