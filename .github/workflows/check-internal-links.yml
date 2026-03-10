@@ -1,0 +1,24 @@
+name: Check for internal (non-public) links
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'content/posts/**/*.md'
+  pull_request:
+    branches:
+      - master
+    paths:
+      - 'content/posts/**/*.md'
+
+jobs:
+  check-internal-links:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for internal-only links in posts
+        run: bash scripts/check-internal-links.sh
