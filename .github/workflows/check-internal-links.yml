@@ -1,4 +1,4 @@
-name: Check for Notion links
+name: Check for internal (non-public) links
 
 on:
   push:
@@ -13,10 +13,10 @@ on:
       - 'content/posts/**/*.md'
 
 jobs:
-  check-notion-links:
+  check-internal-links:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check for notion.so links in posts
-        run: bash scripts/check-notion-links.sh
+      - name: Check for internal-only links in posts
+        run: bash scripts/check-internal-links.sh
