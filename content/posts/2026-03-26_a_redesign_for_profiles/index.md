@@ -67,7 +67,7 @@ Informed by data on the number of pinned posts across Mastodon profiles, we’ve
 
 One of our objectives is to make the Fediverse more intuitive for people who are non-technical. We’ve updated the handle explainer card to clarify what handles and servers are.
 
-Additionally, the full profile handle (`@user@domain.com`) now displays beneath the account’s display name, even if the account is on the same server as yours.
+Additionally, the full profile handle (<code>@user@domain.com</code>) now displays beneath the account’s display name, even if the account is on the same server as yours.
 
 <figure>
   <img src="handle.jpg" alt="The new profile handle explainer">
@@ -159,7 +159,7 @@ Before the 4.6 release, profile tab customisations will only impact a few server
 
 ## Availability
 
-The new design will be visible on `mastodon.social`, and other servers that run nightly builds of Mastodon, from today. The goal is to do some testing ahead of the 4.6 release, and make any adjustments based on feedback (see below). The new look will roll out to all Mastodon servers, as part of Mastodon 4.6, coming in a few weeks.
+The new design will be visible on <code>mastodon.social</code>, and other servers that run nightly builds of Mastodon, from today. The goal is to do some testing ahead of the 4.6 release, and make any adjustments based on feedback (see below). The new look will roll out to all Mastodon servers, as part of Mastodon 4.6, coming in a few weeks.
 
 ### We’re open to feedback
 
