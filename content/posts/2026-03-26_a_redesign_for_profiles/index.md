@@ -70,7 +70,7 @@ One of our objectives is to make the Fediverse more intuitive for people who are
 Additionally, the full profile handle (`@user@domain.com`) now displays beneath the account’s display name, even if the account is on the same server as yours.
 
 <figure>
-  <img src="handle.png" alt="The new profile handle explainer">
+  <img src="handle.jpg" alt="The new profile handle explainer">
   <figcaption>The updated explainer for profile handles.</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ Additionally, the full profile handle (`@user@domain.com`) now displays beneath 
 Custom fields display side-by-side when possible, making smarter utilisation of the Profile’s vertical space so that you get to the account’s content more swiftly.
 
 <figure>
-  <img src="compact.png" alt="The new compact fields design">
+  <img src="compact.jpg" alt="The new compact fields design">
   <figcaption>A more compact design for custom fields.</figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ Previously, profile editing on web was hidden within account settings. You had t
 The new profile editing experience combines featured hashtags, link verification, and all other profile customisation in a single view. It’s easily accessible from an ‘Edit profile’ button directly on your profile – making switching between viewing and editing more seamless.
 
 <figure>
-  <img src="unified-editing.png" alt="The new profile editing view">
+  <img src="unified-editing.jpg" alt="The new profile editing view">
   <figcaption>A screenshot of the redesigned profile editing experience on desktop web. The page shows sections for profile and cover photo editing, display name and bio editing, custom fields, featured hashtags, and profile tab settings.</figcaption>
 </figure>
 
@@ -127,7 +127,7 @@ Previously, custom field editing was only available on web, and lacked accessibl
 Now, you can access link verification instructions directly from the custom field editing experience. You can also now add and edit custom fields in our iOS and Android apps.
 
 <figure>
-  <img src="custom-field-editing.png" alt="The new profile handle explainer">
+  <img src="custom-field-editing.jpg" alt="The new profile handle explainer">
   <figcaption>A zoomed-in view of the interface for editing custom fields, which contains buttons for adding, reordering, changing, and deleting custom fields. Beneath the custom fields, a hyperlinked text reads “How do I add a verified link?”</figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ Replies can also be excluded from the ‘Media’ tab, allowing for a more accur
 Before the 4.6 release, profile tab customisations will only impact a few servers that are testing the new profile experience. After the 4.6 release, these customisations will be reflected on most servers running the latest version of Mastodon. Displays may vary on third-party apps and independent servers.
 
 <figure>
-  <img src="profile-tab-settings.png" alt="The new profile handle explainer">
+  <img src="profile-tab-settings.jpg" alt="The new profile handle explainer">
   <figcaption>A screenshot of the Profile tab settings modal, which contains three settings allowing users to show/hide the Media tab, show/hide replies on the Media tab, and show/hide the Featured tab. A banner at the bottom of the modal explains that displays may vary on other servers.</figcaption>
 </figure>
 
