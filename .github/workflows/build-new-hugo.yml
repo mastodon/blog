@@ -1,6 +1,9 @@
 name: Build with Hugo 0.159
 
 on:
+  push:
+    branches:
+      - new-hugo
   pull_request:
     branches:
       - master
