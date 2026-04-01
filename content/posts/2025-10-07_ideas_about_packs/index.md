@@ -28,6 +28,9 @@ We believe that these kinds of user-generated, curated collections could help pe
 
 In this blog post, we want to talk about bringing a similar concept to Mastodon and the Fediverse. We’ll use the word “Packs” to refer to the shareable collections of identifiers throughout, but we’ve not yet landed on final terminology - so, consider this word a placeholder, and not what this will definitely be called in Mastodon.
 
+> update, April 2026: the final name we've chosen for this feature is *Collections* - you can expect to see the first implementation as part of Mastodon version 4.6.
+{.info}
+
 ## Challenges and considerations
 
 We know that there have been existing efforts to make it easier to discover curated collections of users (for example, [fedidevs.com](https://fedidevs.com/starter-packs/) offers “Starter Packs”). We’ve been happy to see these being shared, as they can help people discover interesting individuals and organisations to follow. We'd be equally happy to have the creators of these tools provide feedback on our own ideas 🙂
