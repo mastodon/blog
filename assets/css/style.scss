@@ -107,6 +107,7 @@ body {
   text-rendering: optimizelegibility;
   font-feature-settings: "kern";
   text-size-adjust: none;
+  -webkit-text-size-adjust: none;
 }
 
 ol, ul {

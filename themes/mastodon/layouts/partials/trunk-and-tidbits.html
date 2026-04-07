@@ -32,7 +32,7 @@
                 {{ if or (isset .Params "author") (isset .Params "authors") }}
                   {{ range default (slice .Params.author) .Params.authors }}
                     <div class="h-4 w-4 rounded-full bg-blurple-gradient relative overflow-hidden">
-                      {{ with (index $.Site.Data.authors .).image }}
+                      {{ with (index hugo.Data.authors .).image }}
                         <img src="{{ . | absURL }}" alt="" class="absolute w-full h-full object-cover" />
                       {{ end }}
                     </div>

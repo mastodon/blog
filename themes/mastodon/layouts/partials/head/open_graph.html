@@ -20,7 +20,7 @@
 
   {{- if or (isset .Params "author") (isset .Params "authors") }}
     {{- range default (slice .Params.author) .Params.authors }}
-      {{- $author := index $.Site.Data.authors . }}
+      {{- $author := index hugo.Data.authors . }}
       {{ with $author.name }}<meta name="article:author" content="{{ . }}" />{{ end }}
       {{ with $author.webfinger }}<meta name="fediverse:creator" content="{{ . }}" />{{ end }}
     {{- end }}

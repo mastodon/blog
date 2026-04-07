@@ -35,7 +35,7 @@
 
       <div class="relative mt-8 flex items-center gap-x-4">
         {{ range default (slice .Params.author) .Params.authors }}
-          {{ partial "author" (index $.Site.Data.authors .) }}
+          {{ partial "author" (index hugo.Data.authors .) }}
         {{ end }}
       </div>
     </header>
