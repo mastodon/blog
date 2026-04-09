@@ -13,7 +13,7 @@ authors:
 resources:
 - name: hero
   src: hero.jpg
-draft: true
+draft: false
 ---
 
 People come to the Fediverse to connect with others around communities and topics of interest. We’ve seen people enjoy their time on Mastodon the most, when they can follow and engage with individuals and organisations that have interesting things to share. We want to help those who are new to the Fediverse discover these communities more easily.
