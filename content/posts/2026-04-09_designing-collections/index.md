@@ -76,7 +76,7 @@ This means that *Public* and *Unlisted* Collections will function very similarly
 
 You can opt out of having your account be eligible for inclusion in Collections by disabling the existing *“Feature profile and posts in discovery algorithms”* account setting.
 
-If you are opted into discovery, you will be notified when another account adds you to a Collection. From there, you can view the contents of the Collection, and remove your account if desired. Only your followers can add you to a Collection - if you do not have the *“Automatically accept new followers”* account setting enabled (meaning, you choose to approve new follows), this can be an additional layer protecting you from being included in Collections.
+If you are opted into discovery, you will be notified when another account adds you to a Collection. From there, you can view the contents of the Collection, and remove your account if desired.
 
 In cases of potential harassment, you are encouraged to report or block the other account. Reporting a Collection allows a decision to be made by server moderators; blocking removes you from any collections curated by the blocked account, *and* prevents the blocked account from adding your account to future Collections.
 
