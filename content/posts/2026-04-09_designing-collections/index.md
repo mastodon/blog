@@ -12,7 +12,7 @@ authors:
 - imani
 resources:
 - name: hero
-  src: hero.png
+  src: hero.jpg
 draft: true
 ---
 
@@ -54,6 +54,11 @@ We’re moving intentionally with this feature, using the 4.6 launch as an oppor
 ### Creation
 
 People with accounts on participating servers will be able to create Collections. Collections may include a short description and topic – a single hashtag to aid in discovery. Additionally, Collections may be marked as sensitive (this setting hides the description and accounts behind a content warning).
+
+<figure>
+  <img src="creation.jpg" alt="Creating a Collection, which includes fields for the Collection name, description, topic, and visibility.">
+  <figcaption>A screenshot showing creation of a Collection.</figcaption>
+</figure>
 
 ### Sharing and discovery
 
@@ -99,7 +104,7 @@ In short, we’re open to this in the future, but we’d like to understand the 
 
 We’ll be enabling Collections on `mastodon.social` in the coming week. As usual, we take a moment to test out these features on our own servers ahead of a release. This initial release of Collections will become generally available for all Mastodon servers as part of Mastodon 4.6, coming in a few weeks.
 
-_note: we'll be adding screenshots to this post soon_
+_note: we plan to add more screenshots to this post soon_
 
 ## Open to feedback
 
