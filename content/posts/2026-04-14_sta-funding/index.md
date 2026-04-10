@@ -11,6 +11,7 @@ authors:
 resources:
 - name: hero
   src: hero.png
+  title: "The Mastodon wordmark alongside the Sovereign Tech Agency logo on a white background"
 draft: false
 ---
 
