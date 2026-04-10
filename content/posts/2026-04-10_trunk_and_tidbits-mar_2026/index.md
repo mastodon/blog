@@ -52,11 +52,11 @@ We’ve also worked on improving the accessibility of the Mastodon Web UI. This 
 
 Hidden behind a feature flag for now, we’ve added the ability for account owners to allow anonymous visitors to subscribe to their posts via e-mail, without a Mastodon account. This feature is *not yet ready for testing* - we are working on the missing pieces right now. The work has been funded by [an NGI0 grant through NLNet](https://nlnet.nl/project/Mastodon-for-institutions/), to improve Mastodon's suitability for use by institutions.
 
-Mastodon now supports two additional [Fediverse Enhancement Proposals](https://fediverse.codeberg.page/fep/), [FEP-2c59](https://codeberg.org/fediverse/fep/src/branch/main/fep/2c59/fep-2c59.md) (Discovery of a Webfinger address from an ActivityPub actor {{< github-pr id=38239 authors="ClearlyClaire" >}}) and [FEP-3b86](https://codeberg.org/fediverse/fep/src/branch/main/fep/3b86/fep-3b86.md) (Activity Intents, {{< github-pr id=38120 authors="Gargron" >}} {{< github-pr id=38130 authors="ClearlyClaire" >}}). This will improve interactions with other Fediverse servers.
+Mastodon now supports two additional [Fediverse Enhancement Proposals](https://fediverse.codeberg.page/fep/), [FEP-2c59](https://codeberg.org/fediverse/fep/src/branch/main/fep/2c59/fep-2c59.md) (*Discovery of a Webfinger address from an ActivityPub actor* {{< github-pr id=38239 authors="ClearlyClaire" >}}) and [FEP-3b86](https://codeberg.org/fediverse/fep/src/branch/main/fep/3b86/fep-3b86.md) (*Activity Intents* {{< github-pr id=38120 authors="Gargron" >}} {{< github-pr id=38130 authors="ClearlyClaire" >}}). This will improve interactions with other Fediverse servers.
 
 On the API side, as part of the profile redesign we are introducing [a new dedicated `profile`](https://docs.joinmastodon.org/methods/profile/) endpoint, allowing client apps to access the current profile and update it. App developers are encouraged to add support for this new set of functions - they also allow brand new capabilities, such as setting a text description for profile pictures and header banners.
 
-Lastly, there have been a lot of technical improvements and refactoring in the codebase, including support for Ruby 4.0, the removal of the `oj` gem for JSON handling in the backend, and an upgrade of our web client toolchain to Vite 8, which should make the web assets build step much faster and more memory efficient.
+Lastly, there have been a lot of technical improvements and refactoring in the codebase, including: support for Ruby 4.0; the removal of the `oj` gem for JSON handling in the backend; and, an upgrade of our web client toolchain to Vite 8, which should make the web assets build step both faster and more memory efficient.
 </div>
 
 ## Android
