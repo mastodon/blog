@@ -2,13 +2,13 @@
 {{- $loading := .loading | default "lazy" -}}
 
 {{- if isset .page.Params "hero" -}}
-  <img src="{{ .page.Params.hero }}" alt="" class="{{ $class }}" loading="{{ $loading }}" />
+  <img src="{{ .page.Params.hero }}" alt="{{ .page.Params.hero_alt | default "" }}" class="{{ $class }}" loading="{{ $loading }}" />
 {{- else -}}
   {{- $hero := .page.Resources.GetMatch "hero" -}}
   {{- if $hero -}}
     {{- if .resize -}}
       {{- $hero = $hero.Resize .resize -}}
     {{- end -}}
-    <img src="{{ $hero.RelPermalink }}" alt="" class="{{ $class }}" loading="{{ $loading }}" />
+    <img src="{{ $hero.RelPermalink }}" alt="{{ $hero.Title }}" class="{{ $class }}" loading="{{ $loading }}" />
   {{- end -}}
 {{- end -}}

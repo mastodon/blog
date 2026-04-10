@@ -11,6 +11,7 @@ author: gargron
 resources:
 - name: hero
   src: hero.png
+  title: "A photo of a person wearing a t-shirt with the slogan 'I write ALT text'"
 draft: false
 ---
 
