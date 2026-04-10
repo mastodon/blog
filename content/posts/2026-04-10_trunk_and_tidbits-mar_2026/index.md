@@ -14,7 +14,7 @@ authors:
 resources:
 - name: hero
   src: hero.png
-draft: true
+draft: false
 ---
 
 Welcome to the *24th edition* of Trunk & Tidbits 🎉 We’ve been publishing this monthly series, “behind the scenes of the code” from the Mastodon team, for a whole two years now!
