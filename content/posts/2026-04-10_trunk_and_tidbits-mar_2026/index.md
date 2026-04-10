@@ -38,7 +38,7 @@ Last month, we released updates for the Mastodon server software across the thre
 
 As usual, we strongly encourage server owners to update to the most recent version, in order to get the most stable and secure code and up-to-date user experience.
 
-> Note that this is the final month of support for the 4.3.x branch - the end of service date for this version is May 6th 2026.
+> Note that this is the final month for the 4.3.x branch - the end of support date for this version is May 6th 2026.
 {.warning}
 
 ## Backend and Web
