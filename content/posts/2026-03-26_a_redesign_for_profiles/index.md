@@ -98,6 +98,8 @@ You might notice we’ve given less prominence to a few pieces of information. W
 - **Profile overflow menu:** If the account is following you, a ‘Remove follower’ option appears in the overflow menu.
 - **Preview cards (desktop):** When hovering over an account, the preview cards still show ‘Follows you’ and ‘You follow each other’ statuses.
 
+_Note_: we've heard your feedback in the early roll-out, and the ‘Following you‘ badge has been brought back in the current development build; we're still iterating on these changes, so look out for the release announcement (when 4.6 launches) for information about any other tweaks between now and then.
+
 ## Profile editing
 
 ### A unified editing experience
