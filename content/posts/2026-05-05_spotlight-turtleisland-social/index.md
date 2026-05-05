@@ -79,7 +79,7 @@ Thanks to Tzipporah and Yehuda for sharing their story with us. If you want to m
 
 * [https://turtleisland.social/@Yehuda](https://turtleisland.social/@Yehuda)   
 * [https://turtleisland.social/@Tzipporah](https://turtleisland.social/@Tzipporah)   
-  * (Check out their [beadwork](https://cvkvlv.com/) and [support their art and work](https://www.patreon.com/cw/Cvkvlv)!)
+  * (Check out their [beadwork](https://cvkvlv.com/) and [support their art and work](https://cvkvlv.blog/)!)
 
 If you’re interested in seeing more of the communities building a home on Mastodon, check out our [Server Directory](https://joinmastodon.org/servers).
 
