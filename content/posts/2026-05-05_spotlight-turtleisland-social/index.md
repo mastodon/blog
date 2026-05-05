@@ -57,9 +57,13 @@ I’m especially inspired by the other artists in my community. We’re all spre
 
 I would like to shout out to our moderators Val, Amanda, and Miyo, as well as former mods Ina and Michelle. Turtle Island Social wouldn't be the same without them.
 
-**Tzipporah:** No matter how you run your instance you are going to piss people off. The Fediverse is inherently full of people who want a customised social media experience, and many of them will have strong opinions and can be very aggressive about them. You can’t be people-pleasing about moderation/federation decisions or it will get exhausting real quick.
+*Hannah: What can Mastodon/Fediverse leaders/advocates do to help server admins grow their instances and protect their communities?*
 
-*Hannah: Good advice. What's next for your community — how can people get involved and support you?*
+**Tzipporah:** It’s super important for Native/Indigenous/BIPOC communities to have input in Fediverse development decisions. Mastodon is working on onboarding, blocklists, and remote post storage and we're excited to see where those things could go with Native/Indigenous/BIPOC input, and how that would improve the Fediverse for everyone. Another thing that we hope also gets some development is the migration system; it needs to be greatly simplified to one screen and instance, and include all content; we know that’s something that will significantly help our communities by making it easier for instances to grow.
+
+The inclusion of non-dominant cultures and diverse voices in leadership decisions is a mutual benefit for us and the dominant culture as well. That includes Native and Indigenous communities but also all marginalized people. The same way alt text helps makes things accessible to people with visual impairments but it also helps sighted people, the same issues that affect our communities affect social media users of all kinds.
+
+*Hannah: What's next for your community — how can people get involved and support you?*
 
 **Tzipporah:** A successful Native community is a huge gorgeous mess. There are over a thousand Native/Indigenous Nations on the Turtle Island continent, all with their own cultures and practices. Community comes naturally to Native/Indigenous people, we don't have to plan it.
 
