@@ -60,3 +60,8 @@ theme = "mastodon"
   disableAliases = false
   pagerSize = 9
   path = 'page'
+
+[security]
+  [security.node]
+    [security.node.permissions]
+        allowRead = ['*']
