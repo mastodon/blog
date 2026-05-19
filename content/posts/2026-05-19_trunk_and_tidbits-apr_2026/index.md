@@ -4,33 +4,31 @@ description: "The latest updates on engineering work from the Mastodon team"
 date: 2026-05-19
 section: Trunk and Tidbits
 categories:
-- Trunk and Tidbits
-- Engineering
+  - Trunk and Tidbits
+  - Engineering
 tags:
-- engineering
-- mastodon
+  - engineering
+  - mastodon
 authors:
-- mastodon
+  - mastodon
 resources:
-- name: hero
-  src: hero.png
-draft: true
-
+  - name: hero
+    src: hero.png
 ---
 
-## 
+##
 
 Welcome to the 25th edition of Trunks & Tidbits!
 
 ## Product & Community Updates
 
-Looking back at April: 
+Looking back at April:
 
 - We made an exciting announcement about how we’re improving the server admin experience thanks to [generous funding from the Sovereign Tech Agency](https://blog.joinmastodon.org/2026/04/sovereign-tech-agency-funding/). The funding will enable us to implement **key features and improvements for server admins,** detailed in our blog post. We expect to deliver some of the features this year.
 - Speaking of, one of the vital improvements we’re implementing thanks to STA funding is blocklist synchronisation. Some of the advanced synchronisation features are made possible by [Emelia Smith](https://brandedcode.com/)’s work on on the [FediMod FIRES](https://fires.fedimod.org/) protocol. Thank you for your incredible work, Emelia! We’re proud to be a part of the fediverse developer community, and glad to have you in it.
 - Some of our team-members attended FediForum, and our Head of Design Imani Joy [presented a demo](https://spectra.video/w/9PimpSkZXiCneBXrrEvrRx?start=12s) of recent UX changes to Mastodon including how we’ve updated [Profiles](https://blog.joinmastodon.org/2026/03/a-redesign-for-profiles/) our new feature [Collections](https://blog.joinmastodon.org/2026/04/designing-collections/). If you didn’t make it to the April ‘26 edition of FediForum, visit their website. Recordings of all the demos, and notes from the unconference sessions, are [now live](https://fediforum.org/2026-04/).
 
-<iframe title="FediForum Demo: Mastodon's Recent UX Changes" width="560" height="315" src="[https://spectra.video/videos/embed/9PimpSkZXiCneBXrrEvrRx?start=12s](https://spectra.video/videos/embed/9PimpSkZXiCneBXrrEvrRx?start=12s)" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="border: 0px;"></iframe> 
+<iframe title="FediForum Demo: Mastodon's Recent UX Changes" width="560" height="315" src="[https://spectra.video/videos/embed/9PimpSkZXiCneBXrrEvrRx?start=12s](https://spectra.video/videos/embed/9PimpSkZXiCneBXrrEvrRx?start=12s)" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="border: 0px;"></iframe>
 
 Visit our [Product Roadmap](https://joinmastodon.org/roadmap) to see what our team is working on next — we’ll be updating it with some 5.0 features before the next Trunk & Tidbits. 👀
 
@@ -46,7 +44,7 @@ Last month, we released updates for the Mastodon software across two active bran
 > Support for the 4.3.x branch has ended as of May 6th 2026. We recommend updating your Mastodon software to a 4.4.x version or later immediately.{.warning}
 ```
 
-Follow [Mastodon Engineering](https://mastodon.social/@MastodonEngineering) for the latest updates. 
+Follow [Mastodon Engineering](https://mastodon.social/@MastodonEngineering) for the latest updates.
 
 ## Backend & Web
 
@@ -66,12 +64,12 @@ Finally, we spent some time refactoring old code (in particular around emoji sup
 
 ## Android & iOS
 
-During April, our Apps developers worked on implementing redesigned Profiles. See our [iOS](https://github.com/mastodon/mastodon-ios/releases) and [Android](https://github.com/mastodon/mastodon-android/releases) repositories for the latest releases. 
+During April, our Apps developers worked on implementing redesigned Profiles. See our [iOS](https://github.com/mastodon/mastodon-ios/releases) and [Android](https://github.com/mastodon/mastodon-android/releases) repositories for the latest releases.
 
-In May, the team will be focused on bringing Collections to our official apps. Stay tuned! 
+In May, the team will be focused on bringing Collections to our official apps. Stay tuned!
 
 ## Thanks
 
-Thanks for reading! If you’re excited about what we’re working on, would you consider supporting us with a small, recurring donation? 
+Thanks for reading! If you’re excited about what we’re working on, would you consider supporting us with a small, recurring donation?
 
 {{< donate >}}
