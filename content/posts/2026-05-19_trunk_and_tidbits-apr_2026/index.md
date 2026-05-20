@@ -47,10 +47,9 @@ Follow [Mastodon Engineering](https://mastodon.social/@MastodonEngineering) for 
 
 In April 2026 we reviewed and merged 231 Pull Requests (163 with translation and dependency updates removed), from 10 contributors.
 
-<div class="features-list">
-Most of the work this month has been focused on finishing up the two big features we are releasing in Mastodon 4.6. The first one is the profile redesign, which you can [read more about here](https://blog.joinmastodon.org/2026/03/a-redesign-for-profiles/) and has been launched on [mastodon.social](http://mastodon.social) last month.
+Most of the work this month has been focused on finishing up the two big features we are releasing in Mastodon 4.6. The first one is the profile redesign, which you can [read more about here](https://blog.joinmastodon.org/2026/03/a-redesign-for-profiles/) and has been launched on [mastodon.social](https://mastodon.social) last month.
 
-The second key feature is Collections. We spent a lot of time finishing up the backend and web frontend code for those, and they are ready for testing. This feature has been enabled on [mastodon.social](http://mastodon.social) last week to allow us to get some user feedback. We are now working on polishing the interface and writing the documentation so app developers can implement support for it.
+The second key feature is Collections. We spent a lot of time finishing up the backend and web frontend code for those, and they are ready for testing. This feature has been enabled on [mastodon.social](https://mastodon.social) last week to allow us to get some user feedback. We are now working on polishing the interface and writing the documentation so app developers can implement support for it.
 
 We also added a way for apps to display notifications for types they do not have explicit support for. We encourage app developers to support those fallback attributes so notifications about new features (like Collections) are displayed in their apps once they roll out. {{< github-pr id=38832 authors="ClearlyClaire" >}}
 
@@ -59,8 +58,6 @@ We also implemented a new feature to allow visitors to receive an account’s po
 The new server setup process is changing slightly. When the domain for a new server includes our wordmark “Mastodon,” the software nudges the server’s creator to consult the Mastodon organisation’s [Trademark Policy](https://joinmastodon.org/trademark). Our policy requires that you seek written permission from Mastodon before using our trademark (name and logo) in your server name or branding.
 
 Finally, we spent some time refactoring old code (in particular around emoji support in the web interface) and updating dependencies to keep Mastodon secure and fast.
-
-</div>
 
 ## Android & iOS
 
