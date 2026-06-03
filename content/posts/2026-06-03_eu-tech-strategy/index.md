@@ -19,7 +19,7 @@ Right now, Europe depends on non-EU tech providers for over 80% of critical digi
 
 Their strategy focuses on a few core tenets, which we fully support: building functional alternatives to non-EU platforms, creating more space for open source communities to thrive, supporting the developers doing this work, and pushing for open standards that give people and institutions control over their own digital destiny.
 
-We’re particularly delighted to see the Commission include a call to “strengthen the open source social media space, by expanding the Commission's managed instance of Mastodon to a broader range of users.” In case you didn't know, the European Commission is a customer of our Managed Hosting offering: [ec.social-network.europa.eu](https://ec.social-network.europa.eu/about).
+We’re particularly delighted to see the Commission include a call to “strengthen the open source social media space by supporting open and decentralised social media solutions and platforms. The Commission currently runs a Mastodon instance, which hosts the Commission’s presence and plans to extend the users basis to EU institutions." In case you didn't know, the European Commission is a customer of our Managed Hosting offering: [ec.social-network.europa.eu](https://ec.social-network.europa.eu/about).
 
 For Mastodon and projects like us, this is validation that what we've been building matters at a policy level. The EU is reinforcing that the best way to get genuine independence is through decentralised, transparent, community-driven technology. We’ve known this for a long time, but we’re excited to see the movement grow. To be explicit: tech sovereignty and openness aren't opposed, they reinforce each other.
 
