@@ -1,17 +1,19 @@
 ---
-title: "Europe's New Tech Strategy Puts Open Source Front and Centre"
-description: "Mastodon's thoughts on the EU's newly released tech and open source strategy"
-date: 2026-06-03
-author: mastodon
-draft: false
+title: "Trunk & Tidbits, April 2026"
+description: "The latest updates on engineering work from the Mastodon team"
+date: 2026-05-19
+section: Trunk and Tidbits
 categories:
-- Op-Ed
+  - Trunk and Tidbits
+  - Engineering
 tags:
-- news
-- mastodon
+  - engineering
+  - mastodon
+authors:
+  - mastodon
 resources:
-- name: hero
-  src: hero.png
+  - name: hero
+    src: hero.png
 ---
 
 Welcome to the 25th edition of Trunks & Tidbits!
