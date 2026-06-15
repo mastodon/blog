@@ -24,7 +24,7 @@ We also publish a monthly Trunk and Tidbits engineering update, so if you have b
 
 ## Client apps
 
-The 4.6 release containing the new APIs described in this blog post comes with an API version bump to version 10. You can check `api_versions.mastodon` in the `GET /api/v2/instance` response to confirm what a server supports.
+The 4.6 release containing the new APIs described in this blog post comes with an API version bump to version 10. You can check `api_versions.mastodon` in the [`GET /api/v2/instance`](https://docs.joinmastodon.org/methods/instance/#v2) response to confirm what a server supports.
 
 ### Collections
 
@@ -34,23 +34,23 @@ Collections are managed via a new API under the /api/v1 namespace.
 
 The core endpoints are:
 
-- `GET/POST /api/v1/collections` - list and create collections
-- `GET/PATCH/DELETE /api/v1/collections/:id` - manage a collection
-- `GET/POST /api/v1/collections/:id/items` - list or add members
-- `DELETE /api/v1/collections/:id/items/:id` - remove a member
-- `POST /api/v1/collections/:id/items/:id/revoke` - revoke inclusion
-- `GET /api/v1/accounts/:id/collections` - list an account's collections
-- `GET /api/v1/accounts/:id/in_collections` - list which of an account's collections you are in
+- [`POST /api/v1/collections`](https://docs.joinmastodon.org/methods/collections/#create) - create collections
+- [`GET/PATCH/DELETE /api/v1/collections/:id`](https://docs.joinmastodon.org/methods/collections/) - manage a collection
+- [`POST /api/v1/collections/:id/items`](https://docs.joinmastodon.org/methods/collections/#add_account) - add members
+- [`DELETE /api/v1/collections/:id/items/:id`](https://docs.joinmastodon.org/methods/collections/#remove_account) - remove a member
+- [`POST /api/v1/collections/:id/items/:id/revoke`](https://docs.joinmastodon.org/methods/collections/#revoke_item) - revoke inclusion
+- [`GET /api/v1/accounts/:id/collections`](https://docs.joinmastodon.org/methods/collections/#get_collections) - list an account's collections
+- [`GET /api/v1/accounts/:id/in_collections`](https://docs.joinmastodon.org/methods/collections/#in_collections) - list which of an account's collections you are in
 
 There are also new notification types associated with collections, namely `added_to_collection` (received when your account is added to a collection) and `collection_update` (received when a collection you’re in has had any of its metadata, like title or description, updated).
 
-See the Getting started with Collections guide in the developer documentation for a more detailed discussion.
+See the [Getting started with Collections guide](https://docs.joinmastodon.org/client/collections/) in the developer documentation for a more detailed discussion.
 
 ### Fallback notifications
 
 When we add new features to Mastodon, they often come with new notification types that all apps need to implement to show correctly. Understanding that this leaves a gap between when a new Mastodon version comes out and their app updates, we’ve also implemented a system of fallback notifications, allowing you to render notifications in your app even when your app doesn’t support them.
 
-To take advantage of this, include the parameter `supported_types` when making a request to get one or multiple notifications or notification groups with the list of types that your app supports now. Any notifications that aren’t those types will now contain a `fallback` attribute, containing a NotificationFallback entity you can use to render a fallback message.
+To take advantage of this, include the parameter `supported_types` when making a request to get one or multiple notifications or notification groups with the list of types that your app supports now. Any notifications that aren’t those types will now contain a [`fallback` attribute](https://docs.joinmastodon.org/entities/Notification/#fallback-optional), containing a [`NotificationFallback` entity](https://docs.joinmastodon.org/entities/NotificationFallback/) you can use to render a fallback message.
 
 ### Profile editing
 
@@ -58,16 +58,16 @@ Mastodon 4.6 introduces a dedicated API for editing profile information, separat
 
 The new endpoints are:
 
-- `GET /api/v1/profile` - retrieve the current user's full profile
-- `PATCH /api/v1/profile` - update profile information
+- [`GET /api/v1/profile`](https://docs.joinmastodon.org/methods/profile/#get-current-user-profile) - retrieve the current user's full profile
+- [`PATCH /api/v1/profile`](https://docs.joinmastodon.org/methods/profile/#update-current-user-profile) - update profile information
 
-The new `Profile` entity returns `note` and `fields` as raw unprocessed text, rather than rendered HTML. This makes it easier for clients to populate editing interfaces correctly. The entity also exposes fields that were not previously available in the API, including `avatar_description`, `header_description`, `attribution_domains`, and profile tab preferences (`show_media`, `show_media_replies`, `show_featured`).
+The new [`Profile` entity](https://docs.joinmastodon.org/entities/Profile/) returns `note` and `fields` as raw unprocessed text, rather than rendered HTML. This makes it easier for clients to populate editing interfaces correctly. The entity also exposes fields that were not previously available in the API, including `avatar_description`, `header_description`, `attribution_domains`, and profile tab preferences (`show_media`, `show_media_replies`, `show_featured`).
 
 The endpoints also provide `formatted_note` and `formatted_fields` for when you need the rendered HTML versions.
 
 ### Instance API additions
 
-The `GET /api/v2/instance` response now exposes several new limits under `configuration.accounts` that client apps should use, rather than assuming or hard-coding defaults:
+The [`GET /api/v2/instance`](https://docs.joinmastodon.org/methods/instance/#v2) response now exposes several new limits under `configuration.accounts` that client apps should use, rather than assuming or hard-coding defaults:
 
 - `max_note_length` - maximum bio length
 - `max_display_name_length` - maximum display name length
@@ -78,21 +78,21 @@ The server thumbnail object also gains a `description` field for its alt text.
 
 ### Account and status API changes
 
-**Filtering account statuses:** `GET /api/v1/accounts/:id/statuses` now accepts an `exclude_direct=true` parameter to omit private mention posts from the response. You can use this to avoid showing them on profiles (although they would obviously only be visible if the current user has access to them), with the added bonus that excluding them makes the response a bit faster as well.
+**Filtering account statuses:** [`GET /api/v1/accounts/:id/statuses`](https://docs.joinmastodon.org/methods/accounts/#statuses) now accepts an `exclude_direct=true` parameter to omit private mention posts from the response. You can use this to avoid showing them on profiles (although they would obviously only be visible if the current user has access to them), with the added bonus that excluding them makes the response a bit faster as well.
 
-**New account fields:** Three new fields on the `Account` entity reflect new profile tab preferences: `show_media`, `show_media_replies`, and `show_featured`. If your app has a profile screen, you should update it to respect these preferences; respectively, whether a “Media” tab is shown, whether the “Media” tab includes media from replies, and whether the “Featured” tab is shown.
+**New account fields:** Three new fields on the [`Account` entity](https://docs.joinmastodon.org/entities/Account/) reflect new profile tab preferences: `show_media`, `show_media_replies`, and `show_featured`. If your app has a profile screen, you should update it to respect these preferences; respectively, whether a “Media” tab is shown, whether the “Media” tab includes media from replies, and whether the “Featured” tab is shown.
 
-**Preview card attribution:** The `PreviewCard` entity now includes a `missing_attribution` boolean. Attribution is what we sometimes call the `fediverse:creator` feature, a fediverse account linked to a link preview. The new boolean attribute indicates that the link claims to be attributed to the current user, but the link’s domain is not in the user’s `attribution_domains` setting. You can use this to prompt the user to update their `attribution_domains`.
+**Preview card attribution:** The [`PreviewCard` entity](https://docs.joinmastodon.org/entities/PreviewCard/) now includes a `missing_attribution` boolean. Attribution is what we sometimes call the `fediverse:creator` feature, a fediverse account linked to a link preview. The new boolean attribute indicates that the link claims to be attributed to the current user, but the link’s domain is not in the user’s `attribution_domains` setting. You can use this to prompt the user to update their `attribution_domains`.
 
 ### Wrapstodon
 
-Wrapstodon is what we call Mastodon’s “year in review” feature. You’ll find the property `wrapstodon` in the response of `GET /api/v2/instance` which will contain the current year if the feature is enabled and you are within the eligibility period, and null otherwise. If it is the current year, you can check if the current user already has a generated report or is eligible for one by checking the response of `GET /api/v1/annual_reports/:year/state`. It will contain a `state` attribute which is `available` if there is already a report, `generating` if one is being generated right now, `eligible` if you can request one, and `ineligible` otherwise. If it is `eligible`, you can offer the user to generate their Wrapstodon report. To do that, you need to submit `POST /api/v1/annual_reports/:year/generate` (until you do that, nothing will be generated). The response will contain the `Mastodon-Async-Refresh` header you can use to check for progress. Once the report is generated, it will be available from `GET /api/v1/annual_reports/:year` as an AnnualReport entity.
+Wrapstodon is what we call Mastodon’s “year in review” feature. You’ll find the property `wrapstodon` in the response of [`GET /api/v2/instance`](https://docs.joinmastodon.org/methods/instance/#v2) which will contain the current year if the feature is enabled and you are within the eligibility period, and `null` otherwise. If it is the current year, you can check if the current user already has a generated report or is eligible for one by checking the response of [`GET /api/v1/annual_reports/:year/state`](https://docs.joinmastodon.org/methods/annual_reports/#get-state). It will contain a `state` attribute which is `available` if there is already a report, `generating` if one is being generated right now, `eligible` if you can request one, and `ineligible` otherwise. If it is `eligible`, you can offer the user to generate their Wrapstodon report. To do that, you need to submit [`POST /api/v1/annual_reports/:year/generate`](https://docs.joinmastodon.org/methods/annual_reports/#generate-a-new-annual-report-generate) (until you do that, nothing will be generated). The response will contain the [`Mastodon-Async-Refresh` header](https://docs.joinmastodon.org/methods/async_refreshes/) you can use to check for progress. Once the report is generated, it will be available from [`GET /api/v1/annual_reports/:year`](https://docs.joinmastodon.org/methods/annual_reports/#get) as an [`AnnualReport`](https://docs.joinmastodon.org/entities/AnnualReport/) entity.
 
 ## Fediverse ecosystem
 
 ### Collections
 
-Collections have a full ActivityPub representation. We’ve been working on this in the open, via FEP-7aa9. The way it works is very similar to how we implemented quote posts (FEP-044f), as actors issue authorizations for being included in collections.
+Collections have a full ActivityPub representation. We’ve been working on this in the open, via [FEP-7aa9](https://codeberg.org/fediverse/fep/src/branch/main/fep/7aa9/fep-7aa9.md). The way it works is very similar to how we implemented quote posts ([FEP-044f](https://codeberg.org/fediverse/fep/src/branch/main/fep/044f/fep-044f.md)), as actors issue authorizations for being included in collections.
 
 Actors now include a `featuredCollections` property linking to a collection endpoint that lists their public `FeaturedCollection` objects. This in addition to the existing `featured` (for pinned posts) and `featuredTags` (for featured hashtags) properties.
 
@@ -122,11 +122,11 @@ Several changes have been made to HTTP Signature handling, to align with current
 
 ### Webfinger Profile URI Discovery
 
-Mastodon 4.6 implements FEP-2c59, including the `webfinger` property on actors and using it when validating usernames. You can read more about how Mastodon implements this in our WebFinger documentation.
+Mastodon 4.6 implements [FEP-2c59](https://codeberg.org/fediverse/fep/src/branch/main/fep/2c59/fep-2c59.md), including the `webfinger` property on actors and using it when validating usernames. You can read more about how Mastodon implements this in our WebFinger documentation.
 
 ### Activity Intents
 
-Mastodon 4.6 implements FEP-3b86 (Activity Intents). Activity Intents provide a way for servers to advertise URL templates for common interactions—follow, reply, boost, favourite—that allow compatible apps and tools to redirect the user to the correct page without hardcoding or guessing the URL. One example is Mastodon’s own share tool, share.joinmastodon.org, which uses this FEP to redirect the user to correct share page on their server.
+Mastodon 4.6 implements [FEP-3b86](https://codeberg.org/fediverse/fep/src/branch/main/fep/3b86/fep-3b86.md) (Activity Intents). Activity Intents provide a way for servers to advertise URL templates for common interactions—follow, reply, boost, favourite—that allow compatible apps and tools to redirect the user to the correct page without hardcoding or guessing the URL. One example is Mastodon’s own share tool, share.joinmastodon.org, which uses this FEP to redirect the user to correct share page on their server.
 
 Mastodon's WebFinger responses now include `interactionPattern` link templates for supported intent types. The remote interaction dialog in Mastodon's web UI has been updated to prefer these advertised intents when a remote server supports them, improving the experience for users on servers running different software as different apps gradually upgrade to support the same Activity Intents approach.
 
