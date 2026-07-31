@@ -36,7 +36,7 @@ Here is what these terms establish:
 * Clear definitions of user responsibilities, account management, and acceptable use.  
 * Explicit clarification regarding content ownership and how federation rights operate on our servers.
 
-You can read the full document on [mastodon.social](https://mastodon.social/terms-of-service/2026-08-31) and [mastodon.online](https://mastodon.online/terms-of-service/2026-08-31).
+**You can read the full document on [mastodon.social](https://mastodon.social/terms-of-service/2026-08-31) and [mastodon.online](https://mastodon.online/terms-of-service/2026-08-31)**
 
 ## DSA compliance and commercial ToS
 
