@@ -44,5 +44,5 @@ Head of Design, Mastodon
 **Download the full report**
 
 - [Discovery Week 2026 Report Only](./Discovery%20Week%202026%20Report.pdf) – PDF *(378 kB)*
-- [Discovery Week 2026 Report + Appendix](./Discovery%20Week%202026%20Appendix.pdf) – PDF *(13.9 MB)*
+- [Discovery Week 2026 Appendix](./Discovery%20Week%202026%20Appendix.pdf) – PDF *(13.9 MB)*
 - [Discovery Week 2026 Report + Appendix](./Discovery%20Week%202026%20Report%20+%20Appendix.zip) – HTML, Zipped *(4.8 MB)*
