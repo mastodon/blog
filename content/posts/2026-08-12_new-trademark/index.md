@@ -44,6 +44,7 @@ Here are some specific examples to help illustrate what is permitted and what is
 - `example.mymastodon.com` - Forbidden
 - `example.masto.net` - Forbidden
 - `example.best-mstdn-host.org` - Forbidden
+- `mastodon.net.au` — Forbidden 
 
 If your domain name uses "mastodon" (or a confusingly similar name) in a permissible way (as described above), we require that you include a disclaimer (in a footer or otherwise user-visible location) which states that "This [server/site] is not affiliated with or endorsed by Mastodon GmbH or Mastodon Inc."
 
