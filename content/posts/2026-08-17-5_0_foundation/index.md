@@ -45,7 +45,7 @@ The setting itself isn’t going anywhere – it’s just now displayed in the U
 
 In other words, you can configure ‘quiet public’ on a public post by simply disabling the setting “Discoverable in public feeds & search results”.
 
-{{< figure src="./image8.png" caption="Quiet public represented in the 5.0 composer" >}}
+{{< figure src="./image8.jpg" caption="Quiet public represented in the 5.0 composer" >}}
 
 ## Quote settings also have a new look.
 
@@ -67,7 +67,7 @@ In 5.0, the visibility selector’s label updates when you’ve mentioned people
 
 If you’re replying to someone, the OP themself is listed first – regardless of whether you remove the at-mention text from your composer.
 
-{{< figure src="./image1.png" caption="Example of a reply-in-progress, with a visibility label that includes the name of the OP and a count of other mentions (”Sage, Your followers + 1 other”)" >}}
+{{< figure src="./image1.jpg" caption="Example of a reply-in-progress, with a visibility label that includes the name of the OP and a count of other mentions (”Sage, Your followers + 1 other”)" >}}
 
 # Messaging in 5.0
 
@@ -75,13 +75,13 @@ If you’re replying to someone, the OP themself is listed first – regardless 
 
 [Insights from Discovery Week](/2026/08/discovery-week-2026-what-we-learned-and-what-were-doing-next/) and [previous feedback on Github](https://github.com/mastodon/mastodon/issues/24837) confirmed that the term ‘private mention’ creates more confusion than it alleviates. In 5.0, ‘private mention(s)’ will be renamed ‘message(s)’ throughout the UI. The icon has also changed to a more familiar choice: the chat bubble.
 
-{{< figure src="./image2.png" caption="The 5.0 desktop web interface, showing the Messages navigation link and corresponding page." >}}
+{{< figure src="./image2.jpg" caption="The 5.0 desktop web interface, showing the Messages navigation link and corresponding page." >}}
 
 ## DMs are distinguished from posts in the composer.
 
 Users should never worry that they’re publishing something that’s meant to be private. That’s why in 5.0, direct messaging has its own composer. Access it from the Messages page, from a user’s profile, or from the composer button in the bottom right corner of the browser window.
 
-{{< figure src="./image3.png" caption="Messaging composer opened, showing a ‘New message’ header, and a clearer label on who sees the message, and a ‘Send’ instead of ‘Publish’ button." >}}
+{{< figure src="./image3.jpg" caption="Messaging composer opened, showing a ‘New message’ header, and a clearer label on who sees the message, and a ‘Send’ instead of ‘Publish’ button." >}}
 
 ## DMs are also removed from confusing places in the UI.
 
@@ -93,7 +93,7 @@ Starting in 5.0, users will no longer see direct messages in their timeline or p
 
 Now that the composer has a new home, we’re able to move all of the important actions to the left navigation.
 
-{{< figure src="./image4.png" link="./image4.png" target="_blank" caption="Example of the Home page on desktop, with the redesigned navigation." >}}
+{{< figure src="./image4.jpg" link="./image4.jpg" target="_blank" caption="Example of the Home page on desktop, with the redesigned navigation." >}}
 
 ## We’re de-emphasising the Mastodon logo, and letting the fediverse take the spotlight.
 
@@ -103,7 +103,7 @@ Mastodon is many servers wrapped into one ecosystem – we’re simply providing
 
 **Future-gazing:** We’re looking at ways to enable custom color schemes, both for end users and for server admins.
 
-{{< figure src="./image5.png" caption="Example of the navigation on a fake server, ‘somewhere.social’. The server’s icon appears next to the server name and ‘Powered by Mastodon’ badge." >}}
+{{< figure src="./image5.jpg" caption="Example of the navigation on a fake server, ‘somewhere.social’. The server’s icon appears next to the server name and ‘Powered by Mastodon’ badge." >}}
 
 ### Custom feeds now have greater prominence.
 
@@ -113,7 +113,7 @@ Despite the fact that most Discovery Week participants were overall more orienta
 
 In 5.0, lists are renamed ‘custom feeds’ and are immediately accessible from the side navigation – not hidden behind an accordion.
 
-{{< figure src="./image6.png" caption="Zoomed-in example of 6 custom feeds in the main navigation." >}}
+{{< figure src="./image6.jpg" caption="Zoomed-in example of 6 custom feeds in the main navigation." >}}
 
 **Future-gazing:** We’d eventually like to allow users to add hashtags and other filter options to these custom feeds, sort or pin custom feeds, and much more.
 
@@ -135,7 +135,7 @@ Think header labels, top-level controls, icon choices, etc. These are the little
 
 By the way, the advanced UI isn’t gone in 5.0 – nor are the local and federated feeds (if enabled on your server).
 
-{{< figure src="./image7.png" caption="Example of the Advanced Layout." >}}
+{{< figure src="./image7.jpg" caption="Example of the Advanced Layout." >}}
 
 # What’s next?
 
