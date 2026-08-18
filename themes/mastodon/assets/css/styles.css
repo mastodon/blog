@@ -60,14 +60,15 @@ blockquote.warning::before {
 
 blockquote.info {
   position: relative;
-  background: #cdd1ff;
+  background: #ebecfb;
   border-left: 6px solid #858afa;
-  padding: 0rem 1.5rem 0rem 3rem;
+  padding: 1rem 1.5rem 1rem 3rem;
   color: #563acc;
   quotes: none;
   display: flex;
   align-items: flex-start;
   font-style: normal;
+  font-weight: normal;
 }
 
 blockquote.info::before {
