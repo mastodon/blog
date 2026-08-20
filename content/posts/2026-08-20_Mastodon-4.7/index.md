@@ -24,13 +24,13 @@ Private keys of local users used for ActivityPub authentication are now encrypte
 
 We now have better support for account handle changes for accounts hosted elsewhere on the fediverse. You can’t change your Mastodon handle for now, but this is a necessary step towards being able to do so in the future.
 
-Mastodon 4.7 now also supports FEP-8967 to represent and process link previews, which in the future will allow us to let users chose *which* link they want to have a preview whenever they’re composing a post with multiple links in it. For now, Mastodon does not require other servers to use FEP-8967 and will fall back to scanning the post’s links when a remote server does not include a FEP-8967 link preview, but that may change in future versions.
+Mastodon 4.7 now also supports [FEP-8967](https://codeberg.org/fediverse/fep/src/branch/main/fep/8967/fep-8967.md) to represent and process link previews, which in the future will allow us to let users chose *which* link they want to have a preview whenever they’re composing a post with multiple links in it. For now, Mastodon does not require other servers to use FEP-8967 and will fall back to scanning the post’s links when a remote server does not include a FEP-8967 link preview, but that may change in future versions.
 
 We have made several improvements to how we handle cryptographic signatures in ActivityPub, allowing the ecosystem to move past old specification drafts and make it easier to change signature algorithms in the future:
 
-- We now support RSA, Ed25519 and as a post-quantum algorithm, ML-DSA-44 public keys represented using FEP-521a.
-- We now emit RFC 9421 signatures when requests fail using the previous draft specification, allowing compatibility between Mastodon 4.7 and servers that only implement the final RFC 9421 specification, while retaining compatibility with servers that only implement the previous draft specification (most current implementations), and have added support for verification of RFC 9421 signatures made with Ed25519 keys.
-- We now support verifying FEP-8b32 Object Integrity Proofs using either `eddsa-jcs-2022` or `mldsa44-jcs-2024`.
+- We now support RSA, Ed25519 and as a post-quantum algorithm, ML-DSA-44 public keys represented using [FEP-521a](https://codeberg.org/fediverse/fep/src/branch/main/fep/521a/fep-521a.md).
+- We now emit [RFC 9421](https://datatracker.ietf.org/doc/html/rfc9421) signatures when requests fail using the previous draft specification, allowing compatibility between Mastodon 4.7 and servers that only implement the final RFC 9421 specification, while retaining compatibility with servers that only implement the previous draft specification (most current implementations), and have added support for verification of RFC 9421 signatures made with Ed25519 keys.
+- We now support verifying [FEP-8b32](https://codeberg.org/fediverse/fep/src/branch/main/fep/8b32/fep-8b32.md) Object Integrity Proofs using either `eddsa-jcs-2022` or `mldsa44-jcs-2024`.
 
 If none of this makes sense to you, don’t worry. There is absolutely no need to understand any of this to enjoy using Mastodon. This is only relevant to you if you are developing or running your own fediverse platform. Our next big release, Mastodon 5.0, will be a lot more interesting for everyone!
 
