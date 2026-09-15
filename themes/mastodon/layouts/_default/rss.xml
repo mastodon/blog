@@ -7,17 +7,31 @@
     <generator>Hugo</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    {{ with .OutputFormats.Get "RSS" }}
-        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
-    {{ end }}
-    {{ range .Site.RegularPages }}
+    {{- with .OutputFormats.Get "RSS" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end }}
+    {{- range .Site.RegularPages }}
+    {{- $heroURL := "" }}
+    {{- $heroType := "" }}
+    {{- if isset .Params "hero" }}
+      {{- $heroURL = .Params.hero }}
+    {{- else }}
+      {{- with .Resources.GetMatch "hero*" }}
+        {{- $heroURL = .Permalink }}
+        {{- $heroType = .MediaType.Type }}
+      {{- end }}
+    {{- end }}
     <item>
       <title>{{ .Title | transform.XMLEscape | safeHTML }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | transform.XMLEscape | safeHTML }}</description>
+      <atom:summary>{{ .Summary | plainify | transform.XMLEscape | safeHTML }}</atom:summary>
+      {{- with $heroURL }}
+      {{ printf "<atom:link rel=\"enclosure\" href=%q%s />" . (cond (ne $heroType "") (printf " type=%q" $heroType) "") | safeHTML }}
+      {{- end }}
     </item>
-    {{ end }}
+    {{- end }}
   </channel>
 </rss>
