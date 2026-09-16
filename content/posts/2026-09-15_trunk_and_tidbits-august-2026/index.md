@@ -24,17 +24,17 @@ In August, we released Mastodon 4.7, which focuses entirely on technical improve
 
 As of this publication date, our latest supported releases are 4.7.1, 4.6.7, 4.5.17 and 4.4.24. Those releases contain security fixes and we advise all admins to update to them.
 
-Mastodon 5.0, our next version, is shaping up quickly. We published a f[irst blog post](https://blog.joinmastodon.org/2026/08/5.0-laying-the-foundation/) explaining the big interface changes that it will contain, and you can expect more news about it soon!
+Mastodon 5.0, our next version, is shaping up quickly. We published a [first blog post](https://blog.joinmastodon.org/2026/08/5.0-laying-the-foundation/) explaining the big interface changes that it will contain, and you can expect more news about it soon!
 
 ## Backend & Web
 
 In August 2026 we reviewed and merged 197 Pull Requests (132 with translation and dependency updates removed) from 11 contributors.
 
-While part of the team was enjoying some summer time, others have been working hard on preparing our next release.
+While some of the team were enjoying their summer break, others were working hard on preparing our next release.
 
-Our front end team is focused on implementing the new Mastodon 5.0 interface changes. Those are not yet visible (even when running the nightly releases) at they are still being worked on, but it should start to appear on your screens in a few weeks.
+Our front end team is focused on implementing the new Mastodon 5.0 interface changes. Those are not yet visible (even when running the nightly releases) as they are still being worked on, but they should start to appear on your screens in a few weeks.
 
-Work is continuing in stabilising [Fediscoverer](https://github.com/mastodon/fediscoverer/tree/main) to make it production-ready and allow admins to start benefiting from [Fediscovery](https://fediscovery.org).
+Work is continuing in stabilising [Fediscoverer](https://github.com/mastodon/fediscoverer/tree/main) to make it production-ready and allow admins to start benefitting from [Fediscovery](https://fediscovery.org).
 
 - This started a few months ago, but we finally finished rolling our our custom Rails / Vite integration, which is simpler and uses less resources {{< github-pr id=40004 authors="jhbabon" >}}
 - As part of other work, there can now be rare cases where remote account handles might become invalid after a rename. Those accounts are now indicated as such [in the REST API](https://docs.joinmastodon.org/entities/Account/#invalid_handle) and in the web interface. {{< github-pr id=40045 authors="ClearlyClaire" >}}
