@@ -45,11 +45,6 @@ Some users would like more control over what they see in their home feed. To acc
 * `exclude_quotes`
 * `exclude_replies`
 
-### New content warning flag
-
-A new user setting has been added to control whether content warnings should be used by default. Users with this setting on should be prompted to enter a content warning every time they compose a new post.
-
-The new setting, `source[spoiler_field]`, can be set via the [`PATCH /api/v1/accounts/update_credentials`](https://docs.joinmastodon.org/methods/accounts/#update_credentials) endpoint. Its current value is returned by both the [`GET /api/v1/accounts/verify_credentials`](https://docs.joinmastodon.org/methods/accounts/#verify_credentials) and the [`GET /api/v1/preferences`](https://docs.joinmastodon.org/methods/preferences/#get) endpoint.
 
 ### Reactions on server announcements can now be disabled
 
