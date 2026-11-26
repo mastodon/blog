@@ -1,7 +1,7 @@
 ---
 title: "Mastodon 5.0 for Developers"
 description: "Mastodon 5.0 contains several technical changes that developers will want to learn about."
-date: 2026-11-25
+date: 2026-11-26
 draft: true
 slug: mastodon-5-0-for-devs
 authors:
@@ -90,6 +90,10 @@ This can lead to a lot of unnecessary `Delete` activities being sent across the 
 For servers that enable this feature this comes with the small downside that actor objects can only be fetched with signed requests.
 
 (Note that if you need to fetch and inspect an actor document manually, you can always use the excellent [browser.pub](https://browser.pub) or [fedify](https://github.com/fedify-dev/fedify)'s CLI mode to do so with a signed request.)
+
+### Simplified relay setup
+
+Beginning with Mastodon 5, server adminstrators will no longer need to enter a relay's inbox URI when they want to add it to their server. Instead they will have to enter the relay actor's handle. While much more convenient, not all relay software might actually advertise this handle the same way they do the inbox URI. Developers and operators of relay software should make sure this information is easily accessible.
 
 ## Keep building the open social web!
 
