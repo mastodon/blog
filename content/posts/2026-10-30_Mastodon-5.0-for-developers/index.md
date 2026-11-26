@@ -16,7 +16,7 @@ resources:
   src: hero.png
 ---
 
-We just published the first [release candidate](https://github.com/mastodon/mastodon/releases/tag/v5.0.0-rc.1) for the next version of Mastodon, and the final release is not far off. Version 5.0 is all about laying the groundwork for a more approachable user interface. Given that, there is not a single big new feature that third-party developers need to dig into. But as usual, there are a lot of smaller changes here and there that you might want to be aware of.
+We just published the second [release candidate](https://github.com/mastodon/mastodon/releases/tag/v5.0.0-rc.2) for the next version of Mastodon, and the final release is not far off. Version 5.0 is all about laying the groundwork for a more approachable user interface. Given that, there is not a single big new feature that third-party developers need to dig into. But as usual, there are a lot of smaller changes here and there that you might want to be aware of.
 
 Regular readers of our monthly Trunk and Tidbits engineering update may already be familiar with some of the following changes.
 
@@ -93,4 +93,4 @@ For servers that enable this feature this comes with the small downside that act
 
 ## Keep building the open social web!
 
-Thank you to everyone building apps, tools, and integrations on Mastodon and across the Fediverse. This blog post covers the highlights; you can find the full details in the [Mastodon 5.0 changelog on GitHub](https://github.com/mastodon/mastodon/releases/tag/v5.0.0-rc.1).
+Thank you to everyone building apps, tools, and integrations on Mastodon and across the Fediverse. This blog post covers the highlights; you can find the full details in the [Mastodon 5.0 changelog on GitHub](https://github.com/mastodon/mastodon/releases/tag/v5.0.0-rc.2).
