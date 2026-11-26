@@ -2,7 +2,7 @@
 title: "Mastodon 5.0 for Developers"
 description: "Mastodon 5.0 contains several technical changes that developers will want to learn about."
 date: 2026-11-26
-draft: true
+draft: false
 slug: mastodon-5-0-for-devs
 authors:
  - mastodon
